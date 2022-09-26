@@ -201,7 +201,7 @@ However, if the Haunter is clicked they lose their ability to reveal Impostors a
 ### **Team: Crewmates**
 The Investigator is a Crewmate that can see the footprints of players.\
 Every footprint disappears after a set amount of time.
-The Investigator can view the security cameras from anywhere on the map.\
+The Investigator can view the security cameras from anywhere on the map.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -323,7 +323,7 @@ During meetings, the Sheriff can choose to kill someone by guessing their role, 
 ### **Team: Crewmates**
 The Veteran is a Crewmate that can go on alert.\
 When the Veteran is on alert, anyone, whether crew, neutral or impostor, if they interact with the Veteran, they die.\
-The veteran can also vent and if attacked while in a vent the perpetrator is killed instead.\
+The veteran can also vent and if attacked while in a vent the perpetrator is killed instead.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -1048,38 +1048,52 @@ When performing a ninja ability kill, the ninja can be invisible for some second
 -----------------------
 ## Astral
 ### **Team: Impostors**
+The Astral is an Impostor who can leave their physical form and kill as a ghost,\ 
+however if they do not kill within a certain time frame, they will stay dead.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Astral | The percentage probability of the Astral appearing | Percentage | 0% |
+| Astral Duration | - | Time | 10s |
+| Astral Vent | - | Toggle | True |
 
 -----------------------
 ## Hypnotist
 ### **Team: Impostors**
+The Hypnotist is an Impostor who can revive dead players and make them a Traitor.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Hypnotist | The percentage probability of the Hypnotist appearing | Percentage | 0% |
+| Hypnotist Revive Cooldown | - | Time | 10s |
+| Hypnotist Revive Charges | - | Number | 5 |
+| Hypnotist Vent | - | Toggle | True |
 
 -----------------------
 ## Scorpion
 ### **Team: Impostors**
+The Scorpion is an Impostor who can mark a player for teleportation and teleport that player to them.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Scorpion | The percentage probability of the Scorpion appearing | Percentage | 0% |
+| Scorpion Knows Target Location | - | Toggle | True |
+| Scorpion Vent | - | Toggle | True |
 
 -----------------------
 ## Outlaw
 ### **Team: Impostors**
+The Outlaw is an Impostor who can kill twice in a row within a certain time frame.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Outlaw | The percentage probability of the Outlaw appearing | Percentage | 0% |
+| Outlaw Second Kill Cooldown | - | Time | 10s |
+| Outlaw Vent | - | Toggle | True |
 
 -----------------------
 ## Ghoul
@@ -1090,6 +1104,8 @@ The Ghoul is an Impostor ghost role that can scare the living and root them in p
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Ghoul | The percentage probability of the Ghoul appearing | Percentage | 0% |
+| Ghoul Scare Cooldown | - | Time | 10s |
+| Ghoul Scare Duration | - | Time | 10s |
 
 -----------------------
 
