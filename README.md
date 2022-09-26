@@ -212,6 +212,7 @@ The Investigator can view the security cameras from anywhere on the map.\
 | Footprint Duration | The amount of time that the footprint stays on the ground for | Time | 10s |
 | Anonymous Footprint | When enabled, all footprints are grey instead of the player's colors | Toggle | False |
 | Footprint Vent Visible | Whether footprints near vents are shown | Toggle | False |
+| Camera Charges | - | Number | 4 |
 
 -----------------------
 ## Mystic
@@ -272,6 +273,8 @@ The Spy can also vent, and the Spy appears as an impostor to the other impostors
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Spy | The percentage probability of the Spy appearing | Percentage | 0% |
+| Spy Has Impostor Vision | Whether the Spy has the same vision as the Impostors | Toggle | True |
+| Admin Table Charges | The number of times the Spy can view the admin table | Number | 5 |
 
 -----------------------
 ## Trapper
@@ -319,7 +322,8 @@ During meetings, the Sheriff can choose to kill someone by guessing their role, 
 ## Veteran
 ### **Team: Crewmates**
 The Veteran is a Crewmate that can go on alert.\
-When the Veteran is on alert, anyone, whether crew, neutral or impostor, if they interact with the Veteran, they die.
+When the Veteran is on alert, anyone, whether crew, neutral or impostor, if they interact with the Veteran, they die.\
+The veteran can also vent and if attacked while in a vent the perpetrator is killed instead.\
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -362,6 +366,7 @@ After a set period of time, the player will be resurrected, if the revival isn't
 | Altruist | The percentage probability of the Altruist appearing | Percentage | 0% |
 | Altruist Revive Duration | The time it takes for the Altruist to revive a dead body | Time | 10s |
 | Target's body disappears on beginning of revive | Whether the dead body of the player the Altruist is reviving disappears upon revival | Toggle | False |
+| Revive Charges | - | Number | 3 |
 
 -----------------------
 ## Medic
@@ -382,6 +387,9 @@ A report can contain the name of the killer or the color type (Darker/Lighter)
 | Time Where Medic Reports Will Have Color Type | If a body has been dead for shorter than this amount, the Medic's report will have the type of color | Time | 15s |
 | Who gets murder attempt indicator | Who will receive an indicator when someone tries to Kill them | Medic / Shielded / Everyone / Nobody | Medic |
 | Shield breaks on murder attempt | Whether the Shield breaks when someone attempts to Kill them | Toggle | False |
+| Vitals Cooldown | - | Time | 10s |
+| Vitals Duration | - | Time | 10s |
+| Vitals Charges | - | Number | 5 |
 
 -----------------------
 ## Engineer
@@ -394,6 +402,9 @@ They can use vents to get across the map easily, and can seal them up too so noo
 |----------|:-------------:|:------:|:------:|
 | Engineer | The percentage probability of the Engineer appearing | Percentage | 0% |
 | Engineer Fix Per | Whether the Engineer can fix 1 sabotage per round or per game | Round / Game | Round |
+| Engineer Seal Vent Cooldown | The cooldown of the Engineer's Seal Vent button | Time | 10s |
+| Engineer Seal Vent Charges | - | Number | 5 |
+| Engineer Seal Vents Next Round | - | Toggle | False |
 
 -----------------------
 ## Mayor
@@ -492,8 +503,8 @@ The Pursuer is a role that is only given to a player after the Lawyer, Execution
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Pursuer Blank Cooldown | -
-| Pursuer Number Of Blanks | -
+| Pursuer Blank Cooldown | - | Time | 10s | 
+| Pursuer Number Of Blanks | - | Number | 5 |
 
 -----------------------
 # Neutral Roles
