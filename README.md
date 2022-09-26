@@ -100,65 +100,49 @@ An Among Us mod that adds a bunch of roles, modifiers and game settings
 - Among Us
 - Steam or Epic Games
 
-## Installation Guide (Steam)
-**1. [Download](#releases) the Town of Us version corresponding to the installed Among Us version.**\
-\
+## Windows Installation Steam
+**1. [Download](#releases) the All The Roles version corresponding to the installed Among Us version.**\
 **2. Go to your Steam library.**\
-\
 **3. Right-click Among Us > click `Manage` > click `Browse local files`.**\
-\
 **4. In the File Explorer, delete the entire `Among Us` folder.**\
-\
 **5. Go back to your Steam library.**\
-\
 **6. Right-Click Among Us > click `Properties...` > click `LOCAL FILES`.**\
-\
 **7. Click on `VERIFY INTEGRITY OF GAME FILES...`.**\
-\
 **8. Wait for Steam to download a clean version of Among Us.**\
-\
 **9. Duplicate the new Among Us Folder.**\
-\
 **10. Rename it to `Among Us - ATR`.**\
-\
 **11. Double-click on the zip file you downloaded.**\
-\
 **12. Drag all the files from the zip file in the new ToU folder.**\
-\
 **13. Finally, launch `Among Us.exe` from that folder.**\
-\
 A first launch may take up to 5 minutes, so be patient if it doesn't launch immediately.<br/>
 <br/>
 
-## Installation Guide (Epic Games)
+Not working? You might want to install the dependency [vc_redist](https://aka.ms/vs/16/release/vc_redist.x86.exe)
+
+## Windows Installation Epic
 **1. [Download](#releases) the All The Roles version corresponding to the installed Among Us version.**\
-\
 **2. Go to your Epic Games library.**\
-\
 **3. Find Among Us and click on the 3 dots `...` > click `Uninstall`.**\
-\
 **4. Confirm you want to Uninstall Among Us.**\
-\
 **5. In the Epic library, click on Among Us to install.**\
-\
 **6. Copy the Folder Path.**\
-\
 **7. Uncheck Auto-Update.**\
-\
 **8. Click on Install.**\
-\
 **9. Click Yes on the Windows popup.**\
-\
 **10. Paste the folder path in Windows search bar.**\
-\
 **11. Click on Enter.**\
-\
 **12. Copy or move the contents of the All The Roles zip file into the AmongUs folder.**\
-\
 **13. Finally, launch Among Us from Epic Games library.**\
-\
 A first launch may take up to 5 minutes, so be patient if it doesn't launch immediately.<br/>
 <br/>
+
+Not working? You might want to install the dependency [vc_redist](https://aka.ms/vs/16/release/vc_redist.x86.exe)
+
+## Linux Installation
+1. Install Among Us via Steam
+2. Download newest [release](https://github.com/Zeo666/AllTheRoles/releases/latest) and extract it to ~/.steam/steam/steamapps/common/Among Us
+3. Enable `winhttp.dll` via the proton winecfg (https://docs.bepinex.dev/articles/advanced/steam_interop.html#open-winecfg-for-the-target-game)
+4. Launch the game via Steam
 
 -----------------------
 # Roles
