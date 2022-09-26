@@ -1,5 +1,3 @@
-## *Note: This repository is an unofficial continuation of Town of Us due to the original repository being discontinued.*
-
 ![LOGO](./Images/ATR-logo.png)
 
 An Among Us mod that adds a bunch of roles, modifiers and game settings
@@ -484,6 +482,19 @@ The bodyguard is a Crewmate that can protect another player from being killed an
 |----------|:-------------:|:------:|:------:|
 | Bodyguard | The percentage probability of the Bodyguard appearing | Percentage | 0% |
 
+## Pursuer
+### **Team: Crewmates**
+The Pursuer is a Crewmate role, but has a different goal to win the game; they have to be alive when the game ends and the Crew wins.\
+In order to achieve this goal, the Pursuer has an ability called "Blank", where they can fill a killers (this also includes the Sheriff) weapon with a blank. So, if the killer attempts to kill someone, the killer will miss their target, and their cooldowns will be triggered as usual.\
+If the killer fires the "Blank", shields (e.g. Medic shield or Time Master shield) will not be triggered.\
+The Pursuer is a role that is only given to a player after the Lawyer, Executioner or Guardian Angel targets are killed.
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Pursuer Blank Cooldown | -
+| Pursuer Number Of Blanks | -
+
 -----------------------
 # Neutral Roles
 ## Amnesiac
@@ -737,9 +748,9 @@ The priority of the win conditions is the following:
 If both Impostors and Jackals are in the game, the game continues even if all Crewmates are dead. Crewmates may still win in this case by completing their tasks. Jackal and Impostor have to kill each other.
 
 ### Game Options
-| Name | Description
-|----------|:-------------:|
-| Jackal Spawn Chance | - |
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Jackal | The percentage probability of the Jackal appearing | Percentage | 0% |
 | Jackal/Sidekick Kill Cooldown | Kill cooldown |
 | Jackal Create Sidekick Cooldown | Cooldown before a Sidekick can be created |
 | Jackal can use vents | Yes/No |
@@ -760,8 +771,8 @@ Upon the death of the Jackal (depending on the options), they might get promoted
 - The Sidekick cannot target the Mini, while it's growing up.
 
 ### Game Options
-| Name | Description
-|----------|:-------------:|
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
 | Jackal/Sidekick Kill Cooldown | Uses the same kill cooldown setting as the Jackal |
 | Sidekick gets promoted to Jackal on Jackal death |  Yes/No |
 | Sidekick can kill | Yes/No |
