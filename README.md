@@ -493,6 +493,7 @@ The bodyguard is a Crewmate that can protect another player from being killed an
 |----------|:-------------:|:------:|:------:|
 | Bodyguard | The percentage probability of the Bodyguard appearing | Percentage | 0% |
 
+-----------------------
 ## Pursuer
 ### **Team: Crewmates**
 The Pursuer is a Crewmate role, but has a different goal to win the game; they have to be alive when the game ends and the Crew wins.\
@@ -603,14 +604,12 @@ They become half-invisible when they die and has to complete all their tasks wit
 The Arsonist is a Neutral role with its own win condition.\
 They have two abilities, one is to douse other players with gasoline.\
 The other is to ingite all doused players.\
-The Arsonist needs to be the last killer alive to win the game.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Arsonist | The percentage probability of the Arsonist appearing | Percentage | 0% |
 | Douse Cooldown | The cooldown of the Arsonist's Douse button | Time | 25s |
-| Maximum Alive Players Doused | The maximum amount of players that the Arsonist can have doused | Number | 5 |
 
 -----------------------
 ## Plaguebearer
@@ -642,7 +641,7 @@ The Glitch can Mimic someone, which results in them looking exactly like the oth
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| The Glitch | The percentage probability of The Glitch appearing | Percentage | 0% |
+| Glitch | The percentage probability of The Glitch appearing | Percentage | 0% |
 | Mimic Cooldown | The cooldown of The Glitch's Mimic button | Time | 30s |
 | Mimic Duration | How long The Glitch can Mimic a player | Time | 10s |
 | Hack Cooldown | The cooldown of The Glitch's Hack button | Time | 30s |
@@ -650,6 +649,20 @@ The Glitch can Mimic someone, which results in them looking exactly like the oth
 | Glitch Kill Cooldown | The cooldown of the Glitch's Kill button | Time | 30s |
 | Glitch Hack Distance | How far away The Glitch can Hack someone from | Short / Normal / Long | Short |
 | Glitch can Vent | Whether the Glitch can Vent | Toggle | False |
+
+-----------------------
+## Juggernaut
+### **Team: Neutral**
+The Juggernaut is a Neutral role with its own win condition.\
+The Juggernaut's aim is to kill everyone and be the last person standing.\
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Juggernaut | The percentage probability of Juggernaut appearing | Percentage | 0% |
+| Kill Cooldown | The cooldown of the Juggernaut's Kill button | Time | 25s |
+| Kill Cooldown Reduction | The cooldown reduction of the Juggernaut's Kill button after a kill is made | Time | 5s |
+| Juggernaut can Vent | Whether the Juggernaut can Vent | Toggle | False |
 
 -----------------------
 ## Werewolf
@@ -1333,7 +1346,7 @@ Here are a few instructions, on how to create a custom hat:
 [TooManyRolesMods](https://github.com/Hardel-DW/TooManyRolesMods) - For the Investigator & Time Lord roles.\
 [TownOfUs](https://github.com/slushiegoose/Town-Of-Us) - Idea for Shifter, Executioner, Arsonist, Glitch, Phantom, Swooper, Miner, Janitor, Underdog, Undertaker, Mayor, Swapper, Altruist, Seer roles.\
 [TownOfUs-R](https://github.com/eDonnes124/Town-Of-Us-R) - Idea for Detective, Mystic, Guardian Angel, Juggernaut, Blackmailer, Grenadier, Traitor, Werewolf, Plaguebearer, Survivor, Amnesiac, Poisoner, Trapper, Haunter roles.\
-[TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) - Idea for Bounty Hunter, Ninja, Jackal, Lawyer, Witch, Warlock, Spy, Vulture roles.\
+[TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) - Idea for Bounty Hunter, Ninja, Jackal, Lawyer, Witch, Warlock, Spy, Vulture roles.
 
 <b>The developers & contributors of TownOfUs, TownOfUs-R & The Other Roles:</b>
 Slushiegoose, eDonnes124, Eisbison, Ottomated, Woodi-dev, Maartii, NotHunter101, Hardel-DW, MyDragonBreath, ItsTheNumberH, Ruiner, Term, Dhalucard
