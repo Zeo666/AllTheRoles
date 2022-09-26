@@ -114,6 +114,7 @@ An Among Us mod that adds a bunch of roles, modifiers and game settings
 11. Double-click on the zip file you downloaded.**\
 12. Drag all the files from the zip file in the new ToU folder.**\
 13. Finally, launch `Among Us.exe` from that folder.**\
+
 A first launch may take up to 5 minutes, so be patient if it doesn't launch immediately.
 
 Not working? You might want to install the dependency [vc_redist](https://aka.ms/vs/16/release/vc_redist.x86.exe)
@@ -132,6 +133,7 @@ Not working? You might want to install the dependency [vc_redist](https://aka.ms
 11. Click on Enter.**\
 12. Copy or move the contents of the All The Roles zip file into the AmongUs folder.**\
 13. Finally, launch Among Us from Epic Games library.**\
+
 A first launch may take up to 5 minutes, so be patient if it doesn't launch immediately.
 
 Not working? You might want to install the dependency [vc_redist](https://aka.ms/vs/16/release/vc_redist.x86.exe)
