@@ -806,7 +806,7 @@ Upon the death of the Jackal (depending on the options), they might get promoted
 -----------------------
 ## Bomber
 ### **Team: Neutral**
-The Bomber is a Neutral role that can plant bombs on other players and can get them to kill for them or their die themselves when the timer ends.\
+The Bomber is a Neutral role that can plant bombs on other players and can get them to kill for them or they die themselves when the timer ends.
 
 ### Game Options
 | Name | Description | Type | Default |
