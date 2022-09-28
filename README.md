@@ -40,6 +40,7 @@ An Among Us mod that adds a bunch of roles, modifiers and game settings
 - [Vulture](#vulture)
 - [Shifter](#shifter)
 - [Jackal](#jackal)
+- [Bomber](#bomber)
 
 **Impostor Roles**
 - [Grenadier](#grenadier)
@@ -83,13 +84,28 @@ An Among Us mod that adds a bunch of roles, modifiers and game settings
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.8.24s & 2022.8.24e | v0.9.1 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.1/AllTheRoles-0.9.1.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.0 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.0/AllTheRoles-0.9.0.zip) |
 
 <details>
   <summary> Changelog </summary>
   <details>
+  <summary> v0.9.1</summary>
+  <ul>
+    <li>Added Disperser imposter modifier</li>
+    <li>Added new bomber neutral role</li>
+    <li>Fixed altruist arrows not showing for the bad guys</li>
+    <li>Increased Arrow size</li>
+    <li>Updated button barry custom button graphics</li>
+    <li>Vigi can no longer track a player already tracked</li>
+    <li>Tracking button should only highlight when the Vigilante has a current target</li>
+  </ul>
+  </details>
+  <details>
   <summary> v0.9.0 </summary>
-  <ul> <li>Updated role: Vigilante can no longer be voted off</li> </ul>
+  <ul> 
+    <li>Updated role: Vigilante can no longer be voted off</li>
+  </ul>
   </details>
 </details>
 
@@ -349,7 +365,7 @@ After a set period of time, the player will be resurrected, if the revival isn't
 | Altruist | The percentage probability of the Altruist appearing | Percentage | 0% |
 | Altruist Revive Duration | The time it takes for the Altruist to revive a dead body | Time | 10s |
 | Target's body disappears on beginning of revive | Whether the dead body of the player the Altruist is reviving disappears upon revival | Toggle | False |
-| Revive Charges | - | Number | 3 |
+| Revive Charges | The number of times you can revive players before you die | Number | 3 |
 
 -----------------------
 ## Medic
@@ -370,9 +386,9 @@ A report can contain the name of the killer or the color type (Darker/Lighter)
 | Time Where Medic Reports Will Have Color Type | If a body has been dead for shorter than this amount, the Medic's report will have the type of color | Time | 15s |
 | Who gets murder attempt indicator | Who will receive an indicator when someone tries to Kill them | Medic / Shielded / Everyone / Nobody | Medic |
 | Shield breaks on murder attempt | Whether the Shield breaks when someone attempts to Kill them | Toggle | False |
-| Vitals Cooldown | - | Time | 10s |
-| Vitals Duration | - | Time | 10s |
-| Vitals Charges | - | Number | 5 |
+| Vitals Cooldown | The cooldown of when you can use the vitals panel | Time | 10s |
+| Vitals Duration | How long a single charge lasts for | Time | 10s |
+| Vitals Charges | Number or charges you can view the vitals panel | Number | 5 |
 
 -----------------------
 ## Engineer
@@ -553,6 +569,7 @@ However, the Jester does not win if the Crewmates, Impostors or another Neutral 
 |----------|:-------------:|:------:|:------:|
 | Jester | The percentage probability of the Jester appearing | Percentage | 0% |
 | Jester Can Button | Whether the Jester Can Press the Button | Toggle | True |
+| Jester Has Impostor Vision | Jester Has Impostor Vision | Toggle | True |
 | Jester Can Vent | Whether the Jester Can Vent | Toggle | False |
 
 -----------------------
@@ -674,7 +691,7 @@ Depending on the options, the client can also be a Jester.\
 The Lawyer needs their client to win in order to win the game.\
 Their client doesn't know that it is their client.\
 If their client gets voted out, the Lawyer dies with the client.\
-If their client dies, the Lawyer changes their role and becomes the [Pursuer](#pursuer), which has a different goal to win the game.\
+If their client dies, the Lawyer changes their role and becomes a different role (based on settings), which has a different goal to win the game.\
 \
 How the Lawyer wins:
 - Lawyer dead/alive, client alive and client wins: The Lawyer wins together with the team of the client.
@@ -688,11 +705,10 @@ How the Lawyer wins:
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Lawyer | The percentage probability of the Lawyer appearing | Percentage | 0% |
-| Lawyer Target Can Be The Jester | -
-| Lawyer Wins After Meetings | If set to true, the Lawyer wins after a configurable amount of meetings (can't start meetings himself)
-| Lawyer Needed Meetings To Win | -
-| Lawyer Vision | Pursuer has normal vision
-| Lawyer Knows Target Role | -
+| Lawyer Target Can Be The Jester | -  | Toggle | True |
+| Lawyer Becomes On Target Dead | Lawyer Becomes On Target Dead | Crew / Amnesiac / Survivor / Jester / Pursuer | Crew |
+| Lawyer Vision | Pursuer has normal vision  | Toggle | True |
+| Lawyer Knows Target Role | -  | Toggle | True |
 
 -----------------------
 ## Vulture
@@ -706,10 +722,10 @@ If there is a Vulture in the game, there can't be a Cleaner.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Vulture | The percentage probability of the Vulture appearing | Percentage | 0% |
-| Vulture Cooldown | -
-| Number Of Corpses Needed To Be Eaten | Corpes needed to be eaten to win the game
-| Vulture Can Use Vents | -
-| Show Arrows Pointing Towards The Corpes | -
+| Vulture Cooldown | Vulture Cooldown | Time | 25 |
+| Number Of Corpses Needed To Be Eaten | Corpes needed to be eaten to win the game | Number | 3 |
+| Vulture Can Use Vents | Vulture Can Use Vents | Toggle | True |
+| Show Corpse Arrows | Show Arrows Pointing Towards The Corpes | Toggle | True |
 
 -----------------------
 ## Shifter
@@ -720,6 +736,8 @@ The shifter is a Neutral role that can steal another players role. If they try t
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Shifter | The percentage probability of the Shifter appearing | Percentage | 0% |
+| Shifter Cooldown | Shifter Cooldown | Time | 30s |
+| Shifter Who Shifts | Who gets the Shifter role on Shift | NoImps / RegCrew / Nobody | NoImps |
 
 -----------------------
 ## Jackal
@@ -784,6 +802,20 @@ Upon the death of the Jackal (depending on the options), they might get promoted
 | Sidekick gets promoted to Jackal on Jackal death |  Yes/No |
 | Sidekick can kill | Yes/No |
 | Sidekick can use vents | Yes/No |
+
+-----------------------
+## Bomber
+### **Team: Neutral**
+The Bomber is a Neutral role that can plant bombs on other players and can get them to kill for them or their die themselves when the timer ends.\
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Bomber | The percentage probability of the Bomber appearing | Percentage | 0% |
+| Bomber Place Bomb Cooldown | The plant bomb cooldown | Time | 25s |
+| Bomber Place Bomb PreTimer | The time is takes for the bomb victim to find out they have a bomb on them | Time | 5s |
+| Bomber Bomb Timer | The time it takes for the bomb to explodes | Time | 20s |
+| Bomber Bomb Indicator | Bomb Indicator Every X seconds | Time | 5s |
 
 -----------------------
 # Impostor Roles
