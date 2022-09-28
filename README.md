@@ -86,28 +86,39 @@ An Among Us mod that adds a bunch of roles, modifiers and game settings
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.8.24s & 2022.8.24e | v0.9.2 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.2/AllTheRoles-0.9.2.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.1 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.1/AllTheRoles-0.9.1.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.0 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.0/AllTheRoles-0.9.0.zip) |
 
 <details>
   <summary> Changelog </summary>
   <details>
-  <summary> v0.9.1</summary>
-  <ul>
-    <li>Added Disperser imposter modifier</li>
-    <li>Added new bomber neutral role</li>
-    <li>Fixed altruist arrows not showing for the bad guys</li>
-    <li>Increased Arrow size</li>
-    <li>Updated button barry custom button graphics</li>
-    <li>Vigi can no longer track a player already tracked</li>
-    <li>Tracking button should only highlight when the Vigilante has a current target</li>
-  </ul>
+    <summary> v0.9.2 </summary>
+    <ul>
+    <li>Added Zoom In/Out button for ghosts when their tasks are complete</li>
+    <li>Added sound effects for the bomb timer</li>
+    <li>Bug Fix: Bomb outline should now show correctly when bomb is placed on a player</li>
+    <li>Bug Fix: Bomb timer should no longer continue after death</li>
+    <li>Bug Fix: Bomb timer should no longer continue after passing bomb to another player</li>
+    </ul>
   </details>
   <details>
-  <summary> v0.9.0 </summary>
-  <ul> 
-    <li>Updated role: Vigilante can no longer be voted off</li>
-  </ul>
+    <summary> v0.9.1 </summary>
+    <ul>
+    <li>Added Disperser imposter modifier</li>
+    <li>Added Bomber neutral role</li>
+    <li>Increased Arrow size</li>
+    <li>Updated button barry custom button graphics</li>
+    <li>Bug Fix: Fixed altruist arrows not showing for the bad guys</li>
+    <li>Bug Fix: Vigi can no longer track a player already tracked</li>
+    <li>Bug Fix: Tracking button should only highlight when the Vigilante has a current target</li>
+    </ul>
+  </details>
+  <details>
+    <summary> v0.9.0 </summary>
+    <ul> 
+    <li>Vigilante can no longer be voted off</li>
+    </ul>
   </details>
 </details>
 
