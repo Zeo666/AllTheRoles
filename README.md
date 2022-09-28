@@ -1,5 +1,7 @@
 ![LOGO](./Images/ATR-logo.png)
 
+<p align="center"><a href="https://github.com/Zeo666/AllTheRoles/releases/"><img src="https://badgen.net/github/release/Zeo666/AllTheRoles?icon=github"></a></p>
+
 An Among Us mod that adds a bunch of roles, modifiers and game settings
 
 **Crewmate Roles**
