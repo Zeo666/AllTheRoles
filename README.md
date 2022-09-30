@@ -86,12 +86,31 @@ An Among Us mod that adds a bunch of roles, modifiers and game settings
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.8.24s & 2022.8.24e | v0.9.3 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.3/AllTheRoles-0.9.3.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.2 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.2/AllTheRoles-0.9.2.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.1 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.1/AllTheRoles-0.9.1.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.0 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.0/AllTheRoles-0.9.0.zip) |
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.3 </summary>
+    <ul>
+    <li>Added some extra last game first kill shield settings</li>
+    <li>If a scoprion teleports an on alert vet or pestillence they will die</li>
+    <li>The Bomber now has impostor vision and can vent via settings</li>
+    <li>Updated end game summary text to highlight the winners</li>
+    <li>Bug Fix: Vitals sboule be usable by players again</li>
+    <li>Bug Fix: Game setting ids should no longer overlap and cause issues</li>
+    <li>Bug Fix: Bomber place bomb button shouldn't go on cooldown if trying to place bomb on shielded player</li>
+    <li>Bug Fix: Detective and Medium should now have the correct time of death in their reports</li>
+    <li>Bug Fix: The Guardian Angel can no longer have the same target as the Lawyer</li>
+    <li>Bug Fix: Certain game setting headers not showing when they should be always on</li>
+    <li>Bug Fix: Vigilante should not be an executioner target</li>
+    <li>Bug Fix: Morphling shouldn't slide around when the morph animation is playing</li>
+    <li>Bug Fix: Vigilante no longer gets extra kill charges after meeting</li>
+    </ul>
+  </details>
   <details>
     <summary> v0.9.2 </summary>
     <ul>
@@ -345,6 +364,7 @@ The veteran can also vent and if attacked while in a vent the perpetrator is kil
 | Alert Cooldown | The cooldown on the Veteran's alert button. | Time | 5s |
 | Alert Duration | The duration of the alert | Time | 25s |
 | Maximum Number of Alerts | The number of times the Veteran can alert throughout the game | Number | 3 |
+| Veteran Can Vent | Whether the Veteran can vent | Toggle | False |
 
 -----------------------
 ## Vigilante
@@ -829,6 +849,7 @@ The Bomber is a Neutral role that can plant bombs on other players and can get t
 | Bomber Place Bomb PreTimer | The time is takes for the bomb victim to find out they have a bomb on them | Time | 5s |
 | Bomber Bomb Timer | The time it takes for the bomb to explodes | Time | 20s |
 | Bomber Bomb Indicator | Bomb Indicator Every X seconds | Time | 5s |
+| Bomber Can Vent | Whether the Bomber can vent | Toggle | False |
 
 -----------------------
 # Impostor Roles
@@ -1304,11 +1325,18 @@ Disperser has the ability to teleport every player to a random vent
 | Impostors can see the roles of their team | Whether Impostors are able to see which Impostor roles their teammates have | Toggle | False |
 | Dead can see everyone's roles and Votes | Whether dead players are able to see the roles and votes of everyone else | Toggle | False |
 | Probability of a completely vanilla game | The percentage probability of a vanilla Among Us game happening | Percentage | 0% |
-| Game Start Cooldowns | The cooldown for all roles at the start of the game | Time | 10s |
 | Parallel Medbay Scans | Whether players have to wait for others to scan | Toggle | False |
-| Disable Meeting Skip Button | Whether the meeting button is disabled | No / Emergency / Always | No |
 | Disable Level Icons | Whether all level icons are removed in meetings | Toggle | False |
 | Disable Player Nameplates | Whether all decorative nameplates are disabled in meetings | Toggle | False |
+| Disable Meeting Skip Button | Whether the meeting button is disabled | No / Emergency / Always | No |
+
+-----------------------
+# Last Game First Kill Shield Settings
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Shield First Kill | Place a shield on the player who was first killed during the last game | Toggle | False |
+| Shield First Kill If Crewmate Only | Only place a shield on a crewmate | Toggle | False |
+| Who Can See First Kill Shield | Who can see the shielde on the player | Everyone / Player Only | Everyone |
 
 -----------------------
 # Task Tracking Settings
