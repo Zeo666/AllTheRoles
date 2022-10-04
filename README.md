@@ -2,90 +2,39 @@
 
 <p align="center"><a href="https://github.com/Zeo666/AllTheRoles/releases/"><img src="https://badgen.net/github/release/Zeo666/AllTheRoles?icon=github"></a></p>
 
-An Among Us mod that adds a bunch of roles, modifiers and game settings
+**All The Roles**, is a mod for [Among Us](https://store.steampowered.com/app/945360/Among_Us) which adds many new roles, new [Settings](#settings) and new [Custom Hats](#custom-hats) to the game.
+Even more roles are coming soon. :)
 
-**Crewmate Roles**
-- [Detective](#detective)
-- [Haunter](#haunter)
-- [Investigator](#investigator)
-- [Mystic](#mystic)
-- [Seer](#seer)
-- [Snitch](#snitch)
-- [Spy](#spy)
-- [Trapper](#trapper)
-- [Sheriff](#sheriff)
-- [Veteran](#veteran)
-- [Vigilante](#vigilante)
-- [Altruist](#altruist)
-- [Medic](#medic)
-- [Engineer](#engineer)
-- [Mayor](#mayor)
-- [Medium](#medium)
-- [Swapper](#swapper)
-- [Time Lord](#time-lord)
-- [Transporter](#transporter)
-- [Bodyguard](#Bodyguard)
-
-**Neutral Roles**
-- [Amnesiac](#amnesiac)
-- [Guardian Angel](#guardian-angel)
-- [Survivor](#survivor)
-- [Executioner](#executioner)
-- [Jester](#jester)
-- [Phantom](#phantom)
-- [Arsonist](#arsonist)
-- [Plaguebearer](#plaguebearer)
-- [Glitch](#glitch)
-- [Juggernaut](#juggernaut)
-- [Werewolf](#werewolf)
-- [Lawyer](#lawyer)
-- [Vulture](#vulture)
-- [Shifter](#shifter)
-- [Jackal](#jackal)
-- [Bomber](#bomber)
-
-**Impostor Roles**
-- [Grenadier](#grenadier)
-- [Morphling](#morphling)
-- [Swooper](#swooper)
-- [Poisoner](#poisoner)
-- [Traitor](#traitor)
-- [Underdog](#underdog)
-- [Blackmailer](#blackmailer)
-- [Janitor](#janitor)
-- [Miner](#miner)
-- [Undertaker](#undertaker)
-- [Camouflager](#camouflager)
-- [BountyHunter](#bountyhunter)
-- [Warlock](#warlock)
-- [Witch](#witch)
-- [Ninja](#ninja)
-- [Astral](#camouflager)
-- [Hypnotist](#camouflager)
-- [Outlaw](#outlaw)
-- [Scorpion](#scorpion)
-- [Ghoul](#ghoul)
-
-**Modifiers**
-- [Bait](#bait)
-- [Diseased](#diseased)
-- [Torch](#torch)
-- [Drunk](#drunk)
-- [Blind](#blind)
-- [Button Barry](#button-barry)
-- [Flash](#flash)
-- [Giant](#giant)
-- [Lovers](#lovers)
-- [Sleuth](#sleuth)
-- [Tiebreaker](#tiebreaker)
-- [VIP](#vip)
-- [Bloody](#bloody)
-- [Disperser](#disperser)
+| Impostors | Crewmates | Neutral | Modifier |
+|----------|-------------|-----------------|----------------|
+| [Grenadier](#grenadier)       | [Detective](#detective)       | [Amnesiac](#amnesiac)             | [Bait](#bait)                 |
+| [Morphling](#morphling)       | [Haunter](#haunter)           | [Guardian Angel](#guardian-angel) | [Diseased](#diseased)         |
+| [Swooper](#swooper)           | [Investigator](#investigator) | [Survivor](#survivor)             | [Torch](#torch)               |
+| [Morphling](#morphling)       | [Mystic](#mystic)             | [Executioner](#executioner)       | [Drunk](#drunk)               |
+| [Poisoner](#poisoner)         | [Seer](#seer)                 | [Jester](#jester)                 | [Blind](#blind)               |
+| [Traitor](#traitor)           | [Snitch](#snitch)             | [Phantom](#phantom)               | [Button Barry](#button-barry) |
+| [Underdog](#underdog)         | [Spy](#spy)                   | [Arsonist](#arsonist)             | [Flash](#flash)               |
+| [Blackmailer](#blackmailer)   | [Trapper](#trapper)           | [Plaguebearer](#plaguebearer)     | [Giant](#giant)               |
+| [Janitor](#janitor)           | [Sheriff](#sheriff)           | [Glitch](#glitch)                 | [Lovers](#lovers)             |
+| [Miner](#miner)               | [Veteran](#veteran)           | [Juggernaut](#juggernaut)         | [Sleuth](#sleuth)             |
+| [Undertaker](#undertaker)     | [Vigilante](#vigilante)       | [Werewolf](#werewolf)             | [Tiebreaker](#tiebreaker)     |
+| [Camouflager](#camouflager)   | [Altruist](#altruist)         | [Lawyer](#lawyer)                 | [VIP](#vip)                   |
+| [Bounty Hunter](#bounty-hunter) | [Medic](#medic)               | [Vulture](#vulture)               | [Bloody](#bloody)             |
+| [Warlock](#warlock)           | [Engineer](#engineer)         | [Shifter](#shifter)               | [Disperser](#disperser)       |
+| [Witch](#witch)               | [Mayor](#mayor)               | [Jackal](#jackal)                 | |
+| [Ninja](#ninja)               | [Medium](#medium)             | [Bomber](#bomber)                 | |
+| [Astral](#astral)             | [Swapper](#swapper)           | [Joker](#joker)                   | |
+| [Hypnotist](#hypnotist)       | [Time Lord](#time-lord)       |                                   | |
+| [Outlaw](#outlaw)             | [Transporter](#transporter)   |                                   | |
+| [Scorpion](#scorpion)         | [Bodyguard](#Bodyguard)       |                                   | |
+| [Ghoul](#ghoul)               |                               |                                   | |
+| [Sniper](#sniper)             |                               |                                   | |
 
 -----------------------
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.8.24s & 2022.8.24e | v0.9.4 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.4/AllTheRoles-0.9.4.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.3 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.3/AllTheRoles-0.9.3.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.2 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.2/AllTheRoles-0.9.2.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.1 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.1/AllTheRoles-0.9.1.zip) |
@@ -93,6 +42,19 @@ An Among Us mod that adds a bunch of roles, modifiers and game settings
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.4 </summary>
+    <ul>
+    <li>Added Sniper imposter role</li>
+    <li>Added Joker neutral role</li>
+    <li>Added random map settings</li>
+    <li>A Bomber victim can't throw the bomb back to the Bomber without dieing themselves</li>
+    <li>Added petrify message for the ghoul</li>
+    <li>Updated VIP flash colours to be faction specific</li>
+    <li>Camo comms should now hide the Giant and the Flash</li>
+    <li>Added screen flash when Jackal recruits a Sidekick</li>
+    </ul>
+  </details>
   <details>
     <summary> v0.9.3 </summary>
     <ul>
@@ -839,7 +801,8 @@ Upon the death of the Jackal (depending on the options), they might get promoted
 -----------------------
 ## Bomber
 ### **Team: Neutral**
-The Bomber is a Neutral role that can plant bombs on other players and can get them to kill for them or they die themselves when the timer ends.
+The Bomber is a Neutral role that can plant bombs on other players\
+and get them to kill for them or they die themselves when the timer ends.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -850,6 +813,19 @@ The Bomber is a Neutral role that can plant bombs on other players and can get t
 | Bomber Bomb Timer | The time it takes for the bomb to explodes | Time | 20s |
 | Bomber Bomb Indicator | Bomb Indicator Every X seconds | Time | 5s |
 | Bomber Can Vent | Whether the Bomber can vent | Toggle | False |
+
+-----------------------
+## Joker
+### **Team: Neutral**
+The Joker is an Neutral role that can morph into decoys of other people.\
+To win the Joker must get a number of those decoys killed to win.
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Joker | The percentage probability of the Joker appearing | Percentage | 0% |
+| Joker Decoy Cooldown | The cooldown of the Joker's Decoy button | Time | 25s |
+| Number Of Decoys Needed To Be Killed | Decoys needed to be killed to win the game | Number | 3 |
 
 -----------------------
 # Impostor Roles
@@ -936,7 +912,7 @@ When they are the only remaining Impostor, they will have their kill cooldown sh
 |----------|:-------------:|:------:|:------:|
 | Underdog | The percentage probability of the Underdog appearing | Percentage | 0% |
 | Kill Cooldown Bonus | The amount of time added or removed from the Underdog's Kill Cooldown | Time | 5s |
-| Increased Kill Cooldown  | Whether the Underdog's Kill Cooldown is Increased when 2+ Imps are alive | Toggle | True |
+| Increased Kill Cooldown | Whether the Underdog's Kill Cooldown is Increased when 2+ Imps are alive | Toggle | True |
 
 -----------------------
 ## Blackmailer
@@ -1001,7 +977,7 @@ Everyone then goes grey for a certain period of time, along with their names dis
 | Camouflage Duration | How long the Camouflage lasts for | Time | 10s |
 
 -----------------------
-## BountyHunter
+## Bounty Hunter
 ### **Team: Impostors**
 The Bounty Hunter is an Impostor, that continuously get bounties (the targeted player doesn't get notified).\
 The target of the Bounty Hunter swaps after every meeting and after a configurable amount of time.\
@@ -1016,12 +992,12 @@ Depending on the options, there'll be an arrow pointing towards the current targ
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| BountyHunter | The percentage probability of the Bounty Hunter appearing | Percentage | 0% |
-| Duration After Which Bounty Changes | -
-| Cooldown After Killing Bounty | -
-| Additional Cooldown After Killing Others | Time will be added to the normal impostor cooldown if the Bounty Hunter kills a not-bounty player
-| Show Arrow Pointing Towards The Bounty | If set to true an arrow will appear (only visiable for the Bounty Hunter)
-| Bounty Hunter Arrow Update Interval | Sets how often the position is being updated
+| Bounty Hunter | The percentage probability of the Bounty Hunter appearing | Percentage | 0% |
+| Duration After Which Bounty Changes | - | Time | 60s |
+| Cooldown After Killing Bounty | - | Time | 3s |
+| Additional Cooldown After Killing Others | Time will be added to the normal impostor cooldown if the Bounty Hunter kills a not-bounty player | Time | 20s |
+| Show Arrow Pointing Towards The Bounty | If set to true an arrow will appear (only visiable for the Bounty Hunter) | Toggle | True |
+| Bounty Hunter Arrow Update Interval | Sets how often the position is being updated | Time | 15s |
 
 -----------------------
 ## Warlock
@@ -1040,8 +1016,10 @@ The Warlock can still perform normal kills, but the two buttons share the same c
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Warlock | The percentage probability of the Warlock appearing | Percentage | 0% |
-| Warlock Cooldown | Cooldown for using the Curse and curse Kill
-| Warlock Root Time | Time the Warlock is rooted in place after killing using the curse
+| Warlock Cooldown | Cooldown for using the Curse and curse Kill | Time | 0% |
+| Warlock Root Time | Time the Warlock is rooted in place after killing using the curse | Time | 3s |
+| Warlock Trigger Both Cooldowns | If set to true, casting a spell will also trigger cooldown of the kill button and vice versa (but the two cooldowns may vary) | Toggle | False |
+| Warlock can Vent | Whether the Warlock can Vent | Toggle | False |
 
 -----------------------
 ## Witch
@@ -1060,12 +1038,13 @@ Depending on the options you can choose whether voting the Witch out will save a
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Witch | The percentage probability of the Witch appearing | Percentage | 0% || Witch Spell Casting Cooldown | -
-| Witch Additional Cooldown | The spell casting cooldown will be increased by the amount you set here after each spell
-| Witch Can Spell Everyone | If set to false, the witch can't spell the Spy and other Impostors
-| Witch Spell Casting Duration | The time that you need to stay next to the target in order to cast a spell on it
-| Trigger Both Cooldowns | If set to true, casting a spell will also trigger cooldown of the kill button and vice versa (but the two cooldowns may vary)
-| Voting The Witch Saves All The Targets | If set to true, all the cursed targets will survive at the end of the meeting
+| Witch | The percentage probability of the Witch appearing | Percentage | 0% |
+| Witch Spell Casting Cooldown | - | Time | 30s |
+| Witch Additional Cooldown | The spell casting cooldown will be increased by the amount you set here after each spell | Time | 10s |
+| Witch Can Spell Everyone | If set to false, the witch can't spell the Spy and other Impostors | Toggle | True |
+| Witch Spell Casting Duration | The time that you need to stay next to the target in order to cast a spell on it | Time | 1s |
+| Trigger Both Cooldowns | If set to true, casting a spell will also trigger cooldown of the kill button and vice versa (but the two cooldowns may vary) | Toggle | False |
+| Voting The Witch Saves All The Targets | If set to true, all the cursed targets will survive at the end of the meeting | Toggle | True |
 
 -----------------------
 ## Ninja
@@ -1088,11 +1067,11 @@ When performing a ninja ability kill, the ninja can be invisible for some second
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Ninja | The percentage probability of the Ninja appearing | Percentage | 0% |
-| Ninja Mark Cooldown | -
-| Ninja Knows Location Of Target | -
-| Trace Duration | -
-| Time Till Trace Color Has Faded | -
-| Time The Ninja Is Invisible | -
+| Ninja Mark Cooldown | Cooldown for using the Mark/Assasinate ability | Time | 25s |
+| Ninja Knows Location Of Target | If enabled an arrow indicates the direction of the Ninjas target | Toggle | False |
+| Trace Duration | The time that the leaves remain after a kill | Time | 5s |
+| Time Till Trace Color Has Faded | - | Time | 2s |
+| Time The Ninja Is Invisible | - | Time | 10s |
 
 -----------------------
 ## Astral
@@ -1105,7 +1084,7 @@ however if they do not kill within a certain time frame, they will stay dead.
 |----------|:-------------:|:------:|:------:|
 | Astral | The percentage probability of the Astral appearing | Percentage | 0% |
 | Astral Duration | - | Time | 10s |
-| Astral Vent | - | Toggle | True |
+| Astral Vent | Whether the Astral can Vent | Toggle | True |
 
 -----------------------
 ## Hypnotist
@@ -1116,9 +1095,9 @@ The Hypnotist is an Impostor who can revive dead players and make them a Traitor
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Hypnotist | The percentage probability of the Hypnotist appearing | Percentage | 0% |
-| Hypnotist Revive Cooldown | - | Time | 10s |
-| Hypnotist Revive Charges | - | Number | 5 |
-| Hypnotist Vent | - | Toggle | True |
+| Hypnotist Revive Cooldown | Cooldown for using the Revive ability | Time | 10s |
+| Hypnotist Revive Charges | The number of times the Hypnotist can revive a dead player | Number | 5 |
+| Hypnotist Vent | Whether the Hypnotist can Vent | Toggle | True |
 
 -----------------------
 ## Scorpion
@@ -1130,7 +1109,7 @@ The Scorpion is an Impostor who can mark a player for teleportation and teleport
 |----------|:-------------:|:------:|:------:|
 | Scorpion | The percentage probability of the Scorpion appearing | Percentage | 0% |
 | Scorpion Knows Target Location | - | Toggle | True |
-| Scorpion Vent | - | Toggle | True |
+| Scorpion Vent | Whether the Scorpion can Vent | Toggle | True |
 
 -----------------------
 ## Outlaw
@@ -1141,8 +1120,8 @@ The Outlaw is an Impostor who can kill twice in a row within a certain time fram
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Outlaw | The percentage probability of the Outlaw appearing | Percentage | 0% |
-| Outlaw Second Kill Cooldown | - | Time | 10s |
-| Outlaw Vent | - | Toggle | True |
+| Outlaw Second Kill Cooldown | Time window that Outlaw can kill again before cooldown is incurred | Time | 10s |
+| Outlaw Vent | Whether the Outlaw can Vent | Toggle | True |
 
 -----------------------
 ## Ghoul
@@ -1153,8 +1132,19 @@ The Ghoul is an Impostor ghost role that can scare the living and root them in p
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Ghoul | The percentage probability of the Ghoul appearing | Percentage | 0% |
-| Ghoul Scare Cooldown | - | Time | 10s |
-| Ghoul Scare Duration | - | Time | 10s |
+| Ghoul Scare Cooldown | Cooldown for using the Scare ability | Time | 25s |
+| Ghoul Scare Duration | Time that the Ghouls target will be rooted | Time | 3s |
+
+-----------------------
+## Sniper
+### **Team: Impostors**
+The Sniper is an Impostor role that can kill players from a distance.
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Sniper | The percentage probability of the Sniper appearing | Percentage | 0% |
+| Sniper Cooldown | Cooldown for using the Snipe ability | Time | 25s |
 
 -----------------------
 
@@ -1309,7 +1299,17 @@ Disperser has the ability to teleport every player to a random vent
 | Disperser | The percentage probability of Disperser appearing | Percentage | 0% |
 
 -----------------------
-# Classic Game Mode Settings
+# Map Settings
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Random Map Enabled | Choose Random Map | Toggle | False |
+| Random Map Skeld | Skeld Chance | Percentage | 0% |
+| Random Map Mira | Mira Chance | Percentage | 0% |
+| Random Map Polus | Polus Chance | Percentage | 0% |
+| Random Map Airship | Airship Chance | Percentage | 0% |
+
+-----------------------
+# Game Mode Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Min Neutral Non-Killing Roles | The minimum number of Neutral non-killing roles a game can have | Number | 1 |
@@ -1318,13 +1318,13 @@ Disperser has the ability to teleport every player to a random vent
 | Max Neutral Killing Roles | The maximum number of Neutral killing roles a game can have | Number | 1 |
 
 -----------------------
-# Custom Game Options
+# Custom Game Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
+| Probability of a completely vanilla game | The percentage probability of a vanilla Among Us game happening | Percentage | 0% |
 | Camouflaged Comms | Whether everyone becomes camouflaged when Comms are sabotaged | Toggle | False |
 | Impostors can see the roles of their team | Whether Impostors are able to see which Impostor roles their teammates have | Toggle | False |
 | Dead can see everyone's roles and Votes | Whether dead players are able to see the roles and votes of everyone else | Toggle | False |
-| Probability of a completely vanilla game | The percentage probability of a vanilla Among Us game happening | Percentage | 0% |
 | Parallel Medbay Scans | Whether players have to wait for others to scan | Toggle | False |
 | Disable Level Icons | Whether all level icons are removed in meetings | Toggle | False |
 | Disable Player Nameplates | Whether all decorative nameplates are disabled in meetings | Toggle | False |
@@ -1348,7 +1348,7 @@ Disperser has the ability to teleport every player to a random vent
 
 -----------------------
 ## Assassin Ability
-### **Team: Impostors**
+### **Team: Impostors/Neutral**
 
 The Assassin Ability is given to a certain number of Impostors or Neutral Killers.\
 This ability gives the Impostor or Neutral Killer a chance to kill during meetings by guessing the roles or modifiers of others.\
@@ -1363,8 +1363,8 @@ If they guess wrong, they die instead.
 | Amnesiac Turned Neutral Killing Can Assassinate | Whether former Amnesiacs now Neutral Killers can Assassinate | Toggle | False |
 | Traitor Can Assassinate | If someone turns into a Traitor they can Assassinate | Toggle | False |
 | Assassin Kill | The number of kill the Assassin can do with his ability | Number | 1 |
-| Assassin Guess Crewmate | Whether the Assassin can Guess "Crewmate" | Toggle | False |
 | Assassin Multiple Kill  | Whether the Assassin can kill more than once per meeting | Toggle | False |
+| Assassin Guess Crewmate | Whether the Assassin can Guess "Crewmate" | Toggle | False |
 | Assassinate Snitch via Crewmate Guess  | Whether the Assassin can kill the Snitch by Guessing Crewmate | Toggle | False |
 | Assassin Guess Neutral Benign  | Whether the Assassin can Guess Neutral Benign roles | Toggle | False |
 | Assassin Guess Neutral Evil  | Whether the Assassin can Guess Neutral Evil roles | Toggle | False |
