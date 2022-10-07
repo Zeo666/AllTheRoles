@@ -19,7 +19,7 @@ Even more roles are coming soon. :)
 | [Miner](#miner)               | [Veteran](#veteran)           | [Juggernaut](#juggernaut)         | [Sleuth](#sleuth)             |
 | [Undertaker](#undertaker)     | [Vigilante](#vigilante)       | [Werewolf](#werewolf)             | [Tiebreaker](#tiebreaker)     |
 | [Camouflager](#camouflager)   | [Altruist](#altruist)         | [Lawyer](#lawyer)                 | [VIP](#vip)                   |
-| [Bounty Hunter](#bounty-hunter) | [Medic](#medic)               | [Vulture](#vulture)               | [Bloody](#bloody)             |
+| [Bounty Hunter](#bounty-hunter) | [Medic](#medic)             | [Vulture](#vulture)               | [Bloody](#bloody)             |
 | [Warlock](#warlock)           | [Engineer](#engineer)         | [Shifter](#shifter)               | [Disperser](#disperser)       |
 | [Witch](#witch)               | [Mayor](#mayor)               | [Jackal](#jackal)                 | |
 | [Ninja](#ninja)               | [Medium](#medium)             | [Bomber](#bomber)                 | |
@@ -29,11 +29,13 @@ Even more roles are coming soon. :)
 | [Scorpion](#scorpion)         | [Bodyguard](#Bodyguard)       |                                   | |
 | [Ghoul](#ghoul)               |                               |                                   | |
 | [Sniper](#sniper)             |                               |                                   | |
+| [Possessor](#possessor)       |                               |                                   | |
 
 -----------------------
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.8.24s & 2022.8.24e | v0.9.5 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.5/AllTheRoles-0.9.5.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.4 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.4/AllTheRoles-0.9.4.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.3 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.3/AllTheRoles-0.9.3.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.2 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.2/AllTheRoles-0.9.2.zip) |
@@ -42,6 +44,21 @@ Even more roles are coming soon. :)
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.5 </summary>
+    <ul>
+    <li>Added Possessor Imposter role</li>
+    <li>Added Mind Vision ability to the Mystic role</li>
+    <li>Added spell casting settings for the Medium and Detective</li>
+    <li>Combined both Medium buttons into one</li>
+    <li>Combined both Detective buttons into one</li>
+    <li>Added medic and bodyguard icons for their targets</li>
+    <li>The sniper should no longer get the Shots Fired! message and screen flash</li>
+    <li>A joker decoy with the VIP modifier should not notify everyone on death</li>
+    <li>Fixed: Fixed error in CheckMurderAttempt with a shielded target</li>
+    <li>Fixed: The sniper should no longer jump to the target of their snipe if the bodyguard protects the target and dies</li>
+    </ul>
+  </details>
   <details>
     <summary> v0.9.4 </summary>
     <ul>
@@ -159,19 +176,19 @@ Not working? You might want to install the dependency [vc_redist](https://aka.ms
 ## Detective
 ### **Team: Crewmates**
 The Detective is a Crewmate that can examine other players for suspicious behaviour.\
-If the player the Detective examines has killed recently the Detective will be alerted about it.
+If the player the Detective examines has killed recently the Detective will be alerted about it.\
 After a meeting the Detective can view the chalk outlines of the recently dead and can analyse them for more information.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Detective | The percentage probability of the Detective appearing | Percentage | 0% |
-| Initial Examine Cooldown | The initial cooldown of the Detective's Examine button | Time | 25s |
 | Examine Cooldown | The cooldown of the Detective's Examine button | Time | 10s |
 | Bloody Duration | How long players remain bloody after a kill | Time | 25s |
 | Show Detective Reports | Whether the Detective should get information when reporting a body | Toggle | True |
 | Time Where Detective Reports Will Have Role | If a body has been dead for shorter than this amount, the Detective's report will contain the killer's role | Time | 15s |
 | Time Where Detective Reports Will Have Faction | If a body has been dead for shorter than this amount, the Detective's report will contain the killer's faction | Time | 30s |
+| Inspect Chalk Outline Casting Duration | - | Time | 1s |
 
 -----------------------
 ## Haunter
@@ -193,7 +210,7 @@ However, if the Haunter is clicked they lose their ability to reveal Impostors a
 ## Investigator
 ### **Team: Crewmates**
 The Investigator is a Crewmate that can see the footprints of players.\
-Every footprint disappears after a set amount of time.
+Every footprint disappears after a set amount of time.\
 The Investigator can view the security cameras from anywhere on the map.
 
 ### Game Options
@@ -211,12 +228,14 @@ The Investigator can view the security cameras from anywhere on the map.
 ## Mystic
 ### **Team: Crewmates**
 The Mystic is a Crewmate that gets an alert revealing when someone has died.\
-On top of this, the Mystic briefly gets an arrow pointing in the direction of the body.
+On top of this, the Mystic briefly gets an arrow pointing in the direction of the body.\
+They Mystic can also see what other players are doing from their POV with the Mind Vision ability.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Mystic | The percentage probability of the Mystic appearing | Percentage | 0% |
+| Mind Vision Cooldown | The Cooldown of the Mystic's Mind Vision button | Time | 25s |
 | Arrow Duration | The duration of the arrows pointing to the bodies | Time | 0.1s |
 
 -----------------------
@@ -292,7 +311,7 @@ However, this is done so in a random order, not stating who entered the trap, no
 ## Sheriff
 ### **Team: Crewmates**
 The Sheriff is a Crewmate that has the ability to eliminate the Impostors using their kill button.\
-However, if they kill a Crewmate or a Neutral player they can't kill, they instead die themselves.
+However, if they kill a Crewmate or a Neutral player they can't kill, they instead die themselves.\
 During meetings, the Sheriff can choose to kill someone by guessing their role, however, if they guess incorrectly, they die instead.
 
 ### Game Options
@@ -432,6 +451,7 @@ After a meeting the Medium can view the souls of the dead and can ask them for m
 | Reveal Appearance of Mediate Target | Whether the Ghosts will show as themselves, or camouflaged | Toggle | True |
 | Reveal the Medium to the Mediate Target | Whether the ghosts can see that the Medium is the Medium | Toggle | True |
 | Who is Revealed | Which players are revealed to the Medium | Oldest Dead / Newest Dead / All Dead | Oldest Dead |
+| Mediate Soul Casting Duration | - | Time | 1s |
 
 -----------------------
 ## Swapper
@@ -1145,6 +1165,17 @@ The Sniper is an Impostor role that can kill players from a distance.
 |----------|:-------------:|:------:|:------:|
 | Sniper | The percentage probability of the Sniper appearing | Percentage | 0% |
 | Sniper Cooldown | Cooldown for using the Snipe ability | Time | 25s |
+
+-----------------------
+## Possessor
+### **Team: Impostors**
+The Possessor is an Impostor role that can take control of players and kill them.
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Possessor | The percentage probability of the Possessor appearing | Percentage | 0% |
+| Possess Cooldown | Cooldown for using the Possess ability | Time | 25s |
 
 -----------------------
 
