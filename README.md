@@ -48,12 +48,13 @@ Even more roles are coming soon. :)
     <details>
     <summary> v0.9.6 </summary>
     <ul>
+    <li>Possessor now has a kill cooldown when they first possess someone</li>
+    <li>Possessor kill button now shares a cooldown with the Possess kill button</li>
+    <li>Possessor Possess button now has a delay timer after use</li>
     <li>Added new game settings: PossessKillCooldown & SidekickCanAssassin</li>
     <li>Updated guesser to hide buttons correctly</li>
     <li>When shifting onto a possessed player the buttons will be redisabled</li>
     <li>Buttons are now disabled when possessed</li>
-    <li>Possessor Possess button now has a delay timer after use</li>
-    <li>Possessor possess kill button now has a cooldown</li>
     <li>Sidekick can now be a guesser if the setting is on</li>
     <li>Guesser can now guess the Sidekick when selecting Jackal</li>
     <li>Modifiers should now show up to the dead players</li>
@@ -61,6 +62,8 @@ Even more roles are coming soon. :)
     <li>Sidekick can't get guessed if Jackal wasn't a guesser</li>
     <li>Arsonist can win with survivors and lawyers or when ignite is used</li>
     <li>Imposters can now zoom out when they are dead</li>
+    <li>Fixed: Possessor should now be affected by the Diseased modifier after a kill</li>
+    <li>Fixed: InspectChalkOutlineCastingDuration & MediateSoulCastingDuration settings being in the wrong tab screen</li>
     <li>Fixed: Hiding a map while possessed no longer re-enables the Report and Use buttons</li>
     <li>Fixed: Sniper weapon and guides now correctly disappear after death</li>
     <li>Fixed: Sidekick promotion issues</li>
