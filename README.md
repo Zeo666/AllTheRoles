@@ -35,6 +35,7 @@ Even more roles are coming soon. :)
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.8.24s & 2022.8.24e | v0.9.6 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.6/AllTheRoles-0.9.6.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.5 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.5/AllTheRoles-0.9.5.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.4 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.4/AllTheRoles-0.9.4.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.3 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.3/AllTheRoles-0.9.3.zip) |
@@ -44,6 +45,48 @@ Even more roles are coming soon. :)
 
 <details>
   <summary> Changelog </summary>
+    <details>
+    <summary> v0.9.6 </summary>
+    <ul>
+    <li>Added new game settings: PossessKillCooldown & SidekickCanAssassin</li>
+    <li>Updated guesser to hide buttons correctly</li>
+    <li>When shifting onto a possessed player the buttons will be redisabled</li>
+    <li>Buttons are now disabled when possessed</li>
+    <li>Possessor Possess button now has a delay timer after use</li>
+    <li>Possessor possess kill button now has a cooldown</li>
+    <li>Sidekick can now be a guesser if the setting is on</li>
+    <li>Guesser can now guess the Sidekick when selecting Jackal</li>
+    <li>Modifiers should now show up to the dead players</li>
+    <li>Updated modifier text size and colour when revealModifier is true</li>
+    <li>Sidekick can't get guessed if Jackal wasn't a guesser</li>
+    <li>Arsonist can win with survivors and lawyers or when ignite is used</li>
+    <li>Imposters can now zoom out when they are dead</li>
+    <li>Fixed: Hiding a map while possessed no longer re-enables the Report and Use buttons</li>
+    <li>Fixed: Sniper weapon and guides now correctly disappear after death</li>
+    <li>Fixed: Sidekick promotion issues</li>
+    <li>Fixed: Mystic moving during mind vision</li>
+    <li>Fixed: Possessor staying in control of their victim if they are killed</li>
+    <li>Fixed: Medic shield flash not showing</li>
+    <li>Fixed: Mystic mind vision should no longer spectate the target ghost if the target is dead</li>
+    <li>Fixed: Astral being voted out or guessed and still counted as alive and keeping the game going</li>
+    <li>Fixed: Shifting on a Joker decoy causing issues</li>
+    <li>Fixed: Added missing roles from guesser selection</li>
+    <li>Fixed: Joker now properly resets/clears when shifted</li>
+    <li>Fixed: Mystic mind vision should now end properly after a meeting</li>
+    <li>Fixed: The Witch Hex sprite shouldn't show in the meeting if the witch is already dead</li>
+    <li>Fixed: The vigilante not being able to shoot those who are tracked</li>
+    <li>Fixed: Vigilante arrows colours not being set correctly during camo comms</li>
+    <li>Fixed: The bodyguard should not die if he has the first kill shield on</li>
+    <li>Fixed: Icons should now show to all the dead players</li>
+    <li>Fixed: Joker can now be killed by the Sheriff</li>
+    <li>Fixed: Issue with Joker spawning outside the map after a meeting</li>
+    <li>Fixed: Modifier's should not show to yourself when you're alive</li>
+    <li>Fixed: Witch hex cooldown now set correctly</li>
+    <li>Fixed: The black names of those doused by the Arsonist should not show when the Arsonist is dead</li>
+    <li>Fixed: The black names of those infected by the Plaguebearer should not show when the Plaguebearer is dead</li>
+    <li>Fixed: Plaguebearer infection not spreading on touch</li>
+    </ul>
+  </details>
   <details>
     <summary> v0.9.5 </summary>
     <ul>
@@ -1176,6 +1219,8 @@ The Possessor is an Impostor role that can take control of players and kill them
 |----------|:-------------:|:------:|:------:|
 | Possessor | The percentage probability of the Possessor appearing | Percentage | 0% |
 | Possess Cooldown | Cooldown for using the Possess ability | Time | 25s |
+| Possessor Casting Duration | The time that you need to stay next to the target in order to cast a spell on it | Time | 1s |
+| Possess Kill Cooldown | Cooldown for using the Kill ability once a victim is possessed | Time | 5s |
 
 -----------------------
 
@@ -1393,6 +1438,7 @@ If they guess wrong, they die instead.
 | Amnesiac Turned Impostor Can Assassinate | Whether former Amnesiacs now Impostor can Assassinate | Toggle | False |
 | Amnesiac Turned Neutral Killing Can Assassinate | Whether former Amnesiacs now Neutral Killers can Assassinate | Toggle | False |
 | Traitor Can Assassinate | If someone turns into a Traitor they can Assassinate | Toggle | False |
+| Sidekick Can Assassinate | If someone turns into a Sidekick they can Assassinate | Toggle | False |
 | Assassin Kill | The number of kill the Assassin can do with his ability | Number | 1 |
 | Assassin Multiple Kill  | Whether the Assassin can kill more than once per meeting | Toggle | False |
 | Assassin Guess Crewmate | Whether the Assassin can Guess "Crewmate" | Toggle | False |
