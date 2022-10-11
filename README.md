@@ -21,7 +21,7 @@ Even more roles are coming soon. :)
 | [Camouflager](#camouflager)   | [Altruist](#altruist)         | [Lawyer](#lawyer)                 | [VIP](#vip)                   |
 | [Bounty Hunter](#bounty-hunter) | [Medic](#medic)             | [Vulture](#vulture)               | [Bloody](#bloody)             |
 | [Warlock](#warlock)           | [Engineer](#engineer)         | [Shifter](#shifter)               | [Disperser](#disperser)       |
-| [Witch](#witch)               | [Mayor](#mayor)               | [Jackal](#jackal)                 | |
+| [Witch](#witch)               | [Mayor](#mayor)               | [Jackal](#jackal)                 | [Indomitable](#indomitable)   |
 | [Ninja](#ninja)               | [Medium](#medium)             | [Bomber](#bomber)                 | |
 | [Astral](#astral)             | [Swapper](#swapper)           | [Joker](#joker)                   | |
 | [Hypnotist](#hypnotist)       | [Time Lord](#time-lord)       |                                   | |
@@ -35,6 +35,7 @@ Even more roles are coming soon. :)
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.8.24s & 2022.8.24e | v0.9.7 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.7/AllTheRoles-0.9.7.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.6 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.6/AllTheRoles-0.9.6.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.5 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.5/AllTheRoles-0.9.5.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.4 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.4/AllTheRoles-0.9.4.zip) |
@@ -45,6 +46,21 @@ Even more roles are coming soon. :)
 
 <details>
   <summary> Changelog </summary>
+    <details>
+    <summary> v0.9.7 </summary>
+    <ul>
+    <li>Added Indomitable modifier</li>
+    <li>Assassinate info is now sent to dead chat</li>
+    <li>Mystic mind vision now has a cooldown setting</li>
+    <li>Added a delay to the possess ability with game settings</li>
+    <li>Reset possessor if target dies during delay</li>
+    <li>Prevent the possessed from venting</li>
+    <li>Added Possessed message for the possessed victim</li>
+    <li>Prevent possess on dead targets or if the possessor is dead</li>
+    <li>Fixed: Players having colours after a meeting when camo comms is on</li>
+    <li>Fixed: While spectating a player and they are killed mind vision will not move with the ghost</li>
+    </ul>
+  </details>
     <details>
     <summary> v0.9.6 </summary>
     <ul>
@@ -282,6 +298,7 @@ They Mystic can also see what other players are doing from their POV with the Mi
 |----------|:-------------:|:------:|:------:|
 | Mystic | The percentage probability of the Mystic appearing | Percentage | 0% |
 | Mind Vision Cooldown | The Cooldown of the Mystic's Mind Vision button | Time | 25s |
+| Mind Vision Duration | The duration of the Mystic's Mind Vision | Time | 10s |
 | Arrow Duration | The duration of the arrows pointing to the bodies | Time | 0.1s |
 
 -----------------------
@@ -1223,6 +1240,7 @@ The Possessor is an Impostor role that can take control of players and kill them
 | Possessor | The percentage probability of the Possessor appearing | Percentage | 0% |
 | Possess Cooldown | Cooldown for using the Possess ability | Time | 25s |
 | Possessor Casting Duration | The time that you need to stay next to the target in order to cast a spell on it | Time | 1s |
+| Possessor Delay | The time after casting before the Possessor takes control of their victim | Time | 5s |
 | Possess Kill Cooldown | Cooldown for using the Kill ability once a victim is possessed | Time | 5s |
 
 -----------------------
@@ -1367,6 +1385,17 @@ The VIP will show everyone when he dies with a flash.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | VIP | The percentage probability of the VIP appearing | Percentage | 0% |
+
+-----------------------
+## Indomitable
+### **Applied to: All**
+A player with this modifier can not be assassinated in meeting.\
+A screen flash will indicate to both the assassin and the player when it has been tried.
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Indomitable | The percentage probability of the Indomitable appearing | Percentage | 0% |
 
 -----------------------
 ## Disperser
