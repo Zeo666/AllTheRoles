@@ -12,15 +12,27 @@
       "resource": "BunnyBrawl_adaptive.png"
     },
     {
+      "author": "NotLeo",
+      "adaptive": true,
+      "climbresource": "NotSquido_adaptive_climb.png",
+      "condition": "None",
+      "name": "NotSquido",
+      "package": "Not Leo Hats",
+      "reshasha": "03dd4521f9470758b51b498876e05143",
+      "reshashc": "02291a9c31533de77d8bd434969d5182",
+      "resource": "NotSquido_adaptive.png"
+    },
+    {
       "author": "Beef",
       "adaptive": true,
+      "bounce": true,
       "climbresource": "HighlandCow_adaptive_climb.png",
       "condition": "None",
       "name": "HighlandCow",
       "package": "Beef Hats",
-      "reshasha": "637616349299e786e539df1b37c65bfe",
+      "reshasha": "febc612442fe714f5534e672bfc2f7be",
       "reshashc": "bc5d8aaeda3cc0265bffc0b2b9574751",
-      "resource": "HighlandCow_adaptive.png"
+      "resource": "HighlandCow_adaptive_bounce.png"
     },
     {
       "author": "Palmer",
