@@ -1,6 +1,17 @@
 {
   "hats": [
     {
+      "author": "NotLeo",
+      "adaptive": true,
+      "climbresource": "BunnyBrawl_adaptive_climb.png",
+      "condition": "None",
+      "name": "BunnyBrawl",
+      "package": "Not Leo Hats",
+      "reshasha": "e5842a262fe9941f93d4fb2557fee4a1",
+      "reshashc": "6c3a60607f29f84cf676849ba326d956",
+      "resource": "BunnyBrawl_adaptive.png"
+    },
+    {
       "author": "Beef",
       "adaptive": true,
       "climbresource": "HighlandCow_adaptive_climb.png",
