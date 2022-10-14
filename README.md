@@ -51,7 +51,11 @@ Even more roles are coming soon. :)
     <summary> v0.9.8 </summary>
     <ul>
     <li>Added Better Polus game settings</li>
-    <li>Spy can now be shot by impostors if setting selected</li>
+    <li>Spy can now be assassinated by impostors if setting selected</li>
+    <li>Spy can be shot by the Sheriff is setting selected</li>
+    <li>If Spy can be shot by impostors then impostors can kill other imposters</li>
+    <li>If Spy can be assassinated by impostors then impostors can assassinate other imposters</li>
+    <li>All custom button timers are reset on game start</li>
     <li>The transporter can now transport dead players</li>
     <li>Ghoul scare screen flash lasts the duration</li>
     <li>Updated text colour for the veteran alert button</li>
@@ -61,6 +65,9 @@ Even more roles are coming soon. :)
     <li>Swapper buttons are now hidden if a player is shot in meeting</li>
     <li>Kill buttons that are hidden for those imposters that don't need them are correctly hidden after a meeting</li>
     <li>Arsonist Douse, Bomber Place Bomb, Glitch Hack, Plaguebearer Infect and Shifter shift can be blanked and die on Alert or die touching Pestilence</li>
+    <li>Fixed: Ninja should die to veteran and pestilence</li>
+    <li>Fixed: Ninja should be correctly blanked by the Pursuer</li>
+    <li>Fixed: Ninja button text not being set correctly after an assassination</li>
     <li>Fixed: Witch victim dying before anyone gets voted off causing unintended scenarios</li>
     <li>Fixed: The Bodyguard should now reset properly if they get shifted</li>
     <li>Fixed: Executioner not turing into amnesiac if that setting is selected</li>
