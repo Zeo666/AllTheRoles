@@ -23,6 +23,18 @@
       "resource": "NotSquido_adaptive.png"
     },
     {
+      "author": "NotLeo",
+      "climbresource": "Vape_climb.png",
+      "flipresource": "Vape_flip.png",
+      "condition": "None",
+      "name": "Vape",
+      "package": "Not Leo Hats",
+      "reshasha": "2b7738c80577900ed32b607aab5f6eac",
+      "reshashc": "e854463087a7577b7e5ccc99c6086b28",
+      "reshashf": "087f08cfc9b16d5cab1bdc4eca5d71ce",
+      "resource": "Vape.png"
+    },
+    {
       "author": "Beef",
       "adaptive": true,
       "bounce": true,
@@ -33,6 +45,20 @@
       "reshasha": "febc612442fe714f5534e672bfc2f7be",
       "reshashc": "bc5d8aaeda3cc0265bffc0b2b9574751",
       "resource": "HighlandCow_adaptive_bounce.png"
+    },
+    {
+      "author": "Beef",
+      "adaptive": true,
+      "bounce": true,
+      "backresource": "Espeon_adaptive_back.png",
+      "climbresource": "Espeon_adaptive_climb.png",
+      "condition": "None",
+      "name": "Espeon",
+      "package": "Beef Hats",
+      "reshasha": "1e56fb13aaa875393ce3500977d9f4a8",
+      "reshashb": "b378dbceb23856f6ac999f308f7fd980",
+      "reshashc": "4bff25486721a56df120a3ccdd207ed8",
+      "resource": "Espeon_adaptive_bounce.png"
     },
     {
       "author": "Palmer",
