@@ -35,7 +35,8 @@ Even more roles are coming soon. :)
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
-| 2022.8.24s & 2022.8.24e | v0.9.7 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.7/AllTheRoles-0.9.7.zip) |
+| 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.8 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.8/AllTheRoles-0.9.8.zip) |
+| 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.7 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.7/AllTheRoles-0.9.7.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.6 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.6/AllTheRoles-0.9.6.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.5 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.5/AllTheRoles-0.9.5.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.4 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.4/AllTheRoles-0.9.4.zip) |
@@ -46,7 +47,41 @@ Even more roles are coming soon. :)
 
 <details>
   <summary> Changelog </summary>
-    <details>
+  <details>
+    <summary> v0.9.8 </summary>
+    <ul>
+    <li>Added Better Polus game settings</li>
+    <li>Spy can now be shot by impostors if setting selected</li>
+    <li>The transporter can now transport dead players</li>
+    <li>Ghoul scare screen flash lasts the duration</li>
+    <li>Updated text colour for the veteran alert button</li>
+    <li>Can assasinate snitch via crewmate</li>
+    <li>Clear Vigilante on shift</li>
+    <li>Possessed message now renders until possession is over</li>
+    <li>Swapper buttons are now hidden if a player is shot in meeting</li>
+    <li>Kill buttons that are hidden for those imposters that don't need them are correctly hidden after a meeting</li>
+    <li>Arsonist Douse, Bomber Place Bomb, Glitch Hack, Plaguebearer Infect and Shifter shift can be blanked and die on Alert or die touching Pestilence</li>
+    <li>Fixed: Witch victim dying before anyone gets voted off causing unintended scenarios</li>
+    <li>Fixed: The Bodyguard should now reset properly if they get shifted</li>
+    <li>Fixed: Executioner not turing into amnesiac if that setting is selected</li>
+    <li>Fixed: GA turning into crewmate when amnesiac is </li>
+    <li>Fixed: Wrong guesses showing the correct dead chat message</li>
+    <li>Fixed: If a possessed victim is brought back to life their buttons should be re-enabled</li>
+    <li>Fixed: Shifter should now shift the guesser ability as well</li>
+    <li>Fixed: Bomber place bomb button cooldown properly set</li>
+    <li>Fixed: VIP flash no longer occuring when a Joker decoy is killed</li>
+    <li>Fixed: Timelord revive will re-enable the buttons of a previously possessed player</li>
+    <li>Fixed: Guesser dead chat message won't happen twice if lover is killed too</li>
+    <li>Fixed: guesser dead chat being incorrect on a bad guess</li>
+    <li>Fixed: Joker not spawning at the meeting table after a meeting</li>
+    <li>Fixed: Warlock now affected by Pursuer Blank</li>
+    <li>Fixed: Ninja assassinate no longer has a 5 second cooldown</li>
+    <li>Fixed: Pestillence teleporting to the sniper when they are shot</li>
+    <li>Fixed: Joker not dieing when their lover is killed</li>
+    <li>Fixed: Joker not having to resample after pressing end decoy</li>
+    </ul>
+  </details>
+  <details>
     <summary> v0.9.7 </summary>
     <ul>
     <li>Added Indomitable modifier</li>
@@ -61,7 +96,7 @@ Even more roles are coming soon. :)
     <li>Fixed: While spectating a player and they are killed mind vision will not move with the ghost</li>
     </ul>
   </details>
-    <details>
+  <details>
     <summary> v0.9.6 </summary>
     <ul>
     <li>Possessor now has a kill cooldown when they first possess someone</li>
@@ -348,6 +383,9 @@ The Spy can also vent, and the Spy appears as an impostor to the other impostors
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Spy | The percentage probability of the Spy appearing | Percentage | 0% |
+| Spy Can Die To Sheriff | Spy Can Die To Sheriff | Toggle | False |
+| Spy Impostors Can Kill Anyone | Impostors Can Kill Anyone If There Is A Spy | Toggle | True |
+| Spy Vent | Spy Can Vent | Toggle | True |
 | Spy Has Impostor Vision | Whether the Spy has the same vision as the Impostors | Toggle | True |
 | Admin Table Charges | The number of times the Spy can view the admin table | Number | 5 |
 
@@ -1417,6 +1455,15 @@ Disperser has the ability to teleport every player to a random vent
 | Random Map Airship | Airship Chance | Percentage | 0% |
 
 -----------------------
+# Better Polus Settings
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Vent Improvements | Better Polus Vent Layout | Toggle | False |
+| Vitals Lab | Vitals Moved To Lab | Toggle | False |
+| Cold Temp Death Valley | Cold Temp Moved To Death Valley | Toggle | False |
+| Wifi Chart Course Swap | Reboot Wifi And Chart Course Swapped | Toggle | False |
+
+-----------------------
 # Game Mode Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -1479,10 +1526,11 @@ If they guess wrong, they die instead.
 | Assassin Guess Neutral Evil  | Whether the Assassin can Guess Neutral Evil roles | Toggle | False |
 | Assassin Guess Neutral Killing  | Whether the Assassin can Guess Neutral Killing roles | Toggle | False |
 | Assassin Guess Impostors  | Whether the Assassin can Guess Impostor roles | Toggle | False |
+| Assassin Guess Spy | Assassin Can Guess The Spy | Toggle | False |
 | Assassin Guess Crewmate Modifiers  | Whether the Assassin can Guess Crewmate Modifiers | Toggle | False |
 | Assassin Can Guess Lovers  | Whether the Assassin can Guess Lovers | Toggle | False |
 | Assassin Can Guess After Voting  | Whether the Assassin can Guess after voting | Toggle | False |
-
+| Show Guess Info In Ghost Chat | Assassinate Info Visible In Ghost Chat | Toggle | True |
 
 -----------------------
 # Extras
