@@ -35,6 +35,7 @@ Even more roles are coming soon. :)
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.9 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.9/AllTheRoles-0.9.9.zip) |
 | 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.8 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.8/AllTheRoles-0.9.8.zip) |
 | 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.7 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.7/AllTheRoles-0.9.7.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.6 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.6/AllTheRoles-0.9.6.zip) |
@@ -47,6 +48,28 @@ Even more roles are coming soon. :)
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.9 </summary>
+    <ul>
+    <li>Joker decoys no longer show their medic or bodyguard icons</li>
+    <li>Joker decoys no longer show their medic shields</li>
+    <li>Joker decoys no longer affected by medic shields</li>
+    <li>Added cooldown for the shifter after meeting</li>
+    <li>Updated Medic shield button graphics</li>
+    <li>Updated Detective Inspect button graphics</li>
+    <li>Changed guesser ghost chat message</li>
+    <li>Updated TimeLord rewind button text colour to be the right colour for the role</li>
+    <li>Executioner target now shows on the intro screen for the Executioner</li>
+    <li>Spy can't be Executioner target</li>
+    <li>Fixed: Pursuer blank button should only highlight when they have a target</li>
+    <li>Fixed: Vulture and survivor being the last two players with no game end</li>
+    <li>Fixed: Executioner target now changes on shift</li>
+    <li>Fixed: Spy should not have any more vent and ladder movement issues anymore</li>
+    <li>Fixed: Touching shouldn't cause the Veteran or Pestilence to die if KilledOnAlert setting is on</li>
+    <li>Fixed: Warlock kill logic from breaking and causing odd behaviours</li>
+    <li>Fixed: Amnesiac not being able to be shifted on or sidekicked</li>
+    </ul>
+  </details>
   <details>
     <summary> v0.9.8 </summary>
     <ul>
@@ -830,8 +853,8 @@ How the Lawyer wins:
 | Lawyer | The percentage probability of the Lawyer appearing | Percentage | 0% |
 | Lawyer Target Can Be The Jester | -  | Toggle | True |
 | Lawyer Becomes On Target Dead | Lawyer Becomes On Target Dead | Crew / Amnesiac / Survivor / Jester / Pursuer | Crew |
-| Lawyer Vision | Pursuer has normal vision  | Toggle | True |
-| Lawyer Knows Target Role | -  | Toggle | True |
+| Lawyer Vision | Lawyer vision multiplier | Number | 1 |
+| Lawyer Knows Target Role | Whether the lawyer can see their targets role | Toggle | True |
 
 -----------------------
 ## Vulture
@@ -861,6 +884,7 @@ The shifter is a Neutral role that can steal another players role. If they try t
 | Shifter | The percentage probability of the Shifter appearing | Percentage | 0% |
 | Shifter Cooldown | Shifter Cooldown | Time | 30s |
 | Shifter Who Shifts | Who gets the Shifter role on Shift | NoImps / RegCrew / Nobody | NoImps |
+| ShiftModifiers | Modifiers included on Shift | Toggle | True |
 
 -----------------------
 ## Jackal
@@ -899,13 +923,13 @@ If both Impostors and Jackals are in the game, the game continues even if all Cr
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Jackal | The percentage probability of the Jackal appearing | Percentage | 0% |
-| Jackal/Sidekick Kill Cooldown | Kill cooldown |
-| Jackal Create Sidekick Cooldown | Cooldown before a Sidekick can be created |
-| Jackal can use vents | Yes/No |
-| Jackal can create a Sidekick | Yes/No |
-| Jackals promoted from Sidekick can create a Sidekick | Yes/No (to prevent the Jackal team from growing) |
-| Jackals can make an Impostor to their Sidekick | Yes/No (to prevent a Jackal from turning an Impostor into a Sidekick, if they use the ability on an Impostor they see the Impostor as Sidekick, but the Impostor isn't converted to Sidekick. If this option is set to "No" Jackal and Sidekick can kill each other.) |
-| Jackal and Sidekick have Impostor vision | - |
+| Jackal/Sidekick Kill Cooldown | Kill cooldown | Time | 25s |
+| Jackal Create Sidekick Cooldown | Cooldown before a Sidekick can be created  | Toggle | True |
+| Jackal can use vents | Yes/No | Toggle | True |
+| Jackal can create a Sidekick | Yes/No | Toggle | True |
+| Jackals promoted from Sidekick can create a Sidekick | Yes/No (to prevent the Jackal team from growing) | Toggle | True |
+| Jackals can make an Impostor to their Sidekick | Yes/No (to prevent a Jackal from turning an Impostor into a Sidekick, if they use the ability on an Impostor they see the Impostor as Sidekick, but the Impostor isn't converted to Sidekick. If this option is set to "No" Jackal and Sidekick can kill each other.) | Toggle | True |
+| Jackal and Sidekick have Impostor vision | - | Toggle | True |
 
 -----------------------
 ## Sidekick
@@ -921,10 +945,10 @@ Upon the death of the Jackal (depending on the options), they might get promoted
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Jackal/Sidekick Kill Cooldown | Uses the same kill cooldown setting as the Jackal |
-| Sidekick gets promoted to Jackal on Jackal death |  Yes/No |
-| Sidekick can kill | Yes/No |
-| Sidekick can use vents | Yes/No |
+| Jackal/Sidekick Kill Cooldown | Uses the same kill cooldown setting as the Jackal | Time | 25s |
+| Sidekick gets promoted to Jackal on Jackal death |  Yes/No | Toggle | False |
+| Sidekick can kill | Yes/No | Toggle | True |
+| Sidekick can use vents | Yes/No | Toggle | True |
 
 -----------------------
 ## Bomber
