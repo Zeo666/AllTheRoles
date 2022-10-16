@@ -1598,6 +1598,8 @@ Here are a few instructions, on how to create a custom hat:
 
 -----------------------
 # Credits & Resources
+<b>HannahTheBeef</b> - For the new button graphics
+
 [Reactor](https://github.com/NuclearPowered/Reactor) - The framework of the mod\
 [BepInEx](https://github.com/BepInEx) - For hooking game functions\
 [Among-Us-Sheriff-Mod](https://github.com/Woodi-dev/Among-Us-Sheriff-Mod) - For the Sheriff role.\
