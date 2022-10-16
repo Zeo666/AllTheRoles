@@ -61,6 +61,17 @@
       "resource": "Espeon_adaptive_bounce.png"
     },
     {
+      "author": "Beef",
+      "bounce": true,
+      "climbresource": "Giraffe_climb.png",
+      "condition": "None",
+      "name": "Giraffe",
+      "package": "Beef Hats",
+      "reshasha": "38408e9fa07eaebcf7c8ee84d4856a24",
+      "reshashc": "92887bf919cb929b494e5619e53c9566",
+      "resource": "Giraffe_bounce.png"
+    },
+    {
       "author": "Palmer",
       "bounce": true,
       "climbresource": "megaphone_climb.png",
