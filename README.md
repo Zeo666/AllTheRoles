@@ -22,8 +22,8 @@ Even more roles are coming soon. :)
 | [Bounty Hunter](#bounty-hunter) | [Medic](#medic)             | [Vulture](#vulture)               | [Bloody](#bloody)             |
 | [Warlock](#warlock)           | [Engineer](#engineer)         | [Shifter](#shifter)               | [Disperser](#disperser)       |
 | [Witch](#witch)               | [Mayor](#mayor)               | [Jackal](#jackal)                 | [Indomitable](#indomitable)   |
-| [Ninja](#ninja)               | [Medium](#medium)             | [Bomber](#bomber)                 | |
-| [Astral](#astral)             | [Swapper](#swapper)           | [Joker](#joker)                   | |
+| [Ninja](#ninja)               | [Medium](#medium)             | [Bomber](#bomber)                 | [Radar](#radar)               |
+| [Astral](#astral)             | [Swapper](#swapper)           | [Joker](#joker)                   | [Multitasker](#multitasker)   |
 | [Hypnotist](#hypnotist)       | [Time Lord](#time-lord)       |                                   | |
 | [Outlaw](#outlaw)             | [Transporter](#transporter)   |                                   | |
 | [Scorpion](#scorpion)         | [Bodyguard](#Bodyguard)       |                                   | |
@@ -35,6 +35,7 @@ Even more roles are coming soon. :)
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.10 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.10/AllTheRoles-0.9.10.zip) |
 | 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.9 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.9/AllTheRoles-0.9.9.zip) |
 | 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.8 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.8/AllTheRoles-0.9.8.zip) |
 | 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.7 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.7/AllTheRoles-0.9.7.zip) |
@@ -48,6 +49,35 @@ Even more roles are coming soon. :)
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.10 </summary>
+    <ul>
+    <li>Added Mini modifier</li>
+    <li>Added Radar modifier</li>
+    <li>Added Multitasker modifier</li>
+    <li>Added Survivor win end game screen</li>
+    <li>Made some rendering improvements to the lobby settings</li>
+    <li>Added Decoy delay timer before the Joker can use their decoy ability</li>
+    <li>Updated Medium Mediate button graphics</li>
+    <li>Updated Vigilante Tracker button graphics</li>
+    <li>Ninja arrow has changed from black to red</li>
+    <li>Scorpion arrow has changed from black to red</li>
+    <li>Fixed: Swapper buttons to reset if one of the swap targets are killed in meeting</li>
+    <li>Fixed: Swooper and Ninja properly hides the colourblind text during Invis</li>
+    <li>Fixed: Fix for GA protection errorneous behaviour</li>
+    <li>Fixed: Astral form should not show the zoom out/in buttons</li>
+    <li>Fixed: Astral being able to see ghost chat in Astral form</li>
+    <li>Fixed: End game occuring if Astral is in Astral form</li>
+    <li>Fixed: Astral not being able to kill during astral form after the first time</li>
+    <li>Fixed: Fix for 2 jackals vs 2 crew not winning</li>
+    <li>Fixed: Morphling animation shouldn't occur during meetings</li>
+    <li>Fixed: Giant modifier no longer shows during Camo Comms</li>
+    <li>Fixed: Haunter and Phantom not being able to unvent at the start of a round</li>
+    <li>Fixed: Killing a bodyguard when they protect their target but the attackers kill cooldown doesn't refresh</li>
+    <li>Fixed: Lovers can't win if executioner win criteria is met</li>
+    <li>Fixed: Kills before meeting now show correctly for everyone</li>
+    </ul>
+  </details>
   <details>
     <summary> v0.9.9 </summary>
     <ul>
@@ -315,7 +345,7 @@ After a meeting the Detective can view the chalk outlines of the recently dead a
 | Show Detective Reports | Whether the Detective should get information when reporting a body | Toggle | True |
 | Time Where Detective Reports Will Have Role | If a body has been dead for shorter than this amount, the Detective's report will contain the killer's role | Time | 15s |
 | Time Where Detective Reports Will Have Faction | If a body has been dead for shorter than this amount, the Detective's report will contain the killer's faction | Time | 30s |
-| Inspect Chalk Outline Casting Duration | - | Time | 1s |
+| Inspect Chalk Outline Casting Duration | The time that you need to stay next to the chalk outline in order to inspect it | Time | 1s |
 
 -----------------------
 ## Haunter
@@ -533,7 +563,7 @@ A report can contain the name of the killer or the color type (Darker/Lighter)
 | Shield breaks on murder attempt | Whether the Shield breaks when someone attempts to Kill them | Toggle | False |
 | Vitals Cooldown | The cooldown of when you can use the vitals panel | Time | 10s |
 | Vitals Duration | How long a single charge lasts for | Time | 10s |
-| Vitals Charges | Number or charges you can view the vitals panel | Number | 5 |
+| Vitals Charges | Number of charges you can view the vitals panel | Number | 5 |
 
 -----------------------
 ## Engineer
@@ -547,8 +577,8 @@ They can use vents to get across the map easily, and can seal them up too so noo
 | Engineer | The percentage probability of the Engineer appearing | Percentage | 0% |
 | Engineer Fix Per | Whether the Engineer can fix 1 sabotage per round or per game | Round / Game | Round |
 | Engineer Seal Vent Cooldown | The cooldown of the Engineer's Seal Vent button | Time | 10s |
-| Engineer Seal Vent Charges | - | Number | 5 |
-| Engineer Seal Vents Next Round | - | Toggle | False |
+| Engineer Seal Vent Charges | Number of charges you can seal vents | Number | 5 |
+| Engineer Seal Vents Next Round | Whether the vents are sealed immediately or after the next meeting | Toggle | False |
 
 -----------------------
 ## Mayor
@@ -582,7 +612,7 @@ After a meeting the Medium can view the souls of the dead and can ask them for m
 | Reveal Appearance of Mediate Target | Whether the Ghosts will show as themselves, or camouflaged | Toggle | True |
 | Reveal the Medium to the Mediate Target | Whether the ghosts can see that the Medium is the Medium | Toggle | True |
 | Who is Revealed | Which players are revealed to the Medium | Oldest Dead / Newest Dead / All Dead | Oldest Dead |
-| Mediate Soul Casting Duration | - | Time | 1s |
+| Mediate Soul Casting Duration | The time that you need to stay next to a soul in order to get info from it | Time | 1s |
 
 -----------------------
 ## Swapper
@@ -595,6 +625,7 @@ All the votes for the first player will instead be counted towards the second pl
 |----------|:-------------:|:------:|:------:|
 | Swapper | The percentage probability of the Swapper appearing | Percentage | 0% |
 | Swapper Can Button | Whether the Swapper Can Press the Button | Toggle | True |
+| Swap After Voting | Swapper Can Swap After Voting | Toggle | True |
 
 -----------------------
 ## Time Lord
@@ -649,8 +680,8 @@ The Pursuer is a role that is only given to a player after the Lawyer, Execution
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Pursuer Blank Cooldown | - | Time | 10s | 
-| Pursuer Number Of Blanks | - | Number | 5 |
+| Pursuer Blank Cooldown | The cooldown of the Pursuer's blank ability | Time | 10s | 
+| Pursuer Number Of Blanks | The number of charges of the Pursuer's blank ability | Number | 5 |
 
 -----------------------
 # Neutral Roles
@@ -756,6 +787,8 @@ The other is to ingite all doused players.\
 |----------|:-------------:|:------:|:------:|
 | Arsonist | The percentage probability of the Arsonist appearing | Percentage | 0% |
 | Douse Cooldown | The cooldown of the Arsonist's Douse button | Time | 25s |
+| Douse Duration | The time that you need to stay next to a target in order to douse them | Time | 1s |
+| Arsonist Game End | Game Continues As Long As Arsonist Is Alive | Toggle | False |
 
 -----------------------
 ## Plaguebearer
@@ -884,7 +917,7 @@ The shifter is a Neutral role that can steal another players role. If they try t
 | Shifter | The percentage probability of the Shifter appearing | Percentage | 0% |
 | Shifter Cooldown | Shifter Cooldown | Time | 30s |
 | Shifter Who Shifts | Who gets the Shifter role on Shift | NoImps / RegCrew / Nobody | NoImps |
-| ShiftModifiers | Modifiers included on Shift | Toggle | True |
+| Shift Modifiers | Modifiers included on Shift | Toggle | True |
 
 -----------------------
 ## Jackal
@@ -1316,6 +1349,7 @@ The Possessor is an Impostor role that can take control of players and kill them
 
 # Modifiers
 Modifiers are added on top of players' roles.
+
 ## Bait
 ### **Applied to: Crewmates**
 Killing the Bait makes the killer auto self-report.
@@ -1344,6 +1378,16 @@ The Torch's vision doesn't get reduced when the lights are sabotaged.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Torch | The percentage probability of the Torch appearing | Percentage | 0% |
+
+-----------------------
+## Multitasker
+### **Applied to: Crewmates**
+A player with this modifier can see through all task, consoles and door minigames.
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Multitasker | The percentage probability of the Multitasker appearing | Percentage | 0% |
+| Multitasker Alpha | The percentage opacity of all minigames | Percentage | 50% |
 
 -----------------------
 ## Drunk
@@ -1402,7 +1446,6 @@ They gain the primary objective to stay alive together.\
 If they are both among the last 3 players, they win.\
 In order to so, they gain access to a private chat, only visible by them in between meetings.\
 However, they can also win with their respective team, hence why the Lovers do not know the role of the other lover.
-
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -1427,7 +1470,6 @@ During meetings the Sleuth can see the roles of all players in which they've rep
 If any vote is a draw, the Tiebreaker's vote will go through.\
 If they voted another player, they will get voted out.\
 If the Tiebreaker is the Mayor, it applies to the Mayor's __first__ vote.
-
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -1438,7 +1480,6 @@ If the Tiebreaker is the Mayor, it applies to the Mayor's __first__ vote.
 ### **Applied to: All**
 If killed, the Bloody Modifier will leave a trail for x-seconds on their killer. The trail will have the color of the killed person. Impostor,
 Neutral or Crewmate roles can have this Modifier.
-
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -1449,7 +1490,6 @@ Neutral or Crewmate roles can have this Modifier.
 ### **Applied to: All**
 Anyone can be affected by the VIP (Very Important Player) Modifier.\
 The VIP will show everyone when he dies with a flash.
-
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -1460,11 +1500,19 @@ The VIP will show everyone when he dies with a flash.
 ### **Applied to: All**
 A player with this modifier can not be assassinated in meeting.\
 A screen flash will indicate to both the assassin and the player when it has been tried.
-
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Indomitable | The percentage probability of the Indomitable appearing | Percentage | 0% |
+
+-----------------------
+## Radar
+### **Applied to: All**
+A player with this modifier has an arrow pointing to the closest player.
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Radar | The percentage probability of the Radar appearing | Percentage | 0% |
 
 -----------------------
 ## Disperser
@@ -1522,7 +1570,8 @@ Disperser has the ability to teleport every player to a random vent
 |----------|:-------------:|:------:|:------:|
 | Shield First Kill | Place a shield on the player who was first killed during the last game | Toggle | False |
 | Shield First Kill If Crewmate Only | Only place a shield on a crewmate | Toggle | False |
-| Who Can See First Kill Shield | Who can see the shielde on the player | Everyone / Player Only | Everyone |
+| Who Can See First Kill Shield | Who can see the shielde on the player | Everyone / Player Only / No One | Everyone |
+| Shield Disappears On Attack | Shield disappears if the player attacks another | Toggle | True |
 
 -----------------------
 # Task Tracking Settings
