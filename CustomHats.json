@@ -35,6 +35,26 @@
       "resource": "Vape.png"
     },
     {
+      "author": "NotLeo",
+      "bounce": true,
+      "backresource": "Rayquaza_back.png",
+      "condition": "None",
+      "name": "Rayquaza",
+      "package": "Not Leo Hats",
+      "reshasha": "b3acdb359ea9b554cc098213d765c976",
+      "reshashb": "1c393e2d7e462d2f2550d97cb1480d2e",
+      "resource": "Rayquaza_bounce.png"
+    },
+    {
+      "author": "NotLeo",
+      "bounce": true,
+      "condition": "None",
+      "name": "Bone",
+      "package": "Not Leo Hats",
+      "reshasha": "c7058ab445c773a66fccea6e68374a62",
+      "resource": "Bone_bounce.png"
+    },
+    {
       "author": "Beef",
       "adaptive": true,
       "bounce": true,
@@ -70,6 +90,16 @@
       "reshasha": "38408e9fa07eaebcf7c8ee84d4856a24",
       "reshashc": "92887bf919cb929b494e5619e53c9566",
       "resource": "Giraffe_bounce.png"
+    },
+    {
+      "author": "King Kobra",
+      "climbresource": "The_Happening_climb.png",
+      "condition": "None",
+      "name": "The Happening",
+      "package": "King Kobra Hats",
+      "reshasha": "9d6e6f77fa1a051d959447b3b161468a",
+      "reshashc": "788246f22fa5a106d613453f9a67bcf3",
+      "resource": "The_Happening.png"
     },
     {
       "author": "Palmer",
@@ -159,17 +189,6 @@
       "reshashb": "73034db86b5023108013ef39b2930d58",
       "reshashc": "d577ab114717f4b2877562f36f6ef8b7",
       "resource": "duck_bounce.png"
-    },
-    {
-      "adaptive": true,
-      "author": "Paradoxon",
-      "climbresource": "towel_climb.png",
-      "condition": "None",
-      "name": "Towel",
-      "package": "Community Hats",
-      "reshasha": "48e65b95a1aa33965c849df812373013",
-      "reshashc": "42bb0053a0309f049f6d905febb3eb5d",
-      "resource": "towel_adaptive.png"
     },
     {
       "adaptive": true,
