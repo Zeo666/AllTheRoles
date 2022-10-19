@@ -116,6 +116,17 @@
       "resource": "The_Happening.png"
     },
     {
+      "author": "Ilikepizza",
+      "adaptive": true,
+      "climbresource": "FallGuy_climb.png",
+      "condition": "None",
+      "name": "FallGuy",
+      "package": "Community Hats",
+      "reshasha": "f92688ba822a303618855359421791ff",
+      "reshashc": "b8648f5380febfa6c08b3639ff2d9815",
+      "resource": "FallGuy_adaptive.png"
+    },
+    {
       "author": "Palmer",
       "bounce": true,
       "climbresource": "megaphone_climb.png",
