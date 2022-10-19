@@ -92,6 +92,20 @@
       "resource": "Giraffe_bounce.png"
     },
     {
+      "author": "HannahTheBeef",
+      "adaptive": true,
+      "bounce": true,
+      "backresource": "ThePool_back_adpative.png",
+      "climbresource": "ThePool_adaptive_climb.png",
+      "condition": "None",
+      "name": "The Pool",
+      "package": "HannahTheBeef Hats",
+      "reshasha": "de1c0b197dd1498db2e2807a3b29b204",
+      "reshashb": "ff668ab6075e502c28b95dc2c160ac02",
+      "reshashc": "bc76f55b912670bc30a90b16b063debe",
+      "resource": "ThePool_adaptive_bounce.png"
+    },
+    {
       "author": "King Kobra",
       "climbresource": "The_Happening_climb.png",
       "condition": "None",
