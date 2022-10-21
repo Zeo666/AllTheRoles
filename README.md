@@ -13,7 +13,7 @@ Even more roles are coming soon. :)
 | [Morphling](#morphling)       | [Mystic](#mystic)             | [Executioner](#executioner)       | [Drunk](#drunk)               |
 | [Poisoner](#poisoner)         | [Seer](#seer)                 | [Jester](#jester)                 | [Blind](#blind)               |
 | [Traitor](#traitor)           | [Snitch](#snitch)             | [Phantom](#phantom)               | [Button Barry](#button-barry) |
-| [Underdog](#underdog)         | [Spy](#spy)                   | [Arsonist](#arsonist)             | [Flash](#flash)               |
+| [Possessor](#possessor)       | [Spy](#spy)                   | [Arsonist](#arsonist)             | [Flash](#flash)               |
 | [Blackmailer](#blackmailer)   | [Trapper](#trapper)           | [Plaguebearer](#plaguebearer)     | [Giant](#giant)               |
 | [Janitor](#janitor)           | [Sheriff](#sheriff)           | [Glitch](#glitch)                 | [Lovers](#lovers)             |
 | [Miner](#miner)               | [Veteran](#veteran)           | [Juggernaut](#juggernaut)         | [Sleuth](#sleuth)             |
@@ -24,17 +24,17 @@ Even more roles are coming soon. :)
 | [Witch](#witch)               | [Mayor](#mayor)               | [Jackal](#jackal)                 | [Indomitable](#indomitable)   |
 | [Ninja](#ninja)               | [Medium](#medium)             | [Bomber](#bomber)                 | [Radar](#radar)               |
 | [Astral](#astral)             | [Swapper](#swapper)           | [Joker](#joker)                   | [Multitasker](#multitasker)   |
-| [Hypnotist](#hypnotist)       | [Time Lord](#time-lord)       |                                   | |
+| [Hypnotist](#hypnotist)       | [Time Lord](#time-lord)       |                                   | [Underdog](#underdog)         |
 | [Outlaw](#outlaw)             | [Transporter](#transporter)   |                                   | |
 | [Scorpion](#scorpion)         | [Bodyguard](#Bodyguard)       |                                   | |
 | [Ghoul](#ghoul)               |                               |                                   | |
 | [Sniper](#sniper)             |                               |                                   | |
-| [Possessor](#possessor)       |                               |                                   | |
 
 -----------------------
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.11 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.11/AllTheRoles-0.9.11.zip) |
 | 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.10 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.10/AllTheRoles-0.9.10.zip) |
 | 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.9 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.9/AllTheRoles-0.9.9.zip) |
 | 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.8 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.8/AllTheRoles-0.9.8.zip) |
@@ -49,6 +49,30 @@ Even more roles are coming soon. :)
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.11 </summary>
+    <ul>
+    <li>Underdog is now a modifier</li>
+    <li>Blind is now a crewmate modifier</li>
+    <li>Added ShieldDisappearsOnAttack game setting</li>
+    <li>Added ArsonistImpostorVision game setting</li>
+    <li>Updated SeerButton graphics by HannahTheBeef</li>
+    <li>First kill shield and medic shield now won't show up on morphed players</li>
+    <li>Arsonist and Plaguebearer now have player icons to track doused and infected players</li>
+    <li>Plaguebearer infection now spreads when an infected body is reported</li>
+    <li>Glitch Hack now affects the Vent & Sabotage buttons</li>
+    <li>Prevent all but crewmates and neutral benign from getting crewmate modifiers</li>
+    <li>Mini can't be targeted or shot if not grown up</li>
+    <li>Ghoul Scare now reduces the victims light radius</li>
+    <li>Fixed: Sheriff can no longer kill a bodyguard if they shoot their target</li>
+    <li>Fixed: Bodyguard and Medic icons now won't show on morphed players</li>
+    <li>Fixed: Mini age now won't show on morphed players</li>
+    <li>Fixed: Jackal lover exiled will now correctly promoted their sidekick</li>
+    <li>Fixed: Astral being exiled as the lover of someone voted and not being actually dead</li>
+    <li>Fixed: Bounty Hunter can't have a Mini target that hasn't grown up</li>
+    <li>Fixed: Zoom out button not showing up</li>
+    </ul>
+  </details>
   <details>
     <summary> v0.9.10 </summary>
     <ul>
@@ -788,6 +812,7 @@ The other is to ingite all doused players.\
 | Arsonist | The percentage probability of the Arsonist appearing | Percentage | 0% |
 | Douse Cooldown | The cooldown of the Arsonist's Douse button | Time | 25s |
 | Douse Duration | The time that you need to stay next to a target in order to douse them | Time | 1s |
+| Arsonist Imposter Vision | Where the arsonist has imposter vision | Toggle | False |
 | Arsonist Game End | Game Continues As Long As Arsonist Is Alive | Toggle | False |
 
 -----------------------
@@ -1085,19 +1110,6 @@ Once this player has turned into the Traitor their alliance sits with the Impost
 | Traitor | The percentage probability of the Traitor appearing | Percentage | 0% |
 | Latest Spawn | The minimum number of people alive when a Traitor can spawn | Number | 5 |
 | Traitor Won't Spawn if Neutral Killing are Alive | Whether the Traitor won't spawn if any Neutral Killing roles are alive | Toggle | False |
-
------------------------
-## Underdog
-### **Team: Impostors**
-The Underdog is an Impostor with a prolonged kill cooldown.\
-When they are the only remaining Impostor, they will have their kill cooldown shortened.
-
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Underdog | The percentage probability of the Underdog appearing | Percentage | 0% |
-| Kill Cooldown Bonus | The amount of time added or removed from the Underdog's Kill Cooldown | Time | 5s |
-| Increased Kill Cooldown | Whether the Underdog's Kill Cooldown is Increased when 2+ Imps are alive | Toggle | True |
 
 -----------------------
 ## Blackmailer
@@ -1522,6 +1534,19 @@ Disperser has the ability to teleport every player to a random vent
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Disperser | The percentage probability of Disperser appearing | Percentage | 0% |
+
+-----------------------
+## Underdog
+### **Applied to: Impostors**
+The Underdog is an modifier with a prolonged kill cooldown.\
+When they are the only remaining Impostor, they will have their kill cooldown shortened.
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Underdog | The percentage probability of Underdog appearing | Percentage | 0% |
+| Kill Cooldown Bonus | The amount of time added or removed from the Underdog's Kill Cooldown | Time | 5s |
+| Increased Kill Cooldown | Whether the Underdog's Kill Cooldown is Increased when 2+ Imps are alive | Toggle | True |
 
 -----------------------
 # Map Settings

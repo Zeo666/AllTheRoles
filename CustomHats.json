@@ -106,6 +106,18 @@
       "resource": "ThePool_adaptive_bounce.png"
     },
     {
+      "author": "HannahTheBeef",
+      "backresource": "PrideFox_back.png",
+      "climbresource": "PrideFox_climb.png",
+      "condition": "None",
+      "name": "PrideFox",
+      "package": "HannahTheBeef Hats",
+      "reshasha": "29183fb7b95bf705558406e557787751",
+      "reshashb": "4a5dab9dfaf7c5e1187bd32ef2ea8a5e",
+      "reshashc": "1af013c66d999d47d908dcd0eb43632c",
+      "resource": "PrideFox.png"
+    },
+    {
       "author": "King Kobra",
       "climbresource": "The_Happening_climb.png",
       "condition": "None",
@@ -114,6 +126,16 @@
       "reshasha": "9d6e6f77fa1a051d959447b3b161468a",
       "reshashc": "788246f22fa5a106d613453f9a67bcf3",
       "resource": "The_Happening.png"
+    },
+    {
+      "author": "King Kobra",
+      "climbresource": "Bored_Wolf_climb.png",
+      "condition": "None",
+      "name": "Bored Wolf",
+      "package": "King Kobra Hats",
+      "reshasha": "e290a642993c982f52d09e2a2fdc78c1",
+      "reshashc": "237e9a2a816aff7a8a3216ff9c263a21",
+      "resource": "Bored_Wolf.png"
     },
     {
       "author": "Ilikepizza",
