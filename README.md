@@ -1736,7 +1736,7 @@ Here are a few instructions, on how to create a custom hat:
 [TownOfUs](https://github.com/slushiegoose/Town-Of-Us) - Idea for Shifter, Executioner, Arsonist, Glitch, Phantom, Swooper, Miner, Janitor, Underdog, Undertaker, Mayor, Swapper, Altruist, Seer roles.\
 [TownOfUs-R](https://github.com/eDonnes124/Town-Of-Us-R) - Idea for Detective, Mystic, Guardian Angel, Juggernaut, Blackmailer, Grenadier, Traitor, Werewolf, Plaguebearer, Survivor, Amnesiac, Poisoner, Trapper, Haunter roles.\
 [TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) - Idea for Bounty Hunter, Ninja, Jackal, Lawyer, Pursuer, Witch, Warlock, Spy roles.\
-[Alexejhero](https://github.com/SubmergedAmongUs/Submerged) - For the Submerged map.\
+[Alexejhero](https://github.com/SubmergedAmongUs/Submerged) - For the Submerged map.
 
 <b>The developers & contributors of TownOfUs, TownOfUs-R & The Other Roles:</b>
 Slushiegoose, eDonnes124, Eisbison, Ottomated, Woodi-dev, Maartii, NotHunter101, Hardel-DW, MyDragonBreath, ItsTheNumberH, Ruiner, Term, Dhalucard
