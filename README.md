@@ -1442,6 +1442,15 @@ A player with this modifier can see through all task, consoles and door minigame
 | Multitasker Alpha | The percentage opacity of all minigames | Percentage | 50% |
 
 -----------------------
+## Blind
+### **Applied to: Crewmates**
+The Blind's report button does not light up.
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Blind | The percentage probability of the Blind appearing | Percentage | 0% |
+
+-----------------------
 ## Drunk
 ### **Applied to: All**
 The Drunk's controls are inverted.
@@ -1449,15 +1458,6 @@ The Drunk's controls are inverted.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Drunk | The percentage probability of the Drunk appearing | Percentage | 0% |
-
------------------------
-## Blind
-### **Applied to: All**
-The Blind's report button does not light up.
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Blind | The percentage probability of the Blind appearing | Percentage | 0% |
 
 -----------------------
 ## Button Barry
