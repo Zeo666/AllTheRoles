@@ -25,7 +25,7 @@ Even more roles are coming soon. :)
 | [Ninja](#ninja)               | [Medium](#medium)             | [Bomber](#bomber)                 | [Radar](#radar)               |
 | [Astral](#astral)             | [Swapper](#swapper)           | [Joker](#joker)                   | [Multitasker](#multitasker)   |
 | [Hypnotist](#hypnotist)       | [Time Lord](#time-lord)       |                                   | [Underdog](#underdog)         |
-| [Outlaw](#outlaw)             | [Transporter](#transporter)   |                                   | |
+| [Outlaw](#outlaw)             | [Transporter](#transporter)   |                                   | [Double Shot](#double-shot)     |
 | [Scorpion](#scorpion)         | [Bodyguard](#Bodyguard)       |                                   | |
 | [Ghoul](#ghoul)               |                               |                                   | |
 | [Sniper](#sniper)             |                               |                                   | |
@@ -1589,6 +1589,17 @@ When they are the only remaining Impostor, they will have their kill cooldown sh
 | Increased Kill Cooldown | Whether the Underdog's Kill Cooldown is Increased when 2+ Imps are alive | Toggle | True |
 
 -----------------------
+## Double Shot
+### **Applied to: Impostors**
+Double Shot is an Impostor who gets an extra life when assassinating.\
+Once they use their life they are indicated with a red flash\
+and can no longer geuss the person who they guessed wrong for the remainder of that meeting.
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Double Shot| The percentage probability of Double Shot appearing | Percentage | 0% |
+
+-----------------------
 # Map Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -1725,6 +1736,7 @@ Here are a few instructions, on how to create a custom hat:
 [TownOfUs](https://github.com/slushiegoose/Town-Of-Us) - Idea for Shifter, Executioner, Arsonist, Glitch, Phantom, Swooper, Miner, Janitor, Underdog, Undertaker, Mayor, Swapper, Altruist, Seer roles.\
 [TownOfUs-R](https://github.com/eDonnes124/Town-Of-Us-R) - Idea for Detective, Mystic, Guardian Angel, Juggernaut, Blackmailer, Grenadier, Traitor, Werewolf, Plaguebearer, Survivor, Amnesiac, Poisoner, Trapper, Haunter roles.\
 [TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) - Idea for Bounty Hunter, Ninja, Jackal, Lawyer, Pursuer, Witch, Warlock, Spy roles.\
+[Alexejhero](https://github.com/SubmergedAmongUs/Submerged) - For the Submerged map.\
 
 <b>The developers & contributors of TownOfUs, TownOfUs-R & The Other Roles:</b>
 Slushiegoose, eDonnes124, Eisbison, Ottomated, Woodi-dev, Maartii, NotHunter101, Hardel-DW, MyDragonBreath, ItsTheNumberH, Ruiner, Term, Dhalucard
