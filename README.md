@@ -34,11 +34,12 @@ Even more roles are coming soon. :)
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
-| 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.11 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.11/AllTheRoles-0.9.11.zip) |
-| 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.10 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.10/AllTheRoles-0.9.10.zip) |
-| 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.9 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.9/AllTheRoles-0.9.9.zip) |
-| 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.8 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.8/AllTheRoles-0.9.8.zip) |
-| 2022.8.24s & 2022.8.24e & 2022.9.20s | v0.9.7 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.7/AllTheRoles-0.9.7.zip) |
+| 2022.10.25s & 2022.10.25e | v0.9.12 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.12/AllTheRoles-0.9.12.zip) |
+| 2022.8.24s & 2022.8.24e & 2022.9.20s & 2022.9.20e | v0.9.11 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.11/AllTheRoles-0.9.11.zip) |
+| 2022.8.24s & 2022.8.24e & 2022.9.20s & 2022.9.20e | v0.9.10 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.10/AllTheRoles-0.9.10.zip) |
+| 2022.8.24s & 2022.8.24e & 2022.9.20s & 2022.9.20e | v0.9.9 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.9/AllTheRoles-0.9.9.zip) |
+| 2022.8.24s & 2022.8.24e & 2022.9.20s & 2022.9.20e | v0.9.8 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.8/AllTheRoles-0.9.8.zip) |
+| 2022.8.24s & 2022.8.24e & 2022.9.20s & 2022.9.20e | v0.9.7 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.7/AllTheRoles-0.9.7.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.6 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.6/AllTheRoles-0.9.6.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.5 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.5/AllTheRoles-0.9.5.zip) |
 | 2022.8.24s & 2022.8.24e | v0.9.4 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.4/AllTheRoles-0.9.4.zip) |
@@ -49,6 +50,40 @@ Even more roles are coming soon. :)
 
 <details>
   <summary> Changelog </summary>
+<details>
+    <summary> v0.9.12 </summary>
+    <ul>
+    <li>Works with Among Us version 2022.10.25</li>
+    <li>Added: Submerged map compatibility</li>
+    <li>Added: Self Transport ability to the Transporter</li>
+    <li>Added: DoubleShot Impostor modifier</li>
+    <li>Added: Shield break animation to the medic shield and first kill shield</li>
+    <li>Added: Lighter/Darker labels for the Detective and Medium</li>
+    <li>Added: ArsonistDouseRadius and ArsonistMaxPlayerDouse game settings</li>
+    <li>Added: Duration settings for the Spy Admin ability, Medic Vitals ability and Investigator Cams ability</li>
+    <li>Added: PossessorVent game setting</li>
+    <li>Updated: Altruist Revive button graphics</li>
+    <li>Updated: Medic Shield button graphics</li>
+    <li>Updated: Vigilante Tracker button graphics</li>
+    <li>Updated: Veteran Alert button graphics</li>
+    <li>Updated: Guardian Angel Protect button graphics</li>
+    <li>Updated: Morphling Morph button graphics</li>
+    <li>Change: After being voted out the Vigilante spawns inside a random vent</li>
+    <li>Change: Arsonist can now douse multiple players at a time based on a radius</li>
+    <li>Change: Vulture can target dead bodies from further away</li>
+    <li>Fixed: Plaguebearer can't infect the none grown up mini</li>
+    <li>Fixed: Morphling name change no longer preceeds the animation</li>
+    <li>Fixed: Roles with charges now don't have their button timers refreshed after meeting</li>
+    <li>Fixed: Amnesiac should now get the guessing ability from remembering the Sheriff role</li>
+    <li>Fixed: Plaguebearer becoming pestilence in the last 2 and causing an imp win</li>
+    <li>Fixed: Mystic mind vision causing problems on shift</li>
+    <li>Fixed: Jackal can't target sidekick unless canCreateSidekickFromImpostor is false</li>
+    <li>Fixed: Vent button graphics not showing for the Traitor</li>
+    <li>Fixed: Detective & Medium should not get souls or chalk oultines for those killed during a meeting</li>
+    <li>Fixed: You can't throw the bomb onto a mini player that hasn't grown up yet</li>
+    <li>Fixed: Sniper weapon appearing larger on first use</li>
+    </ul>
+  </details>
   <details>
     <summary> v0.9.11 </summary>
     <ul>
@@ -403,7 +438,8 @@ The Investigator can view the security cameras from anywhere on the map.
 | Footprint Duration | The amount of time that the footprint stays on the ground for | Time | 10s |
 | Anonymous Footprint | When enabled, all footprints are grey instead of the player's colors | Toggle | False |
 | Footprint Vent Visible | Whether footprints near vents are shown | Toggle | False |
-| Camera Charges | - | Number | 4 |
+| Camera Charges | The number of times the Investigator can view cameras | Number | 4 |
+| Camera Duration | The duration of one camera charge | Time | 10s |
 
 -----------------------
 ## Mystic
@@ -472,6 +508,7 @@ The Spy can also vent, and the Spy appears as an impostor to the other impostors
 | Spy Vent | Spy Can Vent | Toggle | True |
 | Spy Has Impostor Vision | Whether the Spy has the same vision as the Impostors | Toggle | True |
 | Admin Table Charges | The number of times the Spy can view the admin table | Number | 5 |
+| Admin Table Duration | The duration of one admin table charge | Time | 10s |
 
 -----------------------
 ## Trapper
@@ -585,9 +622,8 @@ A report can contain the name of the killer or the color type (Darker/Lighter)
 | Time Where Medic Reports Will Have Color Type | If a body has been dead for shorter than this amount, the Medic's report will have the type of color | Time | 15s |
 | Who gets murder attempt indicator | Who will receive an indicator when someone tries to Kill them | Medic / Shielded / Everyone / Nobody | Medic |
 | Shield breaks on murder attempt | Whether the Shield breaks when someone attempts to Kill them | Toggle | False |
-| Vitals Cooldown | The cooldown of when you can use the vitals panel | Time | 10s |
-| Vitals Duration | How long a single charge lasts for | Time | 10s |
 | Vitals Charges | Number of charges you can view the vitals panel | Number | 5 |
+| Vitals Duration | How long a single charge lasts for | Time | 10s |
 
 -----------------------
 ## Engineer
@@ -682,6 +718,8 @@ Players who have been transported are alerted with a blue flash on their screen.
 | Transport Cooldown | The cooldown of the Transporter's transport ability | Time | 25s |
 | Max Uses | The amount of times the Transport ability can be used | Number | 5 |
 | Transporter can use Vitals | Whether the Transporter has the ability to use Vitals | Toggle | False |
+| Self Transport Cooldown | Self Transport Cooldown | Time | 25s |
+| Self Transport Delay | Self Transport Delay | Time | 5s |
 
 -----------------------
 ## Bodyguard
@@ -812,6 +850,8 @@ The other is to ingite all doused players.\
 | Arsonist | The percentage probability of the Arsonist appearing | Percentage | 0% |
 | Douse Cooldown | The cooldown of the Arsonist's Douse button | Time | 25s |
 | Douse Duration | The time that you need to stay next to a target in order to douse them | Time | 1s |
+| Arsonist Douse Radius | Douse Radius| Number | 1 |
+| Arsonist Max Player Douse | Max Player Douse | Number | 1 |
 | Arsonist Imposter Vision | Where the arsonist has imposter vision | Toggle | False |
 | Arsonist Game End | Game Continues As Long As Arsonist Is Alive | Toggle | False |
 
@@ -1557,6 +1597,7 @@ When they are the only remaining Impostor, they will have their kill cooldown sh
 | Random Map Mira | Mira Chance | Percentage | 0% |
 | Random Map Polus | Polus Chance | Percentage | 0% |
 | Random Map Airship | Airship Chance | Percentage | 0% |
+| Random Map Submerged | Submerged Chance | Percentage | 0% |
 
 -----------------------
 # Better Polus Settings
@@ -1680,9 +1721,10 @@ Here are a few instructions, on how to create a custom hat:
 [Among-Us-Love-Couple-Mod](https://github.com/Woodi-dev/Among-Us-Love-Couple-Mod) - For the inspiration of Lovers role.\
 [ExtraRolesAmongUs](https://github.com/NotHunter101/ExtraRolesAmongUs) - For the Engineer & Medic roles.\
 [TooManyRolesMods](https://github.com/Hardel-DW/TooManyRolesMods) - For the Investigator & Time Lord roles.\
+[Goose-Goose-Duck](https://store.steampowered.com/app/1568590/Goose_Goose_Duck) - Idea for the Vulture role
 [TownOfUs](https://github.com/slushiegoose/Town-Of-Us) - Idea for Shifter, Executioner, Arsonist, Glitch, Phantom, Swooper, Miner, Janitor, Underdog, Undertaker, Mayor, Swapper, Altruist, Seer roles.\
 [TownOfUs-R](https://github.com/eDonnes124/Town-Of-Us-R) - Idea for Detective, Mystic, Guardian Angel, Juggernaut, Blackmailer, Grenadier, Traitor, Werewolf, Plaguebearer, Survivor, Amnesiac, Poisoner, Trapper, Haunter roles.\
-[TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) - Idea for Bounty Hunter, Ninja, Jackal, Lawyer, Witch, Warlock, Spy, Vulture roles.
+[TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) - Idea for Bounty Hunter, Ninja, Jackal, Lawyer, Pursuer, Witch, Warlock, Spy roles.\
 
 <b>The developers & contributors of TownOfUs, TownOfUs-R & The Other Roles:</b>
 Slushiegoose, eDonnes124, Eisbison, Ottomated, Woodi-dev, Maartii, NotHunter101, Hardel-DW, MyDragonBreath, ItsTheNumberH, Ruiner, Term, Dhalucard
