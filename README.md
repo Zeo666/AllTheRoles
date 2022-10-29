@@ -25,8 +25,8 @@ Even more roles are coming soon. :)
 | [Ninja](#ninja)               | [Medium](#medium)             | [Bomber](#bomber)                 | [Radar](#radar)               |
 | [Astral](#astral)             | [Swapper](#swapper)           | [Joker](#joker)                   | [Multitasker](#multitasker)   |
 | [Hypnotist](#hypnotist)       | [Time Lord](#time-lord)       |                                   | [Underdog](#underdog)         |
-| [Outlaw](#outlaw)             | [Transporter](#transporter)   |                                   | [Double Shot](#double-shot)     |
-| [Scorpion](#scorpion)         | [Bodyguard](#Bodyguard)       |                                   | |
+| [Outlaw](#outlaw)             | [Transporter](#transporter)   |                                   | [Double Shot](#double-shot)   |
+| [Scorpion](#scorpion)         | [Bodyguard](#Bodyguard)       |                                   | [Chameleon](#chameleon)       |
 | [Ghoul](#ghoul)               |                               |                                   | |
 | [Sniper](#sniper)             |                               |                                   | |
 
@@ -34,6 +34,7 @@ Even more roles are coming soon. :)
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.10.25s & 2022.10.25e | v0.9.13 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.13/AllTheRoles-0.9.13.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.12 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.12/AllTheRoles-0.9.12.zip) |
 | 2022.8.24s & 2022.8.24e & 2022.9.20s & 2022.9.20e | v0.9.11 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.11/AllTheRoles-0.9.11.zip) |
 | 2022.8.24s & 2022.8.24e & 2022.9.20s & 2022.9.20e | v0.9.10 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.10/AllTheRoles-0.9.10.zip) |
@@ -50,7 +51,24 @@ Even more roles are coming soon. :)
 
 <details>
   <summary> Changelog </summary>
-<details>
+  <details>
+    <summary> v0.9.13 </summary>
+    <ul>
+    <li>Added: Chameleon modifier</li>
+    <li>Added: Blind and Multitasker to the guesser selection</li>
+    <li>Updated: Disperser button graphics</li>
+    <li>Updated: Button Barry button graphics</li>
+    <li>Change: Vulture can now devour a dead body from report distance</li>
+    <li>Fixed: Incorrect end game screens for everyone besides the host</li>
+    <li>Fixed: Prevent traitor getting the guesser ability if they already have it</li>
+    <li>Fixed: Plaguebearer icons appearing when turned traitor</li>
+    <li>Fixed: Arsonist douse graphics should move with the current target</li>
+    <li>Fixed: Bounty Hunter can't get their GA as a bounty target</li>
+    <li>Fixed: Fix for dead people only having max light radius</li>
+    <li>Fixed: Jackal Sidekick button timer correctly set after meeting</li>
+    </ul>
+  </details>
+  <details>
     <summary> v0.9.12 </summary>
     <ul>
     <li>Works with Among Us version 2022.10.25</li>
@@ -1565,6 +1583,22 @@ A player with this modifier has an arrow pointing to the closest player.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Radar | The percentage probability of the Radar appearing | Percentage | 0% |
+
+-----------------------
+## Chameleon
+### **Applied to: All**
+The Chameleon becomes (partially or fully) invisible when standing still for x-seconds (depends on the settings).\
+\
+**NOTE**
+- You can use abilities while being invisible, only moving will make you visible again
+- Impostor, Neutral or Crewmate roles can have this Modifier
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Chameleon | The percentage probability of the Chameleon appearing | Percentage | 0% |
+| Time Until Fading Starts | Time Until Fading Starts | Time | 3s |
+| Fade Duration | Fade Duration | Time | 1s |
+| Minimum Visibility | Minimum Visibility | 0% / 10% / 20% / 30% / 40% / 50%  | 0% |
 
 -----------------------
 ## Disperser
