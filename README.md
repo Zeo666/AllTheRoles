@@ -11,7 +11,7 @@ Even more roles are coming soon. :)
 | [Morphling](#morphling)       | [Haunter](#haunter)           | [Guardian Angel](#guardian-angel) | [Diseased](#diseased)         |
 | [Swooper](#swooper)           | [Investigator](#investigator) | [Survivor](#survivor)             | [Torch](#torch)               |
 | [Morphling](#morphling)       | [Mystic](#mystic)             | [Executioner](#executioner)       | [Drunk](#drunk)               |
-| [Poisoner](#poisoner)         | [Seer](#seer)                 | [Jester](#jester)                 | [Blind](#blind)               |
+| [Poisoner](#poisoner)         | [Priest](#priest)             | [Jester](#jester)                 | [Blind](#blind)               |
 | [Traitor](#traitor)           | [Snitch](#snitch)             | [Phantom](#phantom)               | [Button Barry](#button-barry) |
 | [Possessor](#possessor)       | [Spy](#spy)                   | [Arsonist](#arsonist)             | [Flash](#flash)               |
 | [Blackmailer](#blackmailer)   | [Trapper](#trapper)           | [Plaguebearer](#plaguebearer)     | [Giant](#giant)               |
@@ -26,14 +26,15 @@ Even more roles are coming soon. :)
 | [Astral](#astral)             | [Swapper](#swapper)           | [Joker](#joker)                   | [Multitasker](#multitasker)   |
 | [Hypnotist](#hypnotist)       | [Time Lord](#time-lord)       |                                   | [Underdog](#underdog)         |
 | [Outlaw](#outlaw)             | [Transporter](#transporter)   |                                   | [Double Shot](#double-shot)   |
-| [Scorpion](#scorpion)         | [Bodyguard](#Bodyguard)       |                                   | [Chameleon](#chameleon)       |
-| [Ghoul](#ghoul)               |                               |                                   | |
+| [Scorpion](#scorpion)         | [Bodyguard](#bodyguard)       |                                   | [Chameleon](#chameleon)       |
+| [Ghoul](#ghoul)               | [Deputy](#deputy)             |                                   | |
 | [Sniper](#sniper)             |                               |                                   | |
 
 -----------------------
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.10.25s & 2022.10.25e | v0.9.14 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.14/AllTheRoles-0.9.14.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.13 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.13/AllTheRoles-0.9.13.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.12 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.12/AllTheRoles-0.9.12.zip) |
 | 2022.8.24s & 2022.8.24e & 2022.9.20s & 2022.9.20e | v0.9.11 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.11/AllTheRoles-0.9.11.zip) |
@@ -52,6 +53,39 @@ Even more roles are coming soon. :)
 <details>
   <summary> Changelog </summary>
   <details>
+    <summary> v0.9.14 </summary>
+    <ul>
+    <li>Added: Deputy crewmate role</li>
+    <li>Added: Time Shield ability for the Time Lord<li>
+    <li>Added: Sanctify ability for the Priest<li>
+    <li>Added: Mini aging in meetings can be turned off<li>
+    <li>Added: Engineer seal vent support for submerged map<li>
+    <li>Added: Competing role removal logic has been added to role selection</li>
+    <li>Updated: Sniper weapon graphics<li>
+    <li>Updated: Guard button graphics for the Bodyguard<li>
+    <li>Updated: Repair button graphics for the Engineer<li>
+    <li>Updated: Mind Vision button graphics for the Mystic<li>
+    <li>Updated: Seal Vent button graphics for the Engineer<li>
+    <li>Change: Seer renamed Priest</li>
+    <li>Change: Reduced RewindMaxUses minimum value to 0 so Rewind Button can be turned off</li>
+    <li>Fixed: Arsonist douse and ignite not working correctly</li>
+    <li>Fixed: Arsonist player icons showing when turned Traitor</li>
+    <li>Fixed: Astral spectral form causing the game to never end</li>
+    <li>Fixed: Joker not dying if shot in meeting but was decoyed before meeting started</li>
+    <li>Fixed: Swooper can now go invisible again</li>
+    <li>Fixed: Traitor can be assasinated if the Hypnotist is in the game</li>
+    <li>Fixed: Chameleon colourblind text going black during camo comms</li>
+    <li>Fixed: Vigilante appearing as ghost sometimes after being voted out</li>
+    <li>Fixed: Vigilante kill cooldown now resets after a kill unless no more charges</li>
+    <li>Fixed: Prevent Sniper weapon guides showing in meetings</li>
+    <li>Fixed: Lovers not being able to win</li>
+    <li>Fixed: Detective and Medium inspect/mediate on souls/chalkoutlines are now correct and working</li>
+    <li>Fixed: Engineer seal vent graphic size in submerged map<li>
+    <li>Fixed: Mini not causing everyone to loose if voted out as crew</li>
+    <li>Fixed: Mini age now appears on morphed player names</li>
+    </ul>
+  </details>
+  <details>
     <summary> v0.9.13 </summary>
     <ul>
     <li>Added: Chameleon modifier</li>
@@ -61,7 +95,7 @@ Even more roles are coming soon. :)
     <li>Change: Vulture can now devour a dead body from report distance</li>
     <li>Fixed: Incorrect end game screens for everyone besides the host</li>
     <li>Fixed: Prevent traitor getting the guesser ability if they already have it</li>
-    <li>Fixed: Plaguebearer icons appearing when turned traitor</li>
+    <li>Fixed: Plaguebearer player icons showing when turned Traitor</li>
     <li>Fixed: Arsonist douse graphics should move with the current target</li>
     <li>Fixed: Bounty Hunter can't get their GA as a bounty target</li>
     <li>Fixed: Fix for dead people only having max light radius</li>
@@ -77,9 +111,9 @@ Even more roles are coming soon. :)
     <li>Added: DoubleShot Impostor modifier</li>
     <li>Added: Shield break animation to the medic shield and first kill shield</li>
     <li>Added: Lighter/Darker labels for the Detective and Medium</li>
-    <li>Added: ArsonistDouseRadius and ArsonistMaxPlayerDouse game settings</li>
+    <li>Added: Arsonist Douse Radius and Arsonist Max Player Douse game settings</li>
     <li>Added: Duration settings for the Spy Admin ability, Medic Vitals ability and Investigator Cams ability</li>
-    <li>Added: PossessorVent game setting</li>
+    <li>Added: Possessor can vent game setting</li>
     <li>Updated: Altruist Revive button graphics</li>
     <li>Updated: Medic Shield button graphics</li>
     <li>Updated: Vigilante Tracker button graphics</li>
@@ -475,22 +509,27 @@ They Mystic can also see what other players are doing from their POV with the Mi
 | Arrow Duration | The duration of the arrows pointing to the bodies | Time | 0.1s |
 
 -----------------------
-## Seer
+## Priest
 ### **Team: Crewmates**
-The Seer is a Crewmate that can reveal the alliance of other players.\
-Based on settings, the Seer can find out whether a role is Good or Evil.\
-A player's name will change color to their team.
+The Priest is a Crewmate that can reveal the alliance of other players.\
+Based on settings, the Priest can find out whether a role is Good or Evil.\
+A player's name will change color to their team.\
+The Priest also has the Sancitfy ability which creates an area where no interacting can occur.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Seer | The percentage probability of the Seer appearing | Percentage | 0% |
+| Priest | The percentage probability of the Seer appearing | Percentage | 0% |
 | Seer Cooldown | The Cooldown of the Seer's Reveal button | Time | 25s |
 | Crewmate Killing show up as Evil | Crewmate Killing roles show up as Red | Toggle | False |
 | Neutral Benign show up as Evil | Neutral Benign roles show up as Red | Toggle | False |
 | Neutral Evil show up as Evil | Neutral Evil roles show up as Red | Toggle | False |
 | Neutral Killing show up as Evil | Neutral Killing roles show up as Red | Toggle | False |
 | Traitor does not swap Colours | The Traitor remains their original colour | Toggle | False |
+| Sancitfy Cooldown | - | Time | 25s |
+| Sancitfy Charges | - | Number | 5 |
+| Sancitfy Radius | - | Number | 2 |
+| Sancitfy Duration | - | Time | 25s |
 
 -----------------------
 ## Snitch
@@ -571,6 +610,33 @@ During meetings, the Sheriff can choose to kill someone by guessing their role, 
 | Sheriff Guess After Voting  | Whether the Sheriff can Guess after they have voted | Toggle | False |
 
 -----------------------
+## Deputy
+### **Team: Crewmates**
+The Deputy has a flash light and the ability to handcuff player.\
+Handcuffs will be hidden until the handcuffed player try to use a disabled button/hotkey.\
+Handcuffs disable:
+- Kill
+- Abilities
+- Vent
+- Report\
+\
+**NOTE:**
+- Duration starts after the handcuffs become visible.
+- Deputy can not be in game without Sheriff.
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Sheriff | The percentage probability of the Sheriff appearing | Percentage | 0% |
+| Sheriff And Deputy Know Each Other | Sheriff And Deputy Know Each Other | Toggle | True |
+| Handcuff Cooldown | Handcuff Cooldown | Time | 30s |
+| Handcuff Duration | Handcuff Duration | Time | 15s |
+| Lighter Cooldown | Lighter Cooldown | Time | 30s |
+| Lighter Duration | Lighter Duration | Time | 15s |
+| Deputy Gets Promoted To Sheriff | Deputy Gets Promoted To Sheriff | Off / On (Immediately) / On (After Meeting) | Off |
+| Deputy Keeps Handcuffs When Promoted | Deputy Keeps Handcuffs When Promoted | Toggle | False |
+
+-----------------------
 ## Veteran
 ### **Team: Crewmates**
 The Veteran is a Crewmate that can go on alert.\
@@ -593,7 +659,7 @@ The veteran can also vent and if attacked while in a vent the perpetrator is kil
 The Vigilante is a Crewmate that has only one shot available to them.\
 They can also track other players by tracking them during a round.\
 Once they track someone, an arrow is continuously pointing to them, which updates in set intervals.\
-The Vigilante can not be voted off in a meeting.
+If the Vigilante is voted off they actually survive and spawn in a random vent with an extra shot.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -711,6 +777,7 @@ All the votes for the first player will instead be counted towards the second pl
 The Time Lord is a Crewmate that can rewind time and reverse the positions of all players.\
 If enabled, any players killed during this time will be revived.\
 Nothing but movements and kills are affected.\
+The Time Lord also has a Time Shield that they can use to protect themselves and the attacker will get rewinded by themselves.\
 If enabled, the Time Lord can't use Vitals to make things more balanced.
 
 ### Game Options
@@ -722,6 +789,8 @@ If enabled, the Time Lord can't use Vitals to make things more balanced.
 | Rewind Cooldown | The cooldown of the Time Lord's Rewind button | Time | 25s |
 | Max Uses | The amount of times the Rewind ability can be used | Number | 5 |
 | Time Lord can use Vitals | Whether the Time Lord has the ability to use Vitals | Toggle | False |
+| Time Shield Cooldown | Time Shield Cooldown | Time | 25s |
+| Time Shield Duration | Time Shield Duration | Time | 5s |
 
 -----------------------
 ## Transporter
@@ -1554,12 +1623,19 @@ Neutral or Crewmate roles can have this Modifier.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Bloody | The percentage probability of the Bloody appearing | Percentage | 0% |
-
+| Bloody Quantity | - | Number | 1 |
+| Trail duration | - | Time | 10s |
 -----------------------
 ## VIP
 ### **Applied to: All**
 Anyone can be affected by the VIP (Very Important Player) Modifier.\
 The VIP will show everyone when he dies with a flash.
+
+Teams:
+- Impostor = Red
+- Neutral = Blue
+- Crewmate = Yellow
+
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -1583,6 +1659,33 @@ A player with this modifier has an arrow pointing to the closest player.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Radar | The percentage probability of the Radar appearing | Percentage | 0% |
+
+-----------------------
+## Mini
+### **Applied to: All**
+The Mini's character is smaller and hence visible to everyone in the game.\
+The Mini cannot be killed until it turns 18 years old, however it can be voted out.
+**Impostor/Jackal Mini:**
+- While growing up the kill cooldown is doubled. When it's fully grown up its kill cooldown is 2/3 of the default one.
+- If it gets thrown out of the ship, everything is fine.
+
+**Crewmate Mini:**
+- The Crewmate Mini aims to play out the strength its invincibility in the early game.
+- If it gets thrown out of the ship before it turns 18, everyone loses. So think twice before you vote out a Mini.
+
+**Neutral Mini:**
+- If it gets thrown out of the ship, everything is fine except for the Jester.
+- If the Jester Mini gets voted out the game will end in a Jester win.
+
+**NOTE:**
+- If a Sheriff tries to kill the Mini before it's fully grown, nothing happens.
+- Any killer can kill the Impostor/Neutral Mini, but only if it's fully grown up.
+- If the Mini's primary role is guessed correctly, it dies like every other role and nothing further happens.
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Mini | The percentage probability of the Mini appearing | Percentage | 0% |
+| Mini Grows Up In Meeting | Whether the mini grows up during a meeting | Toggle | False |
 
 -----------------------
 ## Chameleon
