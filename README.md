@@ -10,7 +10,7 @@ Even more roles are coming soon. :)
 | [Grenadier](#grenadier)       | [Detective](#detective)       | [Amnesiac](#amnesiac)             | [Bait](#bait)                 |
 | [Morphling](#morphling)       | [Haunter](#haunter)           | [Guardian Angel](#guardian-angel) | [Diseased](#diseased)         |
 | [Swooper](#swooper)           | [Investigator](#investigator) | [Survivor](#survivor)             | [Torch](#torch)               |
-| [Morphling](#morphling)       | [Mystic](#mystic)             | [Executioner](#executioner)       | [Drunk](#drunk)               |
+| [Sniper](#sniper)             | [Mystic](#mystic)             | [Executioner](#executioner)       | [Drunk](#drunk)               |
 | [Poisoner](#poisoner)         | [Priest](#priest)             | [Jester](#jester)                 | [Blind](#blind)               |
 | [Traitor](#traitor)           | [Snitch](#snitch)             | [Phantom](#phantom)               | [Button Barry](#button-barry) |
 | [Possessor](#possessor)       | [Spy](#spy)                   | [Arsonist](#arsonist)             | [Flash](#flash)               |
@@ -28,12 +28,13 @@ Even more roles are coming soon. :)
 | [Outlaw](#outlaw)             | [Transporter](#transporter)   |                                   | [Double Shot](#double-shot)   |
 | [Scorpion](#scorpion)         | [Bodyguard](#bodyguard)       |                                   | [Chameleon](#chameleon)       |
 | [Ghoul](#ghoul)               | [Deputy](#deputy)             |                                   | |
-| [Sniper](#sniper)             |                               |                                   | |
+| [Vampire](#vampire)           |                               |                                   | |
 
 -----------------------
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.10.25s & 2022.10.25e | v0.9.15 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.15/AllTheRoles-0.9.15.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.14 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.14/AllTheRoles-0.9.14.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.13 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.13/AllTheRoles-0.9.13.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.12 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.12/AllTheRoles-0.9.12.zip) |
@@ -52,6 +53,31 @@ Even more roles are coming soon. :)
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.15 </summary>
+    <ul>
+    <li>Added: Vampire Impostor role</li>
+    <li>Added: ShieldResetAfterMeeting game setting for the Medic</li>
+    <li>Added: GuardResetAfterMeeting game setting for the Bodyguard</li>
+    <li>Added: Sniper venting is now configurable</li>
+    <li>Updated: Priest Sanctify ability now has a configurable delay timer</li>
+    <li>Updated: Ghoul scare lights out effect updated</li>
+    <li>Updated: Sanctify button graphics for the Priest<li>
+    <li>Updated: Confess button graphics for the Priest<li>
+    <li>Updated: Rewind button graphics for the Time Lord<li>
+    <li>Updated: Time Shield button graphics for the Time Lord<li>
+    <li>Updated: Deputy alignment is taken into account by the Priest Confess ability</li>
+    <li>Fixed: Lawyer wins with Jester correctly on host</li>
+    <li>Fixed: GA not winning with their Impostor target</li>
+    <li>Fixed: Survivor winning with Neutrals but end game screen shows Victory for all</li>
+    <li>Fixed: Survivor not winning with the Impostors when alive at the end of the game</li>
+    <li>Fixed: Astral, Outlaw and Poisoner kill buttons are now affected by timer modifications</li>
+    <li>Fixed: Outlaw not getting charges back if kill cooldown is reduced to 0 by Underdog</li>
+    <li>Fixed: Sheriff and Deputy kill buttons now do not go on cooldown if their kill is supressed</li>
+    <li>Fixed: Survivor vest button not using the base graphics and causing a game breaking error</li>
+    <li>Fixed: Transporter self transport ability now resets after meeting</li>
+    </ul>
+  </details>
   <details>
     <summary> v0.9.14 </summary>
     <ul>
@@ -519,17 +545,18 @@ The Priest also has the Sancitfy ability which creates an area where no interact
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Priest | The percentage probability of the Seer appearing | Percentage | 0% |
-| Seer Cooldown | The Cooldown of the Seer's Reveal button | Time | 25s |
+| Priest | The percentage probability of the Priest appearing | Percentage | 0% |
+| Confess Cooldown | The Cooldown of the Priests's Confess button | Time | 25s |
 | Crewmate Killing show up as Evil | Crewmate Killing roles show up as Red | Toggle | False |
 | Neutral Benign show up as Evil | Neutral Benign roles show up as Red | Toggle | False |
 | Neutral Evil show up as Evil | Neutral Evil roles show up as Red | Toggle | False |
 | Neutral Killing show up as Evil | Neutral Killing roles show up as Red | Toggle | False |
 | Traitor does not swap Colours | The Traitor remains their original colour | Toggle | False |
 | Sancitfy Cooldown | - | Time | 25s |
-| Sancitfy Charges | - | Number | 5 |
-| Sancitfy Radius | - | Number | 2 |
-| Sancitfy Duration | - | Time | 25s |
+| Sancitfy Delay | The time delay before sancitfy is placed | Time | 5s |
+| Sancitfy Charges | The number of times you can sanctify the ground | Number | 5 |
+| Sancitfy Radius | The size of the Sanctify | Number | 2 |
+| Sancitfy Duration | The time Sancitfy lasts for | Time | 25s |
 
 -----------------------
 ## Snitch
@@ -612,7 +639,7 @@ During meetings, the Sheriff can choose to kill someone by guessing their role, 
 -----------------------
 ## Deputy
 ### **Team: Crewmates**
-The Deputy has a flash light and the ability to handcuff player.\
+The Deputy has a flash light and the ability to handcuff a player.\
 Handcuffs will be hidden until the handcuffed player try to use a disabled button/hotkey.\
 Handcuffs disable:
 - Kill
@@ -627,7 +654,7 @@ Handcuffs disable:
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Sheriff | The percentage probability of the Sheriff appearing | Percentage | 0% |
+| Deputy | The percentage probability of the Deputy appearing | Percentage | 0% |
 | Sheriff And Deputy Know Each Other | Sheriff And Deputy Know Each Other | Toggle | True |
 | Handcuff Cooldown | Handcuff Cooldown | Time | 30s |
 | Handcuff Duration | Handcuff Duration | Time | 15s |
@@ -701,12 +728,14 @@ A report can contain the name of the killer or the color type (Darker/Lighter)
 |----------|:-------------:|:------:|:------:|
 | Medic | The percentage probability of the Medic appearing | Percentage | 0% |
 | Show Shielded Player | Who should be able to see who is Shielded | Self / Medic / Self + Medic / Everyone | Self |
-| Show Medic Reports | Whether the Medic should get information when reporting a body | Toggle | True |
-| Time Where Medic Reports Will Have Name | If a body has been dead for shorter than this amount, the Medic's report will contain the killer's name | Time | 0s |
-| Time Where Medic Reports Will Have Color Type | If a body has been dead for shorter than this amount, the Medic's report will have the type of color | Time | 15s |
-| Who gets murder attempt indicator | Who will receive an indicator when someone tries to Kill them | Medic / Shielded / Everyone / Nobody | Medic |
+| Who Gets Murder Attempt Indicator | Who will receive an indicator when someone tries to Kill them | Medic / Shielded / Everyone / Nobody | Medic |
+| ShowShieldActivated | Shield Will Be Activated | Instantly / Instantly, Visible After Meeting / After Meeting | Instantly |
 | Shield breaks on murder attempt | Whether the Shield breaks when someone attempts to Kill them | Toggle | False |
-| Vitals Charges | Number of charges you can view the vitals panel | Number | 5 |
+| Shield Reset After Meeting | Shield Resets After Meeting | Toggle | False |
+| Show Medic Reports | Whether the Medic should get information when reporting a body | Toggle | True |
+| Time Where Medic Will Have Name | If a body has been dead for shorter than this amount, the Medic's report will contain the killer's name | Time | 0s |
+| Time Where Medic Will Have Color Type | If a body has been dead for shorter than this amount, the Medic's report will have the type of color | Time | 15s |
+| Max Vitals Charges | Number of charges you can view the vitals panel | Number | 5 |
 | Vitals Duration | How long a single charge lasts for | Time | 10s |
 
 -----------------------
@@ -817,6 +846,7 @@ The bodyguard is a Crewmate that can protect another player from being killed an
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Bodyguard | The percentage probability of the Bodyguard appearing | Percentage | 0% |
+| Guard Reset After Meeting | Guard Resets After Meeting | Toggle | False |
 
 -----------------------
 ## Pursuer
@@ -1249,7 +1279,7 @@ This prevents the blackmailed person from speaking during the next meeting.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Blackmailer | The percentage probability of the Blackmailer appearing | Percentage | 0% |
-| Initial Blackmail Cooldown | The initial cooldown of the Blackmailer's Blackmail button | Time | 10s |
+| Blackmail Cooldown | The cooldown of the Blackmailer's Blackmail button | Time | 10s |
 
 -----------------------
 ## Janitor
@@ -1343,7 +1373,7 @@ The Warlock can still perform normal kills, but the two buttons share the same c
 | Warlock Cooldown | Cooldown for using the Curse and curse Kill | Time | 0% |
 | Warlock Root Time | Time the Warlock is rooted in place after killing using the curse | Time | 3s |
 | Warlock Trigger Both Cooldowns | If set to true, casting a spell will also trigger cooldown of the kill button and vice versa (but the two cooldowns may vary) | Toggle | False |
-| Warlock can Vent | Whether the Warlock can Vent | Toggle | False |
+| Warlock Vent | Whether the Warlock can Vent | Toggle | False |
 
 -----------------------
 ## Witch
@@ -1369,6 +1399,7 @@ Depending on the options you can choose whether voting the Witch out will save a
 | Witch Spell Casting Duration | The time that you need to stay next to the target in order to cast a spell on it | Time | 1s |
 | Trigger Both Cooldowns | If set to true, casting a spell will also trigger cooldown of the kill button and vice versa (but the two cooldowns may vary) | Toggle | False |
 | Voting The Witch Saves All The Targets | If set to true, all the cursed targets will survive at the end of the meeting | Toggle | True |
+| Witch Vent | Whether the Witch can Vent | Toggle | False |
 
 -----------------------
 ## Ninja
@@ -1394,8 +1425,9 @@ When performing a ninja ability kill, the ninja can be invisible for some second
 | Ninja Mark Cooldown | Cooldown for using the Mark/Assasinate ability | Time | 25s |
 | Ninja Knows Location Of Target | If enabled an arrow indicates the direction of the Ninjas target | Toggle | False |
 | Trace Duration | The time that the leaves remain after a kill | Time | 5s |
-| Time Till Trace Color Has Faded | - | Time | 2s |
-| Time The Ninja Is Invisible | - | Time | 10s |
+| Time Till Trace Color Has Faded | Time Till Trace Color Has Faded | Time | 2s |
+| Invisible Duration | Time The Ninja Is Invisible | Time | 10s |
+| Ninja Vent | Whether the Ninja can Vent | Toggle | False |
 
 -----------------------
 ## Astral
@@ -1407,8 +1439,9 @@ however if they do not kill within a certain time frame, they will stay dead.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Astral | The percentage probability of the Astral appearing | Percentage | 0% |
-| Astral Duration | - | Time | 10s |
-| Astral Vent | Whether the Astral can Vent | Toggle | True |
+| Astral Cooldown | Astral Form Cooldown | Time | 25s |
+| Astral Duration | Astral Form Duration | Time | 10s |
+| Astral Vent | Whether the Astral can Vent | Toggle | False |
 
 -----------------------
 ## Hypnotist
@@ -1421,7 +1454,7 @@ The Hypnotist is an Impostor who can revive dead players and make them a Traitor
 | Hypnotist | The percentage probability of the Hypnotist appearing | Percentage | 0% |
 | Hypnotist Revive Cooldown | Cooldown for using the Revive ability | Time | 10s |
 | Hypnotist Revive Charges | The number of times the Hypnotist can revive a dead player | Number | 5 |
-| Hypnotist Vent | Whether the Hypnotist can Vent | Toggle | True |
+| Hypnotist Vent | Whether the Hypnotist can Vent | Toggle | False |
 
 -----------------------
 ## Scorpion
@@ -1433,7 +1466,7 @@ The Scorpion is an Impostor who can mark a player for teleportation and teleport
 |----------|:-------------:|:------:|:------:|
 | Scorpion | The percentage probability of the Scorpion appearing | Percentage | 0% |
 | Scorpion Knows Target Location | - | Toggle | True |
-| Scorpion Vent | Whether the Scorpion can Vent | Toggle | True |
+| Scorpion Vent | Whether the Scorpion can Vent | Toggle | False |
 
 -----------------------
 ## Outlaw
@@ -1445,7 +1478,7 @@ The Outlaw is an Impostor who can kill twice in a row within a certain time fram
 |----------|:-------------:|:------:|:------:|
 | Outlaw | The percentage probability of the Outlaw appearing | Percentage | 0% |
 | Outlaw Second Kill Cooldown | Time window that Outlaw can kill again before cooldown is incurred | Time | 10s |
-| Outlaw Vent | Whether the Outlaw can Vent | Toggle | True |
+| Outlaw Vent | Whether the Outlaw can Vent | Toggle | False |
 
 -----------------------
 ## Ghoul
@@ -1469,6 +1502,7 @@ The Sniper is an Impostor role that can kill players from a distance.
 |----------|:-------------:|:------:|:------:|
 | Sniper | The percentage probability of the Sniper appearing | Percentage | 0% |
 | Sniper Cooldown | Cooldown for using the Snipe ability | Time | 25s |
+| Sniper Vent | Whether the Sniper can Vent | Toggle | False |
 
 -----------------------
 ## Possessor
@@ -1483,9 +1517,25 @@ The Possessor is an Impostor role that can take control of players and kill them
 | Possessor Casting Duration | The time that you need to stay next to the target in order to cast a spell on it | Time | 1s |
 | Possessor Delay | The time after casting before the Possessor takes control of their victim | Time | 5s |
 | Possess Kill Cooldown | Cooldown for using the Kill ability once a victim is possessed | Time | 5s |
+| Possessor Vent | Whether the Possessor can Vent | Toggle | False |
 
 -----------------------
+## Vampire
+### **Team: Impostors**
+The Vampire is an Impostor role that can only kill when lights are off.\
+To assist in the killing the Vampire has a seperate lights out ability.\
+During lights out the Vampire speeds up, turns black and their name becomes red and shows as "VAMPIRE"
 
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Vampire | The percentage probability of the Vampire appearing | Percentage | 0% |
+| Vampire Lights Cooldown | Cooldown for using the Lights ability | Time | 25s |
+| Vampire Lights Duration | Duration of the Lights ability | Time | 25s |
+| Vampire Kill Cooldown | Cooldown for using the Kill ability | Time | 25s |
+| Vampire Vent | Whether the Vampire can Vent | Toggle | False |
+
+-----------------------
 # Modifiers
 Modifiers are added on top of players' roles.
 
