@@ -34,6 +34,7 @@ Even more roles are coming soon. :)
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.10.25s & 2022.10.25e | v0.9.16 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.16/AllTheRoles-0.9.16.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.15 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.15/AllTheRoles-0.9.15.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.14 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.14/AllTheRoles-0.9.14.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.13 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.13/AllTheRoles-0.9.13.zip) |
@@ -53,6 +54,12 @@ Even more roles are coming soon. :)
 
 <details>
   <summary> Changelog </summary>
+    <details>
+    <summary> v0.9.16 </summary>
+    <ul>
+
+    </ul>
+  </details>
   <details>
     <summary> v0.9.15 </summary>
     <ul>
@@ -1787,6 +1794,32 @@ and can no longer geuss the person who they guessed wrong for the remainder of t
 | Double Shot| The percentage probability of Double Shot appearing | Percentage | 0% |
 
 -----------------------
+# Game Mode Settings
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Game Mode | What game mode the next game will be | Classic / All Any / Killing Only | Classic |
+| Vanilla Game | Probability Of A Completely Vanilla Game | Percentage | 0% |
+
+-----------------------
+# Classic Game Mode Settings
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Min Neutral Non-Killing Roles | The minimum number of Neutral non-killing roles a game can have | Number | 1 |
+| Max Neutral Non-Killing Roles | The maximum number of Neutral non-killing roles a game can have | Number | 1 |
+| Min Neutral Killing Roles | The minimum number of Neutral killing roles a game can have | Number | 1 |
+| Max Neutral Killing Roles | The maximum number of Neutral killing roles a game can have | Number | 1 |
+
+-----------------------
+# Killing Only Settings
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Neutral Roles | How many neutrals roles will spawn | Number | 1 |
+| Veteran Count | How many Veterans will spawn | Number | 1 |
+| Vigilante Count | How many Vigilantes will spawn | Number | 1 |
+| Add Arsonist | Whether Arsonist will be added to the role list | Toggle | True |
+| Add Plaguebearer | Whether Plaguebearer will be added to the role list | Toggle | True |
+
+-----------------------
 # Map Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -1805,15 +1838,6 @@ and can no longer geuss the person who they guessed wrong for the remainder of t
 | Vitals Lab | Vitals Moved To Lab | Toggle | False |
 | Cold Temp Death Valley | Cold Temp Moved To Death Valley | Toggle | False |
 | Wifi Chart Course Swap | Reboot Wifi And Chart Course Swapped | Toggle | False |
-
------------------------
-# Game Mode Settings
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Min Neutral Non-Killing Roles | The minimum number of Neutral non-killing roles a game can have | Number | 1 |
-| Max Neutral Non-Killing Roles | The maximum number of Neutral non-killing roles a game can have | Number | 1 |
-| Min Neutral Killing Roles | The minimum number of Neutral killing roles a game can have | Number | 1 |
-| Max Neutral Killing Roles | The maximum number of Neutral killing roles a game can have | Number | 1 |
 
 -----------------------
 # Custom Game Settings
