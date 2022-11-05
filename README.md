@@ -57,7 +57,16 @@ Even more roles are coming soon. :)
     <details>
     <summary> v0.9.16 </summary>
     <ul>
-
+    <li>Added: Killing Only game setting</li>
+    <li>Updated: Vampire lights out effect</li>
+    <li>Updated: Handcuff and Lighter button graphics for the Deputy</li>
+    <li>Updated: Priest Sanctify graphics</li>
+    <li>Fixed: Rewrote Vigilante Exile logic, now also works with the submerged map</li>
+    <li>Fixed: Arsonist Douse effect showing correctly on target</li>
+    <li>Fixed: Shields on the Vampire now won't display while in Vampire form</li>
+    <li>Fixed: Torch not being able to see when Vampire lights are out</li>
+    <li>Fixed: Vampire lights button cooldown text being green after meeting ends</li>
+    <li>Fixed: Vampire Form name being the players name instead of "VAMPIRE"</li>
     </ul>
   </details>
   <details>
