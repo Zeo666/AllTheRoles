@@ -448,7 +448,7 @@ Even more roles are coming soon. :)
 9. Duplicate the new Among Us Folder.
 10. Rename it to `Among Us - ATR`.
 11. Double-click on the zip file you downloaded.
-12. Drag all the files from the zip file in the new ToU folder.
+12. Drag all the files from the zip file in the new ATR folder.
 13. Finally, launch `Among Us.exe` from that folder.
 
 A first launch may take up to 5 minutes, so be patient if it doesn't launch immediately.
