@@ -34,6 +34,7 @@ Even more roles are coming soon. :)
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.10.25s & 2022.10.25e | v0.9.17 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.17/AllTheRoles-0.9.17.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.16 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.16/AllTheRoles-0.9.16.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.15 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.15/AllTheRoles-0.9.15.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.14 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.14/AllTheRoles-0.9.14.zip) |
@@ -54,7 +55,16 @@ Even more roles are coming soon. :)
 
 <details>
   <summary> Changelog </summary>
-    <details>
+  <details>
+    <summary> v0.9.17 </summary>
+    <ul>
+    <li>Added: EnableModifiers game setting</li>
+    <li>Updated: Trap button graphics for the Trapper</li>
+    <li>Fixed: Game settings not being propagated</li>
+    <li>Fixed: Disperser not showing for other players besides host</li>
+    </ul>
+  </details>
+  <details>
     <summary> v0.9.16 </summary>
     <ul>
     <li>Added: Killing Only game setting</li>
@@ -1806,8 +1816,9 @@ and can no longer geuss the person who they guessed wrong for the remainder of t
 # Game Mode Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Game Mode | What game mode the next game will be | Classic / All Any / Killing Only | Classic |
+| Game Mode | What game mode the next game will be | Classic / Killing Only | Classic |
 | Vanilla Game | Probability Of A Completely Vanilla Game | Percentage | 0% |
+| Enable Modifiers | Whether modifiers are assigned to players | Toggle | False |
 
 -----------------------
 # Classic Game Mode Settings
