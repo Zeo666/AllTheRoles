@@ -5,6 +5,8 @@
 **All The Roles** is a mod for [Among Us](https://store.steampowered.com/app/945360/Among_Us) which adds many new [Roles](#roles), new [Map Settings](#map-settings) and new [Custom Hats](#custom-hats) to the game.
 Even more roles are coming soon. :)
 
+Join our [Discord](https://discord.gg/sAfft2Wn) if you have any problems or want to find people to play with!
+
 | Impostors | Crewmates | Neutral | Modifier |
 |----------|-------------|-----------------|----------------|
 | [Grenadier](#grenadier)       | [Detective](#detective)       | [Amnesiac](#amnesiac)             | [Bait](#bait)                 |
