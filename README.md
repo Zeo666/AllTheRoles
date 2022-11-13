@@ -36,6 +36,7 @@ Join our [Discord](https://discord.gg/sAfft2Wn) if you have any problems or want
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.10.25s & 2022.10.25e | v0.9.18 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.18/AllTheRoles-0.9.18.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.17 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.17/AllTheRoles-0.9.17.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.16 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.16/AllTheRoles-0.9.16.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.15 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.15/AllTheRoles-0.9.15.zip) |
@@ -57,6 +58,41 @@ Join our [Discord](https://discord.gg/sAfft2Wn) if you have any problems or want
 
 <details>
   <summary> Changelog </summary>
+   <details>
+    <summary> v0.9.18 </summary>
+    <ul>
+    <li>Added: Hide And Seek game mode</li>
+    <li>Added: New Transporter button graphics </li>
+    <li>Added: Teleporter Beacon for when the Transporter marks a location</li>
+    <li>Added: Discord button to main menu</li>
+    <li>Updated: All charge based buttons now show the max value (x/x)</li>
+    <li>Updated: Player tracking icons refresh after meeting for the Plaguebearer</li>
+    <li>Updated: Player tracking icons now disappear when the Plaguebearer dies</li>
+    <li>Updated: Player tracking icons refresh after meeting for the Arsonist</li>
+    <li>Updated: Player tracking icons now disappear when the Arsonist dies</li>
+    <li>Updated: Exchanged Witch for Poisoner in Killing Only</li>
+    <li>Updated: Priest can no longer confess a player who already confessed</li>
+    <li>Updated: A Bodyguard's target now has a shield to prevent them dieing right after the Bodyguards sacrifice</li>
+    <li>Updated: End game role summary now shows who killed who</li>
+    <li>Updated: Sniper blaster is now colour coded to the players colour</li>
+    <li>Fixed: Vigilante being stuck on a vent after being voted out</li>
+    <li>Fixed: Astral form now animates when moving</li>
+    <li>Fixed: Swooper and Astral name being visible if they were the target of another player</li>
+    <li>Fixed: First Kill Shield appearing on morphed targets</li>
+    <li>Fixed: Vampire lights out effect being stuck after the Vampire is killed</li>
+    <li>Fixed: Roles who can't do tasks getting multitasker modifier and other crewmate modifiers</li>
+    <li>Fixed: Sniper blaster being equiped after a meeting</li>
+    <li>Fixed: Vent icon appearing for those without vent ability when hacked</li>
+    <li>Fixed: Deputy lighter ability duration being incorrect</li>
+    <li>Fixed: Future sealed vents having the correct sprite in Submerged</li>
+    <li>Fixed: Possessor cooldown text being green after meeting</li>
+    <li>Fixed: Plaguebearer not turning into Pestilence when all alive infected</li>
+    <li>Fixed: Pestilence dieing when their lover partner dies in game</li>
+    <li>Fixed: Blackmailer target not resetting after meeting</li>
+    <li>Fixed: Detective and Medium reports now show the first role of a dead player</li>
+    <li>Fixed: Colourblind text no longer appears on the Haunter and Phantom</li>
+    </ul>
+  </details> 
   <details>
     <summary> v0.9.17 </summary>
     <ul>
@@ -875,6 +911,7 @@ The bodyguard is a Crewmate that can protect another player from being killed an
 |----------|:-------------:|:------:|:------:|
 | Bodyguard | The percentage probability of the Bodyguard appearing | Percentage | 0% |
 | Guard Reset After Meeting | Guard Resets After Meeting | Toggle | False |
+| Guard Shield Duration | Guard Shield Duration | Time | 1s |
 
 -----------------------
 ## Pursuer
@@ -1818,7 +1855,7 @@ and can no longer geuss the person who they guessed wrong for the remainder of t
 # Game Mode Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Game Mode | What game mode the next game will be | Classic / Killing Only | Classic |
+| Game Mode | What game mode the next game will be | Classic / Killing Only / Hide And Seek | Classic |
 | Vanilla Game | Probability Of A Completely Vanilla Game | Percentage | 0% |
 | Enable Modifiers | Whether modifiers are assigned to players | Toggle | False |
 
@@ -1840,6 +1877,26 @@ and can no longer geuss the person who they guessed wrong for the remainder of t
 | Vigilante Count | How many Vigilantes will spawn | Number | 1 |
 | Add Arsonist | Whether Arsonist will be added to the role list | Toggle | True |
 | Add Plaguebearer | Whether Plaguebearer will be added to the role list | Toggle | True |
+
+-----------------------
+# Hide And Seek Settings
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Hide And Seek Timer | Hide And Seek Timer | Time | 5m |
+| Wait Period Duration | Wait Period Duration | Time | 15s |
+| Task Punish Time | Task Punish Time | Time | 10s |
+| All Task Punish Time | All Task Punish Time | Time | 20s |
+| Hunter Kill Cooldown | Hunter Kill Cooldown | Time | 25s |
+| Hunter Vision | Hunter Vision | Time | 0.5 |
+| Hunter Light Cooldown | Hunter Light Cooldown | Time | 25s |
+| Hunter Light Duration | Hunter Light Duration | Time | 5s |
+| Hunter Admin Cooldown | Hunter Admin Cooldown | Time | 5 |
+| Hunter Admin Duration | Hunter Admin Duration | Time | 10s |
+| Hunter Arrow Cooldown | Hunter Arrow Cooldown | Time | 5s |
+| Hunter Arrow Duration | Hunter Arrow Duration | Time | 5s |
+| Hunted Vision | Hunted Vision | Number | 2x
+| Hunted Shield Cooldown | Hunted Shield Cooldown | Time | 25 |
+| Hunted Shield Duration | Hunted Shield Duration | Time | 5 |
 
 -----------------------
 # Map Settings
@@ -1959,17 +2016,19 @@ Here are a few instructions, on how to create a custom hat:
 # Credits & Resources
 <b>HannahTheBeef</b> - For the new button graphics
 
-[Reactor](https://github.com/NuclearPowered/Reactor) - The framework of the mod\
-[BepInEx](https://github.com/BepInEx) - For hooking game functions\
+[Reactor](https://github.com/NuclearPowered/Reactor) - The framework of the mod.\
+[BepInEx](https://github.com/BepInEx) - For hooking game functions.\
 [Among-Us-Sheriff-Mod](https://github.com/Woodi-dev/Among-Us-Sheriff-Mod) - For the Sheriff role.\
-[Among-Us-Love-Couple-Mod](https://github.com/Woodi-dev/Among-Us-Love-Couple-Mod) - For the inspiration of Lovers role.\
+[Among-Us-Love-Couple-Mod](https://github.com/Woodi-dev/Among-Us-Love-Couple-Mod) - For the inspiration of Lovers modifier.\
 [ExtraRolesAmongUs](https://github.com/NotHunter101/ExtraRolesAmongUs) - For the Engineer & Medic roles.\
 [TooManyRolesMods](https://github.com/Hardel-DW/TooManyRolesMods) - For the Investigator & Time Lord roles.\
 [Goose-Goose-Duck](https://store.steampowered.com/app/1568590/Goose_Goose_Duck) - Idea for the Vulture role.\
 [TownOfUs](https://github.com/slushiegoose/Town-Of-Us) - Idea for Shifter, Executioner, Arsonist, Glitch, Phantom, Swooper, Miner, Janitor, Underdog, Undertaker, Mayor, Swapper, Altruist, Seer roles.\
 [TownOfUs-R](https://github.com/eDonnes124/Town-Of-Us-R) - Idea for Detective, Mystic, Guardian Angel, Juggernaut, Blackmailer, Grenadier, Traitor, Werewolf, Plaguebearer, Survivor, Amnesiac, Poisoner, Trapper, Haunter roles.\
-[TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) - Idea for Bounty Hunter, Ninja, Jackal, Lawyer, Pursuer, Witch, Warlock, Spy roles.\
-[Alexejhero](https://github.com/SubmergedAmongUs/Submerged) - For the Submerged map.
+[TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) - Idea for Bounty Hunter, Ninja, Jackal, Lawyer, Pursuer, Witch, Warlock, Spy, Time Master roles.\
+[TorchMod](https://github.com/tomozbot/TorchMod) - For the inspiration of the Torch modifier.\
+[Alexejhero](https://github.com/SubmergedAmongUs/Submerged) - For the Submerged map.\
+[BryBry16](https://github.com/Brybry16/BetterPolus) - For the code used for Better Polus.
 
 <b>The developers & contributors of TownOfUs, TownOfUs-R & The Other Roles:</b>
 Slushiegoose, eDonnes124, Eisbison, Ottomated, Woodi-dev, Maartii, NotHunter101, Hardel-DW, MyDragonBreath, ItsTheNumberH, Ruiner, Term, Dhalucard
