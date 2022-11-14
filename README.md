@@ -36,6 +36,7 @@ Join our [Discord](https://discord.gg/sAfft2Wn) if you have any problems or want
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.10.25s & 2022.10.25e | v0.9.19 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.19/AllTheRoles-0.9.19.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.18 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.18/AllTheRoles-0.9.18.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.17 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.17/AllTheRoles-0.9.17.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.16 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.16/AllTheRoles-0.9.16.zip) |
@@ -58,6 +59,28 @@ Join our [Discord](https://discord.gg/sAfft2Wn) if you have any problems or want
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.19 </summary>
+    <ul>
+    <li>Added: Timer punishment for Hunters using their abilities</li>
+    <li>Added: Sound klaxon to indicated start of hide and seek game</li>
+    <li>Added: Hide And Seek player tracking icons</li>
+    <li>Added: Hunted time shield outline and shield break effect</li>
+    <li>Added: Hunter time remaining text on end game screen</li>
+    <li>Added: Time shield rewind game setting for the Hunted</li>
+    <li>Added: Vampire to Guesser selection</li>
+    <li>Added: KillsAttackerOnGuard game setting for the Bodyguard</li>
+    <li>Updated: Sabotage button doesn't show in Hide and Seek mode</li>
+    <li>Updated: End game summary text size has been decreased</li>
+    <li>Updated: Amnesiac turns into the shifter when a certain player alive threshold is met</li>
+    <li>Fixed: Hide And Seek timer not showing</li>
+    <li>Fixed: The sabotage map showing for Hunters in Hide and Seek mode</li>
+    <li>Fixed: Chameleon resets a players visibility when shifted</li>
+    <li>Fixed: Werewolf being able to vent outside of rampage</li>
+    <li>Fixed: Loading animation showing when time rewind has finished</li>
+    <li>Fixed: Astral glitch when meetings ends and the player has no collision</li>
+    </ul>
+  </details> 
    <details>
     <summary> v0.9.18 </summary>
     <ul>
@@ -904,7 +927,8 @@ Players who have been transported are alerted with a blue flash on their screen.
 -----------------------
 ## Bodyguard
 ### **Team: Crewmates**
-The bodyguard is a Crewmate that can protect another player from being killed and taking their place as the victim.
+The bodyguard is a Crewmate that can protect another player from being killed and taking their place as the victim,\
+with an option to also kill the attacker.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -912,6 +936,7 @@ The bodyguard is a Crewmate that can protect another player from being killed an
 | Bodyguard | The percentage probability of the Bodyguard appearing | Percentage | 0% |
 | Guard Reset After Meeting | Guard Resets After Meeting | Toggle | False |
 | Guard Shield Duration | Guard Shield Duration | Time | 1s |
+| Kills Attacker On Guard | Kills Attacker on Guard | Toggle | False |
 
 -----------------------
 ## Pursuer
@@ -942,6 +967,7 @@ Once they remember their role, they go on to try win with their new win conditio
 | Amnesiac | The percentage probability of the Amnesiac appearing | Percentage | 0% |
 | Amnesiac Gets Arrows | Whether the Amnesiac has arrows pointing to dead bodies | Toggle | False |
 | Arrow Appear Delay | The delay of the arrows appearing after the person died | Time | 5s |
+| Latest Turn Into Shifter | Minimum People Alive When Amnesiac Turns Into Shifter | Number | 5 |
 
 -----------------------
 ## Guardian Angel
@@ -1897,6 +1923,7 @@ and can no longer geuss the person who they guessed wrong for the remainder of t
 | Hunted Vision | Hunted Vision | Number | 2x
 | Hunted Shield Cooldown | Hunted Shield Cooldown | Time | 25 |
 | Hunted Shield Duration | Hunted Shield Duration | Time | 5 |
+| Hunted Shield Rewind | Hunted Shield Rewind | Time | 2 |
 
 -----------------------
 # Map Settings
