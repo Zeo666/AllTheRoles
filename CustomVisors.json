@@ -1,0 +1,21 @@
+{
+  "visors": [
+    {
+      "author": "Test",
+      "condition": "None",
+      "name": "Eyemask",
+      "package": "Community",
+      "reshasha": "9c2b14f920e4f876462691cd97981677",
+      "resource": "Eyemask.png"
+    },
+    {
+      "author": "Test",
+      "adaptive": true,
+      "condition": "None",
+      "name": "Angry",
+      "package": "Community",
+      "reshasha": "ae33c32e7494c40de67ff312a095e000",
+      "resource": "Angry.png"
+    }
+  ]
+}
