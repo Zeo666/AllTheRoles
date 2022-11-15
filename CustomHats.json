@@ -119,6 +119,7 @@
     },
     {
       "author": "HannahTheBeef",
+      "adaptive": true,
       "climbresource": "Vader_climb.png",
       "condition": "None",
       "flipresource": "Vader_flip_adaptive.png",
