@@ -1,0 +1,52 @@
+{
+  "nameplates": [
+    {
+      "author": "Rey",
+      "condition": "None",
+      "name": "Color Plate - Blue",
+      "package": "Community Nameplates",
+      "reshasha": "07c15ae2adafa75da17ef19aa28b79c2",
+      "resource": "ColorBlue.png"
+    },
+    {
+      "author": "Rey",
+      "condition": "None",
+      "name": "Color Plate - Green",
+      "package": "Community Nameplates",
+      "reshasha": "cef3439b7c45bd7f34f34b2d8791a13d",
+      "resource": "ColorGreen.png"
+    },
+    {
+      "author": "Rey",
+      "condition": "None",
+      "name": "Color Plate - Yellow",
+      "package": "Community Nameplates",
+      "reshasha": "5789cd76792382455f62ad965af98e1e",
+      "resource": "ColorYellow.png"
+    },
+    {
+      "author": "Rey",
+      "condition": "None",
+      "name": "Color Plate - Red",
+      "package": "Community Nameplates",
+      "reshasha": "4973ae4258acb6601d9b5bc3cd30ad3b",
+      "resource": "ColorRed.png"
+    },
+    {
+      "author": "Sakuraba",
+      "condition": "None",
+      "name": "Sakura",
+      "package": "Community Nameplates",
+      "reshasha": "05a998cb7f33f91130b77c0ce05d5ab6",
+      "resource": "Sakura.png"
+    },
+    {
+      "author": "Rey",
+      "condition": "None",
+      "name": "Transparent",
+      "package": "Community Nameplates",
+      "reshasha": "54a258931cb8f41250d2d0ea7854e501",
+      "resource": "Transparent.png"
+    }
+  ]
+}
