@@ -47,6 +47,38 @@
       "package": "Community Nameplates",
       "reshasha": "54a258931cb8f41250d2d0ea7854e501",
       "resource": "Transparent.png"
+    },
+    {
+      "author": "Rey",
+      "condition": "None",
+      "name": "Blackboard",
+      "package": "Community Nameplates",
+      "reshasha": "fa50c377d7af25c6d5ad027f8b614f6c",
+      "resource": "Blackboard.png"
+    },
+    {
+      "author": "Rey",
+      "condition": "None",
+      "name": "Rainbow",
+      "package": "Community Nameplates",
+      "reshasha": "f73215cdaa4e50d3c5ea0d52b3f80f3f",
+      "resource": "Rainbow.png"
+    },
+    {
+      "author": "Rey",
+      "condition": "None",
+      "name": "Download",
+      "package": "Community Nameplates",
+      "reshasha": "528ca2172bd43a53ebddffb1108bfd36",
+      "resource": "Download.png"
+    },
+    {
+      "author": "Rey",
+      "condition": "None",
+      "name": "Vital",
+      "package": "Community Nameplates",
+      "reshasha": "4c358f29108549aa929d5ca914ae0eb7",
+      "resource": "Vital.png"
     }
   ]
 }
