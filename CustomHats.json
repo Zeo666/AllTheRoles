@@ -25,8 +25,8 @@
     {
       "author": "NotLeo",
       "climbresource": "Vape_climb.png",
-      "flipresource": "Vape_flip.png",
       "condition": "None",
+      "flipresource": "Vape_flip.png",
       "name": "Vape",
       "package": "Not Leo Hats",
       "reshasha": "2b7738c80577900ed32b607aab5f6eac",
@@ -116,6 +116,18 @@
       "reshashb": "4a5dab9dfaf7c5e1187bd32ef2ea8a5e",
       "reshashc": "1af013c66d999d47d908dcd0eb43632c",
       "resource": "PrideFox.png"
+    },
+    {
+      "author": "HannahTheBeef",
+      "climbresource": "Vader_climb.png",
+      "condition": "None",
+      "flipresource": "Vader_flip_adaptive.png",
+      "name": "Vader",
+      "package": "HannahTheBeef Hats",
+      "reshasha": "59479715b97474f205b895fb2696571e",
+      "reshashf": "bd3cd9ba4ae4e35531f54e70799cb79e",
+      "reshashc": "9cf0cb549214299efead0603ee32ec17",
+      "resource": "Vader_adaptive.png"
     },
     {
       "author": "King Kobra",
