@@ -2,9 +2,10 @@
   "visors": [
     {
       "author": "Test",
+      "adaptive": true,
       "condition": "None",
       "name": "Eyemask",
-      "package": "Community",
+      "package": "Community Visors",
       "reshasha": "9c2b14f920e4f876462691cd97981677",
       "resource": "Eyemask.png"
     },
@@ -13,7 +14,7 @@
       "adaptive": true,
       "condition": "None",
       "name": "Angry",
-      "package": "Community",
+      "package": "Community Visors",
       "reshasha": "ae33c32e7494c40de67ff312a095e000",
       "resource": "Angry.png"
     }
