@@ -36,6 +36,7 @@ Join our [Discord](https://discord.gg/sAfft2Wn) if you have any problems or want
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.10.25s & 2022.10.25e | v0.9.20 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.20/AllTheRoles-0.9.20.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.19 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.19/AllTheRoles-0.9.19.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.18 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.18/AllTheRoles-0.9.18.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.17 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.17/AllTheRoles-0.9.17.zip) |
@@ -59,6 +60,33 @@ Join our [Discord](https://discord.gg/sAfft2Wn) if you have any problems or want
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.20 </summary>
+    <ul>
+    <li>Added: Dynamic colours</li>
+    <li>Added: Custom visors</li>
+    <li>Added: Custom nameplates</li>
+    <li>Added: SniperCanKillImpostors setting for the Sniper to prevent them being able to shoot their impostor team mates</li>
+    <li>Added: Rampage button graphics for the Werewolf</li>
+    <li>Updated: Sanctify now lasts forever and only shows when a bad thing happens within its radius</li>
+    <li>Updated: 2 second cooldown after Morphling sample to prevent morphing by accident</li>
+    <li>Updated: An attack on a time shielded player will reset the attackers cooldowns by 2 seconds</li>
+    <li>Updated: Debputy Handcuff now has limited charges</li>
+    <li>Updated: Bodyguard KillsAttackerOnGuard now checks for shield and pestilence</li>
+    <li>Updated: Moved mod setting buttons to left hand side</li>
+    <li>Fixed: Hats in hats tab showing outside scrollable container</li>
+    <li>Fixed: Haunter and Phantom not being visible to the living when not caught</li>
+    <li>Fixed: Bomber throw bomb ability killing multiple times</li>
+    <li>Fixed: Arsonist and Plaguebearer black names now correctly don't override the alpha channel</li>
+    <li>Fixed: Amnesiac not getting the guessing ability when they get the Sheriff role</li>
+    <li>Fixed: Phantom spawning on a sealed vent</li>
+    <li>Fixed: Deputy not being able to kill once promoted to Sheriff</li>
+    <li>Fixed: Bodyguard target not resetting if Bodyguard dies</li>
+    <li>Fixed: Loading animation no longer plays after a grenade flash has ended</li>
+    <li>Fixed: Possession message should no longer appear in meeting</li>
+    <li>Fixed: Astral not turning into a ghost when killed</li>
+    </ul>
+  </details> 
   <details>
     <summary> v0.9.19 </summary>
     <ul>
@@ -1593,6 +1621,7 @@ The Sniper is an Impostor role that can kill players from a distance.
 |----------|:-------------:|:------:|:------:|
 | Sniper | The percentage probability of the Sniper appearing | Percentage | 0% |
 | Sniper Cooldown | Cooldown for using the Snipe ability | Time | 25s |
+| Sniper Can Kill Impostors | Sniper Can Kill Impostors | Toggle | False |
 | Sniper Vent | Whether the Sniper can Vent | Toggle | False |
 
 -----------------------
