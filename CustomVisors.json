@@ -17,6 +17,14 @@
       "package": "Community Visors",
       "reshasha": "ae33c32e7494c40de67ff312a095e000",
       "resource": "Angry.png"
+    },
+    {
+      "author": "Zeo",
+      "condition": "None",
+      "name": "Star",
+      "package": "Community Visors",
+      "reshasha": "6073c9eec8e40113ba42e0a4aa5c1f91",
+      "resource": "Star.png"
     }
   ]
 }
