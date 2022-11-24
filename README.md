@@ -36,6 +36,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.10.25s & 2022.10.25e | v0.9.21 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.21/AllTheRoles-0.9.21.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.20 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.20/AllTheRoles-0.9.20.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.19 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.19/AllTheRoles-0.9.19.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.18 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.18/AllTheRoles-0.9.18.zip) |
@@ -60,13 +61,26 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
+<details>
+    <summary> v0.9.21 </summary>
+    <ul>
+    <li>Added: Avenger neutral role</li>
+    <li>Added: Bomb button graphics for the Bomber</li>
+    <li>Added: Holy Water graphics for the Priest Sanctify ability</li>
+    <li>Added: LoversCanBeAvenged game setting to enable the Avenger role</li>
+    <li>Added: AvengerRevealDistance game setting for the Avenger role invisibility reveal</li>
+    <li>Added: AvengerUpdateInterval game setting for the Avenger role arrow update time</li>
+    <li>Updated: Disabled dynamic colours</li>
+    <li>Updated: PlayerIcons now show the selected visor</li>
+    </ul>
+  </details> 
   <details>
     <summary> v0.9.20 </summary>
     <ul>
     <li>Added: Dynamic colours</li>
     <li>Added: Custom visors</li>
     <li>Added: Custom nameplates</li>
-    <li>Added: SniperCanKillImpostors setting for the Sniper to prevent them being able to shoot their impostor team mates</li>
+    <li>Added: SniperCanKillImpostors game setting for the Sniper to prevent them being able to shoot their impostor team mates</li>
     <li>Added: Rampage button graphics for the Werewolf</li>
     <li>Updated: Sanctify now lasts forever and only shows when a bad thing happens within its radius</li>
     <li>Updated: 2 second cooldown after Morphling sample to prevent morphing by accident</li>
@@ -1755,6 +1769,11 @@ They gain the primary objective to stay alive together.\
 If they are both among the last 3 players, they win.\
 In order to so, they gain access to a private chat, only visible by them in between meetings.\
 However, they can also win with their respective team, hence why the Lovers do not know the role of the other lover.
+
+The lovers have a second win condition: The lover that dies due to their partner being killed will become the Avenger in the next round.\
+The Avenger needs to kill the player responsbible for their lovers death for both Lovers to win. \
+The Avenger will initially spawn in a vent and will be invisible to everyone until they come within a certain distance of their target.\
+An arrow will indicate to their target that the Avenger is coming for them.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -1762,6 +1781,9 @@ However, they can also win with their respective team, hence why the Lovers do n
 | Both Lovers Die | Whether the other Lover automatically dies if the other does | Toggle | True |
 | Loving Impostor Probability | The chances of one lover being an Impostor | Percentage | 20% |
 | Neutral Roles Can Be Lovers | Whether a Lover can be a Neutral Role | Toggle | True |
+| Lovers Can Be Avenged | Lovers Can Be Avenged | Toggle | True |
+| Avenger Reveal Distance | Avenger Reveal Distance | Number | 5 |
+| Avenger Update Interval | Avenger Arrow Update Interval | Time | 5s |
 
 -----------------------
 ## Sleuth
