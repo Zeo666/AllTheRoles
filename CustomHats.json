@@ -131,6 +131,14 @@
       "resource": "Vader_adaptive.png"
     },
     {
+      "author": "HannahTheBeef",
+      "condition": "None",
+      "name": "Hypnotoad",
+      "package": "HannahTheBeef Hats",
+      "reshasha": "29bc4dae3fdf3453661ebcff4e6c85ee",
+      "resource": "Hypnotoad.png"
+    }
+    {
       "author": "King Kobra",
       "climbresource": "The_Happening_climb.png",
       "condition": "None",
