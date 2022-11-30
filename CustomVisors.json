@@ -30,7 +30,7 @@
       "resource": "CatEye_adaptive.png"
     },
     {
-      "author": "Test",
+      "author": "Catudon",
       "adaptive": true,
       "condition": "None",
       "name": "Eyemask",
@@ -39,7 +39,7 @@
       "resource": "Eyemask.png"
     },
     {
-      "author": "Test",
+      "author": "Catudon",
       "adaptive": true,
       "condition": "None",
       "name": "Angry",
