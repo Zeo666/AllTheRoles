@@ -1,6 +1,35 @@
 {
   "visors": [
     {
+      "author": "HannahTheBeef",
+      "adaptive": false,
+      "condition": "None",
+      "name": "Princess Bride",
+      "package": "HannahTheBeef Visors",
+      "reshasha": "7896c30788deb693cf2170e984e88346",
+      "resource": "PrincessBride.png"
+    },
+    {
+      "author": "HannahTheBeef",
+      "adaptive": true,
+      "condition": "None",
+      "name": "Kockbra",
+      "package": "HannahTheBeef Visors",
+      "reshasha": "240559cce883b52365c1469f24dc5b46",
+      "resource": "Kockbra.png"
+    },
+    {
+      "author": "HannahTheBeef",
+      "adaptive": true,
+      "flipresource": "CatEye_adaptive_flip.png",
+      "condition": "None",
+      "name": "Cat Eye",
+      "package": "HannahTheBeef Visors",
+      "reshasha": "763d06181c91e501b4ac620f4dbf5949",
+      "reshashf": "a4b99a33b9aad2fc7d2db03365be5d42",
+      "resource": "CatEye_adaptive.png"
+    },
+    {
       "author": "Test",
       "adaptive": true,
       "condition": "None",

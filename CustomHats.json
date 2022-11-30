@@ -139,6 +139,16 @@
       "resource": "Hypnotoad.png"
     },
     {
+      "author": "HannahTheBeef",
+      "adaptive": true,
+      "bounce": false,
+      "condition": "None",
+      "name": "Princess Bride",
+      "package": "HannahTheBeef Hats",
+      "reshasha": "7188e0b711796aa374705c2fd7416d6d",
+      "resource": "PrincessBride_adaptive.png"
+    },
+    {
       "author": "King Kobra",
       "climbresource": "The_Happening_climb.png",
       "condition": "None",
