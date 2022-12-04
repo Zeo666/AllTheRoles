@@ -12,10 +12,12 @@
     {
       "author": "HannahTheBeef",
       "adaptive": true,
+      "flipresource": "Kockbra_Flip.png",
       "condition": "None",
       "name": "Kockbra",
       "package": "HannahTheBeef Visors",
       "reshasha": "240559cce883b52365c1469f24dc5b46",
+      "reshashf": "2502ae1dec1a3b3a5f4db1522249da48",
       "resource": "Kockbra.png"
     },
     {
