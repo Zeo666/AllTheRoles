@@ -26,16 +26,17 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 | [Witch](#witch)               | [Mayor](#mayor)               | [Jackal](#jackal)                 | [Indomitable](#indomitable)   |
 | [Ninja](#ninja)               | [Medium](#medium)             | [Bomber](#bomber)                 | [Radar](#radar)               |
 | [Astral](#astral)             | [Swapper](#swapper)           | [Joker](#joker)                   | [Multitasker](#multitasker)   |
-| [Hypnotist](#hypnotist)       | [Time Lord](#time-lord)       |                                   | [Underdog](#underdog)         |
+| [Necromancer](#necromancer)   | [Time Lord](#time-lord)       | [Poltergeist](#poltergeist)       | [Underdog](#underdog)         |
 | [Outlaw](#outlaw)             | [Transporter](#transporter)   |                                   | [Double Shot](#double-shot)   |
 | [Scorpion](#scorpion)         | [Bodyguard](#bodyguard)       |                                   | [Chameleon](#chameleon)       |
-| [Ghoul](#ghoul)               | [Deputy](#deputy)             |                                   | |
-| [Vampire](#vampire)           |                               |                                   | |
+| [Banshee](#banshee)           | [Deputy](#deputy)             |                                   | |
+| [Vampire](#vampire)           | [Pursuer](#pursuer)           |                                   | |
 
 -----------------------
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.10.25s & 2022.10.25e | v0.9.22 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.22/AllTheRoles-0.9.22.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.21 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.21/AllTheRoles-0.9.21.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.20 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.20/AllTheRoles-0.9.20.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.19 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.19/AllTheRoles-0.9.19.zip) |
@@ -61,7 +62,32 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
-<details>
+  <details>
+    <summary> v0.9.22 </summary>
+    <ul>
+    <li>Added: Poltergeist Neutral ghost role</li>
+    <li>Added: Remember button graphics for Amnesiac</li>
+    <li>Added: Multi Language Support</li>
+    <li>Updated: Renamed Ghoul to Banshee</li>
+    <li>Updated: Renamed Hypnotist to Necromancer</li>
+    <li>Updated: Necromancer raise dead ability converts the dead player to a Ghoul impostor role</li>
+    <li>Updated: Players can spawn as the Pursuer</li>
+    <li>Updated: Footprint visibility game settings now include non anonymous footprints during camo comms</li>
+    <li>Updated: The Avenger can now spawn straight away using new AvengerActivateTime game setting</li>
+    <li>Updated: The Avenger can now kill the Pestilence</li>
+    <li>Updated: Renamed Detective Inspect ability to Examine</li>
+    <li>Fixed: Bomb button graphics size for the Bomber</li>
+    <li>Fixed: Avenger can no longer call an emergency meeting</li>
+    <li>Fixed: Avenger won't spawn if their target is already dead</li>
+    <li>Fixed: Avenger won't spawn if a lover killed their lover</li>
+    <li>Fixed: Avenger can no longer assassinate if they had the assassin ability prior</li>
+    <li>Fixed: Avenger dies if their target dies first</li>
+    <li>Fixed: Avenger is no longer invisible when dead</li>
+    <li>Fixed: Game no longer continues if crew and Avenger are still alive</li>
+    <li>Fixed: Bounty Hunter not being able to be sidekicked</li>
+    </ul>
+  </details> 
+  <details>
     <summary> v0.9.21 </summary>
     <ul>
     <li>Added: Avenger neutral role</li>
@@ -860,7 +886,7 @@ A report can contain the name of the killer or the color type (Darker/Lighter)
 | Who Gets Murder Attempt Indicator | Who will receive an indicator when someone tries to Kill them | Medic / Shielded / Everyone / Nobody | Medic |
 | ShowShieldActivated | Shield Will Be Activated | Instantly / Instantly, Visible After Meeting / After Meeting | Instantly |
 | Shield breaks on murder attempt | Whether the Shield breaks when someone attempts to Kill them | Toggle | False |
-| Shield Reset After Meeting | Shield Resets After Meeting | Toggle | False |
+| Shield Resets After Meeting | Shield Resets After Meeting | Toggle | False |
 | Show Medic Reports | Whether the Medic should get information when reporting a body | Toggle | True |
 | Time Where Medic Will Have Name | If a body has been dead for shorter than this amount, the Medic's report will contain the killer's name | Time | 0s |
 | Time Where Medic Will Have Color Type | If a body has been dead for shorter than this amount, the Medic's report will have the type of color | Time | 15s |
@@ -983,14 +1009,15 @@ with an option to also kill the attacker.
 -----------------------
 ## Pursuer
 ### **Team: Crewmates**
-The Pursuer is a Crewmate role, but has a different goal to win the game; they have to be alive when the game ends and the Crew wins.\
+The Pursuer is a Crewmate role, but has a different goal to win the game; they have to be alive when the game ends and the Crew or Neutral wins.\
 In order to achieve this goal, the Pursuer has an ability called "Blank", where they can fill a killers (this also includes the Sheriff) weapon with a blank. So, if the killer attempts to kill someone, the killer will miss their target, and their cooldowns will be triggered as usual.\
 If the killer fires the "Blank", shields (e.g. Medic shield or Time Master shield) will not be triggered.\
-The Pursuer is a role that is only given to a player after the Lawyer, Executioner or Guardian Angel targets are killed.
+The Pursuer is a role that can be given to a player after the Lawyer, Executioner or Guardian Angel targets are killed.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
+| Pursuer | The percentage probability of the Pursuer appearing | Percentage | 0% |
 | Pursuer Blank Cooldown | The cooldown of the Pursuer's blank ability | Time | 10s | 
 | Pursuer Number Of Blanks | The number of charges of the Pursuer's blank ability | Number | 5 |
 
@@ -1001,7 +1028,8 @@ The Pursuer is a role that is only given to a player after the Lawyer, Execution
 The Amnesiac is a Neutral role with no win condition.\
 They have zero tasks and are essentially roleless.\
 However, they can remember a role by finding a dead player.\
-Once they remember their role, they go on to try win with their new win condition.
+Once they remember their role, they go on to try win with their new win condition.\
+If the Amnesiac doesn't remember a role once the minimum amount of crew are alive they will turn into the Shifter
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -1027,7 +1055,7 @@ If their target loses, they lose.
 | Kill Cooldown Reset on Attack | The attackers kill cooldown after they attacked the protected target | Time | 2.5s |
 | Max Uses | The amount of times the Protect ability can be used | Number | 5 |
 | Show Protected Player | Who should be able to see who is Protected | Self / GA / Self + GA / Everyone | Self |
-| Guardian Angel becomes on Target Dead | Which role the Guardian Angel becomes when their target dies | Crewmate / Amnesiac / Survivor / Jester | Crewmate |
+| Guardian Angel becomes on Target Dead | Which role the Guardian Angel becomes when their target dies | Crewmate / Amnesiac / Survivor / Jester / Pursuer | Crewmate |
 | Target Knows GA Exists | Whether the GA's Target knows they have a GA | Toggle | False |
 | GA Knows Targets Role | Whether the GA knows their target's role | Toggle | False |
 
@@ -1072,7 +1100,7 @@ If that player gets voted out, they win the game.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Executioner | The percentage probability of the Executioner appearing | Percentage | 0% |
-| Executioner becomes on Target Dead | Which role the Executioner becomes when their target dies | Crewmate / Amnesiac / Survivor / Jester | Crewmate |
+| Executioner becomes on Target Dead | Which role the Executioner becomes when their target dies | Crewmate / Amnesiac / Survivor / Jester / Pursuer | Crewmate |
 | Executioner Can Button | Whether the Executioner Can Press the Button | Toggle | True |
 
 -----------------------
@@ -1328,6 +1356,17 @@ To win the Joker must get a number of those decoys killed to win.
 | Number Of Decoys Needed To Be Killed | Decoys needed to be killed to win the game | Number | 3 |
 
 -----------------------
+## Poltergeist
+### **Team: Neutral**
+The Poltergeist is an Neutral ghost role that can drag dead bodies around.
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Poltergeist | The percentage probability of the Poltergeist appearing | Percentage | 0% |
+| Poltergeist Drag Cooldown | Cooldown for using the Drag Body ability | Time | 25s |
+
+-----------------------
 # Impostor Roles
 ## Grenadier
 ### **Team: Impostors**
@@ -1577,17 +1616,18 @@ however if they do not kill within a certain time frame, they will stay dead.
 | Astral Vent | Whether the Astral can Vent | Toggle | False |
 
 -----------------------
-## Hypnotist
+## Necromancer
 ### **Team: Impostors**
-The Hypnotist is an Impostor who can revive dead players and make them a Traitor.
+The Necromancer is an Impostor who can raise dead players and make them a Ghoul.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Hypnotist | The percentage probability of the Hypnotist appearing | Percentage | 0% |
-| Hypnotist Revive Cooldown | Cooldown for using the Revive ability | Time | 10s |
-| Hypnotist Revive Charges | The number of times the Hypnotist can revive a dead player | Number | 5 |
-| Hypnotist Vent | Whether the Hypnotist can Vent | Toggle | False |
+| Necromancer | The percentage probability of the Necromancer appearing | Percentage | 0% |
+| Necromancer Raise Duration | The time that you need to stay next to the a body in order to raise the dead player | Time | 1s |
+| Necromancer Raise Cooldown | Cooldown for using the Raise ability | Time | 10s |
+| Necromancer Raise Charges | The number of times the Necromancer can raise a dead player | Number | 5 |
+| Necromancer Vent | Whether the Necromancer can Vent | Toggle | False |
 
 -----------------------
 ## Scorpion
@@ -1614,16 +1654,16 @@ The Outlaw is an Impostor who can kill twice in a row within a certain time fram
 | Outlaw Vent | Whether the Outlaw can Vent | Toggle | False |
 
 -----------------------
-## Ghoul
+## Banshee
 ### **Team: Impostors**
-The Ghoul is an Impostor ghost role that can scare the living and root them in place.
+The Banshee is an Impostor ghost role that can scare the living and root them in place.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Ghoul | The percentage probability of the Ghoul appearing | Percentage | 0% |
-| Ghoul Scare Cooldown | Cooldown for using the Scare ability | Time | 25s |
-| Ghoul Scare Duration | Time that the Ghouls target will be rooted | Time | 3s |
+| Banshee | The percentage probability of the Banshee appearing | Percentage | 0% |
+| Banshee Scare Cooldown | Cooldown for using the Scare ability | Time | 25s |
+| Banshee Scare Duration | Time that the Scare target will be rooted | Time | 3s |
 
 -----------------------
 ## Sniper
@@ -1648,8 +1688,8 @@ The Possessor is an Impostor role that can take control of players and kill them
 |----------|:-------------:|:------:|:------:|
 | Possessor | The percentage probability of the Possessor appearing | Percentage | 0% |
 | Possess Cooldown | Cooldown for using the Possess ability | Time | 25s |
-| Possessor Casting Duration | The time that you need to stay next to the target in order to cast a spell on it | Time | 1s |
-| Possessor Delay | The time after casting before the Possessor takes control of their victim | Time | 5s |
+| Possess Casting Duration | The time that you need to stay next to the target in order to cast a spell on it | Time | 1s |
+| Possess Delay | The time after casting before the Possessor takes control of their victim | Time | 5s |
 | Possess Kill Cooldown | Cooldown for using the Kill ability once a victim is possessed | Time | 5s |
 | Possessor Vent | Whether the Possessor can Vent | Toggle | False |
 
@@ -1772,8 +1812,9 @@ However, they can also win with their respective team, hence why the Lovers do n
 
 The lovers have a second win condition: The lover that dies due to their partner being killed will become the Avenger in the next round.\
 The Avenger needs to kill the player responsbible for their lovers death for both Lovers to win. \
-The Avenger will initially spawn in a vent and will be invisible to everyone until they come within a certain distance of their target.\
-An arrow will indicate to their target that the Avenger is coming for them.
+The Avenger will be invisible to everyone until they come within a certain distance of their target.\
+An arrow will indicate to their target that the Avenger is coming for them.\
+If Avenger Activate Time is set to "After Meeting" the Avenger will spawn in a random unsealed vent.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -1782,6 +1823,7 @@ An arrow will indicate to their target that the Avenger is coming for them.
 | Loving Impostor Probability | The chances of one lover being an Impostor | Percentage | 20% |
 | Neutral Roles Can Be Lovers | Whether a Lover can be a Neutral Role | Toggle | True |
 | Lovers Can Be Avenged | Lovers Can Be Avenged | Toggle | True |
+| Avenger Activate Time | Avenger Activate Time | Immediately / After Meeting | Immediately |
 | Avenger Reveal Distance | Avenger Reveal Distance | Number | 5 |
 | Avenger Update Interval | Avenger Arrow Update Interval | Time | 5s |
 
@@ -2044,7 +2086,7 @@ If they guess wrong, they die instead.
 | Traitor Can Assassinate | If someone turns into a Traitor they can Assassinate | Toggle | False |
 | Sidekick Can Assassinate | If someone turns into a Sidekick they can Assassinate | Toggle | False |
 | Assassin Kill | The number of kill the Assassin can do with his ability | Number | 1 |
-| Assassin Multiple Kill  | Whether the Assassin can kill more than once per meeting | Toggle | False |
+| Assassin Multiple Kill | Whether the Assassin can kill more than once per meeting | Toggle | False |
 | Assassin Guess Crewmate | Whether the Assassin can Guess "Crewmate" | Toggle | False |
 | Assassinate Snitch via Crewmate Guess  | Whether the Assassin can kill the Snitch by Guessing Crewmate | Toggle | False |
 | Assassin Guess Neutral Benign  | Whether the Assassin can Guess Neutral Benign roles | Toggle | False |
@@ -2060,10 +2102,12 @@ If they guess wrong, they die instead.
 -----------------------
 # Extras
 ## New Colors!
-New colors are added for crewmates to pick from.
+New colors are added for crewmates to pick from. They are based on the new colours available in The Other Roles.
+
+(./Images/ATR-colors.jpg)
 
 ## Custom Hats!
-Custom hats have been added, made by some very talented artists. These are mostly hats for streamers.
+Custom hats have been added.
 
 We're awaiting your creative hat designs and we'll integrate all the good ones in our mod.
 Here are a few instructions, on how to create a custom hat:
@@ -2089,27 +2133,53 @@ Here are a few instructions, on how to create a custom hat:
     - The name of the texture needs to follow the pattern `hatname_climb.png`.
 - **Testing:** You can test your hat design by putting all the files in the `\CustomHats\Test` subfolder of your mod folder. Then whenever you start a Freeplay game, you and all the dummies will be wearing the new hat. You don't need to restart Among Us if you change the hat files, just exit and reenter the Freeplay mode.
 
+## Custom Visors!
+Custom visors have been added.
+
+We're awaiting your creative visor designs and we'll integrate all the good ones in our mod.
+Here are a few instructions, on how to create a custom visor:
+
+- **Creation:** A visor consists of up to two textures. The aspect ratio of the textures has to be `4:5`, we recommend `300px:375px`:
+  - `Main texture (required)`:
+    - This is the main texture of your visor.
+    - The name of the texture needs to follow the pattern *visorname.png*, but you can also set some additional parameters in the file name by adding `_parametername` to the file name (before the *.png*).
+    - Parameter `adaptive`: If this parameter is set, the Among Us coloring shader will be applied (the shader that replaces some colors with the colors that your character is wearing in the game). The color red (#ff0000) will be replaced with the primary color of your player and the color blue (#0000ff) with the secondary color. Also other colors will be affected and changed, you can have a look at the texture of the [Crewmate Hat](https://static.wikia.nocookie.net/among-us-wiki/images/e/e0/Crewmate_hat.png) to see how this feature should be used.
+  - `Flipped texture (optional)`:
+    - This texture will be rendered instead of the Main texture, when facing the left.
+    - The name of the texture needs to follow the pattern `visorname_flip.png`.
+
+## Custom Nameplates!
+Custom nameplates have been added.
+
+We're awaiting your creative nameplate designs and we'll integrate all the good ones in our mod.
+Here are a few instructions, on how to create a custom nameplate:
+
+- **Creation:** A nameplate consists of one texture. The dimensions need to be `275px:68px`:
+  - `Main texture (required)`:
+    - This is the main texture of your nameplate.
+    - The name of the texture needs to follow the pattern *nameplatename.png*.
 
 -----------------------
 # Credits & Resources
-<b>HannahTheBeef</b> - For the new button graphics
+<b>HannahTheBeef</b> - For the new button graphics & ingame art
 
 [Reactor](https://github.com/NuclearPowered/Reactor) - The framework of the mod.\
 [BepInEx](https://github.com/BepInEx) - For hooking game functions.\
-[Among-Us-Sheriff-Mod](https://github.com/Woodi-dev/Among-Us-Sheriff-Mod) - For the Sheriff role.\
-[Among-Us-Love-Couple-Mod](https://github.com/Woodi-dev/Among-Us-Love-Couple-Mod) - For the inspiration of Lovers modifier.\
-[ExtraRolesAmongUs](https://github.com/NotHunter101/ExtraRolesAmongUs) - For the Engineer & Medic roles.\
-[TooManyRolesMods](https://github.com/Hardel-DW/TooManyRolesMods) - For the Investigator & Time Lord roles.\
-[Goose-Goose-Duck](https://store.steampowered.com/app/1568590/Goose_Goose_Duck) - Idea for the Vulture role.\
-[TownOfUs](https://github.com/slushiegoose/Town-Of-Us) - Idea for Shifter, Executioner, Arsonist, Glitch, Phantom, Swooper, Miner, Janitor, Underdog, Undertaker, Mayor, Swapper, Altruist, Seer roles.\
-[TownOfUs-R](https://github.com/eDonnes124/Town-Of-Us-R) - Idea for Detective, Mystic, Guardian Angel, Juggernaut, Blackmailer, Grenadier, Traitor, Werewolf, Plaguebearer, Survivor, Amnesiac, Poisoner, Trapper, Haunter roles.\
-[TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) - Idea for Bounty Hunter, Ninja, Jackal, Lawyer, Pursuer, Witch, Warlock, Spy, Time Master roles.\
+[Among-Us-Sheriff-Mod](https://github.com/Woodi-dev/Among-Us-Sheriff-Mod) - For the Sheriff role from <b>Woodi-dev</b>.\
+[Among-Us-Love-Couple-Mod](https://github.com/Woodi-dev/Among-Us-Love-Couple-Mod) - For the inspiration of Lovers modifier from <b>Woodi-dev</b>.\
+[ExtraRolesAmongUs](https://github.com/NotHunter101/ExtraRolesAmongUs) - For the Engineer & Medic roles from <b>NotHunter101</b>.\
+[TooManyRolesMods](https://github.com/Hardel-DW/TooManyRolesMods) - For the Investigator & Time Lord roles from <b>Hardel-DW</b>.\
+[Goose-Goose-Duck](https://store.steampowered.com/app/1568590/Goose_Goose_Duck) - Idea for the Vulture role from <b>Slushiegoose</b>.\
+[TownOfUs](https://github.com/slushiegoose/Town-Of-Us) - Idea for Shifter, Executioner, Arsonist, Glitch, Phantom, Swooper, Miner, Janitor, Underdog, Undertaker, Mayor, Swapper, Altruist roles from <b>Slushiegoose</b>.\
+[TownOfUs-R](https://github.com/eDonnes124/Town-Of-Us-R) - Idea for Detective, Mystic, Guardian Angel, Juggernaut, Blackmailer, Traitor, Werewolf, Plaguebearer, Survivor, Amnesiac, Poisoner, Trapper, Haunter roles from <b>eDonnes124</b> & the TownOfUs-R Team.\
+[TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) - Idea for Deputy, Bounty Hunter, Ninja, Lawyer, Pursuer, Witch, Warlock, Spy, Time Master roles from <b>Eisbison</b> & the Other Roles Team.\
 [TorchMod](https://github.com/tomozbot/TorchMod) - For the inspiration of the Torch modifier.\
 [Alexejhero](https://github.com/SubmergedAmongUs/Submerged) - For the Submerged map.\
 [BryBry16](https://github.com/Brybry16/BetterPolus) - For the code used for Better Polus.
-
-<b>The developers & contributors of TownOfUs, TownOfUs-R & The Other Roles:</b>
-Slushiegoose, eDonnes124, Eisbison, Ottomated, Woodi-dev, Maartii, NotHunter101, Hardel-DW, MyDragonBreath, ItsTheNumberH, Ruiner, Term, Dhalucard
+[Maartii](https://github.com/Maartii/Jester) - Idea for the Jester role.\
+[Dhalucard](https://www.twitch.tv/dhalucard) - Original idea for the Jackal and Sidekick.\
+[Ottomated](https://twitter.com/ottomated_) - Idea for the Morphling, Snitch and Camouflager role.\
+[5up](https://www.twitch.tv/5uppp) and the Submarine Team - For the inspiration of the Grenadier role.
 
 #
 <p align="center">This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC.</p>
