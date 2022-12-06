@@ -78,6 +78,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
     <li>Fixed: Shifting roles not working correctly</li>
     <li>Fixed: Hide and Seek missing language support</li>
     <li>Fixed: First kill shield not showing for the protected crewmate</li>
+    <li>Fixed: Lawyer win and Pursuer win end game messages</li>
     </ul>
   </details> 
   <details>
