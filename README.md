@@ -36,6 +36,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.10.25s & 2022.10.25e | v0.9.23 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.23/AllTheRoles-0.9.23.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.22 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.22/AllTheRoles-0.9.22.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.21 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.21/AllTheRoles-0.9.21.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.20 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.20/AllTheRoles-0.9.20.zip) |
@@ -62,6 +63,23 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.23 </summary>
+    <ul>
+    <li>Updated: The Avenger won't appear dead in meetings if they spawn immediately</li>
+    <li>Updated: A green flash occurs when the bodyguard protects their client</li>
+    <li>Updated: The vampire now has a grace period after meetings if the lights are currently out</li>
+    <li>Fixed: Roles not showing in Task Text</li>
+    <li>Fixed: Modifiers not showing in Task Text</li>
+    <li>Fixed: Role Intro Screen not showing sometimes</li>
+    <li>Fixed: Deputy not being promoted to Sheriff correctly on Sheriff death</li>
+    <li>Fixed: Amnesiac not remembering roles correctly</li>
+    <li>Fixed: Creating a Jackal sidekick not working correctly</li>
+    <li>Fixed: Shifting roles not working correctly</li>
+    <li>Fixed: Hide and Seek missing language support</li>
+    <li>Fixed: First kill shield not showing for the protected crewmate</li>
+    </ul>
+  </details> 
   <details>
     <summary> v0.9.22 </summary>
     <ul>
@@ -1707,6 +1725,7 @@ During lights out the Vampire speeds up, turns black and their name becomes red 
 | Vampire Lights Cooldown | Cooldown for using the Lights ability | Time | 25s |
 | Vampire Lights Duration | Duration of the Lights ability | Time | 25s |
 | Vampire Kill Cooldown | Cooldown for using the Kill ability | Time | 25s |
+| Post Meeting Grace Period | Duration after a meeting when a Vampire doesn't show as a Vampire | Time | 10s |
 | Vampire Vent | Whether the Vampire can Vent | Toggle | False |
 
 -----------------------
