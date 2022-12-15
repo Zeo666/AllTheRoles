@@ -149,6 +149,18 @@
       "resource": "PrincessBride_adaptive.png"
     },
     {
+      "author": "HannahTheBeef",
+      "adaptive": true,
+      "bounce": true,
+      "flipresource": "Chode_adaptive_bounce_flip.png",
+      "condition": "None",
+      "name": "Chode",
+      "package": "HannahTheBeef Hats",
+      "reshasha": "b1885441fc057c81f29bd28c6e916aa6",
+      "reshashf": "e6c290c60c306aa866b26c2d39668165",
+      "resource": "Chode_adaptive_bounce.png"
+    },
+    {
       "author": "King Kobra",
       "climbresource": "The_Happening_climb.png",
       "condition": "None",

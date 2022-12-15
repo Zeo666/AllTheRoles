@@ -32,6 +32,16 @@
       "resource": "CatEye_adaptive.png"
     },
     {
+      "author": "HannahTheBeef",
+      "adaptive": true,
+      "bounce": false,
+      "condition": "None",
+      "name": "Skin",
+      "package": "HannahTheBeef Visors",
+      "reshasha": "9b355a08ff00cdd6f1567aab7ceb3d35",
+      "resource": "Skin_adaptive.png"
+    },
+    {
       "author": "Catudon",
       "adaptive": true,
       "condition": "None",
