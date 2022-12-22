@@ -2238,13 +2238,12 @@ Here are a few instructions, on how to create a custom nameplate:
 [TownOfUs-R](https://github.com/eDonnes124/Town-Of-Us-R) - Idea for Detective, Mystic, Guardian Angel, Juggernaut, Blackmailer, Traitor, Werewolf, Plaguebearer, Survivor, Amnesiac, Poisoner, Trapper, Haunter roles from <b>eDonnes124</b> & the TownOfUs-R Team.\
 [TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) - Idea for Deputy, Bounty Hunter, Ninja, Lawyer, Pursuer, Witch, Warlock, Spy, Time Master roles from <b>Eisbison</b> & the Other Roles Team.\
 [TorchMod](https://github.com/tomozbot/TorchMod) - For the inspiration of the Torch modifier.\
-[Alexejhero](https://github.com/SubmergedAmongUs/Submerged) - For the Submerged map.\
 [BryBry16](https://github.com/Brybry16/BetterPolus) - For the code used for Better Polus.
 [Maartii](https://github.com/Maartii/Jester) - Idea for the Jester role.\
 [Dhalucard](https://www.twitch.tv/dhalucard) - Original idea for the Jackal and Sidekick.\
 [Ottomated](https://twitter.com/ottomated_) - Idea for the Morphling, Snitch and Camouflager role.\
 [5up](https://www.twitch.tv/5uppp) and the Submarine Team - For the inspiration of the Grenadier role.\
-[Submerged](https://github.com/SubmergedAmongUs/Submerged) - For the submerged map.
+[Submerged](https://github.com/SubmergedAmongUs/Submerged) - For the submerged map by 5up and submerged team.
 
 #
 <p align="center">This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC.</p>
