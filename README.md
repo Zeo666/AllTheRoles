@@ -2243,7 +2243,8 @@ Here are a few instructions, on how to create a custom nameplate:
 [Maartii](https://github.com/Maartii/Jester) - Idea for the Jester role.\
 [Dhalucard](https://www.twitch.tv/dhalucard) - Original idea for the Jackal and Sidekick.\
 [Ottomated](https://twitter.com/ottomated_) - Idea for the Morphling, Snitch and Camouflager role.\
-[5up](https://www.twitch.tv/5uppp) and the Submarine Team - For the inspiration of the Grenadier role.
+[5up](https://www.twitch.tv/5uppp) and the Submarine Team - For the inspiration of the Grenadier role.\
+[Submerged](https://github.com/SubmergedAmongUs/Submerged) - For the submerged map.
 
 #
 <p align="center">This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC.</p>
