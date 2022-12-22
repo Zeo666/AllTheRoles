@@ -2224,8 +2224,8 @@ Here are a few instructions, on how to create a custom nameplate:
 
 -----------------------
 # Credits & Resources
-<b>HannahTheBeef</b> - For the new button graphics & ingame art
-<b>Blankboi</b> & <b>MC-AS-Huier</b> - For the simplified chinese translation
+<b>HannahTheBeef</b> - For the new button graphics & ingame art.\
+<b>Blankboi</b> & <b>MC-AS-Huier</b> - For the simplified chinese translation.
 
 [Reactor](https://github.com/NuclearPowered/Reactor) - The framework of the mod.\
 [BepInEx](https://github.com/BepInEx) - For hooking game functions.\
@@ -2243,7 +2243,7 @@ Here are a few instructions, on how to create a custom nameplate:
 [Dhalucard](https://www.twitch.tv/dhalucard) - Original idea for the Jackal and Sidekick.\
 [Ottomated](https://twitter.com/ottomated_) - Idea for the Morphling, Snitch and Camouflager role.\
 [5up](https://www.twitch.tv/5uppp) and the Submarine Team - For the inspiration of the Grenadier role.\
-[Submerged](https://github.com/SubmergedAmongUs/Submerged) - For the submerged map by 5up and submerged team.
+[Submerged](https://github.com/SubmergedAmongUs/Submerged) - For the submerged map by 5up and the submerged team.
 
 #
 <p align="center">This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC.</p>
