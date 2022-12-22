@@ -80,7 +80,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
     <li>Removed: Vent button for the Hunters</li>
     <li>Updated: Hide And Seek now uses flashlights, danger indicator, music, timer bar & seeker form for the Hunters</li>
     <li>Updated: Hide And Seek intro screen</li>
-    <li>Updated: You can now specifiy impostor roles in killing only mode</li>
+    <li>Updated: You can now specify impostor roles in killing only mode</li>
     <li>Updated: Game mode specific settings now only show if that game mode is selected</li>
     <li>Updated: Poltergeist drag ability now has a duration</li>
     <li>Updated: The Avenger dies if their target is voted out</li>
