@@ -36,6 +36,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.12.14s & 2022.12.14e | v0.9.24 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.24/AllTheRoles-0.9.24.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.23 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.23/AllTheRoles-0.9.23.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.22 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.22/AllTheRoles-0.9.22.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.21 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.21/AllTheRoles-0.9.21.zip) |
@@ -63,6 +64,38 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.24 </summary>
+    <ul>
+    <li>Added: Compatibility for Among Us version 2022.12.14</li>
+    <li>Added: Poltergeist drag body duration setting</li>
+    <li>Added: Avenger kill cooldown setting</li>
+    <li>Added: Infect button graphics for Plaguebearer</li>
+    <li>Added: Sidekick button graphics for Jackal</li>
+    <li>Added: Douse & Ignite button graphics for Arsonist</li>
+    <li>Added: Devour button graphics for Vulture</li>
+    <li>Added: Vest button graphics for the Survivor</li>
+    <li>Added: Simplified Chinese language translation</li>
+    <li>Added: Vent button for the Hunted</li>
+    <li>Removed: Vent button for the Hunters</li>
+    <li>Updated: Hide And Seek now uses flashlights, danger indicator, music, timer bar & seeker form for the Hunters</li>
+    <li>Updated: Hide And Seek intro screen</li>
+    <li>Updated: You can now specifiy impostor roles in killing only mode</li>
+    <li>Updated: Game mode specific settings now only show if that game mode is selected</li>
+    <li>Updated: Poltergeist drag ability now has a duration</li>
+    <li>Updated: The Avenger dies if their target is voted out</li>
+    <li>Updated: Many custom buttons with durations now use the fill up animation</li>
+    <li>Updated: Custom button charges have new look</li>
+    <li>Fixed: Joker not appearing for others after a meeting when decoyed before meeting</li>
+    <li>Fixed: Joker with mini not showing their age in meetings when decoyed before meeting</li>
+    <li>Fixed: Poltergeist winning with crew</li>
+    <li>Fixed: Exiled lovers lover should see roles when dead</li>
+    <li>Fixed: Phantom becoming Poltergeist and vice versa</li>
+    <li>Fixed: Blood trails on ghosts</li>
+    <li>Fixed: Detective report seconds field not being replaced with actual seconds value</li>
+    <li>Fixed: Medic report seconds field not being replaced with actual seconds value</li>
+    </ul>
+  </details> 
   <details>
     <summary> v0.9.23 </summary>
     <ul>
@@ -1383,7 +1416,8 @@ The Poltergeist is an Neutral ghost role that can drag dead bodies around.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Poltergeist | The percentage probability of the Poltergeist appearing | Percentage | 0% |
-| Poltergeist Drag Cooldown | Cooldown for using the Drag Body ability | Time | 25s |
+| Poltergeist Drag Cooldown | The cooldown for using the Poltergeist's Drag Body ability | Time | 25s |
+| Poltergeist Drag Duration | The duration of the Poltergeist's Drag Body ability | Time | 10s |
 
 -----------------------
 # Impostor Roles
@@ -1844,6 +1878,7 @@ If Avenger Activate Time is set to "After Meeting" the Avenger will spawn in a r
 | Neutral Roles Can Be Lovers | Whether a Lover can be a Neutral Role | Toggle | True |
 | Lovers Can Be Avenged | Lovers Can Be Avenged | Toggle | True |
 | Avenger Activate Time | Avenger Activate Time | Immediately / After Meeting | Immediately |
+| Avenger Kill Cooldown | Avenger Kill Cooldown | Time | 25s |
 | Avenger Reveal Distance | Avenger Reveal Distance | Number | 5 |
 | Avenger Update Interval | Avenger Arrow Update Interval | Time | 5s |
 
@@ -2021,22 +2056,30 @@ and can no longer geuss the person who they guessed wrong for the remainder of t
 # Hide And Seek Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Hide And Seek Timer | Hide And Seek Timer | Time | 5m |
-| Wait Period Duration | Wait Period Duration | Time | 15s |
+| Hide And Seek Lead Time | Wait Period Duration | Time | 10s |
+| Hide And Seek Hide Time | Hide And Seek Timer | Time | 5m |
+| Hide And Seek Final Hide Time | Hide And Seek Final Hide Time | Time | 10s |
+| Hide And Seek Use Flashlight | Hide And Seek Use Flashlight | Toggle | True |
 | Task Punish Time | Task Punish Time | Time | 10s |
 | All Task Punish Time | All Task Punish Time | Time | 20s |
+| Hunter Vision | Hunter Vision | Factor | 0.4x |
+| Hunted Vision | Hunted Vision | Factor | 0.6x |
+| Hunter Flashlight Size | Hunter Flashlight Size | Factor | 0.35x |
+| Hunted Flashlight Size | Hunted Flashlight Size | Factor | 0.25x |
 | Hunter Kill Cooldown | Hunter Kill Cooldown | Time | 25s |
-| Hunter Vision | Hunter Vision | Time | 0.5 |
+| Hunter Final Time Speed | Hunter Final Time Speed | Factor | 1.2x |
 | Hunter Light Cooldown | Hunter Light Cooldown | Time | 25s |
 | Hunter Light Duration | Hunter Light Duration | Time | 5s |
-| Hunter Admin Cooldown | Hunter Admin Cooldown | Time | 5 |
+| Hunter Admin Cooldown | Hunter Admin Cooldown | Time | 5s |
 | Hunter Admin Duration | Hunter Admin Duration | Time | 10s |
 | Hunter Arrow Cooldown | Hunter Arrow Cooldown | Time | 5s |
 | Hunter Arrow Duration | Hunter Arrow Duration | Time | 5s |
-| Hunted Vision | Hunted Vision | Number | 2x
+| Hunted Defense Options | Hunted Defense Options | Shield / Vent / Both | Shield |
 | Hunted Shield Cooldown | Hunted Shield Cooldown | Time | 25 |
-| Hunted Shield Duration | Hunted Shield Duration | Time | 5 |
-| Hunted Shield Rewind | Hunted Shield Rewind | Time | 2 |
+| Hunted Shield Duration | Hunted Shield Duration | Time | 5s |
+| Hunted Shield Rewind | Hunted Shield Rewind | Time | 2s | 
+| Hunted Vent Duration | Hunted Vent Duration | Time | 3s |
+| Hunted Vent Charges | Hunted Vent Charges | Number | 3 |
 
 -----------------------
 # Map Settings
@@ -2182,6 +2225,7 @@ Here are a few instructions, on how to create a custom nameplate:
 -----------------------
 # Credits & Resources
 <b>HannahTheBeef</b> - For the new button graphics & ingame art
+<b>Blankboi</b> & <b>MC-AS-Huier</b> - For the simplified chinese translation
 
 [Reactor](https://github.com/NuclearPowered/Reactor) - The framework of the mod.\
 [BepInEx](https://github.com/BepInEx) - For hooking game functions.\
