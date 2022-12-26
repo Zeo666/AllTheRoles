@@ -50,7 +50,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
     <ul>
     <li>Added: Ruthless impostor modifier</li>
     <li>Added: Shift button graphics for Shifter</li>
-    <li>Updated: Haunt menu now shows roles</li>
+    <li>Updated: Ghost menu now shows roles</li>
     <li>Updated: Hunter arrow ability only appears during the final hide time in Hide And Seek</li>
     <li>Fixed: Tasks completed by dead players reducing the timer in Hide And Seek</li>
     <li>Fixed: Sheriff not being able to shoot impostors in meetings</li>
