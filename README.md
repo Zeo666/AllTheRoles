@@ -29,41 +29,36 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 | [Necromancer](#necromancer)   | [Time Lord](#time-lord)       | [Poltergeist](#poltergeist)       | [Underdog](#underdog)         |
 | [Outlaw](#outlaw)             | [Transporter](#transporter)   |                                   | [Double Shot](#double-shot)   |
 | [Scorpion](#scorpion)         | [Bodyguard](#bodyguard)       |                                   | [Chameleon](#chameleon)       |
-| [Banshee](#banshee)           | [Deputy](#deputy)             |                                   | |
+| [Banshee](#banshee)           | [Deputy](#deputy)             |                                   | [Ruthless](#ruthless)         |
 | [Vampire](#vampire)           | [Pursuer](#pursuer)           |                                   | |
 
 -----------------------
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.12.14s & 2022.12.14e | v0.9.25 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.25/AllTheRoles-0.9.25.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.24 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.24/AllTheRoles-0.9.24.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.23 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.23/AllTheRoles-0.9.23.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.22 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.22/AllTheRoles-0.9.22.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.21 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.21/AllTheRoles-0.9.21.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.20 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.20/AllTheRoles-0.9.20.zip) |
-| 2022.10.25s & 2022.10.25e | v0.9.19 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.19/AllTheRoles-0.9.19.zip) |
-| 2022.10.25s & 2022.10.25e | v0.9.18 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.18/AllTheRoles-0.9.18.zip) |
-| 2022.10.25s & 2022.10.25e | v0.9.17 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.17/AllTheRoles-0.9.17.zip) |
-| 2022.10.25s & 2022.10.25e | v0.9.16 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.16/AllTheRoles-0.9.16.zip) |
-| 2022.10.25s & 2022.10.25e | v0.9.15 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.15/AllTheRoles-0.9.15.zip) |
-| 2022.10.25s & 2022.10.25e | v0.9.14 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.14/AllTheRoles-0.9.14.zip) |
-| 2022.10.25s & 2022.10.25e | v0.9.13 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.13/AllTheRoles-0.9.13.zip) |
-| 2022.10.25s & 2022.10.25e | v0.9.12 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.12/AllTheRoles-0.9.12.zip) |
-| 2022.8.24s & 2022.8.24e & 2022.9.20s & 2022.9.20e | v0.9.11 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.11/AllTheRoles-0.9.11.zip) |
-| 2022.8.24s & 2022.8.24e & 2022.9.20s & 2022.9.20e | v0.9.10 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.10/AllTheRoles-0.9.10.zip) |
-| 2022.8.24s & 2022.8.24e & 2022.9.20s & 2022.9.20e | v0.9.9 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.9/AllTheRoles-0.9.9.zip) |
-| 2022.8.24s & 2022.8.24e & 2022.9.20s & 2022.9.20e | v0.9.8 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.8/AllTheRoles-0.9.8.zip) |
-| 2022.8.24s & 2022.8.24e & 2022.9.20s & 2022.9.20e | v0.9.7 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.7/AllTheRoles-0.9.7.zip) |
-| 2022.8.24s & 2022.8.24e | v0.9.6 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.6/AllTheRoles-0.9.6.zip) |
-| 2022.8.24s & 2022.8.24e | v0.9.5 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.5/AllTheRoles-0.9.5.zip) |
-| 2022.8.24s & 2022.8.24e | v0.9.4 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.4/AllTheRoles-0.9.4.zip) |
-| 2022.8.24s & 2022.8.24e | v0.9.3 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.3/AllTheRoles-0.9.3.zip) |
-| 2022.8.24s & 2022.8.24e | v0.9.2 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.2/AllTheRoles-0.9.2.zip) |
-| 2022.8.24s & 2022.8.24e | v0.9.1 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.1/AllTheRoles-0.9.1.zip) |
-| 2022.8.24s & 2022.8.24e | v0.9.0 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.0/AllTheRoles-0.9.0.zip) |
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.25 </summary>
+    <ul>
+    <li>Added: Ruthless impostor modifier</li>
+    <li>Added: Shift button graphics for Shifter</li>
+    <li>Updated: Haunt menu now shows roles</li>
+    <li>Updated: Hunter arrow ability only appears during the final hide time in Hide And Seek</li>
+    <li>Fixed: Tasks completed by dead players reducing the timer in Hide And Seek</li>
+    <li>Fixed: Sheriff not being able to shoot impostors in meetings</li>
+    <li>Fixed: Ghost roles being classed as alive</li>
+    <li>Fixed: Fullscreen flashes not appearing in some cases</li>
+    <li>Fixed: Ghost menu from appearing when Haunter or Phantom have spawned but not yet caught</li>
+    </ul>
+  </details> 
   <details>
     <summary> v0.9.24 </summary>
     <ul>
@@ -1914,6 +1909,7 @@ Neutral or Crewmate roles can have this Modifier.
 | Bloody | The percentage probability of the Bloody appearing | Percentage | 0% |
 | Bloody Quantity | - | Number | 1 |
 | Trail duration | - | Time | 10s |
+
 -----------------------
 ## VIP
 ### **Applied to: All**
@@ -1983,7 +1979,6 @@ The Chameleon becomes (partially or fully) invisible when standing still for x-s
 \
 **NOTE**
 - You can use abilities while being invisible, only moving will make you visible again
-- Impostor, Neutral or Crewmate roles can have this Modifier
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -2004,7 +1999,7 @@ Disperser has the ability to teleport every player to a random vent
 -----------------------
 ## Underdog
 ### **Applied to: Impostors**
-The Underdog is an modifier with a prolonged kill cooldown.\
+The Underdog is a modifier with a prolonged kill cooldown.\
 When they are the only remaining Impostor, they will have their kill cooldown shortened.
 
 ### Game Options
@@ -2017,13 +2012,23 @@ When they are the only remaining Impostor, they will have their kill cooldown sh
 -----------------------
 ## Double Shot
 ### **Applied to: Impostors**
-Double Shot is an Impostor who gets an extra life when assassinating.\
+Double Shot is a modifier which grants the impostor an extra life when assassinating.\
 Once they use their life they are indicated with a red flash\
-and can no longer geuss the person who they guessed wrong for the remainder of that meeting.
+and can no longer guess the person who they guessed wrong for the remainder of that meeting.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Double Shot| The percentage probability of Double Shot appearing | Percentage | 0% |
+| Double Shot | The percentage probability of Double Shot appearing | Percentage | 0% |
+
+-----------------------
+## Ruthless
+### **Applied to: Impostors**
+Ruthless is a modifier that allows the impostor to kill through Medic shields, GA protection, Survivor vests & Veteran alerts.\
+The impostor will still die if the Veteran is on alert.
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Ruthless | The percentage probability of Ruthless appearing | Percentage | 0% |
 
 -----------------------
 # Game Mode Settings
@@ -2167,7 +2172,7 @@ If they guess wrong, they die instead.
 ## New Colors!
 New colors are added for crewmates to pick from. They are based on the new colours available in The Other Roles.
 
-(./Images/ATR-colors.jpg)
+![COLORS](./Images/ATR-colors.jpg)
 
 ## Custom Hats!
 Custom hats have been added.
@@ -2238,7 +2243,7 @@ Here are a few instructions, on how to create a custom nameplate:
 [TownOfUs-R](https://github.com/eDonnes124/Town-Of-Us-R) - Idea for Detective, Mystic, Guardian Angel, Juggernaut, Blackmailer, Traitor, Werewolf, Plaguebearer, Survivor, Amnesiac, Poisoner, Trapper, Haunter roles from <b>eDonnes124</b> & the TownOfUs-R Team.\
 [TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) - Idea for Deputy, Bounty Hunter, Ninja, Lawyer, Pursuer, Witch, Warlock, Spy, Time Master roles from <b>Eisbison</b> & the Other Roles Team.\
 [TorchMod](https://github.com/tomozbot/TorchMod) - For the inspiration of the Torch modifier.\
-[BryBry16](https://github.com/Brybry16/BetterPolus) - For the code used for Better Polus.
+[BryBry16](https://github.com/Brybry16/BetterPolus) - For the code used for Better Polus.\
 [Maartii](https://github.com/Maartii/Jester) - Idea for the Jester role.\
 [Dhalucard](https://www.twitch.tv/dhalucard) - Original idea for the Jackal and Sidekick.\
 [Ottomated](https://twitter.com/ottomated_) - Idea for the Morphling, Snitch and Camouflager role.\
