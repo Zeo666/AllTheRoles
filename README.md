@@ -36,6 +36,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.12.14s & 2022.12.14e | v0.9.26 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.26/AllTheRoles-0.9.26.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.25 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.25/AllTheRoles-0.9.25.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.24 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.24/AllTheRoles-0.9.24.zip) |
 | 2022.10.25s & 2022.10.25e | v0.9.23 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.23/AllTheRoles-0.9.23.zip) |
@@ -45,6 +46,26 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.26 </summary>
+    <ul>
+    <li>Added: PickMimic, Mimic & Hack button graphics for Glitch</li>
+    <li>Updated: Hunter Lights button graphics changed</li>
+    <li>Updated: Deputy Lighter button graphics changed</li>
+    <li>Fixed: Arsonist player icon position</li>
+    <li>Fixed: Plaguebearer player icon positions</li>
+    <li>Fixed: Bounty Hunter player icon position</li>
+    <li>Fixed: Fixed Banshee scream button being in the same position as the report button</li>
+    <li>Fixed: Button cooldowns being wrong for Hide And Seek</li>
+    <li>Fixed: AffectedByComms sprite showing ontop of custom buttons during sabotages</li>
+    <li>Fixed: Previous bounty being selected for the Bounty Hunter</li>
+    <li>Fixed: Hide And Seek Final Stage not starting</li>
+    <li>Fixed: Hunted vent button getting stuck while in a vent and trapping the player inside</li>
+    <li>Fixed: Disperser should not be given to the Bounty Hunter</li>
+    <li>Fixed: Ruthless modifier being given to non impostors</li>
+    <li>Fixed: Vampire not being affected by the flash or giant modifiers</li>
+   </ul>
+  </details> 
   <details>
     <summary> v0.9.25 </summary>
     <ul>
