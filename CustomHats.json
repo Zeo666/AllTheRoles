@@ -161,6 +161,18 @@
       "resource": "Chode_adaptive_bounce.png"
     },
     {
+      "author": "HannahTheBeef",
+      "adaptive": true,
+      "bounce": true,
+      "flipresource": "d20_adaptive_bounce_flip.png",
+      "condition": "None",
+      "name": "d20",
+      "package": "HannahTheBeef Hats",
+      "reshasha": "67387b408ba12c85a9e2b2fafd4e1e35",
+      "reshashf": "3154e9e38cfb3fced3c27d36a5c831bb",
+      "resource": "d20_adaptive_bounce.png"
+    },
+    {
       "author": "King Kobra",
       "climbresource": "The_Happening_climb.png",
       "condition": "None",
