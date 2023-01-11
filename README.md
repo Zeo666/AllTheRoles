@@ -30,12 +30,13 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 | [Outlaw](#outlaw)             | [Transporter](#transporter)   |                                   | [Double Shot](#double-shot)   |
 | [Scorpion](#scorpion)         | [Bodyguard](#bodyguard)       |                                   | [Chameleon](#chameleon)       |
 | [Banshee](#banshee)           | [Deputy](#deputy)             |                                   | [Ruthless](#ruthless)         |
-| [Vampire](#vampire)           | [Pursuer](#pursuer)           |                                   | |
+| [Vampire](#vampire)           | [Pursuer](#pursuer)           |                                   | [Confuse](#confuse)           |
 
 -----------------------
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.12.14s & 2022.12.14e | v0.9.27 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.27/AllTheRoles-0.9.27.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.26 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.26/AllTheRoles-0.9.26.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.25 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.25/AllTheRoles-0.9.25.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.24 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.24/AllTheRoles-0.9.24.zip) |
@@ -46,6 +47,22 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.27 </summary>
+    <ul>
+    <li>Added: Confuse impostor modifier</li>
+    <li>Added: Necromancer additional cooldown game setting</li>
+    <li>Added: Necromancer trigger both cooldown game setting</li>
+    <li>Added: Janitor trigger both cooldown game setting</li>
+    <li>Updated: Vulture devour button now has a total body indicator</li>
+    <li>Updated: Avenger message to target no longer includes the avengers name</li>
+    <li>Fixed: Joker decoy death not working correctly</li>
+    <li>Fixed: Decoyed Joker no longer turning invisible if they have the Chameleon modifier</li>
+    <li>Fixed: Mayor votes not appearing for everyone</li>
+    <li>Fixed: Drag ability for the Undertaker not working correctly</li>
+    <li>Fixed: Stop mind vision ability for the Mystic not working correctly</li>
+   </ul>
+  </details> 
   <details>
     <summary> v0.9.26 </summary>
     <ul>
@@ -1526,12 +1543,13 @@ This prevents the blackmailed person from speaking during the next meeting.
 ## Janitor
 ### **Team: Impostors**
 The Janitor is an Impostor that can clean up bodies.\
-Both their Kill and Clean ability have a shared cooldown, meaning they have to choose which one they want to use.
+Both their Kill and Clean ability by default have a shared cooldown, meaning they have to choose which one they want to use.\
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Janitor | The percentage probability of the Janitor appearing | Percentage | 0% |
+| Trigger Both Cooldowns | If set to true, casting clean will also trigger cooldown of the kill button and vice versa (but the two cooldowns may vary) | Toggle | False |
 
 -----------------------
 ## Miner
@@ -1695,7 +1713,9 @@ The Necromancer is an Impostor who can raise dead players and make them a Ghoul.
 | Necromancer | The percentage probability of the Necromancer appearing | Percentage | 0% |
 | Necromancer Raise Duration | The time that you need to stay next to the a body in order to raise the dead player | Time | 1s |
 | Necromancer Raise Cooldown | Cooldown for using the Raise ability | Time | 10s |
+| Necromancer Additional Cooldown | The spell casting cooldown will be increased by the amount you set here after each raise | Time | 10s |
 | Necromancer Raise Charges | The number of times the Necromancer can raise a dead player | Number | 5 |
+| Trigger Both Cooldowns | If set to true, casting raise will also trigger cooldown of the kill button and vice versa (but the two cooldowns may vary) | Toggle | False |
 | Necromancer Vent | Whether the Necromancer can Vent | Toggle | False |
 
 -----------------------
@@ -1707,7 +1727,7 @@ The Scorpion is an Impostor who can mark a player for teleportation and teleport
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Scorpion | The percentage probability of the Scorpion appearing | Percentage | 0% |
-| Scorpion Knows Target Location | - | Toggle | True |
+| Scorpion Knows Target Location | Show an arrow pointing to the marked target | Toggle | True |
 | Scorpion Vent | Whether the Scorpion can Vent | Toggle | False |
 
 -----------------------
@@ -2011,7 +2031,7 @@ The Chameleon becomes (partially or fully) invisible when standing still for x-s
 -----------------------
 ## Disperser
 ### **Applied to: Impostors**
-Disperser has the ability to teleport every player to a random vent
+Disperser is a button modifier that gives the impostors the ability to teleport every player to a random vent
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -2050,6 +2070,20 @@ The impostor will still die if the Veteran is on alert.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Ruthless | The percentage probability of Ruthless appearing | Percentage | 0% |
+
+-----------------------
+## Confuse
+### **Applied to: Impostors**
+Confuse is a button modifier that allows the impostor to reverse all the crewmates controls.\
+\
+**NOTE**
+- If a crewmate has the drunk modifier their controls will be reverted to normal temporarily.
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Confuse | The percentage probability of Confuse appearing | Percentage | 0% |
+| Confuse Cooldown | The cooldown of the Confuse ability | Time | 30s |
+| Confuse Duration | The duration of the Confuse ability | Time | 5s |
 
 -----------------------
 # Game Mode Settings
