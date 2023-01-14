@@ -2266,7 +2266,7 @@ Here are a few instructions, on how to create a custom visor:
   - `Main texture (required)`:
     - This is the main texture of your visor.
     - The name of the texture needs to follow the pattern *visorname.png*, but you can also set some additional parameters in the file name by adding `_parametername` to the file name (before the *.png*).
-    - Parameter `adaptive`: If this parameter is set, the Among Us coloring shader will be applied (the shader that replaces some colors with the colors that your character is wearing in the game). The color red (#ff0000) will be replaced with the primary color of your player and the color blue (#0000ff) with the secondary color. Also other colors will be affected and changed, you can have a look at the texture of the [Crewmate Hat](https://static.wikia.nocookie.net/among-us-wiki/images/e/e0/Crewmate_hat.png) to see how this feature should be used.
+    - Parameter `adaptive`: If this parameter is set, the Among Us coloring shader will be applied (the shader that replaces some colors with the colors that your character is wearing in the game). The color red (#ff0000) will be replaced with the primary color of your player and the color blue (#0000ff) with the secondary color. Also other colors will be affected and changed, you can have a look at the texture of the [Crewmate Hat](https://among-us.fandom.com/wiki/Hats?file=Spartan_Helmet.png) to see how this feature should be used.
   - `Flipped texture (optional)`:
     - This texture will be rendered instead of the Main texture, when facing the left.
     - The name of the texture needs to follow the pattern `visorname_flip.png`.
