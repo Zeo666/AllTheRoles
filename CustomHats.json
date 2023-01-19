@@ -194,8 +194,6 @@
     },
     {
       "author": "Ophidian",
-      "adaptive": false,
-      "bounce": false,
       "condition": "None",
       "name": "Mikedottv Hat",
       "package": "Community Hats",
