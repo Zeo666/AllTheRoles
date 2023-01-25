@@ -30,12 +30,13 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 | [Outlaw](#outlaw)             | [Transporter](#transporter)   |                                   | [Double Shot](#double-shot)   |
 | [Scorpion](#scorpion)         | [Bodyguard](#bodyguard)       |                                   | [Chameleon](#chameleon)       |
 | [Banshee](#banshee)           | [Deputy](#deputy)             |                                   | [Ruthless](#ruthless)         |
-| [Vampire](#vampire)           | [Pursuer](#pursuer)           |                                   | [Confuse](#confuse)           |
+| [Vampire](#vampire)           |                               |                                   | [Confuse](#confuse)           |
 
 -----------------------
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.12.14s & 2022.12.14e | v0.9.28 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.28/AllTheRoles-0.9.28.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.27 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.27/AllTheRoles-0.9.27.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.26 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.26/AllTheRoles-0.9.26.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.25 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.25/AllTheRoles-0.9.25.zip) |
@@ -47,6 +48,36 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.28 </summary>
+    <ul>
+    <li>Added: Med scan data for the mini</li>
+    <li>Updated: Survivor now has the blank ability</li>
+    <li>Updated: Possessor possession movement logic</li>
+    <li>Updated: Footprint graphics for the Investigator role</li>
+    <li>Updated: Blood graphics for the Bloody modifier</li>
+    <li>Updated: Swapper icon graphics for the Swapper role</li>
+    <li>Updated: Assassinate icon graphics</li>
+    <li>Updated: Reduced size of teleport beacon</li>
+    <li>Updated: Lighter/darker label graphics</li>
+    <li>Updated: Soul graphics for the Medium role</li>
+    <li>Updated: Chalk outline graphics for the Detective role</li>
+    <li>Updated: Sealed vent graphics for the Engineer role</li>
+    <li>Updated: Ninja Leaves graphics (now caltrops) for the Ninja role</li>
+    <li>Updated: Trap graphics for the Trapper role</li>
+    <li>Updated: Base game settings are now saved per preset</li>
+    <li>Fixed: Lobby settings not syncing on player join</li>
+    <li>Fixed: Revived players no longer keep the haunt button</li>
+    <li>Fixed: Sidekick being known by impostors or deputy/sheriff</li>
+    <li>Fixed: Haunter & Phantom being super fast</li>
+    <li>Fixed: Dead players will now only see roles via the Haunt menu until after meeting</li>
+    <li>Fixed: Joker being killed by a bomb when decoyed</li>
+    <li>Fixed: Game loader animation showing during certain screen flashes</li>
+    <li>Fixed: Snitch task text when they haven't been revealed on game start</li>
+    <li>Fixed: Sealed vents not working immediately</li>
+    <li>Removed: Pursuer crewmate role</li>
+    </ul>
+  </details> 
   <details>
     <summary> v0.9.27 </summary>
     <ul>
@@ -751,8 +782,8 @@ The Investigator can view the security cameras from anywhere on the map.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Investigator | The percentage probability of the Investigator appearing | Percentage | 0% |
-| Footprint Size | The size of the footprint on a scale of 1 to 10 | Number | 4 |
-| Footprint Interval | The time interval between two footprints | Time | 0.1s |
+| Footprint Size | The size of the footprint | Number | 1 |
+| Footprint Interval | The time interval between footprints | Time | 0.25s |
 | Footprint Duration | The amount of time that the footprint stays on the ground for | Time | 10s |
 | Anonymous Footprint | When enabled, all footprints are grey instead of the player's colors | Toggle | False |
 | Footprint Vent Visible | Whether footprints near vents are shown | Toggle | False |
@@ -795,7 +826,7 @@ The Priest also has the Sancitfy ability which creates an area where no interact
 | Sancitfy Cooldown | - | Time | 25s |
 | Sancitfy Delay | The time delay before sancitfy is placed | Time | 5s |
 | Sancitfy Charges | The number of times you can sanctify the ground | Number | 5 |
-| Sancitfy Radius | The size of the Sanctify | Number | 2 |
+| Sancitfy Radius | The size of the Sanctify | Factor | 1x |
 | Sancitfy Duration | The time Sancitfy lasts for | Time | 25s |
 
 -----------------------
@@ -1092,21 +1123,6 @@ with an option to also kill the attacker.
 | Kills Attacker On Guard | Kills Attacker on Guard | Toggle | False |
 
 -----------------------
-## Pursuer
-### **Team: Crewmates**
-The Pursuer is a Crewmate role, but has a different goal to win the game; they have to be alive when the game ends and the Crew or Neutral wins.\
-In order to achieve this goal, the Pursuer has an ability called "Blank", where they can fill a killers (this also includes the Sheriff) weapon with a blank. So, if the killer attempts to kill someone, the killer will miss their target, and their cooldowns will be triggered as usual.\
-If the killer fires the "Blank", shields (e.g. Medic shield or Time Master shield) will not be triggered.\
-The Pursuer is a role that can be given to a player after the Lawyer, Executioner or Guardian Angel targets are killed.
-
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Pursuer | The percentage probability of the Pursuer appearing | Percentage | 0% |
-| Pursuer Blank Cooldown | The cooldown of the Pursuer's blank ability | Time | 10s | 
-| Pursuer Number Of Blanks | The number of charges of the Pursuer's blank ability | Number | 5 |
-
------------------------
 # Neutral Roles
 ## Amnesiac
 ### **Team: Neutral**
@@ -1148,7 +1164,11 @@ If their target loses, they lose.
 ## Survivor
 ### **Team: Neutral**
 The Survivor is a Neutral role which can wins by simply surviving.\
-However, if Lovers, or a Neutral Evil role wins the game, the survivor loses.
+However, if Lovers, or a Neutral Evil role wins the game, the survivor loses.\
+In order to achieve this goal, the Survivor has two abilities:\
+The "Vest" ability, which protects the Survivor and resets the kill cooldown of the attacker.\
+The "Blank" ability, where they can fill a killers (this also includes the Sheriff) weapon with a blank. So, if the killer attempts to kill someone, the killer will miss their target, and their cooldowns will be triggered as usual.\
+If the killer fires the "Blank", shields (e.g. Medic shield or Time Master shield) will not be triggered.\
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -1158,6 +1178,8 @@ However, if Lovers, or a Neutral Evil role wins the game, the survivor loses.
 | Vest Duration | How long The Survivor's Vest lasts | Time | 10s |
 | Kill Cooldown Reset on Attack | The attackers kill cooldown after they attacked the veste Survivor | Time | 2.5s |
 | Max Uses | The amount of times the Vest ability can be used | Number | 5 |
+| Blank Cooldown | The cooldown of the Survivor's blank ability | Time | 10s | 
+| Number Of Blanks | The number of charges of the Survivor's blank ability | Number | 5 |
 
 -----------------------
 ## Jester
@@ -1213,7 +1235,7 @@ The other is to ingite all doused players.\
 | Arsonist | The percentage probability of the Arsonist appearing | Percentage | 0% |
 | Douse Cooldown | The cooldown of the Arsonist's Douse button | Time | 25s |
 | Douse Duration | The time that you need to stay next to a target in order to douse them | Time | 1s |
-| Arsonist Douse Radius | Douse Radius| Number | 1 |
+| Arsonist Douse Radius | The size of the Douse | Factor | 1x |
 | Arsonist Max Player Douse | Max Player Douse | Number | 1 |
 | Arsonist Imposter Vision | Where the arsonist has imposter vision | Toggle | False |
 | Arsonist Game End | Game Continues As Long As Arsonist Is Alive | Toggle | False |
@@ -1949,7 +1971,7 @@ Neutral or Crewmate roles can have this Modifier.
 |----------|:-------------:|:------:|:------:|
 | Bloody | The percentage probability of the Bloody appearing | Percentage | 0% |
 | Bloody Quantity | - | Number | 1 |
-| Trail duration | - | Time | 10s |
+| Trail duration | The time before a blood splatter fades away | Time | 10s |
 
 -----------------------
 ## VIP
@@ -2165,7 +2187,6 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 # Custom Game Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Probability of a completely vanilla game | The percentage probability of a vanilla Among Us game happening | Percentage | 0% |
 | Camouflaged Comms | Whether everyone becomes camouflaged when Comms are sabotaged | Toggle | False |
 | Impostors can see the roles of their team | Whether Impostors are able to see which Impostor roles their teammates have | Toggle | False |
 | Dead can see everyone's roles and Votes | Whether dead players are able to see the roles and votes of everyone else | Toggle | False |
