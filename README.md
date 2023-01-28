@@ -2305,8 +2305,9 @@ Here are a few instructions, on how to create a custom nameplate:
 
 -----------------------
 # Credits & Resources
-<b>HannahTheBeef</b> - For the new button graphics & ingame art.\
-<b>Blankboi</b> & <b>MC-AS-Huier</b> - For the simplified chinese translation.
+<b>HannahTheBeef</b> - For the new button graphics, ingame art & hats.\
+<b>Blankboi</b> & <b>MC-AS-Huier</b> - For the simplified chinese translation.\
+<b>[Himicane](https://www.twitch.tv/himicane)</b> - For providing so many hats previously seen in TownOfUs-R
 
 [Reactor](https://github.com/NuclearPowered/Reactor) - The framework of the mod.\
 [BepInEx](https://github.com/BepInEx) - For hooking game functions.\
