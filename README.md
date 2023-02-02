@@ -36,20 +36,42 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
-| 2022.12.14s & 2022.12.14e | v0.9.28 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.28/AllTheRoles-0.9.28.zip) |
-| 2022.12.14s & 2022.12.14e | v0.9.27 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.27/AllTheRoles-0.9.27.zip) |
-| 2022.12.14s & 2022.12.14e | v0.9.26 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.26/AllTheRoles-0.9.26.zip) |
-| 2022.12.14s & 2022.12.14e | v0.9.25 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.25/AllTheRoles-0.9.25.zip) |
-| 2022.12.14s & 2022.12.14e | v0.9.24 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.24/AllTheRoles-0.9.24.zip) |
-| 2022.10.25s & 2022.10.25e | v0.9.23 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.23/AllTheRoles-0.9.23.zip) |
-| 2022.10.25s & 2022.10.25e | v0.9.22 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.22/AllTheRoles-0.9.22.zip) |
-| 2022.10.25s & 2022.10.25e | v0.9.21 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.21/AllTheRoles-0.9.21.zip) |
-| 2022.10.25s & 2022.10.25e | v0.9.20 | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.20/AllTheRoles-0.9.20.zip) |
+| 2022.12.14s & 2022.12.14e | v0.9.29 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.29/AllTheRoles-0.9.29.zip) |
+| 2022.12.14s & 2022.12.14e | v0.9.28 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.28/AllTheRoles-0.9.28.zip) |
+| 2022.12.14s & 2022.12.14e | v0.9.27 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.27/AllTheRoles-0.9.27.zip) |
+| 2022.12.14s & 2022.12.14e | v0.9.26 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.26/AllTheRoles-0.9.26.zip) |
+| 2022.12.14s & 2022.12.14e | v0.9.25 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.25/AllTheRoles-0.9.25.zip) |
+| 2022.12.14s & 2022.12.14e | v0.9.24 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.24/AllTheRoles-0.9.24.zip) |
+| 2022.10.25s & 2022.10.25e | v0.9.23 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.23/AllTheRoles-0.9.23.zip) |
+| 2022.10.25s & 2022.10.25e | v0.9.22 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.22/AllTheRoles-0.9.22.zip) |
+| 2022.10.25s & 2022.10.25e | v0.9.21 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.21/AllTheRoles-0.9.21.zip) |
+| 2022.10.25s & 2022.10.25e | v0.9.20 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.20/AllTheRoles-0.9.20.zip) |
 
 <details>
   <summary> Changelog </summary>
   <details>
-    <summary> v0.9.28 </summary>
+    <summary> v0.9.29 BETA </summary>
+    <ul>
+    <li>Added: Plum colour</li>
+    <li>Updated: Priest role color</li>
+    <li>Updated: Vigilante role color</li>
+    <li>Updated: Poltergeist now wins with any neutrals</li>
+    <li>Updated: The Snitch now shows as crewmate ingame when not revealed</li>
+    <li>Updated: Drunk can be limited to a set number of rounds</li>
+    <li>Updated: Removed pursuer from all role settings</li>
+    <li>Updated: Removed client options</li>
+    <li>Updated: Removed horse mode</li>
+    <li>Fixed: Players joining lobbies and breaking the settings</li>
+    <li>Fixed: Sleuth role data only appearing for the Sleuth when other players report</li>
+    <li>Fixed: Phantom and Haunter not being fast when caught</li>
+    <li>Fixed: AssasinateAfterVoting setting being reversed</li>
+    <li>Fixed: Sheriff not spawning as Avenger when lover is killed</li>
+    <li>Fixed: In game icons showing for dead players before meeting</li>
+    <li>Fixed: Jester winning with crew on task win</li>
+    </ul>
+  </details> 
+  <details>
+    <summary> v0.9.28 BETA</summary>
     <ul>
     <li>Added: Med scan data for the mini</li>
     <li>Updated: Survivor now has the blank ability</li>
@@ -79,7 +101,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
     </ul>
   </details> 
   <details>
-    <summary> v0.9.27 </summary>
+    <summary> v0.9.27 BETA</summary>
     <ul>
     <li>Added: Confuse impostor modifier</li>
     <li>Added: Necromancer additional cooldown game setting</li>
@@ -95,7 +117,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
    </ul>
   </details> 
   <details>
-    <summary> v0.9.26 </summary>
+    <summary> v0.9.26 BETA</summary>
     <ul>
     <li>Added: PickMimic, Mimic & Hack button graphics for Glitch</li>
     <li>Updated: Hunter Lights button graphics changed</li>
@@ -115,7 +137,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
    </ul>
   </details> 
   <details>
-    <summary> v0.9.25 </summary>
+    <summary> v0.9.25 BETA</summary>
     <ul>
     <li>Added: Ruthless impostor modifier</li>
     <li>Added: Shift button graphics for Shifter</li>
@@ -129,7 +151,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
     </ul>
   </details> 
   <details>
-    <summary> v0.9.24 </summary>
+    <summary> v0.9.24 BETA</summary>
     <ul>
     <li>Added: Compatibility for Among Us version 2022.12.14</li>
     <li>Added: Poltergeist drag body duration setting</li>
@@ -161,7 +183,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
     </ul>
   </details> 
   <details>
-    <summary> v0.9.23 </summary>
+    <summary> v0.9.23 BETA</summary>
     <ul>
     <li>Updated: The Avenger won't appear dead in meetings if they spawn immediately</li>
     <li>Updated: A green flash occurs when the bodyguard protects their client</li>
@@ -179,7 +201,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
     </ul>
   </details> 
   <details>
-    <summary> v0.9.22 </summary>
+    <summary> v0.9.22 BETA</summary>
     <ul>
     <li>Added: Poltergeist Neutral ghost role</li>
     <li>Added: Remember button graphics for Amnesiac</li>
@@ -204,7 +226,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
     </ul>
   </details> 
   <details>
-    <summary> v0.9.21 </summary>
+    <summary> v0.9.21 BETA</summary>
     <ul>
     <li>Added: Avenger neutral role</li>
     <li>Added: Bomb button graphics for the Bomber</li>
@@ -217,7 +239,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
     </ul>
   </details> 
   <details>
-    <summary> v0.9.20 </summary>
+    <summary> v0.9.20 BETA</summary>
     <ul>
     <li>Added: Dynamic colours</li>
     <li>Added: Custom visors</li>
@@ -243,446 +265,6 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
     <li>Fixed: Astral not turning into a ghost when killed</li>
     </ul>
   </details> 
-  <details>
-    <summary> v0.9.19 </summary>
-    <ul>
-    <li>Added: Timer punishment for Hunters using their abilities</li>
-    <li>Added: Sound klaxon to indicated start of hide and seek game</li>
-    <li>Added: Hide And Seek player tracking icons</li>
-    <li>Added: Hunted time shield outline and shield break effect</li>
-    <li>Added: Hunter time remaining text on end game screen</li>
-    <li>Added: Time shield rewind game setting for the Hunted</li>
-    <li>Added: Vampire to Guesser selection</li>
-    <li>Added: KillsAttackerOnGuard game setting for the Bodyguard</li>
-    <li>Updated: Sabotage button doesn't show in Hide and Seek mode</li>
-    <li>Updated: End game summary text size has been decreased</li>
-    <li>Updated: Amnesiac turns into the shifter when a certain player alive threshold is met</li>
-    <li>Fixed: Hide And Seek timer not showing</li>
-    <li>Fixed: The sabotage map showing for Hunters in Hide and Seek mode</li>
-    <li>Fixed: Chameleon resets a players visibility when shifted</li>
-    <li>Fixed: Werewolf being able to vent outside of rampage</li>
-    <li>Fixed: Loading animation showing when time rewind has finished</li>
-    <li>Fixed: Astral glitch when meetings ends and the player has no collision</li>
-    </ul>
-  </details> 
-   <details>
-    <summary> v0.9.18 </summary>
-    <ul>
-    <li>Added: Hide And Seek game mode</li>
-    <li>Added: New Transporter button graphics </li>
-    <li>Added: Teleporter Beacon for when the Transporter marks a location</li>
-    <li>Added: Discord button to main menu</li>
-    <li>Updated: All charge based buttons now show the max value (x/x)</li>
-    <li>Updated: Player tracking icons refresh after meeting for the Plaguebearer</li>
-    <li>Updated: Player tracking icons now disappear when the Plaguebearer dies</li>
-    <li>Updated: Player tracking icons refresh after meeting for the Arsonist</li>
-    <li>Updated: Player tracking icons now disappear when the Arsonist dies</li>
-    <li>Updated: Exchanged Witch for Poisoner in Killing Only</li>
-    <li>Updated: Priest can no longer confess a player who already confessed</li>
-    <li>Updated: A Bodyguard's target now has a shield to prevent them dieing right after the Bodyguards sacrifice</li>
-    <li>Updated: End game role summary now shows who killed who</li>
-    <li>Updated: Sniper blaster is now colour coded to the players colour</li>
-    <li>Fixed: Vigilante being stuck on a vent after being voted out</li>
-    <li>Fixed: Astral form now animates when moving</li>
-    <li>Fixed: Swooper and Astral name being visible if they were the target of another player</li>
-    <li>Fixed: First Kill Shield appearing on morphed targets</li>
-    <li>Fixed: Vampire lights out effect being stuck after the Vampire is killed</li>
-    <li>Fixed: Roles who can't do tasks getting multitasker modifier and other crewmate modifiers</li>
-    <li>Fixed: Sniper blaster being equiped after a meeting</li>
-    <li>Fixed: Vent icon appearing for those without vent ability when hacked</li>
-    <li>Fixed: Deputy lighter ability duration being incorrect</li>
-    <li>Fixed: Future sealed vents having the correct sprite in Submerged</li>
-    <li>Fixed: Possessor cooldown text being green after meeting</li>
-    <li>Fixed: Plaguebearer not turning into Pestilence when all alive infected</li>
-    <li>Fixed: Pestilence dieing when their lover partner dies in game</li>
-    <li>Fixed: Blackmailer target not resetting after meeting</li>
-    <li>Fixed: Detective and Medium reports now show the first role of a dead player</li>
-    <li>Fixed: Colourblind text no longer appears on the Haunter and Phantom</li>
-    </ul>
-  </details> 
-  <details>
-    <summary> v0.9.17 </summary>
-    <ul>
-    <li>Added: EnableModifiers game setting</li>
-    <li>Updated: Trap button graphics for the Trapper</li>
-    <li>Fixed: Game settings not being propagated</li>
-    <li>Fixed: Disperser not showing for other players besides host</li>
-    </ul>
-  </details>
-  <details>
-    <summary> v0.9.16 </summary>
-    <ul>
-    <li>Added: Killing Only game setting</li>
-    <li>Updated: Vampire lights out effect</li>
-    <li>Updated: Handcuff and Lighter button graphics for the Deputy</li>
-    <li>Updated: Priest Sanctify graphics</li>
-    <li>Fixed: Rewrote Vigilante Exile logic, now also works with the submerged map</li>
-    <li>Fixed: Arsonist Douse effect showing correctly on target</li>
-    <li>Fixed: Shields on the Vampire now won't display while in Vampire form</li>
-    <li>Fixed: Torch not being able to see when Vampire lights are out</li>
-    <li>Fixed: Vampire lights button cooldown text being green after meeting ends</li>
-    <li>Fixed: Vampire Form name being the players name instead of "VAMPIRE"</li>
-    </ul>
-  </details>
-  <details>
-    <summary> v0.9.15 </summary>
-    <ul>
-    <li>Added: Vampire Impostor role</li>
-    <li>Added: ShieldResetAfterMeeting game setting for the Medic</li>
-    <li>Added: GuardResetAfterMeeting game setting for the Bodyguard</li>
-    <li>Added: Sniper venting is now configurable</li>
-    <li>Updated: Priest Sanctify ability now has a configurable delay timer</li>
-    <li>Updated: Ghoul scare lights out effect updated</li>
-    <li>Updated: Sanctify button graphics for the Priest<li>
-    <li>Updated: Confess button graphics for the Priest<li>
-    <li>Updated: Rewind button graphics for the Time Lord<li>
-    <li>Updated: Time Shield button graphics for the Time Lord<li>
-    <li>Updated: Deputy alignment is taken into account by the Priest Confess ability</li>
-    <li>Fixed: Lawyer wins with Jester correctly on host</li>
-    <li>Fixed: GA not winning with their Impostor target</li>
-    <li>Fixed: Survivor winning with Neutrals but end game screen shows Victory for all</li>
-    <li>Fixed: Survivor not winning with the Impostors when alive at the end of the game</li>
-    <li>Fixed: Astral, Outlaw and Poisoner kill buttons are now affected by timer modifications</li>
-    <li>Fixed: Outlaw not getting charges back if kill cooldown is reduced to 0 by Underdog</li>
-    <li>Fixed: Sheriff and Deputy kill buttons now do not go on cooldown if their kill is supressed</li>
-    <li>Fixed: Survivor vest button not using the base graphics and causing a game breaking error</li>
-    <li>Fixed: Transporter self transport ability now resets after meeting</li>
-    </ul>
-  </details>
-  <details>
-    <summary> v0.9.14 </summary>
-    <ul>
-    <li>Added: Deputy crewmate role</li>
-    <li>Added: Time Shield ability for the Time Lord<li>
-    <li>Added: Sanctify ability for the Priest<li>
-    <li>Added: Mini aging in meetings can be turned off<li>
-    <li>Added: Engineer seal vent support for submerged map<li>
-    <li>Added: Competing role removal logic has been added to role selection</li>
-    <li>Updated: Sniper weapon graphics<li>
-    <li>Updated: Guard button graphics for the Bodyguard<li>
-    <li>Updated: Repair button graphics for the Engineer<li>
-    <li>Updated: Mind Vision button graphics for the Mystic<li>
-    <li>Updated: Seal Vent button graphics for the Engineer<li>
-    <li>Change: Seer renamed Priest</li>
-    <li>Change: Reduced RewindMaxUses minimum value to 0 so Rewind Button can be turned off</li>
-    <li>Fixed: Arsonist douse and ignite not working correctly</li>
-    <li>Fixed: Arsonist player icons showing when turned Traitor</li>
-    <li>Fixed: Astral spectral form causing the game to never end</li>
-    <li>Fixed: Joker not dying if shot in meeting but was decoyed before meeting started</li>
-    <li>Fixed: Swooper can now go invisible again</li>
-    <li>Fixed: Traitor can be assasinated if the Hypnotist is in the game</li>
-    <li>Fixed: Chameleon colourblind text going black during camo comms</li>
-    <li>Fixed: Vigilante appearing as ghost sometimes after being voted out</li>
-    <li>Fixed: Vigilante kill cooldown now resets after a kill unless no more charges</li>
-    <li>Fixed: Prevent Sniper weapon guides showing in meetings</li>
-    <li>Fixed: Lovers not being able to win</li>
-    <li>Fixed: Detective and Medium inspect/mediate on souls/chalkoutlines are now correct and working</li>
-    <li>Fixed: Engineer seal vent graphic size in submerged map<li>
-    <li>Fixed: Mini not causing everyone to loose if voted out as crew</li>
-    <li>Fixed: Mini age now appears on morphed player names</li>
-    </ul>
-  </details>
-  <details>
-    <summary> v0.9.13 </summary>
-    <ul>
-    <li>Added: Chameleon modifier</li>
-    <li>Added: Blind and Multitasker to the guesser selection</li>
-    <li>Updated: Disperser button graphics</li>
-    <li>Updated: Button Barry button graphics</li>
-    <li>Change: Vulture can now devour a dead body from report distance</li>
-    <li>Fixed: Incorrect end game screens for everyone besides the host</li>
-    <li>Fixed: Prevent traitor getting the guesser ability if they already have it</li>
-    <li>Fixed: Plaguebearer player icons showing when turned Traitor</li>
-    <li>Fixed: Arsonist douse graphics should move with the current target</li>
-    <li>Fixed: Bounty Hunter can't get their GA as a bounty target</li>
-    <li>Fixed: Fix for dead people only having max light radius</li>
-    <li>Fixed: Jackal Sidekick button timer correctly set after meeting</li>
-    </ul>
-  </details>
-  <details>
-    <summary> v0.9.12 </summary>
-    <ul>
-    <li>Works with Among Us version 2022.10.25</li>
-    <li>Added: Submerged map compatibility</li>
-    <li>Added: Self Transport ability to the Transporter</li>
-    <li>Added: DoubleShot Impostor modifier</li>
-    <li>Added: Shield break animation to the medic shield and first kill shield</li>
-    <li>Added: Lighter/Darker labels for the Detective and Medium</li>
-    <li>Added: Arsonist Douse Radius and Arsonist Max Player Douse game settings</li>
-    <li>Added: Duration settings for the Spy Admin ability, Medic Vitals ability and Investigator Cams ability</li>
-    <li>Added: Possessor can vent game setting</li>
-    <li>Updated: Altruist Revive button graphics</li>
-    <li>Updated: Medic Shield button graphics</li>
-    <li>Updated: Vigilante Tracker button graphics</li>
-    <li>Updated: Veteran Alert button graphics</li>
-    <li>Updated: Guardian Angel Protect button graphics</li>
-    <li>Updated: Morphling Morph button graphics</li>
-    <li>Change: After being voted out the Vigilante spawns inside a random vent</li>
-    <li>Change: Arsonist can now douse multiple players at a time based on a radius</li>
-    <li>Change: Vulture can target dead bodies from further away</li>
-    <li>Fixed: Plaguebearer can't infect the none grown up mini</li>
-    <li>Fixed: Morphling name change no longer preceeds the animation</li>
-    <li>Fixed: Roles with charges now don't have their button timers refreshed after meeting</li>
-    <li>Fixed: Amnesiac should now get the guessing ability from remembering the Sheriff role</li>
-    <li>Fixed: Plaguebearer becoming pestilence in the last 2 and causing an imp win</li>
-    <li>Fixed: Mystic mind vision causing problems on shift</li>
-    <li>Fixed: Jackal can't target sidekick unless canCreateSidekickFromImpostor is false</li>
-    <li>Fixed: Vent button graphics not showing for the Traitor</li>
-    <li>Fixed: Detective & Medium should not get souls or chalk oultines for those killed during a meeting</li>
-    <li>Fixed: You can't throw the bomb onto a mini player that hasn't grown up yet</li>
-    <li>Fixed: Sniper weapon appearing larger on first use</li>
-    </ul>
-  </details>
-  <details>
-    <summary> v0.9.11 </summary>
-    <ul>
-    <li>Underdog is now a modifier</li>
-    <li>Blind is now a crewmate modifier</li>
-    <li>Added ShieldDisappearsOnAttack game setting</li>
-    <li>Added ArsonistImpostorVision game setting</li>
-    <li>Updated SeerButton graphics by HannahTheBeef</li>
-    <li>First kill shield and medic shield now won't show up on morphed players</li>
-    <li>Arsonist and Plaguebearer now have player icons to track doused and infected players</li>
-    <li>Plaguebearer infection now spreads when an infected body is reported</li>
-    <li>Glitch Hack now affects the Vent & Sabotage buttons</li>
-    <li>Prevent all but crewmates and neutral benign from getting crewmate modifiers</li>
-    <li>Mini can't be targeted or shot if not grown up</li>
-    <li>Ghoul Scare now reduces the victims light radius</li>
-    <li>Fixed: Sheriff can no longer kill a bodyguard if they shoot their target</li>
-    <li>Fixed: Bodyguard and Medic icons now won't show on morphed players</li>
-    <li>Fixed: Mini age now won't show on morphed players</li>
-    <li>Fixed: Jackal lover exiled will now correctly promoted their sidekick</li>
-    <li>Fixed: Astral being exiled as the lover of someone voted and not being actually dead</li>
-    <li>Fixed: Bounty Hunter can't have a Mini target that hasn't grown up</li>
-    <li>Fixed: Zoom out button not showing up</li>
-    </ul>
-  </details>
-  <details>
-    <summary> v0.9.10 </summary>
-    <ul>
-    <li>Added Mini modifier</li>
-    <li>Added Radar modifier</li>
-    <li>Added Multitasker modifier</li>
-    <li>Added Survivor win end game screen</li>
-    <li>Made some rendering improvements to the lobby settings</li>
-    <li>Added Decoy delay timer before the Joker can use their decoy ability</li>
-    <li>Updated Medium Mediate button graphics</li>
-    <li>Updated Vigilante Tracker button graphics</li>
-    <li>Ninja arrow has changed from black to red</li>
-    <li>Scorpion arrow has changed from black to red</li>
-    <li>Fixed: Swapper buttons to reset if one of the swap targets are killed in meeting</li>
-    <li>Fixed: Swooper and Ninja properly hides the colourblind text during Invis</li>
-    <li>Fixed: Fix for GA protection errorneous behaviour</li>
-    <li>Fixed: Astral form should not show the zoom out/in buttons</li>
-    <li>Fixed: Astral being able to see ghost chat in Astral form</li>
-    <li>Fixed: End game occuring if Astral is in Astral form</li>
-    <li>Fixed: Astral not being able to kill during astral form after the first time</li>
-    <li>Fixed: Fix for 2 jackals vs 2 crew not winning</li>
-    <li>Fixed: Morphling animation shouldn't occur during meetings</li>
-    <li>Fixed: Giant modifier no longer shows during Camo Comms</li>
-    <li>Fixed: Haunter and Phantom not being able to unvent at the start of a round</li>
-    <li>Fixed: Killing a bodyguard when they protect their target but the attackers kill cooldown doesn't refresh</li>
-    <li>Fixed: Lovers can't win if executioner win criteria is met</li>
-    <li>Fixed: Kills before meeting now show correctly for everyone</li>
-    </ul>
-  </details>
-  <details>
-    <summary> v0.9.9 </summary>
-    <ul>
-    <li>Joker decoys no longer show their medic or bodyguard icons</li>
-    <li>Joker decoys no longer show their medic shields</li>
-    <li>Joker decoys no longer affected by medic shields</li>
-    <li>Added cooldown for the shifter after meeting</li>
-    <li>Updated Medic shield button graphics</li>
-    <li>Updated Detective Inspect button graphics</li>
-    <li>Changed guesser ghost chat message</li>
-    <li>Updated TimeLord rewind button text colour to be the right colour for the role</li>
-    <li>Executioner target now shows on the intro screen for the Executioner</li>
-    <li>Spy can't be Executioner target</li>
-    <li>Fixed: Pursuer blank button should only highlight when they have a target</li>
-    <li>Fixed: Vulture and survivor being the last two players with no game end</li>
-    <li>Fixed: Executioner target now changes on shift</li>
-    <li>Fixed: Spy should not have any more vent and ladder movement issues anymore</li>
-    <li>Fixed: Touching shouldn't cause the Veteran or Pestilence to die if KilledOnAlert setting is on</li>
-    <li>Fixed: Warlock kill logic from breaking and causing odd behaviours</li>
-    <li>Fixed: Amnesiac not being able to be shifted on or sidekicked</li>
-    </ul>
-  </details>
-  <details>
-    <summary> v0.9.8 </summary>
-    <ul>
-    <li>Added Better Polus game settings</li>
-    <li>Spy can now be assassinated by impostors if setting selected</li>
-    <li>Spy can be shot by the Sheriff is setting selected</li>
-    <li>If Spy can be shot by impostors then impostors can kill other imposters</li>
-    <li>If Spy can be assassinated by impostors then impostors can assassinate other imposters</li>
-    <li>All custom button timers are reset on game start</li>
-    <li>The transporter can now transport dead players</li>
-    <li>Ghoul scare screen flash lasts the duration</li>
-    <li>Updated text colour for the veteran alert button</li>
-    <li>Can assasinate snitch via crewmate</li>
-    <li>Clear Vigilante on shift</li>
-    <li>Possessed message now renders until possession is over</li>
-    <li>Swapper buttons are now hidden if a player is shot in meeting</li>
-    <li>Kill buttons that are hidden for those imposters that don't need them are correctly hidden after a meeting</li>
-    <li>Arsonist Douse, Bomber Place Bomb, Glitch Hack, Plaguebearer Infect and Shifter shift can be blanked and die on Alert or die touching Pestilence</li>
-    <li>Fixed: Ninja should die to veteran and pestilence</li>
-    <li>Fixed: Ninja should be correctly blanked by the Pursuer</li>
-    <li>Fixed: Ninja button text not being set correctly after an assassination</li>
-    <li>Fixed: Witch victim dying before anyone gets voted off causing unintended scenarios</li>
-    <li>Fixed: The Bodyguard should now reset properly if they get shifted</li>
-    <li>Fixed: Executioner not turing into amnesiac if that setting is selected</li>
-    <li>Fixed: GA turning into crewmate when amnesiac is </li>
-    <li>Fixed: Wrong guesses showing the correct dead chat message</li>
-    <li>Fixed: If a possessed victim is brought back to life their buttons should be re-enabled</li>
-    <li>Fixed: Shifter should now shift the guesser ability as well</li>
-    <li>Fixed: Bomber place bomb button cooldown properly set</li>
-    <li>Fixed: VIP flash no longer occuring when a Joker decoy is killed</li>
-    <li>Fixed: Timelord revive will re-enable the buttons of a previously possessed player</li>
-    <li>Fixed: Guesser dead chat message won't happen twice if lover is killed too</li>
-    <li>Fixed: guesser dead chat being incorrect on a bad guess</li>
-    <li>Fixed: Joker not spawning at the meeting table after a meeting</li>
-    <li>Fixed: Warlock now affected by Pursuer Blank</li>
-    <li>Fixed: Ninja assassinate no longer has a 5 second cooldown</li>
-    <li>Fixed: Pestillence teleporting to the sniper when they are shot</li>
-    <li>Fixed: Joker not dieing when their lover is killed</li>
-    <li>Fixed: Joker not having to resample after pressing end decoy</li>
-    </ul>
-  </details>
-  <details>
-    <summary> v0.9.7 </summary>
-    <ul>
-    <li>Added Indomitable modifier</li>
-    <li>Assassinate info is now sent to dead chat</li>
-    <li>Mystic mind vision now has a cooldown setting</li>
-    <li>Added a delay to the possess ability with game settings</li>
-    <li>Reset possessor if target dies during delay</li>
-    <li>Prevent the possessed from venting</li>
-    <li>Added Possessed message for the possessed victim</li>
-    <li>Prevent possess on dead targets or if the possessor is dead</li>
-    <li>Fixed: Players having colours after a meeting when camo comms is on</li>
-    <li>Fixed: While spectating a player and they are killed mind vision will not move with the ghost</li>
-    </ul>
-  </details>
-  <details>
-    <summary> v0.9.6 </summary>
-    <ul>
-    <li>Possessor now has a kill cooldown when they first possess someone</li>
-    <li>Possessor kill button now shares a cooldown with the Possess kill button</li>
-    <li>Possessor Possess button now has a delay timer after use</li>
-    <li>Added new game settings: PossessKillCooldown & SidekickCanAssassin</li>
-    <li>Updated guesser to hide buttons correctly</li>
-    <li>When shifting onto a possessed player the buttons will be redisabled</li>
-    <li>Buttons are now disabled when possessed</li>
-    <li>Sidekick can now be a guesser if the setting is on</li>
-    <li>Guesser can now guess the Sidekick when selecting Jackal</li>
-    <li>Modifiers should now show up to the dead players</li>
-    <li>Updated modifier text size and colour when revealModifier is true</li>
-    <li>Sidekick can't get guessed if Jackal wasn't a guesser</li>
-    <li>Arsonist can win with survivors and lawyers or when ignite is used</li>
-    <li>Imposters can now zoom out when they are dead</li>
-    <li>Fixed: Possessor should now be affected by the Diseased modifier after a kill</li>
-    <li>Fixed: InspectChalkOutlineCastingDuration & MediateSoulCastingDuration settings being in the wrong tab screen</li>
-    <li>Fixed: Hiding a map while possessed no longer re-enables the Report and Use buttons</li>
-    <li>Fixed: Sniper weapon and guides now correctly disappear after death</li>
-    <li>Fixed: Sidekick promotion issues</li>
-    <li>Fixed: Mystic moving during mind vision</li>
-    <li>Fixed: Possessor staying in control of their victim if they are killed</li>
-    <li>Fixed: Medic shield flash not showing</li>
-    <li>Fixed: Mystic mind vision should no longer spectate the target ghost if the target is dead</li>
-    <li>Fixed: Astral being voted out or guessed and still counted as alive and keeping the game going</li>
-    <li>Fixed: Shifting on a Joker decoy causing issues</li>
-    <li>Fixed: Added missing roles from guesser selection</li>
-    <li>Fixed: Joker now properly resets/clears when shifted</li>
-    <li>Fixed: Mystic mind vision should now end properly after a meeting</li>
-    <li>Fixed: The Witch Hex sprite shouldn't show in the meeting if the witch is already dead</li>
-    <li>Fixed: The vigilante not being able to shoot those who are tracked</li>
-    <li>Fixed: Vigilante arrows colours not being set correctly during camo comms</li>
-    <li>Fixed: The bodyguard should not die if he has the first kill shield on</li>
-    <li>Fixed: Icons should now show to all the dead players</li>
-    <li>Fixed: Joker can now be killed by the Sheriff</li>
-    <li>Fixed: Issue with Joker spawning outside the map after a meeting</li>
-    <li>Fixed: Modifier's should not show to yourself when you're alive</li>
-    <li>Fixed: Witch hex cooldown now set correctly</li>
-    <li>Fixed: The black names of those doused by the Arsonist should not show when the Arsonist is dead</li>
-    <li>Fixed: The black names of those infected by the Plaguebearer should not show when the Plaguebearer is dead</li>
-    <li>Fixed: Plaguebearer infection not spreading on touch</li>
-    </ul>
-  </details>
-  <details>
-    <summary> v0.9.5 </summary>
-    <ul>
-    <li>Added Possessor Imposter role</li>
-    <li>Added Mind Vision ability to the Mystic role</li>
-    <li>Added spell casting settings for the Medium and Detective</li>
-    <li>Combined both Medium buttons into one</li>
-    <li>Combined both Detective buttons into one</li>
-    <li>Added medic and bodyguard icons for their targets</li>
-    <li>The sniper should no longer get the Shots Fired! message and screen flash</li>
-    <li>A joker decoy with the VIP modifier should not notify everyone on death</li>
-    <li>Fixed: Fixed error in CheckMurderAttempt with a shielded target</li>
-    <li>Fixed: The sniper should no longer jump to the target of their snipe if the bodyguard protects the target and dies</li>
-    </ul>
-  </details>
-  <details>
-    <summary> v0.9.4 </summary>
-    <ul>
-    <li>Added Sniper imposter role</li>
-    <li>Added Joker neutral role</li>
-    <li>Added random map settings</li>
-    <li>A Bomber victim can't throw the bomb back to the Bomber without dieing themselves</li>
-    <li>Added petrify message for the ghoul</li>
-    <li>Updated VIP flash colours to be faction specific</li>
-    <li>Camo comms should now hide the Giant and the Flash</li>
-    <li>Added screen flash when Jackal recruits a Sidekick</li>
-    </ul>
-  </details>
-  <details>
-    <summary> v0.9.3 </summary>
-    <ul>
-    <li>Added some extra last game first kill shield settings</li>
-    <li>If a scoprion teleports an on alert vet or pestillence they will die</li>
-    <li>The Bomber now has impostor vision and can vent via settings</li>
-    <li>Updated end game summary text to highlight the winners</li>
-    <li>Bug Fix: Vitals sboule be usable by players again</li>
-    <li>Bug Fix: Game setting ids should no longer overlap and cause issues</li>
-    <li>Bug Fix: Bomber place bomb button shouldn't go on cooldown if trying to place bomb on shielded player</li>
-    <li>Bug Fix: Detective and Medium should now have the correct time of death in their reports</li>
-    <li>Bug Fix: The Guardian Angel can no longer have the same target as the Lawyer</li>
-    <li>Bug Fix: Certain game setting headers not showing when they should be always on</li>
-    <li>Bug Fix: Vigilante should not be an executioner target</li>
-    <li>Bug Fix: Morphling shouldn't slide around when the morph animation is playing</li>
-    <li>Bug Fix: Vigilante no longer gets extra kill charges after meeting</li>
-    </ul>
-  </details>
-  <details>
-    <summary> v0.9.2 </summary>
-    <ul>
-    <li>Added Zoom In/Out button for ghosts when their tasks are complete</li>
-    <li>Added sound effects for the bomb timer</li>
-    <li>Bug Fix: Bomb outline should now show correctly when bomb is placed on a player</li>
-    <li>Bug Fix: Bomb timer should no longer continue after death</li>
-    <li>Bug Fix: Bomb timer should no longer continue after passing bomb to another player</li>
-    </ul>
-  </details>
-  <details>
-    <summary> v0.9.1 </summary>
-    <ul>
-    <li>Added Disperser imposter modifier</li>
-    <li>Added Bomber neutral role</li>
-    <li>Increased Arrow size</li>
-    <li>Updated button barry custom button graphics</li>
-    <li>Bug Fix: Fixed altruist arrows not showing for the bad guys</li>
-    <li>Bug Fix: Vigi can no longer track a player already tracked</li>
-    <li>Bug Fix: Tracking button should only highlight when the Vigilante has a current target</li>
-    </ul>
-  </details>
-  <details>
-    <summary> v0.9.0 </summary>
-    <ul> 
-    <li>Vigilante can no longer be voted off</li>
-    </ul>
-  </details>
 </details>
 
 -----------------------
@@ -1156,7 +738,7 @@ If their target loses, they lose.
 | Kill Cooldown Reset on Attack | The attackers kill cooldown after they attacked the protected target | Time | 2.5s |
 | Max Uses | The amount of times the Protect ability can be used | Number | 5 |
 | Show Protected Player | Who should be able to see who is Protected | Self / GA / Self + GA / Everyone | Self |
-| Guardian Angel becomes on Target Dead | Which role the Guardian Angel becomes when their target dies | Crewmate / Amnesiac / Survivor / Jester / Pursuer | Crewmate |
+| Guardian Angel becomes on Target Dead | Which role the Guardian Angel becomes when their target dies | Crewmate / Amnesiac / Survivor / Jester | Crewmate |
 | Target Knows GA Exists | Whether the GA's Target knows they have a GA | Toggle | False |
 | GA Knows Targets Role | Whether the GA knows their target's role | Toggle | False |
 
@@ -1207,7 +789,7 @@ If that player gets voted out, they win the game.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Executioner | The percentage probability of the Executioner appearing | Percentage | 0% |
-| Executioner becomes on Target Dead | Which role the Executioner becomes when their target dies | Crewmate / Amnesiac / Survivor / Jester / Pursuer | Crewmate |
+| Executioner becomes on Target Dead | Which role the Executioner becomes when their target dies | Crewmate / Amnesiac / Survivor / Jester | Crewmate |
 | Executioner Can Button | Whether the Executioner Can Press the Button | Toggle | True |
 
 -----------------------
@@ -1327,7 +909,7 @@ How the Lawyer wins:
 - If their client is Jester and the Jester gets voted out, the Lawyer wins together with the Jester.
 
 **NOTE:**
-- If the client disconnects, the Lawyer will also turn into the Pursuer
+- If the client disconnects, the Lawyer will also turn into a different role depending on settings
 - The Lawyer needs to figure out the role of their client depending on the options
 
 ### Game Options
@@ -1335,7 +917,7 @@ How the Lawyer wins:
 |----------|:-------------:|:------:|:------:|
 | Lawyer | The percentage probability of the Lawyer appearing | Percentage | 0% |
 | Lawyer Target Can Be The Jester | -  | Toggle | True |
-| Lawyer Becomes On Target Dead | Lawyer Becomes On Target Dead | Crew / Amnesiac / Survivor / Jester / Pursuer | Crew |
+| Lawyer Becomes On Target Dead | Lawyer Becomes On Target Dead | Crew / Amnesiac / Survivor / Jester  | Crew |
 | Lawyer Vision | Lawyer vision multiplier | Number | 1 |
 | Lawyer Knows Target Role | Whether the lawyer can see their targets role | Toggle | True |
 
@@ -1881,6 +1463,7 @@ The Drunk's controls are inverted.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Drunk | The percentage probability of the Drunk appearing | Percentage | 0% |
+| Round Limit | The number of rounds the drunk affect lasts for | Number | 2 |
 
 -----------------------
 ## Button Barry
