@@ -173,6 +173,15 @@
       "resource": "d20_adaptive_bounce.png"
     },
     {
+      "author": "HannahTheBeef",
+      "bounce": true,
+      "condition": "None",
+      "name": "RubberDucky",
+      "package": "HannahTheBeef Hats",
+      "reshasha": "3bb59c09a3a02a3f4ee38462fde54c26",
+      "resource": "RubberDucky.png"
+    },
+    {
       "author": "King Kobra",
       "climbresource": "The_Happening_climb.png",
       "condition": "None",
