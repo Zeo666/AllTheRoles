@@ -182,6 +182,15 @@
       "resource": "RubberDucky.png"
     },
     {
+      "author": "HannahTheBeef",
+      "bounce": true,
+      "condition": "None",
+      "name": "Bufftato",
+      "package": "HannahTheBeef Hats",
+      "reshasha": "d3b3d9e2e957c96fe801e29b7f2c005b",
+      "resource": "Bufftato.png"
+    },
+    {
       "author": "King Kobra",
       "climbresource": "The_Happening_climb.png",
       "condition": "None",
