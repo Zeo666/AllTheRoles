@@ -36,6 +36,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.12.14s & 2022.12.14e | v0.9.30 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.30/AllTheRoles-0.9.30.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.29 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.29/AllTheRoles-0.9.29.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.28 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.28/AllTheRoles-0.9.28.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.27 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.27/AllTheRoles-0.9.27.zip) |
@@ -49,6 +50,42 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.30 BETA </summary>
+    <ul>
+    <li>Added: Jungle colour</li>
+    <li>Added: Magenta colour</li>
+    <li>Added: Hex button graphics for the Witch</li>
+    <li>Updated: Witch hex symbol graphics have been replaced</li>
+    <li>Updated: Spy now has the lighter ability</li>
+    <li>Updated: Spy no longer has impostor vision</li>
+    <li>Updated: Spy no longer appears as an impostor to other impostors</li>
+    <li>Updated: Spy can now be an Executioner target</li>
+    <li>Updated: Spy can now be a Bounty Hunter target</li>
+    <li>Updated: Deputy no longer has the lighter ability</li>
+    <li>Updated: Snitch can no longer be assassinated in meeting once revealed</li>
+    <li>Updated: Phantom & Haunter now fade to full transparency when standing still</li>
+    <li>Updated: All game setting options now have language support</li>
+    <li>Updated: Several button graphics reworked</li>
+    <li>Updated: Darker and lighter graphics are now higher quality</li>
+    <li>Updated: Footprint graphics for the Investigator</li>
+    <li>Updated: Shift animation graphics</li>
+    <li>Fixed: Mystic mind vision lighting issue post meeting</li>
+    <li>Fixed: Poltergeist winning with avenged lovers</li>
+    <li>Fixed: Poltergeist being able to do tasks</li>
+    <li>Fixed: Poltergeist becoming Phantom after meeting</li>
+    <li>Fixed: Ninja caltrops rendering incorrectly</li>
+    <li>Fixed: Loading animation showing during a Grenadier flash</li>
+    <li>Fixed: Shifter/Amnesiac turning into Plaguebearer and the tracking icons not appearing</li>
+    <li>Fixed: Shifter/Amnesiac turning into Arsonist and the tracking icons not appearing</li>
+    <li>Fixed: Shifter/Amnesiac turning into Arsonist and the douse ability being broken</li>
+    <li>Fixed: Joker end decoy should not spawn outside a map if they morphed close to an outside wall</li>
+    <li>Fixed: Sidekick shouldn't get promoted to Jackal unless their recruiter is killed</li>
+    <li>Fixed: Mayor anonymous votes not showing as gray</li>
+    <li>Fixed: Many buttons having very long timers post meeting when mini</li>
+    <li>Fixed: Mini lose condition not triggering</li>
+    </ul>
+  </details>   
   <details>
     <summary> v0.9.29 BETA </summary>
     <ul>
@@ -383,8 +420,8 @@ They Mystic can also see what other players are doing from their POV with the Mi
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Mystic | The percentage probability of the Mystic appearing | Percentage | 0% |
-| Mind Vision Cooldown | The Cooldown of the Mystic's Mind Vision button | Time | 25s |
-| Mind Vision Duration | The duration of the Mystic's Mind Vision | Time | 10s |
+| Mind Vision Cooldown | The cooldown of the Mystic's Mind Vision ability | Time | 25s |
+| Mind Vision Duration | The duration of the Mystic's Mind Vision ability | Time | 10s |
 | Arrow Duration | The duration of the arrows pointing to the bodies | Time | 0.1s |
 
 -----------------------
@@ -405,7 +442,7 @@ The Priest also has the Sancitfy ability which creates an area where no interact
 | Neutral Evil show up as Evil | Neutral Evil roles show up as Red | Toggle | False |
 | Neutral Killing show up as Evil | Neutral Killing roles show up as Red | Toggle | False |
 | Traitor does not swap Colours | The Traitor remains their original colour | Toggle | False |
-| Sancitfy Cooldown | - | Time | 25s |
+| Sancitfy Cooldown | The cooldown of the Priests sanctify ability | Time | 25s |
 | Sancitfy Delay | The time delay before sancitfy is placed | Time | 5s |
 | Sancitfy Charges | The number of times you can sanctify the ground | Number | 5 |
 | Sancitfy Radius | The size of the Sanctify | Factor | 1x |
@@ -434,18 +471,17 @@ However, when they only have a single task left, the Impostors get an arrow poin
 ### **Team: Crewmates**
 The Spy is a Crewmate that gains more information when on Admin Table and can open the admin table from anywhere on the map.\
 On Admin Table, the Spy can see the colors of every person on the map.\
-The Spy can also vent, and the Spy appears as an impostor to the other impostors.
+The Spy can also vent, and has a lighter ability that temporarily increases their vision.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Spy | The percentage probability of the Spy appearing | Percentage | 0% |
-| Spy Can Die To Sheriff | Spy Can Die To Sheriff | Toggle | False |
-| Spy Impostors Can Kill Anyone | Impostors Can Kill Anyone If There Is A Spy | Toggle | True |
 | Spy Vent | Spy Can Vent | Toggle | True |
-| Spy Has Impostor Vision | Whether the Spy has the same vision as the Impostors | Toggle | True |
 | Admin Table Charges | The number of times the Spy can view the admin table | Number | 5 |
 | Admin Table Duration | The duration of one admin table charge | Time | 10s |
+| Lighter Cooldown | The vooldown of the Spy's lighter ability | Time | 30s |
+| Lighter Duration | The duration of the Spy's lighter ability | Time | 15s |
 
 -----------------------
 ## Trapper
@@ -492,7 +528,7 @@ During meetings, the Sheriff can choose to kill someone by guessing their role, 
 -----------------------
 ## Deputy
 ### **Team: Crewmates**
-The Deputy has a flash light and the ability to handcuff a player.\
+The Deputy has the ability to handcuff a player.\
 Handcuffs will be hidden until the handcuffed player try to use a disabled button/hotkey.\
 Handcuffs disable:
 - Kill
@@ -511,8 +547,6 @@ Handcuffs disable:
 | Sheriff And Deputy Know Each Other | Sheriff And Deputy Know Each Other | Toggle | True |
 | Handcuff Cooldown | Handcuff Cooldown | Time | 30s |
 | Handcuff Duration | Handcuff Duration | Time | 15s |
-| Lighter Cooldown | Lighter Cooldown | Time | 30s |
-| Lighter Duration | Lighter Duration | Time | 15s |
 | Deputy Gets Promoted To Sheriff | Deputy Gets Promoted To Sheriff | Off / On (Immediately) / On (After Meeting) | Off |
 | Deputy Keeps Handcuffs When Promoted | Deputy Keeps Handcuffs When Promoted | Toggle | False |
 
@@ -1631,7 +1665,7 @@ The Chameleon becomes (partially or fully) invisible when standing still for x-s
 | Chameleon | The percentage probability of the Chameleon appearing | Percentage | 0% |
 | Time Until Fading Starts | Time Until Fading Starts | Time | 3s |
 | Fade Duration | Fade Duration | Time | 1s |
-| Minimum Visibility | Minimum Visibility | 0% / 10% / 20% / 30% / 40% / 50%  | 0% |
+| Minimum Visibility | Minimum Visibility | Factor | 0% |
 
 -----------------------
 ## Disperser
