@@ -36,6 +36,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2022.12.14s & 2022.12.14e | v0.9.31 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.31/AllTheRoles-0.9.31.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.30 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.30/AllTheRoles-0.9.30.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.29 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.29/AllTheRoles-0.9.29.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.28 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.28/AllTheRoles-0.9.28.zip) |
@@ -50,6 +51,26 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.31 BETA </summary>
+    <ul>
+    <li>Added: Copy & Decoy button graphics for the Joker</li>
+    <li>Added: Confuse button graphics</li>
+    <li>Added: HotPotato mode to the Bomber</li>
+    <li>Added: Bomb icon for current bomb target/victim</li>
+    <li>Added: Mayor can now dump all their votes on a player in meeting with one click</li>
+    <li>Added: A doused player killed will douse their killer</li>
+    <li>Updated: Zoom button graphics</li>
+    <li>Updated: All sprites are now cached</li>
+    <li>Updated: All sprites are now preloaded on game start up</li>
+    <li>Updated: Morphing/Mimic no longer shows the actual player in the kill animation</li>
+    <li>Updated: GA protect button now uses fill up animation</li>
+    <li>Updated: Spy can open spy map while in the vent</li>
+    <li>Fixed: Deputy not being promoted after a meeting</li>
+    <li>Fixed: Sheriff/Deputy seeing the other become Traitor</li>
+    <li>Fixed: Morphling morphing on a ladder or moving platform</li>
+    </ul>
+  </details>  
   <details>
     <summary> v0.9.30 BETA </summary>
     <ul>
@@ -646,7 +667,8 @@ They can use vents to get across the map easily, and can seal them up too so noo
 The Mayor is a Crewmate that can vote multiple times.\
 The Mayor has a Vote Bank, which is the number of times they can vote.\
 They have the option to abstain their vote during a meeting, adding that vote to the Vote Bank.\
-As long as not everyone has voted, the Mayor can use as many votes from their Vote Bank as they please.
+As long as not everyone has voted, the Mayor can use as many votes from their Vote Bank as they please.\
+Regardless of if everyone has voted or not the Mayor can dump all their votes on a target in one click.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -1060,9 +1082,10 @@ and get them to kill for them or they die themselves when the timer ends.
 |----------|:-------------:|:------:|:------:|
 | Bomber | The percentage probability of the Bomber appearing | Percentage | 0% |
 | Bomber Place Bomb Cooldown | The plant bomb cooldown | Time | 25s |
-| Bomber Place Bomb PreTimer | The time is takes for the bomb victim to find out they have a bomb on them | Time | 5s |
+| Bomber Place Bomb Timer Delay | The time is takes for the bomb victim to find out they have a bomb on them | Time | 5s |
 | Bomber Bomb Timer | The time it takes for the bomb to explodes | Time | 20s |
 | Bomber Bomb Indicator | Bomb Indicator Every X seconds | Time | 5s |
+| Bomber Hot Potato Mode | Hot Potato Mode Enabled | Toggle | False |
 | Bomber Can Vent | Whether the Bomber can vent | Toggle | False |
 
 -----------------------
