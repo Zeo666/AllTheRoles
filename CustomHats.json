@@ -191,6 +191,23 @@
       "resource": "Bufftato.png"
     },
     {
+      "author": "HannahTheBeef",
+      "condition": "None",
+      "name": "Pinkee's Hat",
+      "package": "HannahTheBeef Hats",
+      "reshasha": "389708f51b300f1efea035507610d09b",
+      "resource": "pinkeeplays.png"
+    },
+    {
+      "author": "HannahTheBeef",
+      "adaptive": true,
+      "condition": "None",
+      "name": "Pinkee's Other Hat",
+      "package": "HannahTheBeef Hats",
+      "reshasha": "a0a5dd9bb604d0c8d096a5c6d8cca7f5",
+      "resource": "pinkeeplays_adaptive.png"
+    },
+    {
       "author": "King Kobra",
       "climbresource": "The_Happening_climb.png",
       "condition": "None",
