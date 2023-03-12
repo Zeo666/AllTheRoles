@@ -2,7 +2,7 @@
 
 <p align="center"><a href="https://github.com/Zeo666/AllTheRoles/releases/"><img src="https://badgen.net/github/release/Zeo666/AllTheRoles?icon=github"></a></p>
 
-**All The Roles** is a mod for [Among Us](https://store.steampowered.com/app/945360/Among_Us) which adds many new [Roles](#roles), new [Map Settings](#map-settings) and new [Custom Hats](#custom-hats) to the game.
+**All The Roles** is a mod for [Among Us](https://store.steampowered.com/app/945360/Among_Us) which adds many new [Roles](#roles), new [Game Modes](#game-mode-settings), new [Map Settings](#map-settings) and new [Custom Hats](#custom-hats), [Custom Visors](#custom-visors) and [Custom Nameplates](#custom-nameplates) to the game.
 Even more roles are coming soon. :)
 
 Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or want to find people to play with!
