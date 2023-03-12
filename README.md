@@ -1904,7 +1904,6 @@ If they guess wrong, they die instead.
 | Assassin Guess Neutral Evil  | Whether the Assassin can Guess Neutral Evil roles | Toggle | False |
 | Assassin Guess Neutral Killing  | Whether the Assassin can Guess Neutral Killing roles | Toggle | False |
 | Assassin Guess Impostors  | Whether the Assassin can Guess Impostor roles | Toggle | False |
-| Assassin Guess Spy | Assassin Can Guess The Spy | Toggle | False |
 | Assassin Guess Crewmate Modifiers  | Whether the Assassin can Guess Crewmate Modifiers | Toggle | False |
 | Assassin Can Guess Lovers  | Whether the Assassin can Guess Lovers | Toggle | False |
 | Assassin Can Guess After Voting  | Whether the Assassin can Guess after voting | Toggle | False |
@@ -1913,7 +1912,7 @@ If they guess wrong, they die instead.
 -----------------------
 # Extras
 ## New Colors!
-New colors are added for crewmates to pick from. They are based on the new colours available in The Other Roles.
+New colors are added for crewmates to pick from. They are based on the new colours available in The Other Roles & Town of Us-R
 
 ![COLORS](./Images/ATR-colors.jpg)
 
