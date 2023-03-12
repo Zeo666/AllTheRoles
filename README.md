@@ -25,17 +25,19 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 | [Warlock](#warlock)           | [Engineer](#engineer)         | [Shifter](#shifter)               | [Disperser](#disperser)       |
 | [Witch](#witch)               | [Mayor](#mayor)               | [Jackal](#jackal)                 | [Indomitable](#indomitable)   |
 | [Ninja](#ninja)               | [Medium](#medium)             | [Bomber](#bomber)                 | [Radar](#radar)               |
-| [Astral](#astral)             | [Swapper](#swapper)           | [Joker](#joker)                   | [Multitasker](#multitasker)   |
+| [Astral](#astral)             | [Deputy](#deputy)             | [Joker](#joker)                   | [Multitasker](#multitasker)   |
 | [Necromancer](#necromancer)   | [Time Lord](#time-lord)       | [Poltergeist](#poltergeist)       | [Underdog](#underdog)         |
 | [Outlaw](#outlaw)             | [Transporter](#transporter)   |                                   | [Double Shot](#double-shot)   |
 | [Scorpion](#scorpion)         | [Bodyguard](#bodyguard)       |                                   | [Chameleon](#chameleon)       |
-| [Banshee](#banshee)           | [Deputy](#deputy)             |                                   | [Ruthless](#ruthless)         |
+| [Banshee](#banshee)           |                               |                                   | [Ruthless](#ruthless)         |
 | [Vampire](#vampire)           |                               |                                   | [Confuse](#confuse)           |
+|                               |                               |                                   | [Swapper](#swapper)           |
 
 -----------------------
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2023.2.28s & 2023.2.28e | v0.9.32 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.32/AllTheRoles-0.9.32.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.31 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.31/AllTheRoles-0.9.31.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.30 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.30/AllTheRoles-0.9.30.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.29 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.29/AllTheRoles-0.9.29.zip) |
@@ -51,6 +53,27 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.9.32 BETA </summary>
+    <ul>
+    <li>Added: Compatibility for Among Us version 2023.2.28</li>
+    <li>Added: EnabledAfterRound setting for ButtonBarry</li>
+    <li>Added: Swapper crewmate modifier</li>
+    <li>Updated: The Trapper now has vent traps which collects role information once triggered</li>
+    <li>Updated: The Lawyer can now protect players in meeting from being assassinated</li>
+    <li>Updated: The Undertaker can drop bodies while in vents without having to pop out first</li>
+    <li>Updated: Bloody spawn rate reduced</li>
+    <li>Updated: The GA protect ability now has the flying ghost animation around their target</li>
+    <li>Updated: Medic vitals is now always available</li>
+    <li>Updated: Spy admin ability is now always available</li>
+    <li>Updated: Credits uses a new UI</li>
+    <li>Fixed: The Bomber player name icon should now appear correctly</li>
+    <li>Fixed: Mayor dump can no longer be toggled</li>
+    <li>Fixed: The Shifter can no longer see who the Deputy/Sheriff are if they used to be either role</li>
+    <li>Fixed: The Arsonist douse graphics should no longer appear after a meeting if used when a meeting is called</li>
+    <li>Removed: Swapper crewmate role</li>
+    </ul>
+  </details>  
   <details>
     <summary> v0.9.31 BETA </summary>
     <ul>
@@ -172,7 +195,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
     <li>Fixed: Mayor votes not appearing for everyone</li>
     <li>Fixed: Drag ability for the Undertaker not working correctly</li>
     <li>Fixed: Stop mind vision ability for the Mystic not working correctly</li>
-   </ul>
+    </ul>
   </details> 
   <details>
     <summary> v0.9.26 BETA</summary>
@@ -192,7 +215,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
     <li>Fixed: Disperser should not be given to the Bounty Hunter</li>
     <li>Fixed: Ruthless modifier being given to non impostors</li>
     <li>Fixed: Vampire not being affected by the flash or giant modifiers</li>
-   </ul>
+    </ul>
   </details> 
   <details>
     <summary> v0.9.25 BETA</summary>
@@ -510,19 +533,22 @@ The Spy can also vent, and has a lighter ability that temporarily increases thei
 The Trapper is a Crewmate that can place traps around the map.\
 When players enter a trap they trigger the trap.\
 In the following meeting, all players who triggered a trap will have their role displayed to the trapper.\
-However, this is done so in a random order, not stating who entered the trap, nor what role a specific player is.
+However, this is done so in a random order, not stating who entered the trap, nor what role a specific player is.\
+The Trapper can also place traps on vents which reveal the role of the player who triggered it.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Trapper | The percentage probability of the Trapper appearing | Percentage | 0% |
 | Min Amount of Time in Trap to Register | How long a player must stay in the trap for it to trigger | Time | 1s |
-| Trap Cooldown | The cooldown on the Trapper's trap button | Time | 25s |
+| Trap Cooldown | The cooldown on the Trapper's trap ability | Time | 25s |
 | Traps Removed Each Round | Whether the Trapper's traps are removed after each meeting | Toggle | True |
 | Maximum Number of Traps Per Game | The number of traps they can place in a game | Number | 5 |
 | Trap Size | The size of each trap | Factor | 1x |
 | Minimum Number of Roles required to Trigger Trap | The number of players that must enter the trap for it to be triggered | Number | 3 |
-
+| Vent Trap Cooldown | The cooldown on the Trapper's vent trap ability | Time | 25s |
+| Maximum Number of Vent Traps Per Game | The number of vent traps they can place in a game | Number | 5 |
+     
 -----------------------
 ## Sheriff
 ### **Team: Crewmates**
@@ -695,19 +721,6 @@ After a meeting the Medium can view the souls of the dead and can ask them for m
 | Reveal the Medium to the Mediate Target | Whether the ghosts can see that the Medium is the Medium | Toggle | True |
 | Who is Revealed | Which players are revealed to the Medium | Oldest Dead / Newest Dead / All Dead | Oldest Dead |
 | Mediate Soul Casting Duration | The time that you need to stay next to a soul in order to get info from it | Time | 1s |
-
------------------------
-## Swapper
-### **Team: Crewmates**
-The Swapper is a Crewmate that can swap the votes on 2 players during a meeting.\
-All the votes for the first player will instead be counted towards the second player and vice versa.
-
-### Game Options
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Swapper | The percentage probability of the Swapper appearing | Percentage | 0% |
-| Swapper Can Button | Whether the Swapper Can Press the Button | Toggle | True |
-| Swap After Voting | Swapper Can Swap After Voting | Toggle | True |
 
 -----------------------
 ## Time Lord
@@ -953,12 +966,13 @@ The Werewolf needs to be the last killer alive to win the game.
 ## Lawyer
 ### **Team: Neutral**
 The Lawyer is a neutral role that has a client.\
-The client might be an Impostor or Jackal which is no Lover.\
+The client might be an Impostor or Neutral Killer which is not a Lover.\
 Depending on the options, the client can also be a Jester.\
 The Lawyer needs their client to win in order to win the game.\
 Their client doesn't know that it is their client.\
 If their client gets voted out, the Lawyer dies with the client.\
 If their client dies, the Lawyer changes their role and becomes a different role (based on settings), which has a different goal to win the game.\
+During a meeting the Lawyer can use their protection ability to prevent that player from being assassinate.\
 \
 How the Lawyer wins:
 - Lawyer dead/alive, client alive and client wins: The Lawyer wins together with the team of the client.
@@ -1511,6 +1525,19 @@ The Blind's report button does not light up.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Blind | The percentage probability of the Blind appearing | Percentage | 0% |
+
+-----------------------
+## Swapper
+### **Applied to: Crewmates**
+The Swapper is a modifier that allows the crewmate to swap the votes on 2 players during a meeting.\
+All the votes for the first player will instead be counted towards the second player and vice versa.
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Swapper | The percentage probability of the Swapper appearing | Percentage | 0% |
+| Swapper Can Button | Whether the Swapper Can Press the Button | Toggle | True |
+| Swap After Voting | Swapper Can Swap After Voting | Toggle | True |
 
 -----------------------
 ## Drunk
