@@ -8,34 +8,35 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 | Impostors | Crewmates | Neutral | Modifier |
 |----------|-------------|-----------------|----------------|
-| [Grenadier](#grenadier)       | [Detective](#detective)       | [Amnesiac](#amnesiac)             | [Bait](#bait)                 |
-| [Morphling](#morphling)       | [Haunter](#haunter)           | [Guardian Angel](#guardian-angel) | [Diseased](#diseased)         |
-| [Swooper](#swooper)           | [Investigator](#investigator) | [Survivor](#survivor)             | [Torch](#torch)               |
-| [Sniper](#sniper)             | [Mystic](#mystic)             | [Executioner](#executioner)       | [Drunk](#drunk)               |
-| [Poisoner](#poisoner)         | [Priest](#priest)             | [Jester](#jester)                 | [Blind](#blind)               |
-| [Traitor](#traitor)           | [Snitch](#snitch)             | [Phantom](#phantom)               | [Button Barry](#button-barry) |
-| [Possessor](#possessor)       | [Spy](#spy)                   | [Arsonist](#arsonist)             | [Flash](#flash)               |
-| [Blackmailer](#blackmailer)   | [Trapper](#trapper)           | [Plaguebearer](#plaguebearer)     | [Giant](#giant)               |
-| [Janitor](#janitor)           | [Sheriff](#sheriff)           | [Glitch](#glitch)                 | [Lovers](#lovers)             |
-| [Miner](#miner)               | [Veteran](#veteran)           | [Juggernaut](#juggernaut)         | [Sleuth](#sleuth)             |
-| [Undertaker](#undertaker)     | [Vigilante](#vigilante)       | [Werewolf](#werewolf)             | [Tiebreaker](#tiebreaker)     |
-| [Camouflager](#camouflager)   | [Altruist](#altruist)         | [Lawyer](#lawyer)                 | [VIP](#vip)                   |
-| [Bounty Hunter](#bounty-hunter) | [Medic](#medic)             | [Vulture](#vulture)               | [Bloody](#bloody)             |
-| [Warlock](#warlock)           | [Engineer](#engineer)         | [Shifter](#shifter)               | [Disperser](#disperser)       |
-| [Witch](#witch)               | [Mayor](#mayor)               | [Jackal](#jackal)                 | [Indomitable](#indomitable)   |
-| [Ninja](#ninja)               | [Medium](#medium)             | [Bomber](#bomber)                 | [Radar](#radar)               |
-| [Astral](#astral)             | [Deputy](#deputy)             | [Joker](#joker)                   | [Multitasker](#multitasker)   |
-| [Necromancer](#necromancer)   | [Time Lord](#time-lord)       | [Poltergeist](#poltergeist)       | [Underdog](#underdog)         |
-| [Outlaw](#outlaw)             | [Transporter](#transporter)   |                                   | [Double Shot](#double-shot)   |
-| [Scorpion](#scorpion)         | [Bodyguard](#bodyguard)       |                                   | [Chameleon](#chameleon)       |
-| [Banshee](#banshee)           |                               |                                   | [Ruthless](#ruthless)         |
-| [Vampire](#vampire)           |                               |                                   | [Confuse](#confuse)           |
-|                               |                               |                                   | [Swapper](#swapper)           |
+| [Grenadier](#grenadier)         | [Detective](#detective)       | [Amnesiac](#amnesiac)             | [Bait](#bait)                 |
+| [Morphling](#morphling)         | [Haunter](#haunter)           | [Guardian Angel](#guardian-angel) | [Diseased](#diseased)         |
+| [Swooper](#swooper)             | [Investigator](#investigator) | [Survivor](#survivor)             | [Torch](#torch)               |
+| [Sniper](#sniper)               | [Mystic](#mystic)             | [Executioner](#executioner)       | [Drunk](#drunk)               |
+| [Poisoner](#poisoner)           | [Priest](#priest)             | [Jester](#jester)                 | [Blind](#blind)               |
+| [Traitor](#traitor)             | [Snitch](#snitch)             | [Phantom](#phantom)               | [Button Barry](#button-barry) |
+| [Possessor](#possessor)         | [Spy](#spy)                   | [Arsonist](#arsonist)             | [Flash](#flash)               |
+| [Blackmailer](#blackmailer)     | [Trapper](#trapper)           | [Plaguebearer](#plaguebearer)     | [Giant](#giant)               |
+| [Janitor](#janitor)             | [Sheriff](#sheriff)           | [Glitch](#glitch)                 | [Lovers](#lovers)             |
+| [Miner](#miner)                 | [Veteran](#veteran)           | [Juggernaut](#juggernaut)         | [Sleuth](#sleuth)             |
+| [Undertaker](#undertaker)       | [Vigilante](#vigilante)       | [Werewolf](#werewolf)             | [Tiebreaker](#tiebreaker)     |
+| [Camouflager](#camouflager)     | [Altruist](#altruist)         | [Lawyer](#lawyer)                 | [VIP](#vip)                   |
+| [Bounty Hunter](#bounty-hunter) | [Medic](#medic)               | [Vulture](#vulture)               | [Bloody](#bloody)             |
+| [Warlock](#warlock)             | [Engineer](#engineer)         | [Shifter](#shifter)               | [Disperser](#disperser)       |
+| [Witch](#witch)                 | [Mayor](#mayor)               | [Jackal](#jackal)                 | [Indomitable](#indomitable)   |
+| [Ninja](#ninja)                 | [Medium](#medium)             | [Bomber](#bomber)                 | [Radar](#radar)               |
+| [Astral](#astral)               | [Deputy](#deputy)             | [Joker](#joker)                   | [Multitasker](#multitasker)   |
+| [Necromancer](#necromancer)     | [Time Lord](#time-lord)       | [Poltergeist](#poltergeist)       | [Underdog](#underdog)         |
+| [Outlaw](#outlaw)               | [Transporter](#transporter)   |                                   | [Double Shot](#double-shot)   |
+| [Scorpion](#scorpion)           | [Bodyguard](#bodyguard)       |                                   | [Chameleon](#chameleon)       |
+| [Banshee](#banshee)             | [Imitator](#imitator)         |                                   | [Ruthless](#ruthless)         |
+| [Vampire](#vampire)             |                               |                                   | [Confuse](#confuse)           |
+|                                 |                               |                                   | [Swapper](#swapper)           |
 
 -----------------------
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2023.3.28s & 2023.3.28e | v0.10.0 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.0/AllTheRoles-0.10.0.zip) |
 | 2023.2.28s & 2023.2.28e | v0.9.32 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.32/AllTheRoles-0.9.32.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.31 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.31/AllTheRoles-0.9.31.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.30 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.30/AllTheRoles-0.9.30.zip) |
@@ -52,6 +53,28 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.10.0 BETA </summary>
+    <ul>
+    <li>Added: Compatibility for Among Us version 2023.3.28</li>
+    <li>Added: Imitator crewmate role</li>
+    <li>Updated: BepInEx to version 6.0.0-be.668</li>
+    <li>Updated: Tracked targets now show on the map for the Vigilante</li>
+    <li>Updated: Revealed impostors (and neutral killers) now show on the map for the Snitch</li>
+    <li>Updated: Lobby settings are now paged</li>
+    <li>Updated: Added extra checks for when the swapper swaps players</li>
+    <li>Updated: Repositioned Mayor vote dump icons in meeting to not be on top of player beans</li>
+    <li>Updated: Reduced assassin icon size</li>
+    <li>Updated: Assassin selection window now uses paging</li>
+    <li>Fixed: Assassinating a player without a modifier and them not showing as dead in meeting</li>
+    <li>Fixed: Colour blind text position in meeting and in game</li>
+    <li>Fixed: Amnesiac remembering a dead Transporter and not becoming that role</li>
+    <li>Fixed: Bomb exploding not working sometimes</li>
+    <li>Fixed: Spy admin map showing duplicate blips</li>
+    <li>Fixed: Role history data in end game summary for the Sheriff/Deputy & Jackal/Sidekick</li>
+    <li>Fixed: Many smaller bugs/errors</li>
+    </ul>
+  </details> 
   <details>
     <summary> v0.9.32 BETA </summary>
     <ul>
@@ -771,6 +794,18 @@ with an option to also kill the attacker.
 | Guard Reset After Meeting | Guard Resets After Meeting | Toggle | False |
 | Guard Shield Duration | Guard Shield Duration | Time | 1s |
 | Kills Attacker On Guard | Kills Attacker on Guard | Toggle | False |
+
+-----------------------
+## Imitator
+### **Team: Crewmates**
+The Imitator is a Crewmate that can mimic dead crewamtes.\
+During meetings the Imitator can select who they are going to imitate the following round from the dead.\
+They can choose to use each dead players as many times as they wish.
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Imitator | The percentage probability of the Imitator appearing | Percentage | 0% |
 
 -----------------------
 # Neutral Roles
@@ -1982,8 +2017,8 @@ Here are a few instructions, on how to create a custom nameplate:
 [TooManyRolesMods](https://github.com/Hardel-DW/TooManyRolesMods) - For the Investigator & Time Lord roles from <b>Hardel-DW</b>.\
 [Goose-Goose-Duck](https://store.steampowered.com/app/1568590/Goose_Goose_Duck) - Idea for the Vulture role from <b>Slushiegoose</b>.\
 [TownOfUs](https://github.com/slushiegoose/Town-Of-Us) - Idea for Shifter, Executioner, Arsonist, Glitch, Phantom, Swooper, Miner, Janitor, Underdog, Undertaker, Mayor, Swapper, Altruist roles from <b>Slushiegoose</b>.\
-[TownOfUs-R](https://github.com/eDonnes124/Town-Of-Us-R) - Idea for Detective, Mystic, Guardian Angel, Juggernaut, Blackmailer, Traitor, Werewolf, Plaguebearer, Survivor, Amnesiac, Poisoner, Trapper, Haunter roles from <b>eDonnes124</b> & the TownOfUs-R Team.\
-[TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) - Idea for Deputy, Bounty Hunter, Ninja, Lawyer, Pursuer, Witch, Warlock, Spy, Time Master roles from <b>Eisbison</b> & the Other Roles Team.\
+[TownOfUs-R](https://github.com/eDonnes124/Town-Of-Us-R) - Idea for Detective, Spy, Mystic, Guardian Angel, Juggernaut, Blackmailer, Traitor, Werewolf, Plaguebearer, Survivor, Amnesiac, Poisoner, Trapper, Imitator, Haunter roles from <b>eDonnes124</b> & the TownOfUs-R Team.\
+[TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) - Idea for Deputy, Bounty Hunter, Ninja, Lawyer, Witch, Warlock roles from <b>Eisbison</b> & the Other Roles Team.\
 [TorchMod](https://github.com/tomozbot/TorchMod) - For the inspiration of the Torch modifier.\
 [BryBry16](https://github.com/Brybry16/BetterPolus) - For the code used for Better Polus.\
 [Maartii](https://github.com/Maartii/Jester) - Idea for the Jester role.\
