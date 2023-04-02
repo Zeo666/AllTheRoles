@@ -1252,7 +1252,7 @@ This prevents the blackmailed person from speaking during the next meeting.
 ## Janitor
 ### **Team: Impostors**
 The Janitor is an Impostor that can clean up bodies.\
-Both their Kill and Clean ability by default have a shared cooldown, meaning they have to choose which one they want to use.\
+Both their Kill and Clean ability by default have a shared cooldown, meaning they have to choose which one they want to use.
 
 ### Game Options
 | Name | Description | Type | Default |
