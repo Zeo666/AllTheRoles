@@ -36,6 +36,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2023.3.28s & 2023.3.28e | v0.10.1 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.1/AllTheRoles-0.10.1.zip) |
 | 2023.3.28s & 2023.3.28e | v0.10.0 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.0/AllTheRoles-0.10.0.zip) |
 | 2023.2.28s & 2023.2.28e | v0.9.32 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.32/AllTheRoles-0.9.32.zip) |
 | 2022.12.14s & 2022.12.14e | v0.9.31 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.31/AllTheRoles-0.9.31.zip) |
@@ -53,6 +54,18 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.10.1 BETA </summary>
+    <ul>
+    <li>Updated: Chinese translation</li>
+    <li>Fixed: Avenger causing black screens after meeting if they disconnected</li>
+    <li>Fixed: Bomber icon appearing in meeting if bomb hasn't activated yet</li>
+    <li>Fixed: All Survivors are now checked if they have blanked someone</li>
+    <li>Fixed: Certain impostor roles spawning as the Blackmailer for the client</li>
+    <li>Fixed: Blackmailer ability not working</li>
+    <li>Fixed: Several smaller bugs/errors</li>
+    </ul>
+  </details> 
   <details>
     <summary> v0.10.0 BETA </summary>
     <ul>
