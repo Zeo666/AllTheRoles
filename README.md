@@ -36,7 +36,6 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
-| 2023.3.28s & 2023.3.28e | v0.10.2 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.2/AllTheRoles-0.10.2.zip) |
 | 2023.3.28s & 2023.3.28e | v0.10.1 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.1/AllTheRoles-0.10.1.zip) |
 | 2023.3.28s & 2023.3.28e | v0.10.0 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.0/AllTheRoles-0.10.0.zip) |
 | 2023.2.28s & 2023.2.28e | v0.9.32 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.32/AllTheRoles-0.9.32.zip) |
@@ -55,20 +54,6 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
-  <details>
-    <summary> v0.10.2 BETA </summary>
-    <ul>
-    <li>Added: AllAny game mode</li>
-    <li>Updated: GA now can't become the poltergeist incase their target wins</li>
-    <li>Fixed: Investigator footprints not appearing</li>
-    <li>Fixed: The target of Executioner not showing after shift</li>
-    <li>Fixed: Joker with chameleon having their name disappear while decoyed</li>
-    <li>Fixed: Trapper vent trap info not reseting after meeting</li>
-    <li>Fixed: The Survivors blank ability showing the wrong amount charges left</li>
-    <li>Fixed: Arsonist ignite not working correctly</li>
-    <li>Fixed: Several smaller bugs/errors</li>
-    </ul>
-  </details> 
   <details>
     <summary> v0.10.1 BETA </summary>
     <ul>
