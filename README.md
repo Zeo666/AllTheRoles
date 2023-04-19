@@ -36,6 +36,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2023.3.28s & 2023.3.28e | v0.10.3 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.3/AllTheRoles-0.10.3.zip) |
 | 2023.3.28s & 2023.3.28e | v0.10.2 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.2/AllTheRoles-0.10.2.zip) |
 | 2023.3.28s & 2023.3.28e | v0.10.1 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.1/AllTheRoles-0.10.1.zip) |
 | 2023.3.28s & 2023.3.28e | v0.10.0 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.0/AllTheRoles-0.10.0.zip) |
@@ -55,6 +56,24 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.10.3 BETA </summary>
+    <ul>
+    <li>Added: "Sheriff No First Round Kill" game setting</li>
+    <li>Added: "Hide Obstructed Player Names" game setting</li>
+    <li>Added: "No Cameras First Round" game setting</li>
+    <li>Added: "Tasks To Unlock Cameras" game setting</li>
+    <li>Updated: Assigning role targets logic can now handle duplicate roles for AllAny</li>
+    <li>Updated: Medic shield flash no longer appears if the player is dead</li>
+    <li>Updated: Better handling if role creation fails</li>
+    <li>Updated: Modifiers are now removed when players become Haunter or Phantom</li>
+    <li>Fixed: Error which caused ability buttons to not work</li>
+    <li>Fixed: Imp blips should now disappear on Snitch death</li>
+    <li>Fixed: Red screen of death</li>
+    <li>Fixed: Lover target not showing in the task panel</li>
+    <li>Fixed: Several smaller bugs/errors</li>
+    </ul>
+  </details> 
   <details>
     <summary> v0.10.2 BETA </summary>
     <ul>
@@ -621,6 +640,7 @@ During meetings, the Sheriff can choose to kill someone by guessing their role, 
 | Sheriff Guess Neutral Killing  | Whether the Sheriff can Guess Neutral Killing roles | Toggle | False |
 | Sheriff Guess Lovers  | Whether the Sheriff can Guess Lovers | Toggle | False |
 | Sheriff Guess After Voting  | Whether the Sheriff can Guess after they have voted | Toggle | False |
+| Sheriff No First Round Kill | Whether the Sheriff can't use their kill ability in the first round | Toggle | False |
 
 -----------------------
 ## Deputy
@@ -1923,6 +1943,9 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 | Disable Level Icons | Whether all level icons are removed in meetings | Toggle | False |
 | Disable Player Nameplates | Whether all decorative nameplates are disabled in meetings | Toggle | False |
 | Disable Meeting Skip Button | Whether the meeting button is disabled | No / Emergency / Always | No |
+| Hide Obstructed Player Names | Whether players can see other player names through walls | Toggle | False |
+| No Cameras First Round | Whether cameras are disabled in the first round | Toggle | False |
+| Tasks To Unlock Cameras | Number of tasks needed to be completed before cameras can be used | Number | 3 |
 
 -----------------------
 # Last Game First Kill Shield Settings
