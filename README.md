@@ -36,26 +36,58 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+<!--| 2023.3.28s & 2023.3.28e | v0.11.0 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.0/AllTheRoles-0.11.0.zip) |-->
 | 2023.3.28s & 2023.3.28e | v0.10.3 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.3/AllTheRoles-0.10.3.zip) |
 | 2023.3.28s & 2023.3.28e | v0.10.2 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.2/AllTheRoles-0.10.2.zip) |
 | 2023.3.28s & 2023.3.28e | v0.10.1 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.1/AllTheRoles-0.10.1.zip) |
 | 2023.3.28s & 2023.3.28e | v0.10.0 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.0/AllTheRoles-0.10.0.zip) |
-| 2023.2.28s & 2023.2.28e | v0.9.32 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.32/AllTheRoles-0.9.32.zip) |
-| 2022.12.14s & 2022.12.14e | v0.9.31 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.31/AllTheRoles-0.9.31.zip) |
-| 2022.12.14s & 2022.12.14e | v0.9.30 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.30/AllTheRoles-0.9.30.zip) |
-| 2022.12.14s & 2022.12.14e | v0.9.29 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.29/AllTheRoles-0.9.29.zip) |
-| 2022.12.14s & 2022.12.14e | v0.9.28 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.28/AllTheRoles-0.9.28.zip) |
-| 2022.12.14s & 2022.12.14e | v0.9.27 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.27/AllTheRoles-0.9.27.zip) |
-| 2022.12.14s & 2022.12.14e | v0.9.26 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.26/AllTheRoles-0.9.26.zip) |
-| 2022.12.14s & 2022.12.14e | v0.9.25 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.25/AllTheRoles-0.9.25.zip) |
-| 2022.12.14s & 2022.12.14e | v0.9.24 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.24/AllTheRoles-0.9.24.zip) |
-| 2022.10.25s & 2022.10.25e | v0.9.23 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.23/AllTheRoles-0.9.23.zip) |
-| 2022.10.25s & 2022.10.25e | v0.9.22 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.22/AllTheRoles-0.9.22.zip) |
-| 2022.10.25s & 2022.10.25e | v0.9.21 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.21/AllTheRoles-0.9.21.zip) |
-| 2022.10.25s & 2022.10.25e | v0.9.20 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.9.20/AllTheRoles-0.9.20.zip) |
 
 <details>
   <summary> Changelog </summary>
+  <!--<details>
+    <summary> v0.11.0 BETA </summary>
+    <ul>
+    <li>Added: New "Draft" game mode</li>
+    <li>Added: Chat notifications during meetings</li>
+    <li>Updated: Poltergeist has been reworked. New Prank ability using fake dead bodies and new win condition</li>
+    <li>Updated: Joker has been reworked. New Decoy ability using fake players</li>
+    <li>Updated: Vampire has been reworked slightly. New Transform ability available during lights sabotage</li>
+    <li>Updated: Vulture will become infected if they eat an infected dead body</li>
+    <li>Updated: Guardian Angel can again become the Poltergiest</li>
+    <li>Updated: Investigator can use cameras regardless of settings</li>
+    <li>Updated: "Tasks To Unlock Cameras" game setting default value is now 0</li>
+    <li>Updated: Mystic "Arrow Duration" game setting default value is now 1 second with a max value of 3 seconds</li>
+    <li>Updated: Priest holy ground prevents all kills</li>
+    <li>Updated: "Hide Obstructed Player Names" setting only works on living crewmates</li>
+    <li>Updated: Added Shifter to Assassin selection menu if Amnesiac is selected</li>
+    <li>Updated: A Bounty Hunter's bounty can't be their lawyer</li>
+    <li>Updated: Swapper meeting buttons now moved to the right of the player beans</li>
+    <li>Updated: Sheriff can have the swapper modifier</li>
+    <li>Updated: Morphling sample timer set to 0 on game start and after meeting</li>
+    <li>Updated: Main menu layout has been tweaked</li>
+    <li>Updated: Main menu button positions stay correct after the resolution is changed</li>
+    <li>Updated: Credits dialog reworked</li>
+    <li>Fixed: A Bounty Hunter's current bounty can't be the same as the previous bounty</li>
+    <li>Fixed: Screen flashes not working consistently</li>
+    <li>Fixed: Imitator not having any options after the first selection as the host</li>
+    <li>Fixed: Vigilante tracker arrows not following their targets after the first tracked target</li>
+    <li>Fixed: Medium Spirit abilty failing when the killer has disconnected</li>
+    <li>Fixed: Detective Examine abilty failing when the killer has disconnected</li>
+    <li>Fixed: Ninja invis duration game setting being 0 by default</li>
+    <li>Fixed: Vulture eating bodies through walls</li>
+    <li>Fixed: Deputy spawning without the Sheriff</li>
+    <li>Fixed: Priest sanctify having infinite uses</li>
+    <li>Fixed: Glitch/Mystic/Transporter not being assigned to a client correctly</li>
+    <li>Fixed: Engineer sealed vents for next round showing for everyone in the current round</li>
+    <li>Fixed: Hide and Seek settings not showing correctly in the lobby</li>
+    <li>Fixed: Transporter, Glitch & Mystic menus from not opening sometimes</li>
+    <li>Fixed: Transporter, Glitch & Mystic menus from not closing on use</li>
+    <li>Fixed: Swapper Buttons showing on players who've been shot during the meeting</li>
+    <li>Fixed: Skip button longer shows when voting is complete and assassin menu was closed</li>
+    <li>Fixed: When a Lover becomes a Shifter and looses their modifier but can still see lovers chat</li>
+    <li>Fixed: Several smaller bugs/errors</li>
+    </ul>
+  </details> -->
   <details>
     <summary> v0.10.3 BETA </summary>
     <ul>
@@ -77,7 +109,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
   <details>
     <summary> v0.10.2 BETA </summary>
     <ul>
-    <li>Added: AllAny game mode</li>
+    <li>Added: New "All Any" game mode</li>
     <li>Updated: The Guardian Angel now can't become the Poltergeist in case their target wins</li>
     <li>Fixed: Investigator footprints not appearing</li>
     <li>Fixed: The target of Executioner not showing after shift</li>
@@ -120,299 +152,6 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
     <li>Fixed: Spy admin map showing duplicate blips</li>
     <li>Fixed: Role history data in end game summary for the Sheriff/Deputy & Jackal/Sidekick</li>
     <li>Fixed: Many smaller bugs/errors</li>
-    </ul>
-  </details> 
-  <details>
-    <summary> v0.9.32 BETA </summary>
-    <ul>
-    <li>Added: Compatibility for Among Us version 2023.2.28</li>
-    <li>Added: EnabledAfterRound setting for ButtonBarry</li>
-    <li>Added: Swapper crewmate modifier</li>
-    <li>Updated: The Trapper now has vent traps which collects role information once triggered</li>
-    <li>Updated: The Lawyer can now protect players in meeting from being assassinated</li>
-    <li>Updated: The Undertaker can drop bodies while in vents without having to pop out first</li>
-    <li>Updated: Bloody spawn rate reduced</li>
-    <li>Updated: The GA protect ability now has the flying ghost animation around their target</li>
-    <li>Updated: Medic vitals is now always available</li>
-    <li>Updated: Spy admin ability is now always available</li>
-    <li>Updated: Credits uses a new UI</li>
-    <li>Fixed: The Bomber player name icon should now appear correctly</li>
-    <li>Fixed: Mayor dump can no longer be toggled</li>
-    <li>Fixed: The Shifter can no longer see who the Deputy/Sheriff are if they used to be either role</li>
-    <li>Fixed: The Arsonist douse graphics should no longer appear after a meeting if used when a meeting is called</li>
-    <li>Removed: Swapper crewmate role</li>
-    </ul>
-  </details>  
-  <details>
-    <summary> v0.9.31 BETA </summary>
-    <ul>
-    <li>Added: Copy & Decoy button graphics for the Joker</li>
-    <li>Added: Confuse button graphics</li>
-    <li>Added: HotPotato mode to the Bomber</li>
-    <li>Added: Bomb icon for current bomb target/victim</li>
-    <li>Added: Mayor can now dump all their votes on a player in meeting with one click</li>
-    <li>Added: A doused player killed will douse their killer</li>
-    <li>Updated: Zoom button graphics</li>
-    <li>Updated: All sprites are now cached</li>
-    <li>Updated: All sprites are now preloaded on game start up</li>
-    <li>Updated: Morphing/Mimic no longer shows the actual player in the kill animation</li>
-    <li>Updated: GA protect button now uses fill up animation</li>
-    <li>Updated: Spy can open spy map while in the vent</li>
-    <li>Fixed: Deputy not being promoted after a meeting</li>
-    <li>Fixed: Sheriff/Deputy seeing the other become Traitor</li>
-    <li>Fixed: Morphling morphing on a ladder or moving platform</li>
-    </ul>
-  </details>  
-  <details>
-    <summary> v0.9.30 BETA </summary>
-    <ul>
-    <li>Added: Jungle colour</li>
-    <li>Added: Magenta colour</li>
-    <li>Added: Hex button graphics for the Witch</li>
-    <li>Updated: Witch hex symbol graphics have been replaced</li>
-    <li>Updated: Spy now has the lighter ability</li>
-    <li>Updated: Spy no longer has impostor vision</li>
-    <li>Updated: Spy no longer appears as an impostor to other impostors</li>
-    <li>Updated: Spy can now be an Executioner target</li>
-    <li>Updated: Spy can now be a Bounty Hunter target</li>
-    <li>Updated: Deputy no longer has the lighter ability</li>
-    <li>Updated: Snitch can no longer be assassinated in meeting once revealed</li>
-    <li>Updated: Phantom & Haunter now fade to full transparency when standing still</li>
-    <li>Updated: All game setting options now have language support</li>
-    <li>Updated: Several button graphics reworked</li>
-    <li>Updated: Darker and lighter graphics are now higher quality</li>
-    <li>Updated: Footprint graphics for the Investigator</li>
-    <li>Updated: Shift animation graphics</li>
-    <li>Fixed: Mystic mind vision lighting issue post meeting</li>
-    <li>Fixed: Poltergeist winning with avenged lovers</li>
-    <li>Fixed: Poltergeist being able to do tasks</li>
-    <li>Fixed: Poltergeist becoming Phantom after meeting</li>
-    <li>Fixed: Ninja caltrops rendering incorrectly</li>
-    <li>Fixed: Loading animation showing during a Grenadier flash</li>
-    <li>Fixed: Shifter/Amnesiac turning into Plaguebearer and the tracking icons not appearing</li>
-    <li>Fixed: Shifter/Amnesiac turning into Arsonist and the tracking icons not appearing</li>
-    <li>Fixed: Shifter/Amnesiac turning into Arsonist and the douse ability being broken</li>
-    <li>Fixed: Joker end decoy should not spawn outside a map if they morphed close to an outside wall</li>
-    <li>Fixed: Sidekick shouldn't get promoted to Jackal unless their recruiter is killed</li>
-    <li>Fixed: Mayor anonymous votes not showing as gray</li>
-    <li>Fixed: Many buttons having very long timers post meeting when mini</li>
-    <li>Fixed: Mini lose condition not triggering</li>
-    </ul>
-  </details>   
-  <details>
-    <summary> v0.9.29 BETA </summary>
-    <ul>
-    <li>Added: Plum colour</li>
-    <li>Updated: Priest role color</li>
-    <li>Updated: Vigilante role color</li>
-    <li>Updated: Poltergeist now wins with any neutrals</li>
-    <li>Updated: The Snitch now shows as crewmate ingame when not revealed</li>
-    <li>Updated: Drunk can be limited to a set number of rounds</li>
-    <li>Updated: Removed pursuer from all role settings</li>
-    <li>Updated: Removed client options</li>
-    <li>Updated: Removed horse mode</li>
-    <li>Fixed: Players joining lobbies and breaking the settings</li>
-    <li>Fixed: Sleuth role data only appearing for the Sleuth when other players report</li>
-    <li>Fixed: Phantom and Haunter not being fast when caught</li>
-    <li>Fixed: AssasinateAfterVoting setting being reversed</li>
-    <li>Fixed: Sheriff not spawning as Avenger when lover is killed</li>
-    <li>Fixed: In game icons showing for dead players before meeting</li>
-    <li>Fixed: Jester winning with crew on task win</li>
-    </ul>
-  </details> 
-  <details>
-    <summary> v0.9.28 BETA</summary>
-    <ul>
-    <li>Added: Med scan data for the mini</li>
-    <li>Updated: Survivor now has the blank ability</li>
-    <li>Updated: Possessor possession movement logic</li>
-    <li>Updated: Footprint graphics for the Investigator role</li>
-    <li>Updated: Blood graphics for the Bloody modifier</li>
-    <li>Updated: Swapper icon graphics for the Swapper role</li>
-    <li>Updated: Assassinate icon graphics</li>
-    <li>Updated: Reduced size of teleport beacon</li>
-    <li>Updated: Lighter/darker label graphics</li>
-    <li>Updated: Soul graphics for the Medium role</li>
-    <li>Updated: Chalk outline graphics for the Detective role</li>
-    <li>Updated: Sealed vent graphics for the Engineer role</li>
-    <li>Updated: Ninja Leaves graphics (now caltrops) for the Ninja role</li>
-    <li>Updated: Trap graphics for the Trapper role</li>
-    <li>Updated: Base game settings are now saved per preset</li>
-    <li>Fixed: Lobby settings not syncing on player join</li>
-    <li>Fixed: Revived players no longer keep the haunt button</li>
-    <li>Fixed: Sidekick being known by impostors or deputy/sheriff</li>
-    <li>Fixed: Haunter & Phantom being super fast</li>
-    <li>Fixed: Dead players will now only see roles via the Haunt menu until after meeting</li>
-    <li>Fixed: Joker being killed by a bomb when decoyed</li>
-    <li>Fixed: Game loader animation showing during certain screen flashes</li>
-    <li>Fixed: Snitch task text when they haven't been revealed on game start</li>
-    <li>Fixed: Sealed vents not working immediately</li>
-    <li>Removed: Pursuer crewmate role</li>
-    </ul>
-  </details> 
-  <details>
-    <summary> v0.9.27 BETA</summary>
-    <ul>
-    <li>Added: Confuse impostor modifier</li>
-    <li>Added: Necromancer additional cooldown game setting</li>
-    <li>Added: Necromancer trigger both cooldown game setting</li>
-    <li>Added: Janitor trigger both cooldown game setting</li>
-    <li>Updated: Vulture devour button now has a total body indicator</li>
-    <li>Updated: Avenger message to target no longer includes the avengers name</li>
-    <li>Fixed: Joker decoy death not working correctly</li>
-    <li>Fixed: Decoyed Joker no longer turning invisible if they have the Chameleon modifier</li>
-    <li>Fixed: Mayor votes not appearing for everyone</li>
-    <li>Fixed: Drag ability for the Undertaker not working correctly</li>
-    <li>Fixed: Stop mind vision ability for the Mystic not working correctly</li>
-    </ul>
-  </details> 
-  <details>
-    <summary> v0.9.26 BETA</summary>
-    <ul>
-    <li>Added: PickMimic, Mimic & Hack button graphics for Glitch</li>
-    <li>Updated: Hunter Lights button graphics changed</li>
-    <li>Updated: Deputy Lighter button graphics changed</li>
-    <li>Fixed: Arsonist player icon position</li>
-    <li>Fixed: Plaguebearer player icon positions</li>
-    <li>Fixed: Bounty Hunter player icon position</li>
-    <li>Fixed: Fixed Banshee scream button being in the same position as the report button</li>
-    <li>Fixed: Button cooldowns being wrong for Hide And Seek</li>
-    <li>Fixed: AffectedByComms sprite showing ontop of custom buttons during sabotages</li>
-    <li>Fixed: Previous bounty being selected for the Bounty Hunter</li>
-    <li>Fixed: Hide And Seek Final Stage not starting</li>
-    <li>Fixed: Hunted vent button getting stuck while in a vent and trapping the player inside</li>
-    <li>Fixed: Disperser should not be given to the Bounty Hunter</li>
-    <li>Fixed: Ruthless modifier being given to non impostors</li>
-    <li>Fixed: Vampire not being affected by the flash or giant modifiers</li>
-    </ul>
-  </details> 
-  <details>
-    <summary> v0.9.25 BETA</summary>
-    <ul>
-    <li>Added: Ruthless impostor modifier</li>
-    <li>Added: Shift button graphics for Shifter</li>
-    <li>Updated: Ghost menu now shows roles</li>
-    <li>Updated: Hunter arrow ability only appears during the final hide time in Hide And Seek</li>
-    <li>Fixed: Tasks completed by dead players reducing the timer in Hide And Seek</li>
-    <li>Fixed: Sheriff not being able to shoot impostors in meetings</li>
-    <li>Fixed: Ghost roles being classed as alive</li>
-    <li>Fixed: Fullscreen flashes not appearing in some cases</li>
-    <li>Fixed: Ghost menu from appearing when Haunter or Phantom have spawned but not yet caught</li>
-    </ul>
-  </details> 
-  <details>
-    <summary> v0.9.24 BETA</summary>
-    <ul>
-    <li>Added: Compatibility for Among Us version 2022.12.14</li>
-    <li>Added: Poltergeist drag body duration setting</li>
-    <li>Added: Avenger kill cooldown setting</li>
-    <li>Added: Infect button graphics for Plaguebearer</li>
-    <li>Added: Sidekick button graphics for Jackal</li>
-    <li>Added: Douse & Ignite button graphics for Arsonist</li>
-    <li>Added: Devour button graphics for Vulture</li>
-    <li>Added: Vest button graphics for the Survivor</li>
-    <li>Added: Simplified Chinese language translation</li>
-    <li>Added: Vent button for the Hunted</li>
-    <li>Removed: Vent button for the Hunters</li>
-    <li>Updated: Hide And Seek now uses flashlights, danger indicator, music, timer bar & seeker form for the Hunters</li>
-    <li>Updated: Hide And Seek intro screen</li>
-    <li>Updated: You can now specify impostor roles in killing only mode</li>
-    <li>Updated: Game mode specific settings now only show if that game mode is selected</li>
-    <li>Updated: Poltergeist drag ability now has a duration</li>
-    <li>Updated: The Avenger dies if their target is voted out</li>
-    <li>Updated: Many custom buttons with durations now use the fill up animation</li>
-    <li>Updated: Custom button charges have new look</li>
-    <li>Fixed: Joker not appearing for others after a meeting when decoyed before meeting</li>
-    <li>Fixed: Joker with mini not showing their age in meetings when decoyed before meeting</li>
-    <li>Fixed: Poltergeist winning with crew</li>
-    <li>Fixed: Exiled lovers lover should see roles when dead</li>
-    <li>Fixed: Phantom becoming Poltergeist and vice versa</li>
-    <li>Fixed: Blood trails on ghosts</li>
-    <li>Fixed: Detective report seconds field not being replaced with actual seconds value</li>
-    <li>Fixed: Medic report seconds field not being replaced with actual seconds value</li>
-    </ul>
-  </details> 
-  <details>
-    <summary> v0.9.23 BETA</summary>
-    <ul>
-    <li>Updated: The Avenger won't appear dead in meetings if they spawn immediately</li>
-    <li>Updated: A green flash occurs when the bodyguard protects their client</li>
-    <li>Updated: The vampire now has a grace period after meetings if the lights are currently out</li>
-    <li>Fixed: Roles not showing in Task Text</li>
-    <li>Fixed: Modifiers not showing in Task Text</li>
-    <li>Fixed: Role Intro Screen not showing sometimes</li>
-    <li>Fixed: Deputy not being promoted to Sheriff correctly on Sheriff death</li>
-    <li>Fixed: Amnesiac not remembering roles correctly</li>
-    <li>Fixed: Creating a Jackal sidekick not working correctly</li>
-    <li>Fixed: Shifting roles not working correctly</li>
-    <li>Fixed: Hide and Seek missing language support</li>
-    <li>Fixed: First kill shield not showing for the protected crewmate</li>
-    <li>Fixed: Lawyer win and Pursuer win end game messages</li>
-    </ul>
-  </details> 
-  <details>
-    <summary> v0.9.22 BETA</summary>
-    <ul>
-    <li>Added: Poltergeist Neutral ghost role</li>
-    <li>Added: Remember button graphics for Amnesiac</li>
-    <li>Added: Multi Language Support</li>
-    <li>Updated: Renamed Ghoul to Banshee</li>
-    <li>Updated: Renamed Hypnotist to Necromancer</li>
-    <li>Updated: Necromancer raise dead ability converts the dead player to a Ghoul impostor role</li>
-    <li>Updated: Players can spawn as the Pursuer</li>
-    <li>Updated: Footprint visibility game settings now include non anonymous footprints during camo comms</li>
-    <li>Updated: The Avenger can now spawn straight away using new AvengerActivateTime game setting</li>
-    <li>Updated: The Avenger can now kill the Pestilence</li>
-    <li>Updated: Renamed Detective Inspect ability to Examine</li>
-    <li>Fixed: Bomb button graphics size for the Bomber</li>
-    <li>Fixed: Avenger can no longer call an emergency meeting</li>
-    <li>Fixed: Avenger won't spawn if their target is already dead</li>
-    <li>Fixed: Avenger won't spawn if a lover killed their lover</li>
-    <li>Fixed: Avenger can no longer assassinate if they had the assassin ability prior</li>
-    <li>Fixed: Avenger dies if their target dies first</li>
-    <li>Fixed: Avenger is no longer invisible when dead</li>
-    <li>Fixed: Game no longer continues if crew and Avenger are still alive</li>
-    <li>Fixed: Bounty Hunter not being able to be sidekicked</li>
-    </ul>
-  </details> 
-  <details>
-    <summary> v0.9.21 BETA</summary>
-    <ul>
-    <li>Added: Avenger neutral role</li>
-    <li>Added: Bomb button graphics for the Bomber</li>
-    <li>Added: Holy Water graphics for the Priest Sanctify ability</li>
-    <li>Added: LoversCanBeAvenged game setting to enable the Avenger role</li>
-    <li>Added: AvengerRevealDistance game setting for the Avenger role invisibility reveal</li>
-    <li>Added: AvengerUpdateInterval game setting for the Avenger role arrow update time</li>
-    <li>Updated: Disabled dynamic colours</li>
-    <li>Updated: PlayerIcons now show the selected visor</li>
-    </ul>
-  </details> 
-  <details>
-    <summary> v0.9.20 BETA</summary>
-    <ul>
-    <li>Added: Dynamic colours</li>
-    <li>Added: Custom visors</li>
-    <li>Added: Custom nameplates</li>
-    <li>Added: SniperCanKillImpostors game setting for the Sniper to prevent them being able to shoot their impostor team mates</li>
-    <li>Added: Rampage button graphics for the Werewolf</li>
-    <li>Updated: Sanctify now lasts forever and only shows when a bad thing happens within its radius</li>
-    <li>Updated: 2 second cooldown after Morphling sample to prevent morphing by accident</li>
-    <li>Updated: An attack on a time shielded player will reset the attackers cooldowns by 2 seconds</li>
-    <li>Updated: Debputy Handcuff now has limited charges</li>
-    <li>Updated: Bodyguard KillsAttackerOnGuard now checks for shield and pestilence</li>
-    <li>Updated: Moved mod setting buttons to left hand side</li>
-    <li>Fixed: Hats in hats tab showing outside scrollable container</li>
-    <li>Fixed: Haunter and Phantom not being visible to the living when not caught</li>
-    <li>Fixed: Bomber throw bomb ability killing multiple times</li>
-    <li>Fixed: Arsonist and Plaguebearer black names now correctly don't override the alpha channel</li>
-    <li>Fixed: Amnesiac not getting the guessing ability when they get the Sheriff role</li>
-    <li>Fixed: Phantom spawning on a sealed vent</li>
-    <li>Fixed: Deputy not being able to kill once promoted to Sheriff</li>
-    <li>Fixed: Bodyguard target not resetting if Bodyguard dies</li>
-    <li>Fixed: Loading animation no longer plays after a grenade flash has ended</li>
-    <li>Fixed: Possession message should no longer appear in meeting</li>
-    <li>Fixed: Astral not turning into a ghost when killed</li>
     </ul>
   </details> 
 </details>
@@ -535,7 +274,7 @@ They Mystic can also see what other players are doing from their POV with the Mi
 | Mystic | The percentage probability of the Mystic appearing | Percentage | 0% |
 | Mind Vision Cooldown | The cooldown of the Mystic's Mind Vision ability | Time | 25s |
 | Mind Vision Duration | The duration of the Mystic's Mind Vision ability | Time | 10s |
-| Arrow Duration | The duration of the arrows pointing to the bodies | Time | 0.1s |
+| Arrow Duration | The duration of the arrows pointing to the bodies | Time | 1s |
 
 -----------------------
 ## Priest
@@ -947,7 +686,7 @@ If that player gets voted out, they win the game.
 ## Phantom
 ### **Team: Neutral**
 The Phantom is a Neutral role with its own win condition.\
-They become half-invisible when they die and has to complete all their tasks without getting caught.
+They become half-invisible when they die and have to complete all their tasks without getting caught.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -1187,27 +926,28 @@ and get them to kill for them or they die themselves when the timer ends.
 -----------------------
 ## Joker
 ### **Team: Neutral**
-The Joker is an Neutral role that can morph into decoys of other people.\
+The Joker is an Neutral role that can place decoys of other crewmates.\
 To win the Joker must get a number of those decoys killed to win.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Joker | The percentage probability of the Joker appearing | Percentage | 0% |
-| Joker Decoy Cooldown | The cooldown of the Joker's Decoy button | Time | 25s |
+| Joker Decoy Cooldown | The cooldown of the Joker's Decoy ability | Time | 25s |
 | Number Of Decoys Needed To Be Killed | Decoys needed to be killed to win the game | Number | 3 |
 
 -----------------------
 ## Poltergeist
 ### **Team: Neutral**
-The Poltergeist is an Neutral ghost role that can drag dead bodies around.
+The Poltergeist is an Neutral role with its own win condition.\
+They become half-invisible when they die and have to get enough fake bodies reported without getting caught.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Poltergeist | The percentage probability of the Poltergeist appearing | Percentage | 0% |
-| Poltergeist Drag Cooldown | The cooldown for using the Poltergeist's Drag Body ability | Time | 25s |
-| Poltergeist Drag Duration | The duration of the Poltergeist's Drag Body ability | Time | 10s |
+| Poltergeist Prank Cooldown | The cooldown for using the Poltergeist's Prank ability | Time | 25s |
+| Number Of Bodies Needed To Be Reported | Dead Bodies needed to be reported to win the game | Number | 3 |
 
 -----------------------
 # Impostor Roles
@@ -1860,12 +1600,12 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 # Game Mode Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Game Mode | What game mode the next game will be | Classic / Killing Only / Hide And Seek | Classic |
+| Game Mode | What game mode the next game will be | Classic / Draft / All Any / Killing Only / Hide And Seek | Classic |
 | Vanilla Game | Probability Of A Completely Vanilla Game | Percentage | 0% |
 | Enable Modifiers | Whether modifiers are assigned to players | Toggle | False |
 
 -----------------------
-# Classic Game Mode Settings
+# Role Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Min Neutral Non-Killing Roles | The minimum number of Neutral non-killing roles a game can have | Number | 1 |
@@ -1874,6 +1614,13 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 | Max Neutral Killing Roles | The maximum number of Neutral killing roles a game can have | Number | 1 |
 
 -----------------------
+<!--# Draft Settings
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Hide role selections | Hide all role selections for each player | Toggle | False |
+
+-----------------------
+-->
 # Killing Only Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -1921,7 +1668,7 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 | Random Map Mira | Mira Chance | Percentage | 0% |
 | Random Map Polus | Polus Chance | Percentage | 0% |
 | Random Map Airship | Airship Chance | Percentage | 0% |
-| Random Map Submerged | Submerged Chance | Percentage | 0% |
+<!--| Random Map Submerged | Submerged Chance | Percentage | 0% |-->
 
 -----------------------
 # Better Polus Settings
@@ -1945,7 +1692,7 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 | Disable Meeting Skip Button | Whether the meeting button is disabled | No / Emergency / Always | No |
 | Hide Obstructed Player Names | Whether players can see other player names through walls | Toggle | False |
 | No Cameras First Round | Whether cameras are disabled in the first round | Toggle | False |
-| Tasks To Unlock Cameras | Number of tasks needed to be completed before cameras can be used | Number | 3 |
+| Tasks To Unlock Cameras | Number of tasks needed to be completed before cameras can be used | Number | 0 |
 
 -----------------------
 # Last Game First Kill Shield Settings
@@ -1997,17 +1744,16 @@ If they guess wrong, they die instead.
 -----------------------
 # Extras
 ## New Colors!
-New colors are added for crewmates to pick from. They are based on the new colours available in The Other Roles & Town of Us-R
+Multiple new colors have been added for crewmates to pick from.
 
-![COLORS](./Images/ATR-colors.jpg)
+<!-- ![COLORS](./Images/ATR-colors.jpg) -->
 
 ## Custom Hats!
 Custom hats have been added.
+<!--
+How to create a custom hat:
 
-We're awaiting your creative hat designs and we'll integrate all the good ones in our mod.
-Here are a few instructions, on how to create a custom hat:
-
-- **Creation:** A hat consists of up to three textures. The aspect ratio of the textures has to be `4:5`, we recommend `300px:375px`:
+- **Specification:** A hat consists of up to three textures. The aspect ratio of the textures has to be `4:5`, we recommend `300px:375px`:
   - `Main texture (required)`:
     - This is the main texture of your hat. It will usually be rendered in front of the player, if you set the `behind` parameter it will be rendered behind the player.
     - The name of the texture needs to follow the pattern *hatname.png*, but you can also set some additional parameters in the file name by adding `_parametername` to the file name (before the *.png*).
@@ -2027,14 +1773,14 @@ Here are a few instructions, on how to create a custom hat:
     - This texture will be rendered in front of the player, when they're climbing.
     - The name of the texture needs to follow the pattern `hatname_climb.png`.
 - **Testing:** You can test your hat design by putting all the files in the `\CustomHats\Test` subfolder of your mod folder. Then whenever you start a Freeplay game, you and all the dummies will be wearing the new hat. You don't need to restart Among Us if you change the hat files, just exit and reenter the Freeplay mode.
+-->
 
 ## Custom Visors!
 Custom visors have been added.
+<!--
+How to create a custom visor:
 
-We're awaiting your creative visor designs and we'll integrate all the good ones in our mod.
-Here are a few instructions, on how to create a custom visor:
-
-- **Creation:** A visor consists of up to two textures. The aspect ratio of the textures has to be `4:5`, we recommend `300px:375px`:
+- **Specification:** A visor consists of up to two textures. The aspect ratio of the textures has to be `4:5`, we recommend `300px:375px`:
   - `Main texture (required)`:
     - This is the main texture of your visor.
     - The name of the texture needs to follow the pattern *visorname.png*, but you can also set some additional parameters in the file name by adding `_parametername` to the file name (before the *.png*).
@@ -2042,17 +1788,18 @@ Here are a few instructions, on how to create a custom visor:
   - `Flipped texture (optional)`:
     - This texture will be rendered instead of the Main texture, when facing the left.
     - The name of the texture needs to follow the pattern `visorname_flip.png`.
+-->
 
 ## Custom Nameplates!
 Custom nameplates have been added.
+<!--
+How to create a custom nameplate:
 
-We're awaiting your creative nameplate designs and we'll integrate all the good ones in our mod.
-Here are a few instructions, on how to create a custom nameplate:
-
-- **Creation:** A nameplate consists of one texture. The dimensions need to be `275px:68px`:
+- **Specification:** A nameplate consists of one texture. The dimensions need to be `275px:68px`:
   - `Main texture (required)`:
     - This is the main texture of your nameplate.
     - The name of the texture needs to follow the pattern *nameplatename.png*.
+-->
 
 -----------------------
 # Credits & Resources
