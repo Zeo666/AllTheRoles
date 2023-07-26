@@ -26,35 +26,46 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 | [Ninja](#ninja)                 | [Medium](#medium)             | [Bomber](#bomber)                 | [Radar](#radar)               |
 | [Astral](#astral)               | [Deputy](#deputy)             | [Joker](#joker)                   | [Multitasker](#multitasker)   |
 | [Necromancer](#necromancer)     | [Time Lord](#time-lord)       | [Poltergeist](#poltergeist)       | [Underdog](#underdog)         |
-| [Outlaw](#outlaw)               | [Transporter](#transporter)   |                                   | [Double Shot](#double-shot)   |
-| [Scorpion](#scorpion)           | [Bodyguard](#bodyguard)       |                                   | [Chameleon](#chameleon)       |
+| [Outlaw](#outlaw)               | [Transporter](#transporter)   | [Doomsayer](#doomsayer)           | [Double Shot](#double-shot)   |
+| [Scorpion](#scorpion)           | [Bodyguard](#bodyguard)       | [Baker](#baker)                   | [Chameleon](#chameleon)       |
 | [Banshee](#banshee)             | [Imitator](#imitator)         |                                   | [Ruthless](#ruthless)         |
-| [Vampire](#vampire)             |                               |                                   | [Confuse](#confuse)           |
+| [Vampire](#vampire)             | [Tank](#tank)                 |                                   | [Confuse](#confuse)           |
 |                                 |                               |                                   | [Swapper](#swapper)           |
+|                                 |                               |                                   | [Professional](#professional) |
 
 -----------------------
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2023.7.12s & 2023.7.12e | v0.11.0 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.0/AllTheRoles-0.11.0.zip) |
 | 2023.3.28s & 2023.3.28e | v0.10.3 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.3/AllTheRoles-0.10.3.zip) |
 | 2023.3.28s & 2023.3.28e | v0.10.2 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.2/AllTheRoles-0.10.2.zip) |
 | 2023.3.28s & 2023.3.28e | v0.10.1 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.1/AllTheRoles-0.10.1.zip) |
 | 2023.3.28s & 2023.3.28e | v0.10.0 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.0/AllTheRoles-0.10.0.zip) |
 
-<!--
-| 2023.3.28s & 2023.3.28e | v0.11.0 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.0/AllTheRoles-0.11.0.zip) |
--->
 
 <details>
   <summary> Changelog </summary>
-  <!--<details>
+  <details>
     <summary> v0.11.0 BETA </summary>
     <ul>
+    <li>Added: Compatibility with Among Us version 2023.7.12</li>
     <li>Added: New "Draft" game mode</li>
+    <li>Added: Tank crewmate killer role</li>
+    <li>Added: Doomsayer neutral evil role</li>
+    <li>Added: Baker/Famine neutral killer role</li>
+    <li>Added: Professional killer only modifier</li>
+    <li>Added: "Lobby Size" game setting</li>
+    <li>Added: "Max Emergency Meetings" game setting</li>
     <li>Added: Chat notifications during meetings</li>
+    <li>Added: Can now view game settings in game</li>
+    <li>Added: New client settings to view role summary, ghost see tasks/roles/modifiers etc</li>
+    <li>Added: Many new button graphics</li>
+    <li>Updated: Bomber has been given the kill ability</li>
     <li>Updated: Poltergeist has been reworked. New Prank ability using fake dead bodies and new win condition</li>
     <li>Updated: Joker has been reworked. New Decoy ability using fake players</li>
     <li>Updated: Vampire has been reworked slightly. New Transform ability available during lights sabotage</li>
+    <li>Updated: Detective examine reworked to be only usable after inspecting a chalk outline</li>
     <li>Updated: Vulture will become infected if they eat an infected dead body</li>
     <li>Updated: Guardian Angel can again become the Poltergiest</li>
     <li>Updated: Investigator can use cameras regardless of settings</li>
@@ -67,30 +78,46 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
     <li>Updated: Swapper meeting buttons now moved to the right of the player beans</li>
     <li>Updated: Sheriff can have the swapper modifier</li>
     <li>Updated: Morphling sample timer set to 0 on game start and after meeting</li>
-    <li>Updated: Main menu layout has been tweaked</li>
-    <li>Updated: Main menu button positions stay correct after the resolution is changed</li>
-    <li>Updated: Credits dialog reworked</li>
+    <li>Updated: Morphling egg animation shows as grey during Camo Comms</li>
+    <li>Updated: The Ghoul dies if the Necromancer dies or is voted out</li>
+    <li>Updated: Imitator can't select disconnected players</li>
+    <li>Updated: Avenger arrow doesn't show when the Avenger is visible</li>
+    <li>Updated: New Lawyer protect icon image</li>
     <li>Fixed: A Bounty Hunter's current bounty can't be the same as the previous bounty</li>
     <li>Fixed: Screen flashes not working consistently</li>
     <li>Fixed: Imitator not having any options after the first selection as the host</li>
     <li>Fixed: Vigilante tracker arrows not following their targets after the first tracked target</li>
-    <li>Fixed: Medium Spirit abilty failing when the killer has disconnected</li>
-    <li>Fixed: Detective Examine abilty failing when the killer has disconnected</li>
+    <li>Fixed: Medium Spirit ability failing when the killer has disconnected</li>
+    <li>Fixed: Detective Examine ability failing when the killer has disconnected</li>
+    <li>Fixed: Souls spawning when Medium is dead</li>
+    <li>Fixed: Chalk outlines spawning when Detective is dead</li>
     <li>Fixed: Ninja invis duration game setting being 0 by default</li>
     <li>Fixed: Vulture eating bodies through walls</li>
     <li>Fixed: Deputy spawning without the Sheriff</li>
     <li>Fixed: Priest sanctify having infinite uses</li>
+    <li>Fixed: Survivor winning with Phantom or Poltergeist</li>
+    <li>Fixed: Bounty Hunter having a longer than normal kill cd at start of game or after meeting</li>
     <li>Fixed: Glitch/Mystic/Transporter not being assigned to a client correctly</li>
     <li>Fixed: Engineer sealed vents for next round showing for everyone in the current round</li>
     <li>Fixed: Hide and Seek settings not showing correctly in the lobby</li>
     <li>Fixed: Transporter, Glitch & Mystic menus from not opening sometimes</li>
     <li>Fixed: Transporter, Glitch & Mystic menus from not closing on use</li>
     <li>Fixed: Swapper Buttons showing on players who've been shot during the meeting</li>
-    <li>Fixed: Skip button longer shows when voting is complete and assassin menu was closed</li>
     <li>Fixed: When a Lover becomes a Shifter and looses their modifier but can still see lovers chat</li>
+    <li>Fixed: Holy ground not disappearing on Priest death</li>
+    <li>Fixed: Scorpion teleport ability not reseting when target dies</li>
+    <li>Fixed: Imitator not having any kill data</li>
+    <li>Fixed: Zoom buttons now correctly positioned and scaled</li>
+    <li>Fixed: Player select menu staying open on meeting start</li>
+    <li>Fixed: Phantom sometimes not having any tasks to do</li>
+    <li>Fixed: Imitator not working on disconnected players</li>
+    <li>Fixed: Vigilante map blips remaining when the tracked player dies</li>
+    <li>Fixed: Medium arrows staying around after Medium dies</li>
+    <li>Fixed: Lawyer protect not working if the protection happens after an assassin has opened their guessing menu</li>
+    <li>Fixed: Assassinate ability not being assigned to roles if EnableModifiers is disabled</li>
     <li>Fixed: Several smaller bugs/errors</li>
     </ul>
-  </details> -->
+  </details>
   <details>
     <summary> v0.10.3 BETA </summary>
     <ul>
@@ -214,20 +241,19 @@ Not working? You might want to install the dependency [vc_redist](https://aka.ms
 # Crewmate Roles
 ## Detective
 ### **Team: Crewmates**
-The Detective is a Crewmate that can examine other players for suspicious behaviour.\
-If the player the Detective examines has killed recently the Detective will be alerted about it.\
-After a meeting the Detective can view the chalk outlines of the recently dead and can analyse them for more information.
+The Detective is a Crewmate that can examine the chalk outlines of the recently dead.\
+Once examined the Detective can then inspect players to find victims killer. \
+Killers flash red, but the innocent flash green.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Detective | The percentage probability of the Detective appearing | Percentage | 0% |
-| Examine Cooldown | The cooldown of the Detective's Examine button | Time | 10s |
-| Bloody Duration | How long players remain bloody after a kill | Time | 25s |
+| Examine Cooldown | The cooldown of the Detective's Examine ability | Time | 10s |
+| Inspect Chalk Outline Casting Duration | The time that you need to stay next to the chalk outline in order to examine it | Time | 1s |
 | Show Detective Reports | Whether the Detective should get information when reporting a body | Toggle | True |
 | Time Where Detective Reports Will Have Role | If a body has been dead for shorter than this amount, the Detective's report will contain the killer's role | Time | 15s |
 | Time Where Detective Reports Will Have Faction | If a body has been dead for shorter than this amount, the Detective's report will contain the killer's faction | Time | 30s |
-| Inspect Chalk Outline Casting Duration | The time that you need to stay next to the chalk outline in order to inspect it | Time | 1s |
 
 -----------------------
 ## Haunter
@@ -243,7 +269,7 @@ However, if the Haunter is clicked they lose their ability to reveal Impostors a
 | When Haunter Can Be Clicked | The amount of tasks remaining when the Haunter Can Be Clicked | Number | 5 |
 | Haunter Alert | The amount of tasks remaining when the Impostors are alreted that the Haunter is nearly finished | Number | 1 |
 | Haunter Reveals Neutral Roles | Whether the Haunter also Reveals Neutral Roles | Toggle | False |
-| Who can Click Haunter | Whether even other Crewmates can click the Haunter | All / Non-Crew / Imps Only | All |
+| Who Can Click Haunter | Whether even other Crewmates can click the Haunter | All / Non-Crew / Imps Only | All |
 
 -----------------------
 ## Investigator
@@ -298,10 +324,8 @@ The Priest also has the Sancitfy ability which creates an area where no interact
 | Neutral Killing show up as Evil | Neutral Killing roles show up as Red | Toggle | False |
 | Traitor does not swap Colours | The Traitor remains their original colour | Toggle | False |
 | Sancitfy Cooldown | The cooldown of the Priests sanctify ability | Time | 25s |
-| Sancitfy Delay | The time delay before sancitfy is placed | Time | 5s |
 | Sancitfy Charges | The number of times you can sanctify the ground | Number | 5 |
 | Sancitfy Radius | The size of the Sanctify | Factor | 1x |
-| Sancitfy Duration | The time Sancitfy lasts for | Time | 25s |
 
 -----------------------
 ## Snitch
@@ -315,7 +339,6 @@ However, when they only have a single task left, the Impostors get an arrow poin
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Snitch | The percentage probability of the Snitch appearing | Percentage | 0% |
-| Snitch knows who they are on Game Start | Whether the Snitch knows their role at the start of a game | Toggle | False |
 | Snitch Sees Neutral Roles | Whether the Snitch also Reveals Neutral Roles | Toggle | False |
 | Tasks Remaining When Revealed | The number of tasks remaining when the Snitch is revealed to Impostors | Number | 1 |
 | Snitch Sees Impostors in Meetings | Whether the Snitch sees the Impostor's names red in Meetings | Toggle | True |
@@ -371,18 +394,18 @@ During meetings, the Sheriff can choose to kill someone by guessing their role, 
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Sheriff | The percentage probability of the Sheriff appearing | Percentage | 0% |
-| Sheriff Miskill Kills Crewmate | Whether the other player is killed if the Sheriff Misfires | Toggle | False |
-| Sheriff Kills Neutral | Whether the Sheriff is able to kill any Neutral bad guy | Toggle | False |
-| Sheriff Kill Cooldown | The cooldown on the Sheriff's kill button | Time | 25s |
-| Sheriff can report who they've killed | Whether the Sheriff is able to report their own kills | Toggle | True |
-| Sheriff Meeting Kills | The number of kills the Sheriff can do with his ability | Number | 1 |
-| Sheriff Multiple Kill  | Whether the Sheriff can kill more than once per meeting | Toggle | False |
-| Sheriff Guess Neutral Benign  | Whether the Sheriff can Guess Neutral Benign roles | Toggle | False |
-| Sheriff Guess Neutral Evil  | Whether the Sheriff can Guess Neutral Evil roles | Toggle | False |
-| Sheriff Guess Neutral Killing  | Whether the Sheriff can Guess Neutral Killing roles | Toggle | False |
-| Sheriff Guess Lovers  | Whether the Sheriff can Guess Lovers | Toggle | False |
-| Sheriff Guess After Voting  | Whether the Sheriff can Guess after they have voted | Toggle | False |
-| Sheriff No First Round Kill | Whether the Sheriff can't use their kill ability in the first round | Toggle | False |
+| Misfire Kills Crewmate | Whether the other player is killed if the Sheriff Misfires | Toggle | False |
+| Can Kill Neutral | Whether the Sheriff is able to kill any Neutral bad guy | Toggle | False |
+| Kill Cooldown | The cooldown on the Sheriff's kill button | Time | 25s |
+| Can report who they've killed | Whether the Sheriff is able to report their own kills | Toggle | True |
+| Meeting Kills | The number of kills the Sheriff can do with his ability | Number | 1 |
+| Multiple Kill  | Whether the Sheriff can kill more than once per meeting | Toggle | False |
+| Can Guess Neutral Benign  | Whether the Sheriff can Guess Neutral Benign roles | Toggle | False |
+| Can Guess Neutral Evil  | Whether the Sheriff can Guess Neutral Evil roles | Toggle | False |
+| Can Guess Neutral Killing  | Whether the Sheriff can Guess Neutral Killing roles | Toggle | False |
+| Can Guess Lovers  | Whether the Sheriff can Guess Lovers | Toggle | False |
+| Can Guess After Voting  | Whether the Sheriff can Guess after they have voted | Toggle | False |
+| No First Round Kill | Whether the Sheriff can't use their kill ability in the first round | Toggle | False |
 
 -----------------------
 ## Deputy
@@ -406,8 +429,8 @@ Handcuffs disable:
 | Sheriff And Deputy Know Each Other | Sheriff And Deputy Know Each Other | Toggle | True |
 | Handcuff Cooldown | Handcuff Cooldown | Time | 30s |
 | Handcuff Duration | Handcuff Duration | Time | 15s |
-| Deputy Gets Promoted To Sheriff | Deputy Gets Promoted To Sheriff | Off / On (Immediately) / On (After Meeting) | Off |
-| Deputy Keeps Handcuffs When Promoted | Deputy Keeps Handcuffs When Promoted | Toggle | False |
+| Gets Promoted To Sheriff | Deputy Gets Promoted To Sheriff | Off / On (Immediately) / On (After Meeting) | Off |
+| Keeps Handcuffs When Promoted | Deputy Keeps Handcuffs When Promoted | Toggle | False |
 
 -----------------------
 ## Veteran
@@ -424,7 +447,7 @@ The veteran can also vent and if attacked while in a vent the perpetrator is kil
 | Alert Cooldown | The cooldown on the Veteran's alert button. | Time | 5s |
 | Alert Duration | The duration of the alert | Time | 25s |
 | Maximum Number of Alerts | The number of times the Veteran can alert throughout the game | Number | 3 |
-| Veteran Can Vent | Whether the Veteran can vent | Toggle | False |
+| Can Vent | Whether the Veteran can vent | Toggle | False |
 
 -----------------------
 ## Vigilante
@@ -438,7 +461,7 @@ If the Vigilante is voted off they actually survive and spawn in a random vent w
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Vigilante | The percentage probability of the Vigilante appearing | Percentage | 0% |
-| Vigilante Kill Cooldown | The cooldown on the Vigilante's kill button | Time | 25s |
+| Kill Cooldown | The cooldown on the Vigilante's kill button | Time | 25s |
 | Arrow Update Interval | The time it takes for the arrow to update to the new location of the tracked player | Time | 5s |
 | Track Cooldown | The cooldown on the Tracker's track button | Time | 25s |
 | Tracker Arrows Reset Each Round | Whether Tracker Arrows are removed after each meeting | Toggle | False |
@@ -456,7 +479,7 @@ After a set period of time, the player will be resurrected, if the revival isn't
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Altruist | The percentage probability of the Altruist appearing | Percentage | 0% |
-| Altruist Revive Duration | The time it takes for the Altruist to revive a dead body | Time | 10s |
+| Revive Duration | The time it takes for the Altruist to revive a dead body | Time | 10s |
 | Target's body disappears on beginning of revive | Whether the dead body of the player the Altruist is reviving disappears upon revival | Toggle | False |
 | Revive Charges | The number of times you can revive players before you die | Number | 3 |
 
@@ -494,10 +517,11 @@ They can use vents to get across the map easily, and can seal them up too so noo
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Engineer | The percentage probability of the Engineer appearing | Percentage | 0% |
+| Engineer Fix Limit | Number of times a fix can be used per round or game | Number | 1 |
 | Engineer Fix Per | Whether the Engineer can fix 1 sabotage per round or per game | Round / Game | Round |
-| Engineer Seal Vent Cooldown | The cooldown of the Engineer's Seal Vent button | Time | 10s |
-| Engineer Seal Vent Charges | Number of charges you can seal vents | Number | 5 |
-| Engineer Seal Vents Next Round | Whether the vents are sealed immediately or after the next meeting | Toggle | False |
+| Seal Vent Cooldown | The cooldown of the Engineer's Seal Vent button | Time | 10s |
+| Seal Vent Charges | Number of charges you can seal vents | Number | 5 |
+| Seal Vents Next Round | Whether the vents are sealed immediately or after the next meeting | Toggle | False |
 
 -----------------------
 ## Mayor
@@ -513,7 +537,7 @@ Regardless of if everyone has voted or not the Mayor can dump all their votes on
 |----------|:-------------:|:------:|:------:|
 | Mayor | The percentage probability of the Mayor appearing | Percentage | 0% |
 | Initial Mayor Vote Bank | The number of votes in the Vote Bank at the start of a game | Number | 1 |
-| Mayor Votes Show Anonymous | Whether the Mayor's extra votes will show up anonymously | Toggle | False |
+| Votes Show Anonymous | Whether the Mayor's extra votes will show up anonymously | Toggle | False |
 
 -----------------------
 ## Medium
@@ -551,7 +575,7 @@ If enabled, the Time Lord can't use Vitals to make things more balanced.
 | Rewind Duration | How far the rewind goes back in time | Time | 2s |
 | Rewind Cooldown | The cooldown of the Time Lord's Rewind button | Time | 25s |
 | Max Uses | The amount of times the Rewind ability can be used | Number | 5 |
-| Time Lord can use Vitals | Whether the Time Lord has the ability to use Vitals | Toggle | False |
+| Can use Vitals | Whether the Time Lord has the ability to use Vitals | Toggle | False |
 | Time Shield Cooldown | Time Shield Cooldown | Time | 25s |
 | Time Shield Duration | Time Shield Duration | Time | 5s |
 
@@ -582,7 +606,6 @@ with an option to also kill the attacker.
 |----------|:-------------:|:------:|:------:|
 | Bodyguard | The percentage probability of the Bodyguard appearing | Percentage | 0% |
 | Guard Reset After Meeting | Guard Resets After Meeting | Toggle | False |
-| Guard Shield Duration | Guard Shield Duration | Time | 1s |
 | Kills Attacker On Guard | Kills Attacker on Guard | Toggle | False |
 
 -----------------------
@@ -596,6 +619,25 @@ They can choose to use each dead players as many times as they wish.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Imitator | The percentage probability of the Imitator appearing | Percentage | 0% |
+
+-----------------------
+## Tank
+### **Team: Crewmates**
+The Tank is a crewmate role with the ability to taunt other players.\
+If a taunted player tries to attack the Tank, the attack fails.\
+When this happens the Tank then gets the ability to counter attack and kill their attacker.\
+Players taunted only reset if the Tank uses their Taunt ability again.\
+\
+**NOTE:**
+- Taunt it lasts through meetings
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Tank | The percentage probability of the Tank appearing | Percentage | 0% |
+| Taunt Cooldown | The cooldown of the Tank's Taunt ability | Time | 25s |
+| Taunt Radius | The area of effect size when taunting | Factor | 1x |
+| Max Taunt Count | The number of players that can be taunted at any one time | Number | 1 |
 
 -----------------------
 # Neutral Roles
@@ -667,9 +709,9 @@ However, the Jester does not win if the Crewmates, Impostors or another Neutral 
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Jester | The percentage probability of the Jester appearing | Percentage | 0% |
-| Jester Can Button | Whether the Jester Can Press the Button | Toggle | True |
-| Jester Has Impostor Vision | Jester Has Impostor Vision | Toggle | True |
-| Jester Can Vent | Whether the Jester Can Vent | Toggle | False |
+| Can Button | Whether the Jester Can Press the Button | Toggle | True |
+| Has Impostor Vision | Jester Has Impostor Vision | Toggle | True |
+| Can Vent | Whether the Jester Can Vent | Toggle | False |
 
 -----------------------
 ## Executioner
@@ -683,7 +725,7 @@ If that player gets voted out, they win the game.
 |----------|:-------------:|:------:|:------:|
 | Executioner | The percentage probability of the Executioner appearing | Percentage | 0% |
 | Executioner becomes on Target Dead | Which role the Executioner becomes when their target dies | Crewmate / Amnesiac / Survivor / Jester | Crewmate |
-| Executioner Can Button | Whether the Executioner Can Press the Button | Toggle | True |
+| Can Button | Whether the Executioner Can Press the Button | Toggle | True |
 
 -----------------------
 ## Phantom
@@ -710,9 +752,9 @@ The other is to ingite all doused players.\
 | Arsonist | The percentage probability of the Arsonist appearing | Percentage | 0% |
 | Douse Cooldown | The cooldown of the Arsonist's Douse button | Time | 25s |
 | Douse Duration | The time that you need to stay next to a target in order to douse them | Time | 1s |
-| Arsonist Douse Radius | The size of the Douse | Factor | 1x |
-| Arsonist Max Player Douse | Max Player Douse | Number | 1 |
-| Arsonist Imposter Vision | Where the arsonist has imposter vision | Toggle | False |
+| Douse Radius | The size of the Douse | Factor | 1x |
+| Max Player Douse | Max Player Douse | Number | 1 |
+| Has Imposter Vision | Where the arsonist has imposter vision | Toggle | False |
 | Arsonist Game End | Game Continues As Long As Arsonist Is Alive | Toggle | False |
 
 -----------------------
@@ -746,13 +788,13 @@ The Glitch can Mimic someone, which results in them looking exactly like the oth
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Glitch | The percentage probability of The Glitch appearing | Percentage | 0% |
+| Kill Cooldown | The cooldown of the Glitch's Kill button | Time | 30s |
 | Mimic Cooldown | The cooldown of The Glitch's Mimic button | Time | 30s |
 | Mimic Duration | How long The Glitch can Mimic a player | Time | 10s |
 | Hack Cooldown | The cooldown of The Glitch's Hack button | Time | 30s |
 | Hack Duration | How long The Glitch can Hack a player | Time | 10s |
-| Glitch Kill Cooldown | The cooldown of the Glitch's Kill button | Time | 30s |
-| Glitch Hack Distance | How far away The Glitch can Hack someone from | Short / Normal / Long | Short |
-| Glitch can Vent | Whether the Glitch can Vent | Toggle | False |
+| Hack Distance | How far away The Glitch can Hack someone from | Short / Normal / Long | Short |
+| Can Vent | Whether the Glitch can Vent | Toggle | False |
 
 -----------------------
 ## Juggernaut
@@ -766,7 +808,7 @@ The Juggernaut's aim is to kill everyone and be the last person standing.\
 | Juggernaut | The percentage probability of Juggernaut appearing | Percentage | 0% |
 | Kill Cooldown | The cooldown of the Juggernaut's Kill button | Time | 25s |
 | Kill Cooldown Reduction | The cooldown reduction of the Juggernaut's Kill button after a kill is made | Time | 5s |
-| Juggernaut can Vent | Whether the Juggernaut can Vent | Toggle | False |
+| Can Vent | Whether the Juggernaut can Vent | Toggle | False |
 
 -----------------------
 ## Werewolf
@@ -784,7 +826,7 @@ The Werewolf needs to be the last killer alive to win the game.
 | Rampage Cooldown | The cooldown of the Werewolf's Rampage button | Time | 25s |
 | Rampage Duration | The duration of the Werewolf's Rampage | Time | 25s |
 | Rampage Kill Cooldown | The cooldown of the Werewolf's Kill button | Time | 10s |
-| Werewolf can Vent when Rampaged | Whether the Werewolf can Vent when Rampaged | Toggle | False |
+| Can Vent when Rampaged | Whether the Werewolf can Vent when Rampaged | Toggle | False |
 
 -----------------------
 ## Lawyer
@@ -810,7 +852,7 @@ How the Lawyer wins:
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Lawyer | The percentage probability of the Lawyer appearing | Percentage | 0% |
-| Lawyer Target Can Be The Jester | -  | Toggle | True |
+| Target Can Be The Jester | -  | Toggle | True |
 | Lawyer Becomes On Target Dead | Lawyer Becomes On Target Dead | Crew / Amnesiac / Survivor / Jester  | Crew |
 | Lawyer Vision | Lawyer vision multiplier | Number | 1 |
 | Lawyer Knows Target Role | Whether the lawyer can see their targets role | Toggle | True |
@@ -827,7 +869,7 @@ If there is a Vulture in the game, there can't be a Cleaner.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Vulture | The percentage probability of the Vulture appearing | Percentage | 0% |
-| Vulture Cooldown | Vulture Cooldown | Time | 25 |
+| Devour Cooldown | Devour Cooldown | Time | 25 |
 | Number Of Corpses Needed To Be Eaten | Corpes needed to be eaten to win the game | Number | 3 |
 | Vulture Can Use Vents | Vulture Can Use Vents | Toggle | True |
 | Show Corpse Arrows | Show Arrows Pointing Towards The Corpes | Toggle | True |
@@ -882,18 +924,18 @@ If both Impostors and Jackals are in the game, the game continues even if all Cr
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Jackal | The percentage probability of the Jackal appearing | Percentage | 0% |
-| Jackal/Sidekick Kill Cooldown | Kill cooldown | Time | 25s |
-| Jackal Create Sidekick Cooldown | Cooldown before a Sidekick can be created  | Toggle | True |
-| Jackal can use vents | Yes/No | Toggle | True |
-| Jackal can create a Sidekick | Yes/No | Toggle | True |
-| Jackals promoted from Sidekick can create a Sidekick | Yes/No (to prevent the Jackal team from growing) | Toggle | True |
+| Kill Cooldown | Kill cooldown | Time | 25s |
+| Jackal and Sidekick have Impostor vision | Where the Jackal has Impostor vision | Toggle | True |
+| Can Vent | Yes/No | Toggle | True |
+| Can Create a Sidekick | Yes/No | Toggle | True |
+| Create Sidekick Cooldown | Cooldown before a Sidekick can be created  | Toggle | True |
 | Jackals can make an Impostor to their Sidekick | Yes/No (to prevent a Jackal from turning an Impostor into a Sidekick, if they use the ability on an Impostor they see the Impostor as Sidekick, but the Impostor isn't converted to Sidekick. If this option is set to "No" Jackal and Sidekick can kill each other.) | Toggle | True |
-| Jackal and Sidekick have Impostor vision | - | Toggle | True |
+| Jackals promoted from Sidekick can create a Sidekick | Yes/No (to prevent the Jackal team from growing) | Toggle | True |
 
 -----------------------
 ## Sidekick
 ### **Team: Jackal**
-Gets assigned to a player during the game by the "Create Sidekick Action" of the Jackal and joins the Jackal in their quest to eliminate all other players.\
+Gets assigned to a player during the game by the "Create Sidekick" ability of the Jackal and joins the Jackal in their quest to eliminate all other players.\
 Upon the death of the Jackal (depending on the options), they might get promoted to Jackal themself and potentially even assign a Sidekick of their own.\
 \
 **NOTE:**
@@ -919,12 +961,12 @@ and get them to kill for them or they die themselves when the timer ends.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Bomber | The percentage probability of the Bomber appearing | Percentage | 0% |
-| Bomber Place Bomb Cooldown | The plant bomb cooldown | Time | 25s |
-| Bomber Place Bomb Timer Delay | The time is takes for the bomb victim to find out they have a bomb on them | Time | 5s |
-| Bomber Bomb Timer | The time it takes for the bomb to explodes | Time | 20s |
-| Bomber Bomb Indicator | Bomb Indicator Every X seconds | Time | 5s |
-| Bomber Hot Potato Mode | Hot Potato Mode Enabled | Toggle | False |
-| Bomber Can Vent | Whether the Bomber can vent | Toggle | False |
+| Place Bomb Cooldown | The plant bomb cooldown | Time | 25s |
+| Place Bomb Timer Delay | The time is takes for the bomb victim to find out they have a bomb on them | Time | 5s |
+| Bomb Timer | The time it takes for the bomb to explodes | Time | 20s |
+| Bomb Indicator | Bomb Indicator Every X seconds | Time | 5s |
+| Hot Potato Mode | Hot Potato Mode Enabled | Toggle | False |
+| Can Vent | Whether the Bomber can vent | Toggle | False |
 
 -----------------------
 ## Joker
@@ -936,21 +978,57 @@ To win the Joker must get a number of those decoys killed to win.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Joker | The percentage probability of the Joker appearing | Percentage | 0% |
-| Joker Decoy Cooldown | The cooldown of the Joker's Decoy ability | Time | 25s |
+| Decoy Cooldown | The cooldown of the Joker's Decoy ability | Time | 25s |
 | Number Of Decoys Needed To Be Killed | Decoys needed to be killed to win the game | Number | 3 |
 
 -----------------------
 ## Poltergeist
 ### **Team: Neutral**
 The Poltergeist is an Neutral role with its own win condition.\
-They become half-invisible when they die and have to get enough fake bodies reported without getting caught.
+They become half-invisible when they die and have to get enough fake bodies reported without getting caught.\
+Fake dead bodies can be cleared by the crew by standing next to them for 5 seconds.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Poltergeist | The percentage probability of the Poltergeist appearing | Percentage | 0% |
-| Poltergeist Prank Cooldown | The cooldown for using the Poltergeist's Prank ability | Time | 25s |
+| Prank Cooldown | The cooldown for using the Poltergeist's Prank ability | Time | 25s |
 | Number Of Bodies Needed To Be Reported | Dead Bodies needed to be reported to win the game | Number | 3 |
+
+-----------------------
+## Doomsayer
+### **Team: Neutral**
+The Doomsayer is an Neutral role with its own win condition.\
+During meetings the Doomsayer has the ability to guess a crewmates role and assasinate them.\
+To win the Doomsayer must correctly guess the required number of roles. 
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Doomsayer | The percentage probability of the Doomsayer appearing | Percentage | 0% |
+| Observe Cooldown | The cooldown for using the Doomsayer's Observe ability | Time | 25s |
+| Number Of Guesses Needed | Correct assasination guesses needed to win the game | Number | 3 |
+
+-----------------------
+## Baker
+### **Team: Neutral**
+The Baker is a Neutral role with the ability to give Bread to other players.\
+When enough players have been given Bread, the Baker becomes Famine.\
+If less than 3 players are alive and they have not yet transformed, the Baker will die of starvation.\
+All players without Bread will die of starvation the round after Famine transforms.\ 
+If they are killed before then, the starvation will not occur.\
+Players with Bread survive for 3 more rounds before starving and will be alerted that the Famine has begun. \
+The Famine has the ability to speed up a players starvation by one round.
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Baker | The percentage probability of the Baker appearing | Percentage | 0% |
+| Bread Cooldown | The cooldown of the Baker's bread ability | Time | 25s |
+| Bread Count | The number of players to have bread that begins the Famine | Number | 3 |
+| Famine Starve Cooldown | The cooldown of the Famine's Starve ability | Time | 25s |
+| Rounds To Starve | The number of rounds before a player starves during Famine | Number | 3 |
+| Famine Can Vent | Whether the Famine can Vent | Toggle | False |
 
 -----------------------
 # Impostor Roles
@@ -968,7 +1046,7 @@ However, a sabotage and a smoke grenade can not be active at the same time.
 | Flash Grenade Duration | How long the Flash Grenade lasts for | Time | 10s |
 | Flash Radius | How wide the flash radius is | Factor | 1x |
 | Indicate Flashed Crewmates | Whether the Grenadier can see who has been flashed | Toggle | False |
-| Grenadier can Vent | Whether the Grenadier can Vent | Toggle | False |
+| Can Vent | Whether the Grenadier can Vent | Toggle | False |
 
 -----------------------
 ## Morphling
@@ -983,7 +1061,7 @@ They can then Morph into that person at any time for a limited amount of time.
 | Morphling | The percentage probability of the Morphling appearing | Percentage | 0% |
 | Morph Cooldown | The cooldown of the Morphling's Morph button | Time | 25s |
 | Morph Duration | How long the Morph lasts for | Time | 10s |
-| Morphling can Vent | Whether the Morphling can Vent | Toggle | False |
+| Can Vent | Whether the Morphling can Vent | Toggle | False |
 
 -----------------------
 ## Swooper
@@ -994,9 +1072,9 @@ The Swooper is an Impostor that can temporarily turn invisible.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Swooper | The percentage probability of the Swooper appearing | Percentage | 0% |
-| Swooper Cooldown | The cooldown of the Swooper's Swoop button | Time | 25s |
-| Swooper Duration | How long the Swooping lasts for | Time | 10s |
-| Swooper can Vent | Whether the Swooper can Vent | Toggle | False |
+| Swoop Cooldown | The cooldown of the Swooper's Swoop button | Time | 25s |
+| Swoop Duration | How long the Swooping lasts for | Time | 10s |
+| Can Vent | Whether the Swooper can Vent | Toggle | False |
 
 -----------------------
 ## Poisoner
@@ -1010,7 +1088,7 @@ When they poison a player, the poisoned player dies either upon the start of the
 | Poisoner | The percentage probability of the Poisoner appearing | Percentage | 0% |
 | Poison Cooldown | The cooldown of the Poisoner's Poison button | Time | 25s |
 | Poison Kill Delay | The delay of the kill after being poisoned | Time | 5s |
-| Poisoner can Vent | Whether the Poisoner can Vent | Toggle | False |
+| Can Vent | Whether the Poisoner can Vent | Toggle | False |
 
 -----------------------
 ## Traitor
@@ -1072,9 +1150,9 @@ The Undertaker is an Impostor that can drag and drop bodies.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Undertaker | The percentage probability of the Undertaker appearing | Percentage | 0% |
-| Undertaker Drag Cooldown | The cooldown of the Undertaker Drag ability | Time | 25s |
-| Undertaker can Vent | Whether the Undertaker can Vent | Toggle | False |
-| Undertaker can Vent while Dragging | Whether the Undertaker can Vent when they are Dragging a Body | Toggle | False |
+| Drag Cooldown | The cooldown of the Undertaker Drag ability | Time | 25s |
+| Can Vent | Whether the Undertaker can Vent | Toggle | False |
+| Can Vent while Dragging | Whether the Undertaker can Vent when they are Dragging a Body | Toggle | False |
 
 -----------------------
 ## Camouflager
@@ -1129,10 +1207,10 @@ The Warlock can still perform normal kills, but the two buttons share the same c
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Warlock | The percentage probability of the Warlock appearing | Percentage | 0% |
-| Warlock Cooldown | Cooldown for using the Curse and curse Kill | Time | 0% |
-| Warlock Root Time | Time the Warlock is rooted in place after killing using the curse | Time | 3s |
-| Warlock Trigger Both Cooldowns | If set to true, casting a spell will also trigger cooldown of the kill button and vice versa (but the two cooldowns may vary) | Toggle | False |
-| Warlock Vent | Whether the Warlock can Vent | Toggle | False |
+| Curse Cooldown | Cooldown for using the Curse and curse Kill | Time | 0% |
+| Curse Root Time | Time the Warlock is rooted in place after killing using the curse | Time | 3s |
+| Trigger Both Cooldowns | If set to true, casting a spell will also trigger cooldown of the kill button and vice versa (but the two cooldowns may vary) | Toggle | False |
+| Can Vent | Whether the Warlock can Vent | Toggle | False |
 
 -----------------------
 ## Witch
@@ -1152,13 +1230,13 @@ Depending on the options you can choose whether voting the Witch out will save a
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Witch | The percentage probability of the Witch appearing | Percentage | 0% |
-| Witch Spell Casting Cooldown | - | Time | 30s |
-| Witch Additional Cooldown | The spell casting cooldown will be increased by the amount you set here after each spell | Time | 10s |
+| Hex Spell Casting Cooldown | - | Time | 30s |
+| Hex Additional Cooldown | The spell casting cooldown will be increased by the amount you set here after each spell | Time | 10s |
 | Witch Can Spell Everyone | If set to false, the witch can't spell the Spy and other Impostors | Toggle | True |
 | Witch Spell Casting Duration | The time that you need to stay next to the target in order to cast a spell on it | Time | 1s |
 | Trigger Both Cooldowns | If set to true, casting a spell will also trigger cooldown of the kill button and vice versa (but the two cooldowns may vary) | Toggle | False |
 | Voting The Witch Saves All The Targets | If set to true, all the cursed targets will survive at the end of the meeting | Toggle | True |
-| Witch Vent | Whether the Witch can Vent | Toggle | False |
+| Can Vent | Whether the Witch can Vent | Toggle | False |
 
 -----------------------
 ## Ninja
@@ -1186,7 +1264,7 @@ When performing a ninja ability kill, the ninja can be invisible for some second
 | Trace Duration | The time that the leaves remain after a kill | Time | 5s |
 | Time Till Trace Color Has Faded | Time Till Trace Color Has Faded | Time | 2s |
 | Invisible Duration | Time The Ninja Is Invisible | Time | 10s |
-| Ninja Vent | Whether the Ninja can Vent | Toggle | False |
+| Can Vent | Whether the Ninja can Vent | Toggle | False |
 
 -----------------------
 ## Astral
@@ -1200,7 +1278,7 @@ however if they do not kill within a certain time frame, they will stay dead.
 | Astral | The percentage probability of the Astral appearing | Percentage | 0% |
 | Astral Cooldown | Astral Form Cooldown | Time | 25s |
 | Astral Duration | Astral Form Duration | Time | 10s |
-| Astral Vent | Whether the Astral can Vent | Toggle | False |
+| Can Vent | Whether the Astral can Vent | Toggle | False |
 
 -----------------------
 ## Necromancer
@@ -1211,12 +1289,12 @@ The Necromancer is an Impostor who can raise dead players and make them a Ghoul.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Necromancer | The percentage probability of the Necromancer appearing | Percentage | 0% |
-| Necromancer Raise Duration | The time that you need to stay next to the a body in order to raise the dead player | Time | 1s |
-| Necromancer Raise Cooldown | Cooldown for using the Raise ability | Time | 10s |
-| Necromancer Additional Cooldown | The spell casting cooldown will be increased by the amount you set here after each raise | Time | 10s |
-| Necromancer Raise Charges | The number of times the Necromancer can raise a dead player | Number | 5 |
+| Raise Duration | The time that you need to stay next to the a body in order to raise the dead player | Time | 1s |
+| Raise Cooldown | Cooldown for using the Raise ability | Time | 10s |
+| Raise Additional Cooldown | The spell casting cooldown will be increased by the amount you set here after each raise | Time | 10s |
+| Raise Charges | The number of times the Necromancer can raise a dead player | Number | 5 |
 | Trigger Both Cooldowns | If set to true, casting raise will also trigger cooldown of the kill button and vice versa (but the two cooldowns may vary) | Toggle | False |
-| Necromancer Vent | Whether the Necromancer can Vent | Toggle | False |
+| Can Vent | Whether the Necromancer can Vent | Toggle | False |
 
 -----------------------
 ## Scorpion
@@ -1227,8 +1305,9 @@ The Scorpion is an Impostor who can mark a player for teleportation and teleport
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Scorpion | The percentage probability of the Scorpion appearing | Percentage | 0% |
+| Teleport Cooldown | Cooldown for using the Teleport ability | Time | 10s |
 | Scorpion Knows Target Location | Show an arrow pointing to the marked target | Toggle | True |
-| Scorpion Vent | Whether the Scorpion can Vent | Toggle | False |
+| Can Vent | Whether the Scorpion can Vent | Toggle | False |
 
 -----------------------
 ## Outlaw
@@ -1239,7 +1318,8 @@ The Outlaw is an Impostor who can kill twice in a row within a certain time fram
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Outlaw | The percentage probability of the Outlaw appearing | Percentage | 0% |
-| Outlaw Second Kill Cooldown | Time window that Outlaw can kill again before cooldown is incurred | Time | 10s |
+| Kill Cooldown | Cooldown for using the Kill ability | Time | 10s |
+| Second Kill Cooldown | Time window that Outlaw can kill again before cooldown is incurred | Time | 10s |
 | Outlaw Vent | Whether the Outlaw can Vent | Toggle | False |
 
 -----------------------
@@ -1251,8 +1331,8 @@ The Banshee is an Impostor ghost role that can scare the living and root them in
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Banshee | The percentage probability of the Banshee appearing | Percentage | 0% |
-| Banshee Scare Cooldown | Cooldown for using the Scare ability | Time | 25s |
-| Banshee Scare Duration | Time that the Scare target will be rooted | Time | 3s |
+| Scare Cooldown | Cooldown for using the Scare ability | Time | 25s |
+| Scare Duration | Time that the Scare target will be rooted | Time | 3s |
 
 -----------------------
 ## Sniper
@@ -1263,9 +1343,9 @@ The Sniper is an Impostor role that can kill players from a distance.
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Sniper | The percentage probability of the Sniper appearing | Percentage | 0% |
-| Sniper Cooldown | Cooldown for using the Snipe ability | Time | 25s |
-| Sniper Can Kill Impostors | Sniper Can Kill Impostors | Toggle | False |
-| Sniper Vent | Whether the Sniper can Vent | Toggle | False |
+| Snipe Cooldown | Cooldown for using the Snipe ability | Time | 25s |
+| Can Kill Impostors | Sniper Can Kill Impostors | Toggle | False |
+| Can Vent | Whether the Sniper can Vent | Toggle | False |
 
 -----------------------
 ## Possessor
@@ -1280,7 +1360,7 @@ The Possessor is an Impostor role that can take control of players and kill them
 | Possess Casting Duration | The time that you need to stay next to the target in order to cast a spell on it | Time | 1s |
 | Possess Delay | The time after casting before the Possessor takes control of their victim | Time | 5s |
 | Possess Kill Cooldown | Cooldown for using the Kill ability once a victim is possessed | Time | 5s |
-| Possessor Vent | Whether the Possessor can Vent | Toggle | False |
+| Can Vent | Whether the Possessor can Vent | Toggle | False |
 
 -----------------------
 ## Vampire
@@ -1293,11 +1373,11 @@ During lights out the Vampire speeds up, turns black and their name becomes red 
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Vampire | The percentage probability of the Vampire appearing | Percentage | 0% |
-| Vampire Lights Cooldown | Cooldown for using the Lights ability | Time | 25s |
-| Vampire Lights Duration | Duration of the Lights ability | Time | 25s |
-| Vampire Kill Cooldown | Cooldown for using the Kill ability | Time | 25s |
+| Lights Cooldown | Cooldown for using the Lights ability | Time | 25s |
+| Lights Duration | Duration of the Lights ability | Time | 25s |
+| Kill Cooldown | Cooldown for using the Kill ability | Time | 25s |
 | Post Meeting Grace Period | Duration after a meeting when a Vampire doesn't show as a Vampire | Time | 10s |
-| Vampire Vent | Whether the Vampire can Vent | Toggle | False |
+| Can Vent | Whether the Vampire can Vent | Toggle | False |
 
 -----------------------
 # Modifiers
@@ -1543,6 +1623,16 @@ The Chameleon becomes (partially or fully) invisible when standing still for x-s
 | Minimum Visibility | Minimum Visibility | Factor | 0% |
 
 -----------------------
+## Professional
+### **Applied to: Killers**
+Professional is a killer only modifier that makes any dead body instantly disappear.\
+However if anyone else arrives within the radius of the kill the body is reported.
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Professional | The percentage probability of Professional appearing | Percentage | 0% |
+
+-----------------------
 ## Disperser
 ### **Applied to: Impostors**
 Disperser is a button modifier that gives the impostors the ability to teleport every player to a random vent
@@ -1600,7 +1690,13 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 | Confuse Duration | The duration of the Confuse ability | Time | 5s |
 
 -----------------------
-# Game Mode Settings
+# Settings
+## Game Settings
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Lobby Size | The max number of players allowed per game | Number | 15 |
+
+## Game Mode Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Game Mode | What game mode the next game will be | Classic / Draft / All Any / Killing Only / Hide And Seek | Classic |
@@ -1608,7 +1704,7 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 | Enable Modifiers | Whether modifiers are assigned to players | Toggle | False |
 
 -----------------------
-# Role Settings
+## Role Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Min Neutral Non-Killing Roles | The minimum number of Neutral non-killing roles a game can have | Number | 1 |
@@ -1617,14 +1713,14 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 | Max Neutral Killing Roles | The maximum number of Neutral killing roles a game can have | Number | 1 |
 
 -----------------------
-<!--# Draft Settings
+<!--## Draft Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Hide role selections | Hide all role selections for each player | Toggle | False |
 
 -----------------------
 -->
-# Killing Only Settings
+## Killing Only Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Neutral Roles | How many neutrals roles will spawn | Number | 1 |
@@ -1634,7 +1730,7 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 | Add Plaguebearer | Whether Plaguebearer will be added to the role list | Toggle | True |
 
 -----------------------
-# Hide And Seek Settings
+## Hide And Seek Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Hide And Seek Lead Time | Wait Period Duration | Time | 10s |
@@ -1663,29 +1759,10 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 | Hunted Vent Charges | Hunted Vent Charges | Number | 3 |
 
 -----------------------
-# Map Settings
+## Custom Game Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Random Map Enabled | Choose Random Map | Toggle | False |
-| Random Map Skeld | Skeld Chance | Percentage | 0% |
-| Random Map Mira | Mira Chance | Percentage | 0% |
-| Random Map Polus | Polus Chance | Percentage | 0% |
-| Random Map Airship | Airship Chance | Percentage | 0% |
-<!--| Random Map Submerged | Submerged Chance | Percentage | 0% |-->
-
------------------------
-# Better Polus Settings
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
-| Vent Improvements | Better Polus Vent Layout | Toggle | False |
-| Vitals Lab | Vitals Moved To Lab | Toggle | False |
-| Cold Temp Death Valley | Cold Temp Moved To Death Valley | Toggle | False |
-| Wifi Chart Course Swap | Reboot Wifi And Chart Course Swapped | Toggle | False |
-
------------------------
-# Custom Game Settings
-| Name | Description | Type | Default |
-|----------|:-------------:|:------:|:------:|
+| Max Emergency Meetings | Max number of emergency meetings that can be called per game | Number | 5 |
 | Camouflaged Comms | Whether everyone becomes camouflaged when Comms are sabotaged | Toggle | False |
 | Impostors can see the roles of their team | Whether Impostors are able to see which Impostor roles their teammates have | Toggle | False |
 | Dead can see everyone's roles and Votes | Whether dead players are able to see the roles and votes of everyone else | Toggle | False |
@@ -1698,7 +1775,27 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 | Tasks To Unlock Cameras | Number of tasks needed to be completed before cameras can be used | Number | 0 |
 
 -----------------------
-# Last Game First Kill Shield Settings
+## Map Settings
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Random Map Enabled | Choose Random Map | Toggle | False |
+| Random Map Skeld | Skeld Chance | Percentage | 0% |
+| Random Map Mira | Mira Chance | Percentage | 0% |
+| Random Map Polus | Polus Chance | Percentage | 0% |
+| Random Map Airship | Airship Chance | Percentage | 0% |
+<!--| Random Map Submerged | Submerged Chance | Percentage | 0% |-->
+
+-----------------------
+## Better Polus Settings
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Vent Improvements | Better Polus Vent Layout | Toggle | False |
+| Vitals Lab | Vitals Moved To Lab | Toggle | False |
+| Cold Temp Death Valley | Cold Temp Moved To Death Valley | Toggle | False |
+| Wifi Chart Course Swap | Reboot Wifi And Chart Course Swapped | Toggle | False |
+
+-----------------------
+## Last Game First Kill Shield Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Shield First Kill | Place a shield on the player who was first killed during the last game | Toggle | False |
@@ -1707,7 +1804,7 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 | Shield Disappears On Attack | Shield disappears if the player attacks another | Toggle | True |
 
 -----------------------
-# Task Tracking Settings
+## Task Tracking Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | See Tasks During Round | Whether people see their tasks update in game | Toggle | False |
