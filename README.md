@@ -1,6 +1,6 @@
 ![LOGO](./Images/ATR-logo.png)
 
-<p align="center"><img src="https://badgen.net/static/AmongUs/2023.7.12/red"><a href="https://github.com/Zeo666/AllTheRoles/releases/"><img src="https://badgen.net/github/release/Zeo666/AllTheRoles?icon=github"></a></p>
+<p align="center"><img src="https://badgen.net/static/AmongUs/2023.7.12/red"> <a href="https://github.com/Zeo666/AllTheRoles/releases/"><img src="https://badgen.net/github/release/Zeo666/AllTheRoles?icon=github"></a></p>
 
 **All The Roles** is a mod for [Among Us](https://store.steampowered.com/app/945360/Among_Us) which adds many new [Roles](#roles), new [Game Modes](#game-mode-settings), new [Map Settings](#map-settings) and new [Custom Hats](#custom-hats), [Custom Visors](#custom-visors) and [Custom Nameplates](#custom-nameplates) to the game.
 
