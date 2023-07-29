@@ -55,6 +55,8 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
     <li>Added: Starve button graphics for the Famine</li>
     <li>Added: Scare button graphics for the Banshee</li>
     <li>Added: Possess kill button graphics for the Possessor</li>
+    <li>Updated: Draft selection scroll now scrolls further for those on extra wide resolutions</li>
+    <li>Updated: More game elements now support language translation</li>
     <li>Fixed: Traitor not spawning correctly</li>
     <li>Fixed: Traitor spawning without a visible kill button</li>
     <li>Fixed: Professional causing duplicate body reports</li>
