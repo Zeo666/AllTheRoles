@@ -262,8 +262,8 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 - Steam or Epic Games
 
 ## Windows Installation Steam
-1. [Download](#releases) the All The Roles version corresponding to the installed Among Us version.
-2. Go to your Steam library.
+1. [Download](#releases) the latest version of All The Roles version.
+2. Go to your Steam Library and then go to the Among Us page.
 3. Right-click Among Us > click `Manage` > click `Browse local files`.
 4. In the File Explorer, delete the entire `Among Us` folder.
 5. Go back to your Steam library.
@@ -272,8 +272,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 8. Wait for Steam to download a clean version of Among Us.
 9. Duplicate the new Among Us Folder.
 10. Rename it to `Among Us - ATR`.
-11. Double-click on the zip file you downloaded.
-12. Drag all the files from the zip file in the new ATR folder.
+11. Copy or move the contents of the All The Roles zip file into the new `Among Us - ATR` folder you have just created.
 13. Finally, launch `Among Us.exe` from that folder.
 
 A first launch may take up to 5 minutes, so be patient if it doesn't launch immediately.
@@ -290,8 +289,7 @@ Not working? You might want to install the dependency [vc_redist](https://aka.ms
 7. Uncheck Auto-Update.
 8. Click on Install.
 9. Click Yes on the Windows popup.
-10. Paste the folder path in Windows search bar.
-11. Click on Enter.
+10. Paste the folder path into the Windows search bar and hit enter.
 12. Copy or move the contents of the All The Roles zip file into the AmongUs folder.
 13. Finally, launch Among Us from Epic Games library.
 
@@ -300,10 +298,11 @@ A first launch may take up to 5 minutes, so be patient if it doesn't launch imme
 Not working? You might want to install the dependency [vc_redist](https://aka.ms/vs/16/release/vc_redist.x86.exe)
 
 ## Linux Installation
-1. Install Among Us via Steam
-2. Download newest [release](https://github.com/Zeo666/AllTheRoles/releases/latest) and extract it to ~/.steam/steam/steamapps/common/Among Us
-3. Enable `winhttp.dll` via the proton winecfg (https://docs.bepinex.dev/articles/advanced/steam_interop.html#open-winecfg-for-the-target-game)
-4. Launch the game via Steam
+1. Install Among Us via Steam.
+2. Download the latest version of All The Roles.
+3. Extract it to `~/.steam/steam/steamapps/common/Among Us`
+4. Enable `winhttp.dll` via the proton winecfg (https://docs.bepinex.dev/articles/advanced/steam_interop.html#open-winecfg-for-the-target-game)
+5. Launch the game via Steam
 
 -----------------------
 # Roles
