@@ -37,6 +37,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2023.7.12s & 2023.7.12e | v0.11.3 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.3/AllTheRoles-0.11.3.zip) |
 | 2023.7.12s & 2023.7.12e | v0.11.2 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.2/AllTheRoles-0.11.2.zip) |
 | 2023.7.12s & 2023.7.12e | v0.11.1 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.1/AllTheRoles-0.11.1.zip) |
 | 2023.7.12s & 2023.7.12e | v0.11.0 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.0/AllTheRoles-0.11.0.zip) |
@@ -48,6 +49,45 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.11.3 BETA </summary>
+    <ul>
+    <li>Added: Submerged 2023.8.2 compatibility</li>
+    <li>Added: Discord support</li>
+    <li>Added: Host information to the lobby settings text</li>
+    <li>Added: Random spawning option</li>
+    <li>Added: Role category subheaders</li>
+    <li>Added: Better post meeting object clearing logic</li>
+    <li>Added: Better disconnect handling</li>
+    <li>Added: Buff/Debuff functionality for Disease and Bounty Hunter</li>
+    <li>Added: Attack/Defense functionality logic</li>
+    <li>Updated: Reactor to version 2.2.0</li>
+    <li>Updated: BepInEx to version 6.0.0-be.674</li>
+    <li>Updated: Chinese language support</li>
+    <li>Updated: Main menu version text should now correctly update on language change</li>
+    <li>Updated: Draft selection text now takes into account font size</li>
+    <li>Updated: Draft selection now starts with a turn randomiser screen</li>
+    <li>Updated: Lobby game settings text now takes into account font size</li>
+    <li>Updated: All role spawn chance settings are now set to 50% by default</li>
+    <li>Updated: Updated several other option default values</li>
+    <li>Updated: UI side buttons (Lobby settings/Zoom in & out) should take into account the current map being played (ie. submerged)</li>
+    <li>Updated: Doomsayer chat text has been updated to support different languages</li>
+    <li>Updated: Better Impostor kill button cooldown timer handling</li>
+    <li>Updated: The vent trap now roots players and alerts the Trapper</li>
+    <li>Fixed: Impostor button modifiers not spawning</li>
+    <li>Fixed: Professional dead bodies not being removed after meetings</li>
+    <li>Fixed: Sheriff first round kill prevention not working after the first game</li>
+    <li>Fixed: Amnesiac remembering a role that utilises a player menu and causing the player to morph on use</li>
+    <li>Fixed: Doomsayer not being able to shoot multiple times if they shoot correctly</li>
+    <li>Fixed: Player tracking icons now have the name showing correctly</li>
+    <li>Fixed: Avenger not showing as dead when target is killed in meeting</li>
+    <li>Fixed: Imitator having assassinate buttons after being the Sheriff</li>
+    <li>Fixed: Assassin chat info not showing the role text correctly</li>
+    <li>Fixed: Settings screen disapearing on map show</li>
+    <li>Fixed: Several smaller bugs/errors</li>
+    <li>Removed: LobbySize game setting for stability purposes</li>
+    </ul>
+  </details>
   <details>
     <summary> v0.11.2 BETA </summary>
     <ul>
@@ -390,21 +430,22 @@ The Trapper is a Crewmate that can place traps around the map.\
 When players enter a trap they trigger the trap.\
 In the following meeting, all players who triggered a trap will have their role displayed to the trapper.\
 However, this is done so in a random order, not stating who entered the trap, nor what role a specific player is.\
-The Trapper can also place traps on vents which reveal the role of the player who triggered it.
+The Trapper can also place traps on vents which reveal the role of the player who triggered it and root them in place.
 
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Trapper | The percentage probability of the Trapper appearing | Percentage | 0% |
-| Min Amount of Time in Trap to Register | How long a player must stay in the trap for it to trigger | Time | 1s |
 | Trap Cooldown | The cooldown on the Trapper's trap ability | Time | 25s |
-| Traps Removed Each Round | Whether the Trapper's traps are removed after each meeting | Toggle | True |
 | Maximum Number of Traps Per Game | The number of traps they can place in a game | Number | 5 |
 | Trap Size | The size of each trap | Factor | 1x |
 | Minimum Number of Roles required to Trigger Trap | The number of players that must enter the trap for it to be triggered | Number | 3 |
+| Min Amount of Time in Trap to Register | How long a player must stay in the trap for it to trigger | Time | 1s |
+| Traps Removed Each Round | Whether the Trapper's traps are removed after each meeting | Toggle | True |
 | Vent Trap Cooldown | The cooldown on the Trapper's vent trap ability | Time | 25s |
 | Maximum Number of Vent Traps Per Game | The number of vent traps they can place in a game | Number | 5 |
-     
+| Vent Trap Root Duration | The length of time a player caught will be rooted in place | Time | 3s |
+
 -----------------------
 ## Sheriff
 ### **Team: Crewmates**
@@ -636,6 +677,9 @@ with an option to also kill the attacker.
 The Imitator is a Crewmate that can mimic dead crewamtes.\
 During meetings the Imitator can select who they are going to imitate the following round from the dead.\
 They can choose to use each dead players as many times as they wish.
+\
+**NOTE:**
+- The Imitator can't become the Mayor or the Snitch
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -795,7 +839,7 @@ The Plaguebearer or Pestilence needs to be the last killer alive to win the game
 | Plaguebearer | The percentage probability of the Plaguebearer appearing | Percentage | 0% |
 | Infect Cooldown | The cooldown of the Plaguebearer's Infect button | Time | 25s |
 | Pestilence Kill Cooldown | The cooldown of the Pestilence's Kill button | Time | 25s |
-| Pestilence can Vent | Whether the Pestilence can Vent | Toggle | False |
+| Pestilence Can Vent | Whether the Pestilence can Vent | Toggle | False |
 
 -----------------------
 ## Glitch
@@ -816,7 +860,7 @@ The Glitch can Mimic someone, which results in them looking exactly like the oth
 | Hack Cooldown | The cooldown of The Glitch's Hack button | Time | 30s |
 | Hack Duration | How long The Glitch can Hack a player | Time | 10s |
 | Hack Distance | How far away The Glitch can Hack someone from | Short / Normal / Long | Short |
-| Can Vent | Whether the Glitch can Vent | Toggle | False |
+| Can Vent | Whether the Glitch can use vents | Toggle | False |
 
 -----------------------
 ## Juggernaut
@@ -874,9 +918,9 @@ How the Lawyer wins:
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Lawyer | The percentage probability of the Lawyer appearing | Percentage | 0% |
-| Target Can Be The Jester | -  | Toggle | True |
+| Target Can Be The Jester | Where the Lawyer can have a Jester as their client| Toggle | True |
 | Lawyer Becomes On Target Dead | Lawyer Becomes On Target Dead | Crew / Amnesiac / Survivor / Jester  | Crew |
-| Lawyer Vision | Lawyer vision multiplier | Number | 1 |
+| Lawyer Vision | Lawyer vision multiplier | Factor | 1x |
 | Lawyer Knows Target Role | Whether the lawyer can see their targets role | Toggle | True |
 
 -----------------------
@@ -893,7 +937,7 @@ If there is a Vulture in the game, there can't be a Cleaner.
 | Vulture | The percentage probability of the Vulture appearing | Percentage | 0% |
 | Devour Cooldown | Devour Cooldown | Time | 25 |
 | Number Of Corpses Needed To Be Eaten | Corpes needed to be eaten to win the game | Number | 3 |
-| Vulture Can Use Vents | Vulture Can Use Vents | Toggle | True |
+| Can Vent | Whether the Vulture can use vents | Toggle | True |
 | Show Corpse Arrows | Show Arrows Pointing Towards The Corpes | Toggle | True |
 
 -----------------------
@@ -948,9 +992,9 @@ If both Impostors and Jackals are in the game, the game continues even if all Cr
 | Jackal | The percentage probability of the Jackal appearing | Percentage | 0% |
 | Kill Cooldown | Kill cooldown | Time | 25s |
 | Jackal and Sidekick have Impostor vision | Where the Jackal has Impostor vision | Toggle | True |
-| Can Vent | Yes/No | Toggle | True |
+| Can Vent | Where the Jackal can use vents | Toggle | True |
 | Can Create a Sidekick | Yes/No | Toggle | True |
-| Create Sidekick Cooldown | Cooldown before a Sidekick can be created  | Toggle | True |
+| Create Sidekick Cooldown | Cooldown before a Sidekick can be created | Toggle | True |
 | Jackals can make an Impostor to their Sidekick | Yes/No (to prevent a Jackal from turning an Impostor into a Sidekick, if they use the ability on an Impostor they see the Impostor as Sidekick, but the Impostor isn't converted to Sidekick. If this option is set to "No" Jackal and Sidekick can kill each other.) | Toggle | True |
 | Jackals promoted from Sidekick can create a Sidekick | Yes/No (to prevent the Jackal team from growing) | Toggle | True |
 
@@ -970,8 +1014,8 @@ Upon the death of the Jackal (depending on the options), they might get promoted
 |----------|:-------------:|:------:|:------:|
 | Jackal/Sidekick Kill Cooldown | Uses the same kill cooldown setting as the Jackal | Time | 25s |
 | Sidekick gets promoted to Jackal on Jackal death |  Yes/No | Toggle | False |
-| Sidekick can kill | Yes/No | Toggle | True |
-| Sidekick can use vents | Yes/No | Toggle | True |
+| Sidekick Can Kill | Where the Sidekick has the kill ability | Toggle | True |
+| Sidekick Can Vent | Where the Sidekick can use vents | Toggle | True |
 
 -----------------------
 ## Bomber
@@ -1713,11 +1757,11 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 
 -----------------------
 # Settings
-## Game Settings
+<!--## Game Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Lobby Size | The max number of players allowed per game | Number | 15 |
-
+-->
 ## Game Mode Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -1765,7 +1809,7 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 | Hunted Vision | Hunted Vision | Factor | 0.6x |
 | Hunter Flashlight Size | Hunter Flashlight Size | Factor | 0.35x |
 | Hunted Flashlight Size | Hunted Flashlight Size | Factor | 0.25x |
-| Hunter Kill Cooldown | Hunter Kill Cooldown | Time | 25s |
+<!--| Hunter Kill Cooldown | Hunter Kill Cooldown | Time | 25s |-->
 | Hunter Final Time Speed | Hunter Final Time Speed | Factor | 1.2x |
 | Hunter Light Cooldown | Hunter Light Cooldown | Time | 25s |
 | Hunter Light Duration | Hunter Light Duration | Time | 5s |
@@ -1785,9 +1829,9 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | Max Emergency Meetings | Max number of emergency meetings that can be called per game | Number | 5 |
-| Camouflaged Comms | Whether everyone becomes camouflaged when Comms are sabotaged | Toggle | False |
-| Impostors can see the roles of their team | Whether Impostors are able to see which Impostor roles their teammates have | Toggle | False |
-| Dead can see everyone's roles and Votes | Whether dead players are able to see the roles and votes of everyone else | Toggle | False |
+| Camouflaged Comms | Whether everyone becomes camouflaged when Comms are sabotaged | Toggle | True |
+| Impostors can see the roles of their team | Whether Impostors are able to see which Impostor roles their teammates have | Toggle | True |
+| Dead can see everyone's roles and Votes | Whether dead players are able to see the roles and votes of everyone else | Toggle | True |
 | Parallel Medbay Scans | Whether players have to wait for others to scan | Toggle | False |
 | Disable Level Icons | Whether all level icons are removed in meetings | Toggle | False |
 | Disable Player Nameplates | Whether all decorative nameplates are disabled in meetings | Toggle | False |
@@ -1795,6 +1839,7 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 | Hide Obstructed Player Names | Whether players can see other player names through walls | Toggle | False |
 | No Cameras First Round | Whether cameras are disabled in the first round | Toggle | False |
 | Tasks To Unlock Cameras | Number of tasks needed to be completed before cameras can be used | Number | 0 |
+| Random Spawns | Players will spawn at random points in the map at the start of a game | Toggle | False |
 
 -----------------------
 ## Map Settings
@@ -1811,16 +1856,16 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 ## Better Polus Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Vent Improvements | Better Polus Vent Layout | Toggle | False |
-| Vitals Lab | Vitals Moved To Lab | Toggle | False |
-| Cold Temp Death Valley | Cold Temp Moved To Death Valley | Toggle | False |
-| Wifi Chart Course Swap | Reboot Wifi And Chart Course Swapped | Toggle | False |
+| Vent Improvements | Better Polus Vent Layout | Toggle | True |
+| Vitals Lab | Vitals Moved To Lab | Toggle | True |
+| Cold Temp Death Valley | Cold Temp Moved To Death Valley | Toggle | True |
+| Wifi Chart Course Swap | Reboot Wifi And Chart Course Swapped | Toggle | True |
 
 -----------------------
 ## Last Game First Kill Shield Settings
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
-| Shield First Kill | Place a shield on the player who was first killed during the last game | Toggle | False |
+| Shield First Kill | Place a shield on the player who was first killed during the last game | Toggle | True |
 | Shield First Kill If Crewmate Only | Only place a shield on a crewmate | Toggle | False |
 | Who Can See First Kill Shield | Who can see the shielde on the player | Everyone / Player Only / No One | Everyone |
 | Shield Disappears On Attack | Shield disappears if the player attacks another | Toggle | True |
@@ -1830,8 +1875,8 @@ Confuse is a button modifier that allows the impostor to reverse all the crewmat
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
 | See Tasks During Round | Whether people see their tasks update in game | Toggle | False |
-| See Tasks During Meetings | Whether people see their task count during meetings | Toggle | False |
-| See Tasks When Dead | Whether people see everyone's tasks when they're dead | Toggle | False |
+| See Tasks During Meetings | Whether people see their task count during meetings | Toggle | True |
+| See Tasks When Dead | Whether people see everyone's tasks when they're dead | Toggle | True |
 
 -----------------------
 ## Assassin Ability
@@ -1846,21 +1891,21 @@ If they guess wrong, they die instead.
 |----------|:-------------:|:------:|:------:|
 | Number of Impostor Assassins | How many Impostors can Assassinate | Number | 1 |
 | Number of Neutral Killing Assassins | How many Neutral Killers can Assassinate | Number | 1 |
-| Amnesiac Turned Impostor Can Assassinate | Whether former Amnesiacs now Impostor can Assassinate | Toggle | False |
-| Amnesiac Turned Neutral Killing Can Assassinate | Whether former Amnesiacs now Neutral Killers can Assassinate | Toggle | False |
-| Traitor Can Assassinate | If someone turns into a Traitor they can Assassinate | Toggle | False |
-| Sidekick Can Assassinate | If someone turns into a Sidekick they can Assassinate | Toggle | False |
+| Amnesiac Turned Impostor Can Assassinate | Whether former Amnesiacs now Impostor can Assassinate | Toggle | True |
+| Amnesiac Turned Neutral Killing Can Assassinate | Whether former Amnesiacs now Neutral Killers can Assassinate | Toggle | True |
+| Traitor Can Assassinate | If someone turns into a Traitor they can Assassinate | Toggle | True |
+| Sidekick Can Assassinate | If someone turns into a Sidekick they can Assassinate | Toggle | True |
 | Assassin Kill | The number of kill the Assassin can do with his ability | Number | 1 |
-| Assassin Multiple Kill | Whether the Assassin can kill more than once per meeting | Toggle | False |
+| Assassin Multiple Kill | Whether the Assassin can kill more than once per meeting | Toggle | True |
 | Assassin Guess Crewmate | Whether the Assassin can Guess "Crewmate" | Toggle | False |
-| Assassinate Snitch via Crewmate Guess  | Whether the Assassin can kill the Snitch by Guessing Crewmate | Toggle | False |
-| Assassin Guess Neutral Benign  | Whether the Assassin can Guess Neutral Benign roles | Toggle | False |
-| Assassin Guess Neutral Evil  | Whether the Assassin can Guess Neutral Evil roles | Toggle | False |
-| Assassin Guess Neutral Killing  | Whether the Assassin can Guess Neutral Killing roles | Toggle | False |
+| Assassin Guess Neutral Benign  | Whether the Assassin can Guess Neutral Benign roles | Toggle | True |
+| Assassin Guess Neutral Evil  | Whether the Assassin can Guess Neutral Evil roles | Toggle | True |
+| Assassin Guess Neutral Killing  | Whether the Assassin can Guess Neutral Killing roles | Toggle | True |
 | Assassin Guess Impostors  | Whether the Assassin can Guess Impostor roles | Toggle | False |
-| Assassin Guess Crewmate Modifiers  | Whether the Assassin can Guess Crewmate Modifiers | Toggle | False |
-| Assassin Can Guess Lovers  | Whether the Assassin can Guess Lovers | Toggle | False |
-| Assassin Can Guess After Voting  | Whether the Assassin can Guess after voting | Toggle | False |
+| Assassin Guess Crewmate Modifiers  | Whether the Assassin can Guess Crewmate Modifiers | Toggle | True |
+| Assassin Can Guess Lovers  | Whether the Assassin can Guess Lovers | Toggle | True |
+| Assassin Can Guess After Voting  | Whether the Assassin can Guess after voting | Toggle | True |
+| Assassinate Snitch via Crewmate Guess  | Whether the Assassin can kill the Snitch by Guessing Crewmate | Toggle | False |
 | Show Guess Info In Ghost Chat | Assassinate Info Visible In Ghost Chat | Toggle | True |
 
 -----------------------
@@ -1912,9 +1957,9 @@ How to create a custom visor:
     - The name of the texture needs to follow the pattern `visorname_flip.png`.
 -->
 
-## Custom Nameplates!
+<!--## Custom Nameplates!
 Custom nameplates have been added.
-<!--
+
 How to create a custom nameplate:
 
 - **Specification:** A nameplate consists of one texture. The dimensions need to be `275px:68px`:
@@ -1925,7 +1970,7 @@ How to create a custom nameplate:
 
 -----------------------
 # Credits & Resources
-<b>HannahTheBeef</b> - For the new button graphics, ingame art & hats.\
+<b>HannahTheBeef</b> - For the some of the new button graphics, ingame art & hats.\
 <b>Blankboi</b> & <b>MC-AS-Huier</b> - For the simplified chinese translation.\
 <b>[Himicane](https://www.twitch.tv/himicane)</b> - For providing so many hats previously seen in TownOfUs-R
 
@@ -1935,7 +1980,7 @@ How to create a custom nameplate:
 [Among-Us-Love-Couple-Mod](https://github.com/Woodi-dev/Among-Us-Love-Couple-Mod) - For the inspiration of Lovers modifier from <b>Woodi-dev</b>.\
 [ExtraRolesAmongUs](https://github.com/NotHunter101/ExtraRolesAmongUs) - For the Engineer & Medic roles from <b>NotHunter101</b>.\
 [TooManyRolesMods](https://github.com/Hardel-DW/TooManyRolesMods) - For the Investigator & Time Lord roles from <b>Hardel-DW</b>.\
-[Goose-Goose-Duck](https://store.steampowered.com/app/1568590/Goose_Goose_Duck) - Idea for the Vulture role from <b>Slushiegoose</b>.\
+[Goose-Goose-Duck](https://store.steampowered.com/app/1568590/Goose_Goose_Duck) - Idea for the Vulture role and Professional modifier from <b>Slushiegoose</b>.\
 [TownOfUs](https://github.com/slushiegoose/Town-Of-Us) - Idea for Shifter, Executioner, Arsonist, Glitch, Phantom, Swooper, Miner, Janitor, Underdog, Undertaker, Mayor, Swapper, Altruist roles from <b>Slushiegoose</b>.\
 [TownOfUs-R](https://github.com/eDonnes124/Town-Of-Us-R) - Idea for Detective, Spy, Mystic, Guardian Angel, Juggernaut, Blackmailer, Traitor, Werewolf, Plaguebearer, Survivor, Amnesiac, Poisoner, Trapper, Imitator, Haunter roles from <b>eDonnes124</b> & the TownOfUs-R Team.\
 [TheOtherRoles](https://github.com/Eisbison/TheOtherRoles) - Idea for Deputy, Bounty Hunter, Ninja, Lawyer, Witch, Warlock roles from <b>Eisbison</b> & the Other Roles Team.\
