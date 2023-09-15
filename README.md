@@ -37,6 +37,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2023.7.12s & 2023.7.12e | v0.11.4 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.3/AllTheRoles-0.11.4.zip) |
 | 2023.7.12s & 2023.7.12e | v0.11.3 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.3/AllTheRoles-0.11.3.zip) |
 | 2023.7.12s & 2023.7.12e | v0.11.2 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.2/AllTheRoles-0.11.2.zip) |
 | 2023.7.12s & 2023.7.12e | v0.11.1 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.1/AllTheRoles-0.11.1.zip) |
@@ -49,6 +50,12 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.11.4 BETA </summary>
+    <ul>
+    <li>Fixed: Reverted BepInEx to version 6.0.0-be.671 to prevent fatal error on startup</li>
+    </ul>
+  </details>
   <details>
     <summary> v0.11.3 BETA </summary>
     <ul>
