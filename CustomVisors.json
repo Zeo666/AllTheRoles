@@ -3,7 +3,6 @@
     {
       "author": "HannahTheBeef",
       "adaptive": false,
-      "condition": "None",
       "name": "Princess Bride",
       "package": "HannahTheBeef Visors",
       "reshasha": "7896c30788deb693cf2170e984e88346",
@@ -13,7 +12,6 @@
       "author": "HannahTheBeef",
       "adaptive": true,
       "flipresource": "Kockbra_Flip.png",
-      "condition": "None",
       "name": "Kockbra",
       "package": "HannahTheBeef Visors",
       "reshasha": "240559cce883b52365c1469f24dc5b46",
@@ -24,7 +22,6 @@
       "author": "HannahTheBeef",
       "adaptive": true,
       "flipresource": "CatEye_adaptive_flip.png",
-      "condition": "None",
       "name": "Cat Eye",
       "package": "HannahTheBeef Visors",
       "reshasha": "763d06181c91e501b4ac620f4dbf5949",
@@ -35,7 +32,6 @@
       "author": "HannahTheBeef",
       "adaptive": true,
       "bounce": false,
-      "condition": "None",
       "name": "Skin",
       "package": "HannahTheBeef Visors",
       "reshasha": "9b355a08ff00cdd6f1567aab7ceb3d35",
@@ -44,7 +40,6 @@
     {
       "author": "Catudon",
       "adaptive": true,
-      "condition": "None",
       "name": "Eyemask",
       "package": "Community Visors",
       "reshasha": "9c2b14f920e4f876462691cd97981677",
@@ -53,7 +48,6 @@
     {
       "author": "Catudon",
       "adaptive": true,
-      "condition": "None",
       "name": "Angry",
       "package": "Community Visors",
       "reshasha": "ae33c32e7494c40de67ff312a095e000",
@@ -61,7 +55,6 @@
     },
     {
       "author": "Zeo",
-      "condition": "None",
       "name": "Star",
       "package": "Community Visors",
       "reshasha": "6073c9eec8e40113ba42e0a4aa5c1f91",
