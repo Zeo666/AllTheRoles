@@ -4,7 +4,6 @@
       "author": "NotLeo",
       "adaptive": true,
       "climbresource": "BunnyBrawl_adaptive_climb.png",
-      "condition": "None",
       "name": "BunnyBrawl",
       "package": "Not Leo Hats",
       "reshasha": "e5842a262fe9941f93d4fb2557fee4a1",
@@ -15,7 +14,6 @@
       "author": "NotLeo",
       "adaptive": true,
       "climbresource": "NotSquido_adaptive_climb.png",
-      "condition": "None",
       "name": "NotSquido",
       "package": "Not Leo Hats",
       "reshasha": "03dd4521f9470758b51b498876e05143",
@@ -25,7 +23,6 @@
     {
       "author": "NotLeo",
       "climbresource": "Vape_climb.png",
-      "condition": "None",
       "flipresource": "Vape_flip.png",
       "name": "Vape",
       "package": "Not Leo Hats",
@@ -38,7 +35,6 @@
       "author": "NotLeo",
       "bounce": true,
       "backresource": "Rayquaza_back.png",
-      "condition": "None",
       "name": "Rayquaza",
       "package": "Not Leo Hats",
       "reshasha": "b3acdb359ea9b554cc098213d765c976",
@@ -48,7 +44,6 @@
     {
       "author": "NotLeo",
       "bounce": true,
-      "condition": "None",
       "name": "Bone",
       "package": "Not Leo Hats",
       "reshasha": "c7058ab445c773a66fccea6e68374a62",
@@ -59,7 +54,6 @@
       "adaptive": true,
       "bounce": true,
       "climbresource": "HighlandCow_adaptive_climb.png",
-      "condition": "None",
       "name": "HighlandCow",
       "package": "HannahTheBeef Hats",
       "reshasha": "7a24620c448038ef85c84b11791bfe69",
@@ -72,7 +66,6 @@
       "bounce": true,
       "backresource": "Espeon_adaptive_back.png",
       "climbresource": "Espeon_adaptive_climb.png",
-      "condition": "None",
       "name": "Espeon",
       "package": "HannahTheBeef Hats",
       "reshasha": "1e56fb13aaa875393ce3500977d9f4a8",
@@ -84,7 +77,6 @@
       "author": "HannahTheBeef",
       "bounce": true,
       "climbresource": "Giraffe_climb.png",
-      "condition": "None",
       "name": "Giraffe",
       "package": "HannahTheBeef Hats",
       "reshasha": "38408e9fa07eaebcf7c8ee84d4856a24",
@@ -97,7 +89,6 @@
       "bounce": true,
       "backresource": "ThePool_back_adpative.png",
       "climbresource": "ThePool_adaptive_climb.png",
-      "condition": "None",
       "name": "The Pool",
       "package": "HannahTheBeef Hats",
       "reshasha": "de1c0b197dd1498db2e2807a3b29b204",
@@ -109,7 +100,6 @@
       "author": "HannahTheBeef",
       "backresource": "PrideFox_back.png",
       "climbresource": "PrideFox_climb.png",
-      "condition": "None",
       "name": "PrideFox",
       "package": "HannahTheBeef Hats",
       "reshasha": "29183fb7b95bf705558406e557787751",
@@ -121,7 +111,6 @@
       "author": "HannahTheBeef",
       "adaptive": true,
       "climbresource": "Vader_climb.png",
-      "condition": "None",
       "flipresource": "Vader_flip_adaptive.png",
       "name": "Vader",
       "package": "HannahTheBeef Hats",
@@ -132,7 +121,6 @@
     },
     {
       "author": "HannahTheBeef",
-      "condition": "None",
       "name": "Hypnotoad",
       "package": "HannahTheBeef Hats",
       "reshasha": "29bc4dae3fdf3453661ebcff4e6c85ee",
@@ -142,7 +130,6 @@
       "author": "HannahTheBeef",
       "adaptive": true,
       "bounce": false,
-      "condition": "None",
       "name": "Princess Bride",
       "package": "HannahTheBeef Hats",
       "reshasha": "7188e0b711796aa374705c2fd7416d6d",
@@ -153,7 +140,6 @@
       "adaptive": true,
       "bounce": true,
       "flipresource": "Chode_adaptive_bounce_flip.png",
-      "condition": "None",
       "name": "Chode",
       "package": "HannahTheBeef Hats",
       "reshasha": "b1885441fc057c81f29bd28c6e916aa6",
@@ -165,7 +151,6 @@
       "adaptive": true,
       "bounce": true,
       "flipresource": "d20_adaptive_bounce_flip.png",
-      "condition": "None",
       "name": "d20",
       "package": "HannahTheBeef Hats",
       "reshasha": "67387b408ba12c85a9e2b2fafd4e1e35",
@@ -175,7 +160,6 @@
     {
       "author": "HannahTheBeef",
       "bounce": true,
-      "condition": "None",
       "name": "RubberDucky",
       "package": "HannahTheBeef Hats",
       "reshasha": "3bb59c09a3a02a3f4ee38462fde54c26",
@@ -184,7 +168,6 @@
     {
       "author": "HannahTheBeef",
       "bounce": true,
-      "condition": "None",
       "name": "Bufftato",
       "package": "HannahTheBeef Hats",
       "reshasha": "d3b3d9e2e957c96fe801e29b7f2c005b",
@@ -192,7 +175,6 @@
     },
     {
       "author": "HannahTheBeef",
-      "condition": "None",
       "name": "Pinkee's Hat",
       "package": "HannahTheBeef Hats",
       "reshasha": "389708f51b300f1efea035507610d09b",
@@ -201,7 +183,6 @@
     {
       "author": "HannahTheBeef",
       "adaptive": true,
-      "condition": "None",
       "name": "Pinkee's Other Hat",
       "package": "HannahTheBeef Hats",
       "reshasha": "a0a5dd9bb604d0c8d096a5c6d8cca7f5",
@@ -210,7 +191,6 @@
     {
       "author": "King Kobra",
       "climbresource": "The_Happening_climb.png",
-      "condition": "None",
       "name": "The Happening",
       "package": "King Kobra Hats",
       "reshasha": "9d6e6f77fa1a051d959447b3b161468a",
@@ -220,7 +200,6 @@
     {
       "author": "King Kobra",
       "climbresource": "Bored_Wolf_climb.png",
-      "condition": "None",
       "name": "Bored Wolf",
       "package": "King Kobra Hats",
       "reshasha": "e290a642993c982f52d09e2a2fdc78c1",
@@ -229,7 +208,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "annamaja hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "0e6474a60515e9114967f0b0f478f633",
@@ -237,7 +215,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "zylus hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "2af92eda54d0af6f6d0e355f76bbb364",
@@ -245,7 +222,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "anniefuschia hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "8e009650208e5510e52fb9d99010b989",
@@ -253,7 +229,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "aphex hat",
       "package": "Pigoletto Hats",
       "reshasha": "8c6d474b88478f6029dae24f2ef758fa",
@@ -261,7 +236,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "aplatypuss hat",
       "package": "Pigoletto Hats",
       "reshasha": "b218b60f76309be9c8acfc12a381205d",
@@ -269,7 +243,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": " asexual hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "96e24ff7ea45ad9bc2d85de971f3bcdd",
@@ -277,7 +250,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "ash_1 hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "b164f250b2ce89dacc3f394c9b2f7470",
@@ -285,7 +257,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "ash_1 hat flipped",
       "package": "TheLastShaymin Hats",
       "reshasha": "b68cceb5a3516ce784814aca55bb9f1f",
@@ -293,7 +264,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "axilla hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "949c5c27a9a544f0cf980abe031aa331",
@@ -301,7 +271,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "ben hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "67b8c9b4e5b47a18b4cedd7bf9908b3f",
@@ -309,7 +278,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "besty hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "d05f4f13a5ce7818fb37d7a65a0aebb6",
@@ -317,7 +285,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "bisexual hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "0ee1e64113d97614f33d442001df613e",
@@ -325,7 +292,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "bloody hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "52256b0bc32fd43aa66a9b48cab3c89c",
@@ -333,7 +299,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "boba hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "fec8e451925b0e4b8a8591153819a622",
@@ -341,7 +306,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "breeh hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "d494e34dfdc8bd39716902cfa1ed714b",
@@ -349,7 +313,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "brittzey hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "45fd24c34a1e035fbe320ea0a5548dc5",
@@ -357,7 +320,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "cheesy hat",
       "package": "Pigoletto Hats",
       "reshasha": "12c725a95593a3da0bb150176b54ab6c",
@@ -365,7 +327,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "chilledchaos hat",
       "package": "Pigoletto Hats",
       "reshasha": "f44dfb2935f9671c2fc5b41db0d7cb57",
@@ -373,7 +334,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "clara hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "7f7ddea97c258dea7925b2c6d3b79c60",
@@ -381,7 +341,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "dawko hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "d5e51198f16efd50ca4842b546e3fa48",
@@ -389,7 +348,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "dizzilulu hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "4f8c68dba6d6e26134491aa4e6dbeafc",
@@ -397,7 +355,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "duncan hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "8765c24a2995e245856de13bf9ec23ce",
@@ -405,7 +362,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "dyto hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "b3cbeaeef5aeac0a93990d089e85b161",
@@ -413,7 +369,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "ellum hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "429ac42e8daa24a92f020b8f3297de5e",
@@ -421,7 +376,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "falcone_1 hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "db308438d2e0320d0cd3758d887f9bc9",
@@ -429,7 +383,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "freyzplayz hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "7a8aed7c608caf9b28ab6310bbdb9e3f",
@@ -437,7 +390,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "garbage hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "6f7cac7eb882eea464b8d047524e6819",
@@ -445,7 +397,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "gay hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "2af830297b66d0350e6567b7f68f6a16",
@@ -453,7 +404,6 @@
     },
     {
       "author": "PhasmoFireGod",
-      "condition": "None",
       "name": "glitch hat",
       "package": "PhasmoFireGod Hats",
       "reshasha": "8cd0e9d45a55b5430c06625006fc5833",
@@ -461,7 +411,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "harrie hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "4822f1bf51986a7a6a0dd3dec8f9e00d",
@@ -469,7 +418,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "jamobo hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "68cad9a244890a8bdf0ad2377b3bea47",
@@ -477,7 +425,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "jose hat",
       "package": "Ressnie Hats",
       "reshasha": "b046883757f52d1e21add41797480c06",
@@ -485,7 +432,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "junkyard hat",
       "package": "Pigoletto Hats",
       "reshasha": "b6e0d90f931fa8539b5ce70cf260a8bd",
@@ -493,7 +439,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "justjames hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "2a78149d4823d462e5f67f33ee9094c5",
@@ -501,7 +446,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "kara hat",
       "package": "Ressnie Hats",
       "reshasha": "3cd80ed01959b73effd6e1ee0842178f",
@@ -509,7 +453,6 @@
     },
     {
       "author": "PhasmoFireGod",
-      "condition": "None",
       "name": "mama hat",
       "package": "PhasmoFireGod Hats",
       "reshasha": "9f24d61bb892e486e000f935b37c883e",
@@ -517,7 +460,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "kay hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "dc52360170cfb66e5afe15505177265c",
@@ -525,7 +467,6 @@
     },
     {
       "author": "LaWhooligan",
-      "condition": "None",
       "name": "lawhoo hat",
       "package": "LaWhooligan Hats",
       "reshasha": "d1c6d6087ef64b9a227afd610fd108bf",
@@ -533,7 +474,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "lewis hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "9ce01193a098cf708eae2f508c7001a6",
@@ -541,7 +481,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "lexiemarie hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "0b24c77e643727b7d8f888340e6e8592",
@@ -549,7 +488,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "mindy hat",
       "package": "Ressnie Hats",
       "reshasha": "a00a277d4f19e4f23bed2961c3ec5cbe",
@@ -557,7 +495,6 @@
     },
     {
       "author": "Taamoy",
-      "condition": "None",
       "name": "nerdout hat",
       "package": "Taamoy Hats",
       "reshasha": "0ac3f2978f4cf9d258f29de482dca58f",
@@ -565,7 +502,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "nilesy hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "6ff1a9deb62a7d491d46f30a2aa37d99",
@@ -573,7 +509,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "nonbinary hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "fa16be2efd357b0e21846aaeea1abab9",
@@ -581,7 +516,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "ozza hat",
       "package": "Ressnie Hats",
       "reshasha": "14a080efa9e26a92e63d1b0aab883b05",
@@ -589,7 +523,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "pansexual hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "69b737bd4f39045e749f75c97804d535",
@@ -597,7 +530,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "pastaroni hat",
       "package": "Ressnie Hats",
       "reshasha": "5cf3f64a16faaebfe693d97d6e73c62d",
@@ -605,7 +537,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "ped hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "d4a3f6d753457c715968bffdfd49fdcf",
@@ -613,7 +544,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "phoebe hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "e307020c5269b58d33929ba754b95610",
@@ -621,7 +551,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "ravs hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "d1ef444901ce37fa2c429881e3f1456d",
@@ -629,7 +558,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "razzbowski hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "ff10ef6e3095ca5fa2e6b8958e8298c9",
@@ -637,7 +565,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "rhythian hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "aa3a52e388321693b628509d433bc6f1",
@@ -645,7 +572,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "shubble hat",
       "package": "Pigoletto Hats",
       "reshasha": "5c4bac310f6da278bd445793f8ec5e7d",
@@ -653,7 +579,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "sips hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "2cb93b67ec3fcf6ce01405bda180cb1e",
@@ -661,7 +586,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "stumpy hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "b3f49799775ed5dab6c0a4364975ad91",
@@ -669,7 +593,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "toby hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "b8f55fea0b748ebdbebaa8ce043b653a",
@@ -677,7 +600,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "tomcraven hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "8d02a14b157590583d1ab304b9e491ea",
@@ -685,7 +607,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "trans_1 hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "f7f15ecdd94cb6df30d4fdf1b4373a7a",
@@ -693,7 +614,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "trans_2 hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "c2bbd14b76e32e1c1c5fbce1f54dff3e",
@@ -701,7 +621,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "trans_3 hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "0e4237da3e004aea6b97fcb21712eebd",
@@ -709,7 +628,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "trans_4 hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "d18d0ba8392a7f7cc7a47e5813a7b964",
@@ -717,7 +635,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "vikram_1 hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "10408e77037fec90fb865766c4e0d483",
@@ -725,7 +642,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "vikram_2 hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "5d0bb903f5570ad7f7420007e5173875",
@@ -733,7 +649,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "wolfabelle hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "e2198053dc071427c11bb9635d9968a6",
@@ -741,7 +656,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "zeroyalviking hat",
       "package": "Pigoletto Hats",
       "reshasha": "649c5d6b3a4895695513f693c024c5e7",
@@ -749,7 +663,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "falcone hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "6f4565811f5f6b52ff40bdf8182ae0a7",
@@ -757,7 +670,6 @@
     },
     {
       "author": "PhasmoFireGod",
-      "condition": "None",
       "name": "pinkee hat",
       "package": "PhasmoFireGod Hats",
       "reshasha": "3e4cfe8aa0a34fb3fb9479354c2ba58f",
@@ -765,7 +677,6 @@
     },
     {
       "author": "PhasmoFireGod",
-      "condition": "None",
       "name": "racoon hat",
       "package": "PhasmoFireGod Hats",
       "reshasha": "83b07109ec1b1da158d45d4ad730e822",
@@ -773,7 +684,6 @@
     },
     {
       "author": "PhasmoFireGod",
-      "condition": "None",
       "name": "firegod hat",
       "package": "PhasmoFireGod Hats",
       "reshasha": "73cd1ca867096c61381064cc569e3799",
@@ -781,7 +691,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "slushie hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "4eb5ef0f5e3034d260e52cce4942537f",
@@ -789,7 +698,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "dad hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "4c08bcc45cf3ad4d017170cf176eef14",
@@ -797,7 +705,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "platty halloween hat",
       "package": "Pigoletto Hats",
       "reshasha": "46f1e0bd392e4cc308010c4908510bda",
@@ -805,7 +712,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "cheesy halloween hat",
       "package": "Pigoletto Hats",
       "reshasha": "337fe841162699f928c062e4cf44efd5",
@@ -813,7 +719,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "chilled halloween hat",
       "package": "Pigoletto Hats",
       "reshasha": "b5bbe978445e2577c97bad0816fa77b8",
@@ -821,7 +726,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "zeroyalviking halloween hat",
       "package": "Pigoletto Hats",
       "reshasha": "97d28a3b0d089c93b6577d0e8f7b39b3",
@@ -829,7 +733,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "fox hat",
       "package": "Pigoletto Hats",
       "reshasha": "6b82e61668d9a22c3b392b69cdb21828",
@@ -837,7 +740,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "frog hat",
       "package": "Pigoletto Hats",
       "reshasha": "c821d6ede2b7a03f4880d9cac7758899",
@@ -845,7 +747,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "pig hat",
       "package": "Pigoletto Hats",
       "reshasha": "13be9457a9c447aca4239351103181cc",
@@ -853,7 +754,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "owl hat",
       "package": "Pigoletto Hats",
       "reshasha": "4ac9696c41ac9a5a59fa34fedb3ad748",
@@ -861,7 +761,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "witch hat",
       "package": "Pigoletto Hats",
       "reshasha": "d713962810704a6f5e97fae29779ed45",
@@ -869,7 +768,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "goldfish hat",
       "package": "Pigoletto Hats",
       "reshasha": "de36f9bfbd752a933d82448745391f83",
@@ -877,7 +775,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "ctulhu hat",
       "package": "Pigoletto Hats",
       "reshasha": "a48f3fce1130653404966f79e4f92958",
@@ -885,7 +782,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "spider hat",
       "package": "Pigoletto Hats",
       "reshasha": "06cb02e9b6ed72caa4974eb351204d28",
@@ -893,7 +789,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "crocodile hat",
       "package": "Pigoletto Hats",
       "reshasha": "5a7e9448484a8358a0ecde45b567ddaf",
@@ -901,7 +796,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "A Knoife! hat",
       "package": "Sugawara Hats",
       "reshasha": "3e8d13e580bcc366df23aab2e65bf3a5",
@@ -909,7 +803,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Blush-stache hat",
       "package": "Sugawara Hats",
       "reshasha": "93e950dafb969c8b242a1b4d49d15b65",
@@ -917,7 +810,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "BTW hat",
       "package": "Sugawara Hats",
       "reshasha": "437785debe8694513ca00917adf43e23",
@@ -925,7 +817,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Flower Fedora hat",
       "package": "Sugawara Hats",
       "reshasha": "9acd475ede308af7b54c4a2231d50d1f",
@@ -933,7 +824,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Gigawolf hat",
       "package": "Sugawara Hats",
       "reshasha": "f697bb097d1cf3ea60f352dc4d8d6c28",
@@ -941,7 +831,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Good Aura hat",
       "package": "Sugawara Hats",
       "reshasha": "072295f4c36c0eba666976cafcb22ff7",
@@ -949,7 +838,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Guardian Angel hat",
       "package": "Sugawara Hats",
       "reshasha": "76bf22e3f7da189cb6c1c3f46852eb1a",
@@ -957,7 +845,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Horned Angel hat",
       "package": "Sugawara Hats",
       "reshasha": "753c627b9b59b9f0db9f5646686ac69d",
@@ -965,7 +852,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Kartodk Evil hat",
       "package": "Sugawara Hats",
       "reshasha": "0d3a1276a94a22a64c9fcb43314f448e",
@@ -973,7 +859,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Kartodk Sus hat",
       "package": "Sugawara Hats",
       "reshasha": "de71b7b6633206800bf844a28ec3f498",
@@ -981,7 +866,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Lavish hat",
       "package": "Sugawara Hats",
       "reshasha": "dfd85564f3ba0bb3bd3bd0010a94aca7",
@@ -989,7 +873,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Lie-canthrope hat",
       "package": "Sugawara Hats",
       "reshasha": "f2f4ed88b80185eab162d9b2925a2781",
@@ -997,7 +880,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Overgrown hat",
       "package": "Sugawara Hats",
       "reshasha": "7e837169b42078bcb49e06576f4934de",
@@ -1005,7 +887,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Press X hat",
       "package": "Sugawara Hats",
       "reshasha": "4421e8dedc37e7d3db3c103f3d80f919",
@@ -1013,7 +894,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Rico\u0027s Navy hat",
       "package": "Sugawara Hats",
       "reshasha": "f29d72fd0e3e1d09fd64b7fb467271df",
@@ -1021,7 +901,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Sav Beanie hat",
       "package": "Sugawara Hats",
       "reshasha": "f04541b9789c50b4285b01a1ac900317",
@@ -1029,7 +908,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Sparkles! hat",
       "package": "Sugawara Hats",
       "reshasha": "28d02b189323bebcfb5210f77b256822",
@@ -1037,7 +915,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Specs n\u0027 Antlers hat",
       "package": "Sugawara Hats",
       "reshasha": "bc401950162f38d4ef6339bc4470e44e",
@@ -1045,7 +922,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Stylish Witch hat",
       "package": "Sugawara Hats",
       "reshasha": "4c71db864944ea3b646fadfc339cc204",
@@ -1053,7 +929,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Tropic Beach hat",
       "package": "Sugawara Hats",
       "reshasha": "cbe11db9e861df3b8a9c2b9f937ecc0f",
@@ -1061,7 +936,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "ash_2 hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "6ef19ea7246f8b203030731d3ef14ee1",
@@ -1069,7 +943,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "blood_bourne_hat",
       "package": "Ophidian Hats",
       "reshasha": "aafe376ba88a6512ea5c9ac6c6f77013",
@@ -1077,7 +950,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "goku_hat",
       "package": "Ophidian Hats",
       "reshasha": "2dc8eae4ffc9e874772ca86bc30e8143",
@@ -1085,7 +957,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "queenie_hat",
       "package": "Ophidian Hats",
       "reshasha": "794dbc971f9aa40ddaff50fe4d842f55",
@@ -1093,7 +964,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "tissue_box_hat",
       "package": "Ophidian Hats",
       "reshasha": "8bb9861b494b8692dfc19a6cc7c7b049",
@@ -1101,7 +971,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "your_mom_hat",
       "package": "Ophidian Hats",
       "reshasha": "fe8551b5ee46af5ff5fa5d462253568c",
@@ -1109,7 +978,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "mantis_shrimpling_hat",
       "package": "Ophidian Hats",
       "reshasha": "a06169114cba1137e2c8e5a6dc59859f",
@@ -1117,7 +985,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "luffy_hat",
       "package": "Ophidian Hats",
       "reshasha": "405e5cf5163ac53667032802b7563fda",
@@ -1125,7 +992,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "carnage_hat",
       "package": "Ophidian Hats",
       "reshasha": "c9ad77ec05c61e57e9a84ab90cc84549",
@@ -1133,7 +999,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "stebon_hat",
       "package": "Ophidian Hats",
       "reshasha": "e9d4e11316d30ce7254b107bf72eeb8e",
@@ -1141,7 +1006,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "harley_quinn_hat",
       "package": "Ophidian Hats",
       "reshasha": "f8b83344cecc4a8707765318efd17aa1",
@@ -1149,7 +1013,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "weasel_hat",
       "package": "Ophidian Hats",
       "reshasha": "a51939d1f9d2ca5b8034e88dfe310f12",
@@ -1157,7 +1020,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "dino_egg_hat",
       "package": "Ophidian Hats",
       "reshasha": "c47669bab93290c0d7c1f1cbdc828dbd",
@@ -1165,7 +1027,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "skater_girl_hat",
       "package": "Ophidian Hats",
       "reshasha": "2acfdcfd2a64d0968afd16bd5ee15c9a",
@@ -1173,7 +1034,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "sims_hat",
       "package": "Ophidian Hats",
       "reshasha": "1355479e5f833fd8100cf741cf9dd8d4",
@@ -1181,7 +1041,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "shrimp_hat",
       "package": "Ophidian Hats",
       "reshasha": "ae38b2e5ac7914409daf43862b006637",
@@ -1189,7 +1048,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "pepe_hat",
       "package": "Ophidian Hats",
       "reshasha": "fd0de57956d4b5f774c30ad7346ba3d5",
@@ -1197,7 +1055,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "dwarf hat",
       "package": "Pigoletto Hats",
       "reshasha": "520b47e3a46641d6fa42cf33e896b447",
@@ -1205,7 +1062,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "rooster hat",
       "package": "Pigoletto Hats",
       "reshasha": "397225018f14f82ae7301a0a48609da8",
@@ -1213,7 +1069,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "monster hat",
       "package": "Pigoletto Hats",
       "reshasha": "17f82da38e388a6113ddb16812a3416b",
@@ -1221,7 +1076,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Cyreni\u0027s Pony hat",
       "package": "Sugawara Hats",
       "reshasha": "2aefd694b946e41ab34941a909be165f",
@@ -1229,7 +1083,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Oreos hat",
       "package": "Sugawara Hats",
       "reshasha": "b32be3dd90b86957257041d518429fd7",
@@ -1237,7 +1090,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Soyciety hat",
       "package": "Sugawara Hats",
       "reshasha": "fd83a949026080a305949d1e9dfdbcd5",
@@ -1245,7 +1097,6 @@
     },
     {
       "author": "Tsed",
-      "condition": "None",
       "name": "Tsedtacle hat",
       "package": "Tsed Hats",
       "reshasha": "cb0da485ce14586f1e05d4a8a803ff5f",
@@ -1253,7 +1104,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "Big Shot hat",
       "package": "LayZ Hats",
       "reshasha": "b6785f3dec63604d91098f35cf12c038",
@@ -1261,7 +1111,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "L hat",
       "package": "LayZ Hats",
       "reshasha": "0fffee33bc1c4ad8a6f9c098339424c4",
@@ -1269,7 +1118,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "Menacing hat",
       "package": "LayZ Hats",
       "reshasha": "864ecf5465c22a11814b873e7235c27f",
@@ -1277,7 +1125,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "No U hat",
       "package": "LayZ Hats",
       "reshasha": "c11a1db1cbf13bc5083fc4e5be75a1ce",
@@ -1285,7 +1132,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "Okey hat",
       "package": "LayZ Hats",
       "reshasha": "a067444b9dfff74869718fd2f7fd8e22",
@@ -1293,7 +1139,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "sans hat",
       "package": "LayZ Hats",
       "reshasha": "25a850b025a4c76e21a248e0d220ec25",
@@ -1301,7 +1146,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "Squid hat",
       "package": "LayZ Hats",
       "reshasha": "f17d12a10f0d038ac603989e287678f2",
@@ -1309,7 +1153,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "Wimpy Kid hat",
       "package": "LayZ Hats",
       "reshasha": "c70b57bdff64bc49c87c5919dbe76c22",
@@ -1317,7 +1160,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Cros Style hat",
       "package": "Sugawara Hats",
       "reshasha": "a07f6c22edbe7bb7c6227fb10e695333",
@@ -1325,7 +1167,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Novasauros hat",
       "package": "Sugawara Hats",
       "reshasha": "224a7051d53e17cbcc843dffeff40a8e",
@@ -1333,7 +1174,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Peppercorny hat",
       "package": "Sugawara Hats",
       "reshasha": "27acc478e14ca21170b08679f00398bb",
@@ -1341,7 +1181,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Rainy Day hat",
       "package": "Sugawara Hats",
       "reshasha": "0fdfbf6e6a6afbd5de6ddbeb53d7f661",
@@ -1349,7 +1188,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Scarf Gang hat",
       "package": "Sugawara Hats",
       "reshasha": "42789937162dc788a5fdec993c5714a0",
@@ -1357,7 +1195,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "So Devilish hat",
       "package": "Sugawara Hats",
       "reshasha": "6086772146c57e4eca8f17a5bd8fa406",
@@ -1365,7 +1202,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Huntress hat",
       "package": "Sugawara Hats",
       "reshasha": "c150477661fd1ae9ae816ff71543dd1a",
@@ -1373,7 +1209,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "You\u0027re so Salty! hat",
       "package": "Sugawara Hats",
       "reshasha": "edcd3af88b6c0455ad49d38cbb526dac",
@@ -1381,7 +1216,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "LayZFox hat",
       "package": "LayZ Hats",
       "reshasha": "413b70ab7ec34681d4f5320c6f71305d",
@@ -1389,7 +1223,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "Impostor Spark hat",
       "package": "LayZ Hats",
       "reshasha": "6b35c12dab98009fa534bef361bb398e",
@@ -1397,7 +1230,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "X-Ray hat",
       "package": "LayZ Hats",
       "reshasha": "1345453ff24819991a61b91c640e2f45",
@@ -1405,7 +1237,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "Pap hat",
       "package": "LayZ Hats",
       "reshasha": "f49862ae9a80852df18581217a24f538",
@@ -1413,7 +1244,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "Cocoa hat",
       "package": "LayZ Hats",
       "reshasha": "b5217723ff483511c55c1411a55d2e52",
@@ -1421,7 +1251,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "Doused hat",
       "package": "LayZ Hats",
       "reshasha": "f2f5dbce83e790475d213cdaa92c4aa9",
@@ -1429,7 +1258,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "Fluffy Boi hat",
       "package": "LayZ Hats",
       "reshasha": "fd061b22fc2bd21548bc407b6cde4abf",
@@ -1437,7 +1265,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "Hot Saucy hat",
       "package": "LayZ Hats",
       "reshasha": "ec789ef70082687b67d2976d3801c255",
@@ -1445,7 +1272,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "ImPAWstor hat",
       "package": "LayZ Hats",
       "reshasha": "88321cef16f306cc7634985da687451d",
@@ -1453,7 +1279,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "MMMM hat",
       "package": "LayZ Hats",
       "reshasha": "2c04258de70d1a29502f28b9d0d5b01a",
@@ -1461,7 +1286,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Bad Aura hat",
       "package": "Sugawara Hats",
       "reshasha": "1350e25bef5b81f989964affd2542544",
@@ -1469,7 +1293,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Dunce hat",
       "package": "Sugawara Hats",
       "reshasha": "8dcecbc4e68091e7b7ee04f8b8be8000",
@@ -1477,7 +1300,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Gay-ny Day hat",
       "package": "Sugawara Hats",
       "reshasha": "6bfb75a2691900dd4326a50bd9f628eb",
@@ -1485,7 +1307,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Marionette hat",
       "package": "Sugawara Hats",
       "reshasha": "f7937252010096f14f44658193c2c9be",
@@ -1493,7 +1314,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Random Ronnie hat",
       "package": "Sugawara Hats",
       "reshasha": "fcb23b619008d9d2dfc263411bb62a11",
@@ -1501,7 +1321,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Disconnected hat",
       "package": "Sugawara Hats",
       "reshasha": "8a34c3c271d16dfd21cd50ab1eacc9e1",
@@ -1509,7 +1328,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Lunch hat",
       "package": "Sugawara Hats",
       "reshasha": "4cac7506034e540565a8dd673a578e35",
@@ -1517,7 +1335,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Peace Never! hat",
       "package": "Sugawara Hats",
       "reshasha": "2c1f02dbbcdbd2bd391008bc98862216",
@@ -1525,7 +1342,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Amcam hat",
       "package": "Ophidian Hats",
       "reshasha": "45ef5b1fad97102d16c0ffe18acc979d",
@@ -1533,7 +1349,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Book Of Sus hat",
       "package": "Ophidian Hats",
       "reshasha": "eb294f87363aae94000a7ef1dd7a0b7b",
@@ -1541,7 +1356,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Caramilk hat",
       "package": "Ophidian Hats",
       "reshasha": "7a640b7c423991d5b093ae1aacb2a438",
@@ -1549,7 +1363,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "DJSmiles hat",
       "package": "Ophidian Hats",
       "reshasha": "2b42a8f1b7484061adc3da9ff423a19f",
@@ -1557,7 +1370,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "DrunkyPoo hat",
       "package": "Ophidian Hats",
       "reshasha": "7b28f2195347d17b32c98ad844ee694e",
@@ -1565,7 +1377,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "HoliGhost hat",
       "package": "Ophidian Hats",
       "reshasha": "c4f5cc736797f35593bab0caf5b7df66",
@@ -1573,7 +1384,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "ImpTongue hat",
       "package": "Ophidian Hats",
       "reshasha": "2894257ed088cb0f63be2c11ebdd3eb8",
@@ -1581,7 +1391,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Jessie hat",
       "package": "Ophidian Hats",
       "reshasha": "b3947b6deb23fcc936adb754673d1fc2",
@@ -1589,7 +1398,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "L hat",
       "package": "Ophidian Hats",
       "reshasha": "a16756e9e1f4b9259820e5d0e0f861db",
@@ -1597,7 +1405,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Paws hat",
       "package": "Ophidian Hats",
       "reshasha": "35906e1abb8e793ec726060c445b282c",
@@ -1605,7 +1412,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Potterhead hat",
       "package": "Ophidian Hats",
       "reshasha": "71fc7d68879bc675ceec297e606b8a3e",
@@ -1613,7 +1419,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Lil Swift hat",
       "package": "Ophidian Hats",
       "reshasha": "92cfae77a19b63df95d1f07b029419a3",
@@ -1621,7 +1426,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Sableye hat",
       "package": "Ophidian Hats",
       "reshasha": "8f946a7c9210d42e50381c975db6a7bb",
@@ -1629,7 +1433,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Sheriff hat",
       "package": "Ophidian Hats",
       "reshasha": "ceb60548e8e06a76bf48c2f467d06c36",
@@ -1637,7 +1440,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Steampunk hat",
       "package": "Ophidian Hats",
       "reshasha": "39f70eb481270b409721eb08903e563e",
@@ -1645,7 +1447,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Steampunk Look hat",
       "package": "Ophidian Hats",
       "reshasha": "a48354d493a40ec5004a365a739a5ea2",
@@ -1653,7 +1454,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Sushub hat",
       "package": "Ophidian Hats",
       "reshasha": "c398b756214771b89ef8029f4103c8a3",
@@ -1661,7 +1461,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Susotion hat",
       "package": "Ophidian Hats",
       "reshasha": "c6d4e16123cfe1e5db759211d3c8a139",
@@ -1669,7 +1468,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "Bee hat",
       "package": "Pigoletto Hats",
       "reshasha": "ca4f2f8af1d46452a46b3feb30f43d46",
@@ -1677,7 +1475,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "T-Rex hat",
       "package": "Pigoletto Hats",
       "reshasha": "006b0388e02c33151846ec4bce31577b",
@@ -1685,7 +1482,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Maid hat",
       "package": "Ophidian Hats",
       "reshasha": "beb63584f78468ec4a7f76ba322591f2",
@@ -1693,7 +1489,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Koji hat",
       "package": "Ophidian Hats",
       "reshasha": "bf4396baefaee53a30f3dd2e431ac3e4",
@@ -1701,7 +1496,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Ellum hat",
       "package": "Ophidian Hats",
       "reshasha": "6d5e7c900f1c6b1c46c1de3b68079c2c",
@@ -1709,7 +1503,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Koji Maid hat",
       "package": "Ophidian Hats",
       "reshasha": "7c7171547ff77e7638f70b150bb841bd",
@@ -1717,7 +1510,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "jeremy hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "3db5bca24017e6d2160d53d61c53b3ca",
@@ -1725,7 +1517,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "kDoolz hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "39d277cfb08a87c525e3aa9d9deda117",
@@ -1733,7 +1524,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "tenma hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "4c9fe664d43ef764855d58e193a098a4",
@@ -1741,7 +1531,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "jukebox hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "c858d9f8b6d8766ac3e6f1ef8585088b",
@@ -1749,7 +1538,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "PK Fire hat",
       "package": "LayZ Hats",
       "reshasha": "20dbf494bdedf3c199e0b56bd78a07e7",
@@ -1757,7 +1545,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "Termy Boi hat",
       "package": "LayZ Hats",
       "reshasha": "111702d6c1d596e2dc5d7d08f5fbf80b",
@@ -1765,7 +1552,6 @@
     },
     {
       "author": "LayZ",
-      "condition": "None",
       "name": "Tippy hat",
       "package": "LayZ Hats",
       "reshasha": "47e555ec974d825d13d7366fb934c177",
@@ -1773,7 +1559,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Akatsuki hat",
       "package": "Ophidian Hats",
       "reshasha": "514d7450316dab0fead5ac8acd683093",
@@ -1781,7 +1566,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Bearded Grizzly hat",
       "package": "Ophidian Hats",
       "reshasha": "4c458d2c9a0ce3a1544b12d84b975ebb",
@@ -1789,7 +1573,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Dumbdog hat",
       "package": "Ophidian Hats",
       "reshasha": "6fdf7d8ccaed37a34ff41b6441f05476",
@@ -1797,7 +1580,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Eyeball hat",
       "package": "Ophidian Hats",
       "reshasha": "0082d14c238b6bb81c3405f9148bf3ea",
@@ -1805,7 +1587,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Friday Night Funkin hat 1",
       "package": "Ophidian Hats",
       "reshasha": "02303a4889b3d8d115948f9f28e1f08a",
@@ -1813,7 +1594,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Friday Night Funkin hat 2",
       "package": "Ophidian Hats",
       "reshasha": "79402dba0e7066df3afbf34c719c2f6e",
@@ -1821,7 +1601,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Jerm hat",
       "package": "Ophidian Hats",
       "reshasha": "99822f9cf33a5493f5d26506d98b77f6",
@@ -1829,7 +1608,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Milky Joe hat",
       "package": "Ophidian Hats",
       "reshasha": "4a222682d9c8c5337b6d63c2f091579d",
@@ -1837,7 +1615,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "Monkeh hat",
       "package": "Pigoletto Hats",
       "reshasha": "3372649180ba3545d3e2e2b966a014f1",
@@ -1845,7 +1622,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "Pink hat",
       "package": "Pigoletto Hats",
       "reshasha": "016a2819b5541d0f885ba9743e7e418e",
@@ -1853,7 +1629,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "Sugarcat hat",
       "package": "Pigoletto Hats",
       "reshasha": "b3a262e5b48b47a3109e2139bcd02ad8",
@@ -1861,7 +1636,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "Zombie hat",
       "package": "Pigoletto Hats",
       "reshasha": "6c9923f28f67e7fadbfb78ee6a57b356",
@@ -1869,7 +1643,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "Iron Man hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "9b3965134221c69586cebb499e1d1af8",
@@ -1877,7 +1650,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "Thanos hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "9d51c27606af62571edf091a7c61c8c3",
@@ -1885,7 +1657,6 @@
     },
     {
       "author": "Ghost_ejims",
-      "condition": "None",
       "name": "Side Arms hat",
       "package": "Ghost_ejims Hats",
       "reshasha": "2e0eeefbf571f8b84e2210e20dbe66a2",
@@ -1893,7 +1664,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "Kara hat 2",
       "package": "TheLastShaymin Hats",
       "reshasha": "5797717b4efc872b9c18e4ca14bca156",
@@ -1901,7 +1671,6 @@
     },
     {
       "author": "Bergmeister",
-      "condition": "None",
       "name": "Bergmeister hat",
       "package": "Bergmeister Hats",
       "reshasha": "1df3baddf71b96cf6b64f09d47f6d256",
@@ -1909,7 +1678,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Chrome hat",
       "package": "Ophidian Hats",
       "reshasha": "0edeb949b90f6d9504b53bb77229c3b7",
@@ -1917,7 +1685,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Dabi hat",
       "package": "Ophidian Hats",
       "reshasha": "fef56e497908ba19c4070c88da4f025b",
@@ -1925,7 +1692,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "James hat",
       "package": "Ophidian Hats",
       "reshasha": "55413bcc6984c993a3b011691a709958",
@@ -1933,7 +1699,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Meowth hat",
       "package": "Ophidian Hats",
       "reshasha": "35c89d47fb25eb8fd0a8f5bff082f904",
@@ -1941,7 +1706,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Mudkip hat",
       "package": "Ophidian Hats",
       "reshasha": "01f9b9203079428beb98bc94a308308a",
@@ -1949,7 +1713,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Patrick Jenner hat",
       "package": "Ophidian Hats",
       "reshasha": "72a37ce9e392868f46c9122b0a07eb9d",
@@ -1957,7 +1720,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Ravenclaw hat",
       "package": "Ophidian Hats",
       "reshasha": "56a6de3caa6c8fe0bbd92e296d7dcb4a",
@@ -1965,7 +1727,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Taxi hat",
       "package": "Ophidian Hats",
       "reshasha": "b5872fed093a4c10154c754fecd7007f",
@@ -1973,7 +1734,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "The Witcher hat",
       "package": "Ophidian Hats",
       "reshasha": "1967fea659228ed57a68796290fd8dc5",
@@ -1981,7 +1741,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Blue Dream hat",
       "package": "Sweetrolled Hats",
       "reshasha": "a252f3910e2c6849f28b1c2743e995a7",
@@ -1989,7 +1748,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "BrittanyP95 Treasure hat",
       "package": "Sweetrolled Hats",
       "reshasha": "e93cce6e581cfe60badbdb0c0c65b033",
@@ -1997,7 +1755,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Chibiusa hat",
       "package": "Sweetrolled Hats",
       "reshasha": "dc9cab87af94439f2e0d88c077d42996",
@@ -2005,7 +1762,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Cynda hat",
       "package": "Sweetrolled Hats",
       "reshasha": "05b6fa339336ae40a3dea55b202edcb0",
@@ -2013,7 +1769,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Chicky Tenders hat",
       "package": "Sweetrolled Hats",
       "reshasha": "555eef8be14e470a86fe51b3b78e8d28",
@@ -2021,7 +1776,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Chicky Tenders Sauce hat",
       "package": "Sweetrolled Hats",
       "reshasha": "4d65186436c1c7614e5feb9e04853cd4",
@@ -2029,7 +1783,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Demogorgan hat",
       "package": "Sweetrolled Hats",
       "reshasha": "3290c5749d0f6d346ac48198d21be811",
@@ -2037,7 +1790,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Detective hat",
       "package": "Sweetrolled Hats",
       "reshasha": "83b9539352330a26c6e1fe3ea9b561d6",
@@ -2045,7 +1797,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Fairy hat",
       "package": "Sweetrolled Hats",
       "reshasha": "412b24318ca25ba7f527b6e71c2e3c16",
@@ -2053,7 +1804,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "FengPJ hat",
       "package": "Sweetrolled Hats",
       "reshasha": "b87a249c1fb733a4bf52fcda5f8a8b82",
@@ -2061,7 +1811,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Freckled Phenom hat",
       "package": "Sweetrolled Hats",
       "reshasha": "27f0c5eaaa94df8dc60aa1281a6bdee8",
@@ -2069,7 +1818,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Golden Boi hat",
       "package": "Sweetrolled Hats",
       "reshasha": "169cf05c2f381a496894f051f283cbed",
@@ -2077,7 +1825,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Hold My Beer hat",
       "package": "Sweetrolled Hats",
       "reshasha": "794c7cc6d057970d6d36572b9a4d37c8",
@@ -2085,7 +1832,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Huntress hat",
       "package": "Sweetrolled Hats",
       "reshasha": "5c64667398e051fe484a84f32b52f3fc",
@@ -2093,7 +1839,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Kate hat",
       "package": "Sweetrolled Hats",
       "reshasha": "0aa0e34b3cc959c5531250ac3824276a",
@@ -2101,7 +1846,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Lil Too Much hat",
       "package": "Sweetrolled Hats",
       "reshasha": "a2930047f8ff0d31cd7f9ba538d715f2",
@@ -2109,7 +1853,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Liv Chipz Periodt hat",
       "package": "Sweetrolled Hats",
       "reshasha": "ba666ff6c75208903bb529bfa5cbebf9",
@@ -2117,7 +1860,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Mac Vibes hat",
       "package": "Sweetrolled Hats",
       "reshasha": "97e6680b574dd700442d50c5b2037937",
@@ -2125,7 +1867,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "McRib hat",
       "package": "Sweetrolled Hats",
       "reshasha": "8ae050f2fb50f0a53d484b8920649206",
@@ -2133,7 +1874,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Nurse hat",
       "package": "Sweetrolled Hats",
       "reshasha": "e9d7691cb945b930d5fc97efd237a4ee",
@@ -2141,7 +1881,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Periodt hat",
       "package": "Sweetrolled Hats",
       "reshasha": "3f41391b5cf93ecc45dc61efa63542ae",
@@ -2149,7 +1888,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Petty Perkins hat",
       "package": "Sweetrolled Hats",
       "reshasha": "33b9ed34a8b355f82c2c5ba119b36b05",
@@ -2157,7 +1895,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Pilborg It Me hat",
       "package": "Sweetrolled Hats",
       "reshasha": "b7a9a10a2a241cb8d599179ce0925c66",
@@ -2165,7 +1902,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Sailor Steve hat",
       "package": "Sweetrolled Hats",
       "reshasha": "9075449598d393a31bf237e8ad2497e5",
@@ -2173,7 +1909,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Sweetroll hat",
       "package": "Sweetrolled Hats",
       "reshasha": "860f7314010fed51111036810e760a1e",
@@ -2181,7 +1916,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Taste The Rainbow hat",
       "package": "Sweetrolled Hats",
       "reshasha": "61de2e4f0bc24ac7169e2e92a98a750e",
@@ -2189,7 +1923,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Tux hat",
       "package": "Sweetrolled Hats",
       "reshasha": "259199924a26c3a021420d5061eef463",
@@ -2197,7 +1930,6 @@
     },
     {
       "author": "Sweetrolled",
-      "condition": "None",
       "name": "Undead Marah hat",
       "package": "Sweetrolled Hats",
       "reshasha": "c9cad5ee0a6a9b36037de56edb0a374f",
@@ -2205,7 +1937,6 @@
     },
     {
       "author": "Sugawara",
-      "condition": "None",
       "name": "Kn0vis hat",
       "package": "Sugawara Hats",
       "reshasha": "d02c9c4ddfc8bf4db42e005c3405914f",
@@ -2213,7 +1944,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Anya hat",
       "package": "Ophidian Hats",
       "reshasha": "17c6e0e2d17f556cdb34701c11c25570",
@@ -2221,7 +1951,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Pizza hat",
       "package": "Ophidian Hats",
       "reshasha": "93693adeb0f3022205f47420418c8b47",
@@ -2229,7 +1958,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Gaara hat",
       "package": "Ophidian Hats",
       "reshasha": "1e5a6dd2cab5da800afd4b7a7d1c45ef",
@@ -2237,7 +1965,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Hinata hat",
       "package": "Ophidian Hats",
       "reshasha": "f47725b1756c3af43e010fc5bed3e2e6",
@@ -2245,7 +1972,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "MartiMoo hat",
       "package": "Ophidian Hats",
       "reshasha": "5b3c76b5b40f47046cabfd980e13d3fe",
@@ -2253,7 +1979,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Roman hat",
       "package": "Ophidian Hats",
       "reshasha": "e37b93b70459a934838c9aed424c38df",
@@ -2261,7 +1986,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Purple Shark hat",
       "package": "Ophidian Hats",
       "reshasha": "64dc9b641b276ef54eeda24fe5097091",
@@ -2269,7 +1993,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Umbreon hat",
       "package": "Ophidian Hats",
       "reshasha": "af55e3e0c91f97bb08fa5d347f5b6445",
@@ -2277,7 +2000,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Virgil hat",
       "package": "Ophidian Hats",
       "reshasha": "d2bd04901cc4248ec67934a2d0eb5909",
@@ -2285,7 +2007,6 @@
     },
     {
       "author": "Ghost_ejims",
-      "condition": "None",
       "name": "Side Arms hat 2",
       "package": "Ghost_ejims Hats",
       "reshasha": "e02c1ea0dd04667132c734557a1bc43f",
@@ -2293,7 +2014,6 @@
     },
     {
       "author": "NightRaiderTea",
-      "condition": "None",
       "name": "Rawbuhbuh hat",
       "package": "NightRaiderTea Hats",
       "reshasha": "110ab2cd7c0d1f93667e7639b143a5b7",
@@ -2301,7 +2021,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "HeyMcGurk hat",
       "package": "Ophidian Hats",
       "reshasha": "ec77d3fbc5f050b377f4462fe1139b36",
@@ -2309,7 +2028,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Tuskspicious hat",
       "package": "Ophidian Hats",
       "reshasha": "421a3e17ca5544437ded3da91e5e63bf",
@@ -2317,7 +2035,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "Bunnies hat",
       "package": "Pigoletto Hats",
       "reshasha": "ab599198528f93276dc3c3f930643dba",
@@ -2325,7 +2042,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "Mushroom hat",
       "package": "Pigoletto Hats",
       "reshasha": "fdd93a17e51232d6ea78ab1af25fb375",
@@ -2333,7 +2049,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "Red Panda hat",
       "package": "Pigoletto Hats",
       "reshasha": "b7db97598ba971c3596317cb189bd965",
@@ -2341,7 +2056,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "Wizard hat",
       "package": "Pigoletto Hats",
       "reshasha": "1eb5cb5ae4fc6ef0be8046cb98e58189",
@@ -2349,7 +2063,6 @@
     },
     {
       "author": "Sarinjin",
-      "condition": "None",
       "name": "Courtilly hat",
       "package": "Sarinjin Hats",
       "reshasha": "0541f637e70c62a2e082e60196950920",
@@ -2357,7 +2070,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Mods hat",
       "package": "Ophidian Hats",
       "reshasha": "3f4b59d4cdb5e8c1cc111b18ef26bd6f",
@@ -2365,7 +2077,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "NoiBat hat",
       "package": "Ophidian Hats",
       "reshasha": "64809e689b9e909183fa0ab60a4580c5",
@@ -2373,7 +2084,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Shmuelzys Piss Bucket hat",
       "package": "Ophidian Hats",
       "reshasha": "a5a66cc56ab0caf2655ff4e3140ff16c",
@@ -2381,7 +2091,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Zavvygamer hat",
       "package": "Ophidian Hats",
       "reshasha": "8a88316f813c5a2184971e428d2b8a16",
@@ -2389,7 +2098,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Bill Cipher hat",
       "package": "Ophidian Hats",
       "reshasha": "1b4198fe1d079b65a24054a4493c22de",
@@ -2397,7 +2105,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Blossom hat",
       "package": "Ophidian Hats",
       "reshasha": "6b38a1f90ab355bf0f88249fbc683857",
@@ -2405,7 +2112,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Bubbles hat",
       "package": "Ophidian Hats",
       "reshasha": "026b60d2bda3897b576408d71f0969c5",
@@ -2413,7 +2119,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Buttercup hat",
       "package": "Ophidian Hats",
       "reshasha": "67d0f451aad1df15190e49c3393bdd2b",
@@ -2421,7 +2126,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Dell hat",
       "package": "Ophidian Hats",
       "reshasha": "d5499089823d68806db22aa2c4cd1747",
@@ -2429,7 +2133,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Gengar hat",
       "package": "Ophidian Hats",
       "reshasha": "9142c953962770cf645845c9fcb21291",
@@ -2437,7 +2140,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Grumpy Cat hat",
       "package": "Ophidian Hats",
       "reshasha": "485cca250d36e86d4b2850eb65419969",
@@ -2445,7 +2147,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Ksmac3 hat",
       "package": "Ophidian Hats",
       "reshasha": "5af5120bce2488a479d5bb5e9f2ea517",
@@ -2453,7 +2154,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Pennywise hat",
       "package": "Ophidian Hats",
       "reshasha": "7d75b9c49b4bc6554caf490e088424dc",
@@ -2461,7 +2161,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Redneck hat",
       "package": "Ophidian Hats",
       "reshasha": "8e543320821c392a6496c52439ec789d",
@@ -2469,7 +2168,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Red Body hat",
       "package": "Ophidian Hats",
       "reshasha": "10f5057d628d34fdc617319d3b12381f",
@@ -2477,7 +2175,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Pink Body hat",
       "package": "Ophidian Hats",
       "reshasha": "82a0b8de051da842009fe57150444961",
@@ -2485,7 +2182,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Yellow Body hat",
       "package": "Ophidian Hats",
       "reshasha": "c6bb8f5643996f44635665caf1d9ecd6",
@@ -2493,7 +2189,6 @@
     },
     {
       "author": "Sarinjin",
-      "condition": "None",
       "name": "Nogla hat",
       "package": "Sarinjin Hats",
       "reshasha": "18dd93d22d6e2311d28890f32805a340",
@@ -2501,7 +2196,6 @@
     },
     {
       "author": "Sarinjin",
-      "condition": "None",
       "name": "Wildcat hat",
       "package": "Sarinjin Hats",
       "reshasha": "32be63f08a10737de6244802255a943d",
@@ -2509,7 +2203,6 @@
     },
     {
       "author": "Sarinjin",
-      "condition": "None",
       "name": "Olive Kruzadar hat",
       "package": "Sarinjin Hats",
       "reshasha": "bbdc51ccab3481af621f55c0c253ff72",
@@ -2517,7 +2210,6 @@
     },
     {
       "author": "Sarinjin",
-      "condition": "None",
       "name": "Red Kruzadar hat",
       "package": "Sarinjin Hats",
       "reshasha": "651dd5b20d97dd136cb61fb820deef63",
@@ -2525,7 +2217,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Koala hat",
       "package": "Ophidian Hats",
       "reshasha": "fbd7f28a6a6a9440e7ab49a793196693",
@@ -2533,7 +2224,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Raptor hat",
       "package": "Ophidian Hats",
       "reshasha": "3bc26ae8a71ee59b105ee27700b38b18",
@@ -2541,7 +2231,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Kangaroo hat",
       "package": "Ophidian Hats",
       "reshasha": "d8d4ef31449a8a5a499cf99e8baf8e82",
@@ -2549,7 +2238,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "HeckMuffins hat",
       "package": "Ophidian Hats",
       "reshasha": "575d8ad0e522c6ac334cdd9d28dba7f7",
@@ -2557,7 +2245,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "HecksAmphy hat",
       "package": "Ophidian Hats",
       "reshasha": "5c6efe61947985f72d1d02c0be493f94",
@@ -2565,7 +2252,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Ophidian hat",
       "package": "Ophidian Hats",
       "reshasha": "dd718710ce3a85c2554ee6f18f6bd6c3",
@@ -2573,7 +2259,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Rikiisnotaferet hat",
       "package": "Ophidian Hats",
       "reshasha": "60da4a7176ce2bbb7750ce5a9c723414",
@@ -2581,7 +2266,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "SpiceRat hat",
       "package": "Ophidian Hats",
       "reshasha": "34bace5d3b546f32e857575fcab99e04",
@@ -2589,7 +2273,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Spicesjolt hat",
       "package": "Ophidian Hats",
       "reshasha": "52614d2dc62b889a524c1b566faa2f2a",
@@ -2597,7 +2280,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "RicKafe hat",
       "package": "Ophidian Hats",
       "reshasha": "d11ade376f3047b583dd2a24a96224e6",
@@ -2605,7 +2287,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Caracupcake hat",
       "package": "Ophidian Hats",
       "reshasha": "57466df827a7fe842fcf3173bdc97eb7",
@@ -2613,7 +2294,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Cosmicara hat",
       "package": "Ophidian Hats",
       "reshasha": "1a97746a3404e954caa47b0e8cc06d44",
@@ -2621,7 +2301,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Crabcake hat",
       "package": "Ophidian Hats",
       "reshasha": "24fe5ce6780aae5d0e1120901b01e2d5",
@@ -2629,7 +2308,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "McMayhem hat",
       "package": "Ophidian Hats",
       "reshasha": "46bbc0d0626fab86ef794796a7cbd0bd",
@@ -2637,7 +2315,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "MissJersey hat",
       "package": "Ophidian Hats",
       "reshasha": "9f3b203c9497ad3408fabdbf9b17a025",
@@ -2645,7 +2322,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Quonk Gun hat",
       "package": "Ophidian Hats",
       "reshasha": "22b37ff31ac2d663428dd17216b89a47",
@@ -2653,7 +2329,6 @@
     },
     {
       "author": "Sarinjin",
-      "condition": "None",
       "name": "SlackATK hat",
       "package": "Sarinjin Hats",
       "reshasha": "e92ae0b471ea08c6fbc069c2ecfcdb4c",
@@ -2661,7 +2336,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "AstasApple hat",
       "package": "Ophidian Hats",
       "reshasha": "3a27a117d31d931b3795925baf60d731",
@@ -2669,7 +2343,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "CaptainStoppy hat",
       "package": "Ophidian Hats",
       "reshasha": "bee63d414c0ba1f626d7df611d29bd2f",
@@ -2677,7 +2350,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Casper hat",
       "package": "Ophidian Hats",
       "reshasha": "3e655cb3d2faa2693e31d2938055fcc6",
@@ -2685,7 +2357,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "DawnsHotMama hat",
       "package": "Ophidian Hats",
       "reshasha": "c50ca068def6c02fa538a378cffaa31a",
@@ -2693,7 +2364,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "DSCGluttony hat",
       "package": "Ophidian Hats",
       "reshasha": "23b660d865a1bfdb3c60a6b27d22adf1",
@@ -2701,7 +2371,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "FairysBlueFox hat",
       "package": "Ophidian Hats",
       "reshasha": "383b2acbf3125fe7335234fa3d81e1c6",
@@ -2709,7 +2378,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Japanda hat",
       "package": "Ophidian Hats",
       "reshasha": "c4fc52b9452bd1864cbdd28be58c5786",
@@ -2717,7 +2385,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Lanaboo hat",
       "package": "Ophidian Hats",
       "reshasha": "941f82e84d7a4cdcdc68a0b1739667e1",
@@ -2725,7 +2392,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Panda Pride hat",
       "package": "Ophidian Hats",
       "reshasha": "5fa9e25b44bc0a0399d52a78ed4c15d1",
@@ -2733,7 +2399,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Shiny Psyduck hat",
       "package": "Ophidian Hats",
       "reshasha": "d877d2726204cbf40b35cd1f0d5fe772",
@@ -2741,7 +2406,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Snorlax hat",
       "package": "Ophidian Hats",
       "reshasha": "ec5dd1d913ced37dbaf07c23d6da14a6",
@@ -2749,7 +2413,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Tessany Beauty hat",
       "package": "Ophidian Hats",
       "reshasha": "c4ee5a3c464af2cdd8b1a52848f19e4a",
@@ -2757,7 +2420,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Xallysahoney hat",
       "package": "Ophidian Hats",
       "reshasha": "b63d201a21178e54c03fa9b9faa797ce",
@@ -2765,7 +2427,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Shmuelzy hat ",
       "package": "Ophidian Hats",
       "reshasha": "ca4c6b562949cbe6832dffb6962b9e67",
@@ -2773,7 +2434,6 @@
     },
     {
       "author": "Rum",
-      "condition": "None",
       "name": "Inmouth hat ",
       "package": "Rum Hats",
       "reshasha": "1a98b3703aaae11ee973cd84cba0762d",
@@ -2781,7 +2441,6 @@
     },
     {
       "author": "Rum",
-      "condition": "None",
       "name": "Teeth hat ",
       "package": "Rum Hats",
       "reshasha": "8bfe6422918f0f8a0d5dae35740508f1",
@@ -2789,7 +2448,6 @@
     },
     {
       "author": "Rum",
-      "condition": "None",
       "name": "Thing hat ",
       "package": "Rum Hats",
       "reshasha": "59b0063559ada1aca7f7a80ebddc1ba0",
@@ -2797,7 +2455,6 @@
     },
     {
       "author": "Rum",
-      "condition": "None",
       "name": "Tongue hat ",
       "package": "Rum Hats",
       "reshasha": "3366c87e0da1a29046ffa0da523c6d2d",
@@ -2805,7 +2462,6 @@
     },
     {
       "author": "Rum",
-      "condition": "None",
       "name": "Xeno hat ",
       "package": "Rum Hats",
       "reshasha": "4e603e2ce57af3188fcadd9ffabce4f9",
@@ -2813,7 +2469,6 @@
     },
     {
       "author": "Ghost_ejims",
-      "condition": "None",
       "name": "Side Arms hat 2 alt",
       "package": "Ghost_ejims Hats",
       "reshasha": "ec67562201d337a0ce69dd25342f9ea9",
@@ -2821,7 +2476,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Basedkm hat ",
       "package": "Ophidian Hats",
       "reshasha": "7e2206fa8bb3ab98bfcf94118380f281",
@@ -2829,7 +2483,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "CaspersGrovyle hat ",
       "package": "Ophidian Hats",
       "reshasha": "50cf1418e1aee09cf9af35f4dcbdaca3",
@@ -2837,7 +2490,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "CowboyMav hat ",
       "package": "Ophidian Hats",
       "reshasha": "327a313fe619b2150b5634db12b9fe99",
@@ -2845,7 +2497,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "DigDuck hat ",
       "package": "Ophidian Hats",
       "reshasha": "042dafd6cf9aca973a6e5fe1c77804e2",
@@ -2853,7 +2504,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "DougDimadome hat ",
       "package": "Ophidian Hats",
       "reshasha": "580322590495d6acdb3715dae3012ba8",
@@ -2861,7 +2511,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "JapandasSkitty hat ",
       "package": "Ophidian Hats",
       "reshasha": "e78afa9f4780a72642cef01694da266f",
@@ -2869,7 +2518,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Magikarp hat ",
       "package": "Ophidian Hats",
       "reshasha": "ef1a814a16a9d9faecc25baed1782a1d",
@@ -2877,7 +2525,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Nidoking hat ",
       "package": "Ophidian Hats",
       "reshasha": "965340c78f576b2322c7f5838cc8cf09",
@@ -2885,7 +2532,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "QuirtysPolywhirl hat ",
       "package": "Ophidian Hats",
       "reshasha": "78b66736cc6826ea24bc48dbeb5d245d",
@@ -2893,7 +2539,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Salamence hat ",
       "package": "Ophidian Hats",
       "reshasha": "3aac52ecad86fa99213f30bcd8ec6942",
@@ -2901,7 +2546,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "WolvsMimikyu hat ",
       "package": "Ophidian Hats",
       "reshasha": "f0e7df81309dd0e59545650601acd14e",
@@ -2909,7 +2553,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "CoriKasarak hat ",
       "package": "Ophidian Hats",
       "reshasha": "744f89e48ef455d7cb17a218411ebd59",
@@ -2917,7 +2560,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Jigglypuff hat ",
       "package": "Ophidian Hats",
       "reshasha": "afad9f032921071c1cb94a1d47b9f431",
@@ -2925,7 +2567,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "KojiSkunk hat ",
       "package": "Ophidian Hats",
       "reshasha": "1df5dbc66a25a137fceb935cdb351a75",
@@ -2933,7 +2574,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Wailord hat ",
       "package": "Ophidian Hats",
       "reshasha": "24c8296443def58f097f939368fdc9aa",
@@ -2941,7 +2581,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "Boar hat ",
       "package": "Pigoletto Hats",
       "reshasha": "a2b9723d82ac413f19d594ad969ec48f",
@@ -2949,7 +2588,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "Creepy Doll hat ",
       "package": "Pigoletto Hats",
       "reshasha": "30eb60b9eeb2b26c2a4013c469500af1",
@@ -2957,7 +2595,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "Raven hat ",
       "package": "Pigoletto Hats",
       "reshasha": "2e9271d5be823b875f80eb59df99ec66",
@@ -2965,7 +2602,6 @@
     },
     {
       "author": "Pigoletto",
-      "condition": "None",
       "name": "Trenchcoat hat ",
       "package": "Pigoletto Hats",
       "reshasha": "52e398a7f3123287a423ac95a642901e",
@@ -2973,7 +2609,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Blaziken hat ",
       "package": "Ophidian Hats",
       "reshasha": "35cf86c038136c9407bc37c07d17d476",
@@ -2981,7 +2616,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Carriemello hat ",
       "package": "Ophidian Hats",
       "reshasha": "14d24b3a9c88ebb2f4bf5adc21c62686",
@@ -2989,7 +2623,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "FBI Monkey hat ",
       "package": "Ophidian Hats",
       "reshasha": "c9769c8ea0a6af13dcda66f363b69b9a",
@@ -2997,7 +2630,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "GooseTroop hat ",
       "package": "Ophidian Hats",
       "reshasha": "47143c0b58bae813cf3cbdc8436095e0",
@@ -3005,7 +2637,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Jerry hat ",
       "package": "Ophidian Hats",
       "reshasha": "4c0d6b701f44091ee1946d7499bdaad6",
@@ -3013,7 +2644,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Loweye hat ",
       "package": "Ophidian Hats",
       "reshasha": "a6440b669d2842283375fa47dfa62557",
@@ -3021,7 +2651,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Lucas hat ",
       "package": "Ophidian Hats",
       "reshasha": "bdb4bcd74048ffbe8cef1a4520b38f05",
@@ -3029,7 +2658,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "NewHeckMuffins hat ",
       "package": "Ophidian Hats",
       "reshasha": "37b8159059104ae6844ee569bd3a3c10",
@@ -3037,7 +2665,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "OogieBoogie hat ",
       "package": "Ophidian Hats",
       "reshasha": "021d13bf5ee7f920ca6f389c67da4289",
@@ -3045,7 +2672,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "RikisFerret hat ",
       "package": "Ophidian Hats",
       "reshasha": "11c7d28a6f2e65f1f737d2822307d17e",
@@ -3053,7 +2679,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Tinkerbell hat ",
       "package": "Ophidian Hats",
       "reshasha": "f5ae40adbb53d1025a23e7797fa2a254",
@@ -3061,7 +2686,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Troubella hat ",
       "package": "Ophidian Hats",
       "reshasha": "342fb7c77e3fb6a6dbc9feb35911f716",
@@ -3069,7 +2693,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Valak hat ",
       "package": "Ophidian Hats",
       "reshasha": "c297c2d1a4192e7752d060aae13dd450",
@@ -3077,7 +2700,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "ZeroXFusionz hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "b5c759c56beb67c6ec78673767de8608",
@@ -3085,7 +2707,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "Zemo hat",
       "package": "Community Hats",
       "reshasha": "c07671b8d478876f29d64d8a9bb30967",
@@ -3093,7 +2714,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "wrench_f hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "dda133b2a93fb040ed10dba679ac4612",
@@ -3101,7 +2721,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "vince_foot_front hat",
       "package": "Ressnie Hats",
       "reshasha": "ab2f6f8c189daff4eb0560c6fa78170a",
@@ -3109,7 +2728,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "vince_front hat",
       "package": "Ressnie Hats",
       "reshasha": "0bae1476dd29f62cf24bfb48a0902999",
@@ -3117,7 +2735,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "toast hat",
       "package": "Community Hats",
       "reshasha": "c21d8c547bc6e26ef35caa8c96924a70",
@@ -3125,7 +2742,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "syntrocity hat",
       "package": "Community Hats",
       "reshasha": "983fef4500648f371b70eeca815abdf2",
@@ -3133,7 +2749,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "stitch hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "9361bbd72761212fc9d7b08f97edf3ac",
@@ -3141,7 +2756,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "shrek hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "4ccf29ea44bf170be56bc63e97ba9418",
@@ -3149,7 +2763,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "revmeerkat_front hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "3288317da28b87bc48f6ee3022855fd4",
@@ -3157,7 +2770,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "reenyy hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "fb9dd3e126e57d4a8b2ff842506ab23e",
@@ -3165,7 +2777,6 @@
     },
     {
       "author": "tori#1277",
-      "condition": "None",
       "name": "rayc hat",
       "package": "tori#1277 Hats",
       "reshasha": "38e644579122aec2966aaa18ee958cd0",
@@ -3173,7 +2784,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "rae hat",
       "package": "Community Hats",
       "reshasha": "54fe89fea0a6d9fa1159458e7a49e81c",
@@ -3181,7 +2791,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "poki hat",
       "package": "Community Hats",
       "reshasha": "2f521a28991b828de87bd7493c5e90f8",
@@ -3189,7 +2798,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "peter hat",
       "package": "Community Hats",
       "reshasha": "a1a9469e7f30538dfa9d5158af13ae7b",
@@ -3197,7 +2805,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "Paule_front hat",
       "package": "Ressnie Hats",
       "reshasha": "7350f96065ba0220e22e466b26a5dde7",
@@ -3205,7 +2812,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "miyoung hat",
       "package": "Community Hats",
       "reshasha": "78a8f8b913b53b5780ca54378776755a",
@@ -3213,7 +2819,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "mika hat",
       "package": "Community Hats",
       "reshasha": "94867440093fc7c5b706e2a4f7b587af",
@@ -3221,7 +2826,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "ludwig hat",
       "package": "Community Hats",
       "reshasha": "d4bdb17f4d3ae685dec8e80a963e5feb",
@@ -3229,7 +2833,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "lily hat",
       "package": "Community Hats",
       "reshasha": "2bf128953e910d71b4238cb5fcef68fb",
@@ -3237,7 +2840,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "groot hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "a8f0e2c3e71fb197c952ef4cad068873",
@@ -3245,7 +2847,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "gorillaphent_f hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "ce57b9d1f802943f0cbed91d40f56a03",
@@ -3253,7 +2854,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "gh00stie_f hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "f1e9f824095876a1ce5ea9c8e2fee2ab",
@@ -3261,7 +2861,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "dream hat",
       "package": "Community Hats",
       "reshasha": "8b48b0e01e37d2964cddc86aa8eb4753",
@@ -3269,7 +2868,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "corpse hat",
       "package": "Community Hats",
       "reshasha": "b0f7b7baaf4c6dd787eb8e4719079fc5",
@@ -3277,7 +2875,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "carrot hat",
       "package": "Community Hats",
       "reshasha": "1dd091fbf8b4a0a347965fa9554211aa",
@@ -3285,7 +2882,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "bingus hat",
       "package": "Community Hats",
       "reshasha": "7e7b7df470393bb0eb6f62f21c5d3011",
@@ -3293,7 +2889,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "bimbus hat",
       "package": "Community Hats",
       "reshasha": "d851132466ad152e0acc5ded722f036a",
@@ -3301,7 +2896,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "aria hat",
       "package": "Community Hats",
       "reshasha": "3907c00c7b31e6d2974954fde41b5c57",
@@ -3309,7 +2903,6 @@
     },
     {
       "author": "acron",
-      "condition": "None",
       "name": "pot hat",
       "package": "acron Hats",
       "reshasha": "fd48b77806365a40a9a0d2eeaffbde68",
@@ -3317,7 +2910,6 @@
     },
     {
       "author": "acron",
-      "condition": "None",
       "name": "box hat",
       "package": "acron Hats",
       "reshasha": "3b8918e27c4c19a2b642e85c386647fb",
@@ -3325,7 +2917,6 @@
     },
     {
       "author": "acron",
-      "condition": "None",
       "name": "eye hat",
       "package": "acron Hats",
       "reshasha": "e1dd42e75a53c81835f624daf8530866",
@@ -3333,7 +2924,6 @@
     },
     {
       "author": "acron",
-      "condition": "None",
       "name": "fundy hat",
       "package": "acron Hats",
       "reshasha": "ce262a6d2198cdd0ab64cc4ef8f47c61",
@@ -3341,7 +2931,6 @@
     },
     {
       "author": "acron",
-      "condition": "None",
       "name": "sykkuno hat",
       "package": "acron Hats",
       "reshasha": "c0d5280eacabf946951849b3514d640e",
@@ -3349,7 +2938,6 @@
     },
     {
       "author": "acron",
-      "condition": "None",
       "name": "5up hat",
       "package": "acron Hats",
       "reshasha": "2ae3d8a29a9e98db8794fe454d3311e9",
@@ -3357,7 +2945,6 @@
     },
     {
       "author": "acron",
-      "condition": "None",
       "name": "crumb hat",
       "package": "acron Hats",
       "reshasha": "b838a3fdd552e427c359bf2c677f79dc",
@@ -3365,7 +2952,6 @@
     },
     {
       "author": "acron",
-      "condition": "None",
       "name": "sussy hat",
       "package": "acron Hats",
       "reshasha": "78b74b6c5eef0280b26265dca69934d7",
@@ -3373,7 +2959,6 @@
     },
     {
       "author": "acron",
-      "condition": "None",
       "name": "penguin hat",
       "package": "acron Hats",
       "reshasha": "2d7fe6b6f77a8678efa128aee0fac62c",
@@ -3381,7 +2966,6 @@
     },
     {
       "author": "acron",
-      "condition": "None",
       "name": "dolphin hat",
       "package": "acron Hats",
       "reshasha": "bff52655c8da9f4419378cbc9b1ef7d5",
@@ -3389,7 +2973,6 @@
     },
     {
       "author": "acron",
-      "condition": "None",
       "name": "skull hat",
       "package": "acron Hats",
       "reshasha": "99226dcc868d9e9ce7cb886329cc777b",
@@ -3397,7 +2980,6 @@
     },
     {
       "author": "acron",
-      "condition": "None",
       "name": "croissant hat",
       "package": "acron Hats",
       "reshasha": "4be890bc89524a9656f3a8d0cfb5de83",
@@ -3405,7 +2987,6 @@
     },
     {
       "author": "acron",
-      "condition": "None",
       "name": "platypus hat",
       "package": "acron Hats",
       "reshasha": "b25d6107ce0da610ddf45d44eca4cdcc",
@@ -3413,7 +2994,6 @@
     },
     {
       "author": "acron",
-      "condition": "None",
       "name": "vines hat",
       "package": "acron Hats",
       "reshasha": "a09f8840abc59ef2c59533029037a873",
@@ -3421,7 +3001,6 @@
     },
     {
       "author": "acron",
-      "condition": "None",
       "name": "5up scarf hat",
       "package": "acron Hats",
       "reshasha": "9f0f3c7e4e3db98198628651375e9cad",
@@ -3429,7 +3008,6 @@
     },
     {
       "author": "acron",
-      "condition": "None",
       "name": "baby hat",
       "package": "acron Hats",
       "reshasha": "f7b065b0f539768847cad5030eeb7a4d",
@@ -3437,7 +3015,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "raflp hat",
       "package": "Ressnie Hats",
       "reshasha": "c99fc2806dd3225452f9cde6d486b0bb",
@@ -3445,7 +3022,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "wendy hat",
       "package": "Community Hats",
       "reshasha": "a2ad58a75506438e2d241851b53779c6",
@@ -3453,7 +3029,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "waffle hat",
       "package": "Ressnie Hats",
       "reshasha": "c24a3e7cd10cb46353e61881da819e9f",
@@ -3461,7 +3036,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "Voteme hat",
       "package": "Ressnie Hats",
       "reshasha": "5ba362ad87023b6f0cfd740b729321ff",
@@ -3469,7 +3043,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "squirrel hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "66389ff5581f2cf83fc2461d000604a1",
@@ -3477,7 +3050,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "shiki hat",
       "package": "Ressnie Hats",
       "reshasha": "4653acfd4e0556cb13e54de18d978ce5",
@@ -3485,7 +3057,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "rollups hat",
       "package": "Community Hats",
       "reshasha": "22b515a747f0277742b30103b85b4683",
@@ -3493,7 +3064,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "rocky hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "34486e7dabe86b40f6d56b4faada0dc9",
@@ -3501,7 +3071,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "pepe hat",
       "package": "Community Hats",
       "reshasha": "eac3af3f4e126e82e760967919fafdb8",
@@ -3509,7 +3078,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "penguinface_front hat",
       "package": "Community Hats",
       "reshasha": "58e49943a9f15c11a8a3a2a195a571a6",
@@ -3517,7 +3085,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "pancakes hat",
       "package": "Ressnie Hats",
       "reshasha": "b24e2c198b0e71ac49726831d87d4f90",
@@ -3525,7 +3092,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "masayoshi hat",
       "package": "Community Hats",
       "reshasha": "23673e6e6f20585dc09293163d8c2174",
@@ -3533,7 +3099,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "leah hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "aed86ae8c93ab7d7d95de992afbc49ec",
@@ -3541,7 +3106,6 @@
     },
     {
       "author": "tori#1277",
-      "condition": "None",
       "name": "kris hat",
       "package": "tori#1277 Hats",
       "reshasha": "39237bc204db9d3e5df686c5f5c69fee",
@@ -3549,7 +3113,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "jodi hat",
       "package": "Community Hats",
       "reshasha": "068d3d145048eb0f86bc77a4d31e1983",
@@ -3557,7 +3120,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "jerm hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "1c64d57d1e3988e0eb5f1d62ce88ae03",
@@ -3565,7 +3127,6 @@
     },
     {
       "author": "tori#1277",
-      "condition": "None",
       "name": "janet hat",
       "package": "tori#1277 Hats",
       "reshasha": "cac8b997dfc157e43d1a77e7bcfc7c94",
@@ -3573,7 +3134,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": " hat",
       "package": "Community Hats",
       "reshasha": "e102c2b2a9146a5b55ee1e3f1a92540b",
@@ -3581,7 +3141,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "hafu hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "42c87cb34e8315aa610e38008028f12e",
@@ -3589,7 +3148,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "giacomo hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "02c20ae1da6e67f9a6ca286807bc0e75",
@@ -3597,7 +3155,6 @@
     },
     {
       "author": "Little Doo Doo",
-      "condition": "None",
       "name": "Frog hat redesign (original by Ressnie)",
       "package": "Little Doo Doo Hats",
       "reshasha": "3f89bb8ce7902a15d30c517963e5f94c",
@@ -3605,7 +3162,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "frenchtoast hat",
       "package": "Ressnie Hats",
       "reshasha": "cf785f263a65a919c8de5552bb65aeff",
@@ -3613,7 +3169,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "fire hat",
       "package": "Community Hats",
       "reshasha": "c7ffeb90e695b396eb8007be027a1144",
@@ -3621,7 +3176,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "crunchy hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "25170bca7ad4d96a9fd91afd9322ea6c",
@@ -3629,7 +3183,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "couve hat",
       "package": "Community Hats",
       "reshasha": "638ac0f4f5a8ad4e99c1bfc10b033208",
@@ -3637,7 +3190,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "charizard hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "e5337419939edf11fd5b332d6f5f3c63",
@@ -3645,7 +3197,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "buffyhelmet hat",
       "package": "Community Hats",
       "reshasha": "42bec94ce6095ddb960787992864b2f7",
@@ -3653,7 +3204,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "buffyarms hat",
       "package": "Community Hats",
       "reshasha": "422c24ae1735b208c0242b4ce05a15ba",
@@ -3661,7 +3211,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "buffy hat",
       "package": "Community Hats",
       "reshasha": "8d3b3739a7e1157fa8e21b02bc6eb3ca",
@@ -3669,7 +3218,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "brizzyears hat",
       "package": "Ressnie Hats",
       "reshasha": "17c2bce0bf5b9effe0c54c5e9d0c8e85",
@@ -3677,7 +3225,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "br00d hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "7b087fdd4963af29b20a0c1e23a8c54f",
@@ -3685,7 +3232,6 @@
     },
     {
       "author": "tori#1277",
-      "condition": "None",
       "name": "blaustoise hat",
       "package": "tori#1277 Hats",
       "reshasha": "477e9b10dae46f14399f7d8285293aef",
@@ -3693,7 +3239,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "bird hat",
       "package": "Community Hats",
       "reshasha": "8b3e3b2595e5b5bf1472f6335ca73d3f",
@@ -3701,7 +3246,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "birb hat",
       "package": "Ressnie Hats",
       "reshasha": "78347fd944f6ade071e0d4f65b68d7a8",
@@ -3709,7 +3253,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "bestcrewmate hat",
       "package": "Community Hats",
       "reshasha": "1de68b919768de7a22f8a9a35a18300a",
@@ -3717,7 +3260,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "basetrade_3 hat",
       "package": "Ressnie Hats",
       "reshasha": "751f7305518cb2d59ed235f4087e88df",
@@ -3725,7 +3267,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "basetrade_2 hat",
       "package": "Ressnie Hats",
       "reshasha": "32c76a435c7126ce8dbf28b73025cbdc",
@@ -3733,7 +3274,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "basetrade_1 hat",
       "package": "Ressnie Hats",
       "reshasha": "6e31784d9c6fe02d1f077d749436d8a5",
@@ -3741,7 +3281,6 @@
     },
     {
       "author": "Unknown",
-      "condition": "None",
       "name": "ash hat",
       "package": "Community Hats",
       "reshasha": "e542ed2693daad8f5f56bc35795ebe32",
@@ -3749,7 +3288,6 @@
     },
     {
       "author": "TheLastShaymin",
-      "condition": "None",
       "name": "_hat",
       "package": "TheLastShaymin Hats",
       "reshasha": "cbde0d9f2a2815024c28d5af303b979c",
@@ -3757,7 +3295,6 @@
     },
     {
       "author": "Little Doo Doo",
-      "condition": "None",
       "name": "Snapper hat",
       "package": "Little Doo Doo Hats",
       "reshasha": "f4aab75877be550817f517e58df16116",
@@ -3765,7 +3302,6 @@
     },
     {
       "author": "Little Doo Doo",
-      "condition": "None",
       "name": "Slippy hat",
       "package": "Little Doo Doo Hats",
       "reshasha": "8ccd345cb209099de48781f345ec3974",
@@ -3773,7 +3309,6 @@
     },
     {
       "author": "Ressnie",
-      "condition": "None",
       "name": "Frog hat",
       "package": "Ressnie Hats",
       "reshasha": "7bdb67605a3a127e26001d2f1a018064",
@@ -3781,7 +3316,6 @@
     },
     {
       "author": "Little Doo Doo",
-      "condition": "None",
       "name": "Jessie Monkey hat",
       "package": "Little Doo Doo Hats",
       "reshasha": "3a835a3de706908eea1b919f3d2212cd",
@@ -3789,7 +3323,6 @@
     },
     {
       "author": "Little Doo Doo",
-      "condition": "None",
       "name": "Sunflower hat",
       "package": "Little Doo Doo Hats",
       "reshasha": "324bd21683533fcd5ffbe4e8d822a4ff",
@@ -3797,7 +3330,6 @@
     },
     {
       "author": "Little Doo Doo",
-      "condition": "None",
       "name": "Juicebox hat",
       "package": "Little Doo Doo Hats",
       "reshasha": "a23ad8654ef3a87a38a7eb278671c4b6",
@@ -3805,7 +3337,6 @@
     },
     {
       "author": "Ophidian",
-      "condition": "None",
       "name": "Mikedottv Hat",
       "package": "Ophidian Hats",
       "reshasha": "8f19050db3624708a9b7ab9a9457df53",
@@ -3815,7 +3346,6 @@
       "author": "Ilikepizza",
       "adaptive": true,
       "climbresource": "FallGuy_climb.png",
-      "condition": "None",
       "name": "FallGuy",
       "package": "Community Hats",
       "reshasha": "f92688ba822a303618855359421791ff",
