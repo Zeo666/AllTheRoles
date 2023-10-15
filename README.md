@@ -28,7 +28,7 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 | [Necromancer](#necromancer)     | [Time Lord](#time-lord)       | [Poltergeist](#poltergeist)       | [Underdog](#underdog)         |
 | [Outlaw](#outlaw)               | [Transporter](#transporter)   | [Doomsayer](#doomsayer)           | [Double Shot](#double-shot)   |
 | [Scorpion](#scorpion)           | [Bodyguard](#bodyguard)       | [Baker](#baker)                   | [Chameleon](#chameleon)       |
-| [Banshee](#banshee)             | [Imitator](#imitator)         |                                   | [Ruthless](#ruthless)         |
+| [Banshee](#banshee)             | [Imitator](#imitator)         | [Berserker](#berserker)             | [Ruthless](#ruthless)         |
 | [Vampire](#vampire)             | [Tank](#tank)                 |                                   | [Confuse](#confuse)           |
 |                                 |                               |                                   | [Swapper](#swapper)           |
 |                                 |                               |                                   | [Professional](#professional) |
@@ -37,7 +37,8 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
-| 2023.7.12s & 2023.7.12e | v0.11.4 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.3/AllTheRoles-0.11.4.zip) |
+| 2023.7.12s & 2023.7.12e | v0.11.5 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.5/AllTheRoles-0.11.5.zip) |
+| 2023.7.12s & 2023.7.12e | v0.11.4 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.4/AllTheRoles-0.11.4.zip) |
 | 2023.7.12s & 2023.7.12e | v0.11.3 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.3/AllTheRoles-0.11.3.zip) |
 | 2023.7.12s & 2023.7.12e | v0.11.2 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.2/AllTheRoles-0.11.2.zip) |
 | 2023.7.12s & 2023.7.12e | v0.11.1 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.1/AllTheRoles-0.11.1.zip) |
@@ -50,6 +51,21 @@ Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or wa
 
 <details>
   <summary> Changelog </summary>
+  <details>
+    <summary> v0.11.5 BETA </summary>
+    <ul>
+    <li>Added: Berserker/War neutral killing roles</li>
+    <li>Updated: Removed Vent trap role report chat info</li>
+    <li>Updated: Overlay handler to be more efficient</li>
+    <li>Fixed: Jackal and Pestilence are now affected by the Diseased modifier</li>
+    <li>Fixed: Jackal spawn chance set to 50% by default</li>
+    <li>Fixed: The red Ninja tracking arrow now only shows for the Ninja</li>
+    <li>Fixed: Impostor assassin kills should properly reset if their role is taken</li>
+    <li>Fixed: Doomsayer report chat text should now appear correctly</li>
+    <li>Fixed: Impostors no longer have a shared kill cooldown when either one kills</li>
+    <li>Fixed: Several smaller bugs/errors</li>
+    </ul>
+  </details>
   <details>
     <summary> v0.11.4 BETA </summary>
     <ul>
@@ -436,7 +452,7 @@ The Trapper is a Crewmate that can place traps around the map.\
 When players enter a trap they trigger the trap.\
 In the following meeting, all players who triggered a trap will have their role displayed to the trapper.\
 However, this is done so in a random order, not stating who entered the trap, nor what role a specific player is.\
-The Trapper can also place traps on vents which reveal the role of the player who triggered it and root them in place.
+The Trapper can also place traps on vents which roots the player who triggered it in place and alerts the Trapper.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -1101,6 +1117,27 @@ The Famine has the ability to speed up a players starvation by one round.
 | Famine Starve Cooldown | The cooldown of the Famine's Starve ability | Time | 25s |
 | Rounds To Starve | The number of rounds before a player starves during Famine | Number | 3 |
 | Famine Can Vent | Whether the Famine can Vent | Toggle | False |
+
+-----------------------
+## Berserker
+### **Team: Neutral**
+The Berserker is a Neutral role with the ability to kill other players.\
+When enough players have been given Bread, the Baker becomes Famine.\
+If less than 3 players are alive and they have not yet transformed, the Baker will die of starvation.\
+All players without Bread will die of starvation the round after Famine transforms.\ 
+If they are killed before then, the starvation will not occur.\
+Players with Bread survive for 3 more rounds before starving and will be alerted that the Famine has begun. \
+The Famine has the ability to speed up a players starvation by one round.
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Berserker | The percentage probability of the Berserker appearing | Percentage | 0% |
+| Kill Cooldown | The cooldown of the Berserker's kill ability | Time | 25s |
+| Berserk Cooldown | The cooldown of the Berserker's berserk ability | Time | 25s |
+| Berserk Duration | The duration of the Berserker's berserk ability | Time | 10s |
+| War Kill Cooldown | The cooldown of the War's kill ability | Time | 25s |
+| War Can Vent | Whether the War can Vent | Toggle | False |
 
 -----------------------
 # Impostor Roles
