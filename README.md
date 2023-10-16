@@ -852,7 +852,7 @@ The Plaguebearer is a Neutral role with its own win condition, as well as an abi
 The Plaguebearer has one ability, which allows them to infect other players.\
 Once infected, the infected player can go and infect other players via interacting with them.\
 Once all players are infected, the Plaguebearer becomes Pestilence.\
-The Pestilence is a unkillable force which can only be killed by being voted out, even their lover dying won't kill them.\
+The Pestilence is an unkillable force which can only be killed by being voted out, even their lover dying won't kill them.\
 The Plaguebearer or Pestilence needs to be the last killer alive to win the game.
 
 ### Game Options
@@ -1122,12 +1122,12 @@ The Famine has the ability to speed up a players starvation by one round.
 ## Berserker
 ### **Team: Neutral**
 The Berserker is a Neutral role with the ability to kill other players.\
-When enough players have been given Bread, the Baker becomes Famine.\
-If less than 3 players are alive and they have not yet transformed, the Baker will die of starvation.\
-All players without Bread will die of starvation the round after Famine transforms.\ 
-If they are killed before then, the starvation will not occur.\
-Players with Bread survive for 3 more rounds before starving and will be alerted that the Famine has begun. \
-The Famine has the ability to speed up a players starvation by one round.
+After the first kill the Berserkers kill cooldown is halved.\
+After the second kill the Berserker gains the Berserk ability which causes any player who interacts with them to die.\
+When 3 players have been killed, the Berserker becomes War.\
+War is an unkillable force which can only be killed by being voted out.\
+War has the ability to kill 2 players in a single attack if their victims are close together.\
+The Berserker or War needs to be the last killer alive to win the game.
 
 ### Game Options
 | Name | Description | Type | Default |
