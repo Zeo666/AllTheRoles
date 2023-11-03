@@ -12,16 +12,17 @@ Check out the [Wiki](https://github.com/Zeo666/AllTheRoles/wiki) for installatio
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
-| 2023.7.12s & 2023.7.12e | v0.11.5 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.5/AllTheRoles-0.11.5.zip) |
-| 2023.7.12s & 2023.7.12e | v0.11.4 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.4/AllTheRoles-0.11.4.zip) |
-| 2023.7.12s & 2023.7.12e | v0.11.3 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.3/AllTheRoles-0.11.3.zip) |
-| 2023.7.12s & 2023.7.12e | v0.11.2 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.2/AllTheRoles-0.11.2.zip) |
-| 2023.7.12s & 2023.7.12e | v0.11.1 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.1/AllTheRoles-0.11.1.zip) |
-| 2023.7.12s & 2023.7.12e | v0.11.0 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.0/AllTheRoles-0.11.0.zip) |
-| 2023.3.28s & 2023.3.28e | v0.10.3 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.3/AllTheRoles-0.10.3.zip) |
-| 2023.3.28s & 2023.3.28e | v0.10.2 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.2/AllTheRoles-0.10.2.zip) |
-| 2023.3.28s & 2023.3.28e | v0.10.1 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.1/AllTheRoles-0.10.1.zip) |
-| 2023.3.28s & 2023.3.28e | v0.10.0 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.0/AllTheRoles-0.10.0.zip) |
+| 2023.10.24 | v0.11.6 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.6/AllTheRoles-0.11.6.zip) |
+| 2023.7.12 | v0.11.5 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.5/AllTheRoles-0.11.5.zip) |
+| 2023.7.12 | v0.11.4 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.4/AllTheRoles-0.11.4.zip) |
+| 2023.7.12 | v0.11.3 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.3/AllTheRoles-0.11.3.zip) |
+| 2023.7.12 | v0.11.2 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.2/AllTheRoles-0.11.2.zip) |
+| 2023.7.12 | v0.11.1 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.1/AllTheRoles-0.11.1.zip) |
+| 2023.7.12 | v0.11.0 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.0/AllTheRoles-0.11.0.zip) |
+| 2023.3.28 | v0.10.3 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.3/AllTheRoles-0.10.3.zip) |
+| 2023.3.28 | v0.10.2 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.2/AllTheRoles-0.10.2.zip) |
+| 2023.3.28 | v0.10.1 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.1/AllTheRoles-0.10.1.zip) |
+| 2023.3.28 | v0.10.0 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.10.0/AllTheRoles-0.10.0.zip) |
 
 #
 <p align="center">This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC. Portions of the materials contained herein are property of Innersloth LLC.</p>
