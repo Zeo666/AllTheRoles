@@ -9,7 +9,7 @@
 		<img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/Zeo666/AllTheRoles/total">
 	</a>
 	<a href="https://www.curseforge.com/among-us/all-mods/all-the-roles">
-		<img alt="Curseforge Downloads" src="https://cf.way2muchnoise.eu/full_all-the-roles_downloads.svg">
+		<img alt="Curseforge Downloads" src="https://cf.way2muchnoise.eu/full_835250_downloads.svg">
 	</a>
 </p>
 
