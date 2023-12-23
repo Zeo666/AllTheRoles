@@ -1,13 +1,13 @@
 ![LOGO](./Images/ATR-logo.png)
 
 <p align="center">
-	<img src="https://badgen.net/static/AmongUs/2023.10.24/red"> 
+	<img src="https://badgen.net/static/AmongUs/2023.11.28/red"> 
 	<a href="https://github.com/Zeo666/AllTheRoles/releases/"><img src="https://badgen.net/github/release/Zeo666/AllTheRoles?icon=github"></a>
 	<a href="https://github.com/Zeo666/AllTheRoles/releases"><img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/Zeo666/AllTheRoles/total"></a>
 	<a href="https://www.curseforge.com/among-us/all-mods/all-the-roles"><img alt="Curseforge Downloads" src="https://cf.way2muchnoise.eu/full_835250_downloads.svg"></a>
 </p>
 
-**All The Roles** is a mod for [Among Us](https://store.steampowered.com/app/945360/Among_Us) which adds many new Roles, new Game Modes, new Map Settings and new Custom Hats and Custom Visors to the game.
+**All The Roles** is a mod for [Among Us](https://store.steampowered.com/app/945360/Among_Us) which adds many new Roles, new Game Modes, new Map Settings and new Custom Cosmetics including Hats, Visors and Nameplates to the game.
 
 Join our [Discord](https://discord.gg/62Q3Na8WTr) if you have any problems or want to find people to play with!
 
@@ -17,6 +17,7 @@ Check out the [Wiki](https://github.com/Zeo666/AllTheRoles/wiki) for installatio
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2023.11.28 | v0.11.8 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.8/AllTheRoles-0.11.8.zip) |
 | 2023.10.24 | v0.11.7 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.7/AllTheRoles-0.11.7.zip) |
 | 2023.10.24 | v0.11.6 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.6/AllTheRoles-0.11.6.zip) |
 | 2023.7.12 | v0.11.5 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.5/AllTheRoles-0.11.5.zip) |
