@@ -17,6 +17,7 @@ Check out the [Wiki](https://github.com/Zeo666/AllTheRoles/wiki) for installatio
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2023.11.28 | v0.11.9 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.9/AllTheRoles-0.11.9.zip) |
 | 2023.11.28 | v0.11.8 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.8/AllTheRoles-0.11.8.zip) |
 | 2023.10.24 | v0.11.7 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.7/AllTheRoles-0.11.7.zip) |
 | 2023.10.24 | v0.11.6 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.6/AllTheRoles-0.11.6.zip) |
