@@ -1,7 +1,7 @@
 ![LOGO](./Images/ATR-logo.png)
 
 <p align="center">
-	<img src="https://badgen.net/static/AmongUs/2023.11.28/red"> 
+	<img src="https://badgen.net/static/AmongUs/2023.3.5/red"> 
 	<a href="https://github.com/Zeo666/AllTheRoles/releases/"><img src="https://badgen.net/github/release/Zeo666/AllTheRoles?icon=github"></a>
 	<a href="https://github.com/Zeo666/AllTheRoles/releases"><img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/Zeo666/AllTheRoles/total"></a>
 	<a href="https://www.curseforge.com/among-us/all-mods/all-the-roles"><img alt="Curseforge Downloads" src="https://cf.way2muchnoise.eu/full_835250_downloads.svg"></a>
