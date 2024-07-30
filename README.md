@@ -1,7 +1,7 @@
 ![LOGO](./Images/ATR-logo.png)
 
 <p align="center">
-	<img src="https://badgen.net/static/AmongUs/2023.6.4/red"> 
+	<img src="https://badgen.net/static/AmongUs/2024.6.18/red"> 
 	<a href="https://github.com/Zeo666/AllTheRoles/releases/"><img src="https://badgen.net/github/release/Zeo666/AllTheRoles?icon=github"></a>
 	<a href="https://github.com/Zeo666/AllTheRoles/releases"><img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/Zeo666/AllTheRoles/total"></a>
 	<a href="https://www.curseforge.com/among-us/all-mods/all-the-roles"><img alt="Curseforge Downloads" src="https://cf.way2muchnoise.eu/full_835250_downloads.svg"></a>
@@ -17,6 +17,7 @@ Check out the [Wiki](https://github.com/Zeo666/AllTheRoles/wiki) for installatio
 # Releases
 | Among Us - Version| Mod Version | Link |
 |----------|-------------|-----------------|
+| 2024.3.5 & 2024.6.4 | v0.11.11 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.11/AllTheRoles-0.11.11.zip) |
 | 2024.3.5 & 2024.6.4 | v0.11.10 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.10/AllTheRoles-0.11.10.zip) |
 | 2023.11.28 | v0.11.9 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.9/AllTheRoles-0.11.9.zip) |
 | 2023.11.28 | v0.11.8 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.8/AllTheRoles-0.11.8.zip) |
