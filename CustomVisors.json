@@ -59,6 +59,14 @@
       "package": "Community Visors",
       "reshasha": "6073c9eec8e40113ba42e0a4aa5c1f91",
       "resource": "Star.png"
+    },
+    {
+      "author": "Emalix",
+      "name": "Unicorn",
+      "package": "Emalix Visors",
+      "adaptive": true,
+      "resource": "EmalixUnicorn_adaptive.png",
+      "reshasha": "1de3f5b20e0fd04ec1af38ed6b3591f0"
     }
   ]
 }
