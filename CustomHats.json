@@ -206,6 +206,64 @@
       "reshashc": "237e9a2a816aff7a8a3216ff9c263a21",
       "resource": "Bored_Wolf.png"
     },
+
+    {
+      "author": "Spark",
+      "name": "Spark Hair",
+      "package": "Spark Hats",
+      "resource": "SparkHair.png",
+      "reshasha": "2a1bace7e1f683794c98c22865c31fee",
+      "climbresource": "SparkHair_climb.png",
+      "reshashc": "f21958f57cab04c862b9c430c1fdd72b"
+    },
+    {
+      "author": "Spark",
+      "name": "Spark Winged Ear",
+      "package": "Spark Hats",
+      "resource": "SparkWingedEar.png",
+      "reshasha": "af11c57172ec2cbf8d4ff126b9de98cd",
+      "climbresource": "SparkWingedEar_climb.png",
+      "reshashc": "de2727cc36e50d3b24fa4ba45d04ff7c"
+    },
+    {
+      "author": "Spark",
+      "name": "The Ultimate Hat",
+      "package": "Spark Hats",
+      "adaptive": true,
+      "resource": "TheUltimateHat_adaptive.png",
+      "reshasha": "5face5be852e6fcf3fc5a7215a70ec75"
+    },
+    {
+      "author": "Spark",
+      "name": "Exposed Brain",
+      "package": "Spark Hats",
+      "resource": "ExposedBrain.png",
+      "reshasha": "d97ed70092e4c8e4c8ba767c5c6a5981"
+    },
+    {
+      "author": "Spark",
+      "name": "Weird Arm",
+      "package": "Spark Hats",
+      "adaptive": true,
+      "resource": "WeirdArm.png",
+      "reshasha": "d2977ead1ca9663c292e50f6f15ca872"
+    },
+    {
+      "author": "Spark",
+      "name": "Dino",
+      "package": "Spark Hats",
+      "adaptive": true,
+      "resource": "Dino_adaptive.png",
+      "reshasha": "815693c22b4a97770ad67a6f69ab54dc"
+    },
+    {
+      "author": "Spark",
+      "name": "Belly",
+      "package": "Spark Hats",
+      "adaptive": true,
+      "resource": "Belly.png",
+      "reshasha": "4ae6e4dbde389d8065b7269e769b2643"
+    },
     {
       "author": "TheLastShaymin",
       "name": "annamaja hat",

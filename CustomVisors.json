@@ -67,6 +67,66 @@
       "adaptive": true,
       "resource": "EmalixUnicorn_adaptive.png",
       "reshasha": "1de3f5b20e0fd04ec1af38ed6b3591f0"
+    },
+    {
+      "author": "Spark",
+      "name": "Zipper",
+      "package": "Spark Visors",
+      "resource": "Zipper.png",
+      "reshasha": "1ed565030c73349eb4033feb5f9e2c03"
+    },
+    {
+      "author": "Spark",
+      "name": "Shocked",
+      "package": "Spark Visors",
+      "adaptive": true,
+      "resource": "Shocked_adaptive.png",
+      "reshasha": "c6e73a0e313563539b65009d0067630f"
+    },
+    {
+      "author": "Spark",
+      "name": "Colorful",
+      "package": "Spark Visors",
+      "adaptive": true,
+      "resource": "Colorful_adaptive.png",
+      "reshasha": "3cd6054271311455ba9daac1277ef5fc"
+    },
+    {
+      "author": "Spark",
+      "name": "Hog",
+      "package": "Spark Visors",
+      "resource": "Hog.png",
+      "reshasha": "15083f2a47e2ed897e3ecbc798d72305"
+    },
+    {
+      "author": "Spark",
+      "name": "Melting",
+      "package": "Spark Visors",
+      "adaptive": true,
+      "resource": "Melting_adaptive.png",
+      "reshasha": "3b7df372929fc510598066dc8e1cf042"
+    },
+    {
+      "author": "Spark",
+      "name": "Gyat",
+      "package": "Spark Visors",
+      "resource": "Gyat.png",
+      "reshasha": "becc07cb638146de1bc1e55b77855bed"
+    },
+    {
+      "author": "Spark",
+      "name": "Gyat 2",
+      "package": "Spark Visors",
+      "resource": "Gyat2.png",
+      "reshasha": "374a7c15d44beb8e32b23d81b4b4f845"
+    },
+    {
+      "author": "Spark",
+      "name": "Wide",
+      "package": "Spark Visors",
+      "adaptive": true,
+      "resource": "Wide_adaptive.png",
+      "reshasha": "145075f7871b5f93a63fb1fa24ab9dd4"
     }
   ]
 }
