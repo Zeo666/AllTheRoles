@@ -17,6 +17,7 @@ Check out the [Wiki](https://github.com/Zeo666/AllTheRoles/wiki) for installatio
 # Releases
 | Among Us - Version | Platform | Mod Version | Link |
 |----------|-------------|-------------|-----------------|
+| 2024.10.29 & 2024.11.26 | Steam / Epic Games / Itch.io | v0.12.2 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.12.2/AllTheRoles-0.12.2.zip) |
 | 2024.10.29 & 2024.11.26 | Steam / Epic Games / Itch.io | v0.12.1 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.12.1/AllTheRoles-0.12.1.zip) |
 | 2024.10.29 & 2024.11.26 | Steam / Epic Games / Itch.io | v0.12.0 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.12.0/AllTheRoles-0.12.0.zip) |
 | 2024.8.13 & 2024.9.4 | Steam / Epic Games / Itch.io | v0.11.13 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.11.13/AllTheRoles-0.11.13.zip) |
