@@ -1,7 +1,7 @@
 ![LOGO](./Images/ATR-logo.png)
 
 <p align="center">
-	<img src="https://badgen.net/static/AmongUs/16.1.0/red"> 
+	<img src="https://badgen.net/static/AmongUs/17.1.0/red"> 
 	<a href="https://github.com/Zeo666/AllTheRoles/releases/"><img src="https://badgen.net/github/release/Zeo666/AllTheRoles?icon=github"></a>
 	<a href="https://github.com/Zeo666/AllTheRoles/releases"><img alt="GitHub Downloads" src="https://img.shields.io/github/downloads/Zeo666/AllTheRoles/total"></a>
 	<a href="https://www.curseforge.com/among-us/all-mods/all-the-roles"><img alt="Curseforge Downloads" src="https://cf.way2muchnoise.eu/full_835250_downloads.svg"></a>
@@ -17,6 +17,8 @@ Check out the [Wiki](https://github.com/Zeo666/AllTheRoles/wiki) for installatio
 # Releases
 | Among Us - Version | Platform | Mod Version | Link |
 |----------|-------------|-------------|-----------------|
+| v17.1.0 | Steam / Itch.io (x86) | v0.12.6 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.12.6/AllTheRoles-0.12.6-x86-steam-itch.zip) |
+| v17.1.0 | Epic / MS Store (x64) | v0.12.6 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.12.6/AllTheRoles-0.12.6-x64-epic-msstore.zip) |
 | v16.0.5 & v16.1.0 | Steam / Itch.io (x86) | v0.12.5 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.12.5/AllTheRoles-0.12.5-x86-steam-itch.zip) |
 | v16.0.5 & v16.1.0 | Epic / MS Store (x64) | v0.12.5 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.12.5/AllTheRoles-0.12.5-x64-epic-msstore.zip) |
 | v16.0.0 & v16.0.2 | Steam / Epic Games / Itch.io | v0.12.4 BETA | [Download](https://github.com/Zeo666/AllTheRoles/releases/download/0.12.4/AllTheRoles-0.12.4.zip) |
